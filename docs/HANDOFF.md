@@ -14,7 +14,7 @@ Set up the Homies skills repo as the home for reusable build workflows.
 
 | Date | Slice | Commit/PR | Tests | Result |
 | --- | --- | --- | --- | --- |
-| 2026-06-11 | Seed architect/builder repo loop | Pending | Docs only | In progress |
+| 2026-06-11 | Seed architect/builder repo loop | `0e8cb74` | Docs only | Pushed to GitHub |
 
 ## What Was Built
 
@@ -47,6 +47,8 @@ Set up the Homies skills repo as the home for reusable build workflows.
 | --- | --- | --- |
 | `gh repo view danielfoch/homies-skills` | Repo did not exist before setup | GitHub CLI returned repository not found |
 | `gh repo list --limit 200` | Found `homies` and `homies-onboarding`, not `homies-skills` | GitHub CLI repo list |
+| `gh repo create danielfoch/homies-skills --public --source=. --remote=origin --push` | Repo created and `main` pushed | `https://github.com/danielfoch/homies-skills` |
+| `gh repo view danielfoch/homies-skills --json name,url,defaultBranchRef,description,visibility` | Repo verified | Public repo, default branch `main` |
 
 ## Next Slice Candidates
 
@@ -54,4 +56,3 @@ Set up the Homies skills repo as the home for reusable build workflows.
 | --- | --- | --- | --- |
 | Add a CLI/bootstrap script | Make the loop easy to install into Realist.ca and Homies repos | Low | Small |
 | Add sample first Homies build spec | Prove the workflow on a real product slice | Medium | Medium |
-
