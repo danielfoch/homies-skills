@@ -18,6 +18,25 @@ This is for serious builds only: Realist.ca, Homies, production workflows,
 schema/API changes, multi-module work, or any task where architecture mistakes
 are expensive.
 
+## Activation Gate
+
+Build and maintain this workflow now, but do not use Claude/Fable as the active
+architect before 2026-06-23.
+
+Before 2026-06-23:
+
+- Prepare docs and prompts.
+- Run Codex-only work when Dan asks.
+- Do not invoke paid Claude/Fable architect sessions.
+- Do not schedule recurring Claude/Fable architect jobs.
+
+On or after 2026-06-23:
+
+- Use Claude/Fable only for architect judgment, arbitration, evidence review,
+  and next-slice specs.
+- Keep Codex as the builder.
+- Keep repo docs as memory.
+
 ## Definition Of Done
 
 A work block is done only when:
@@ -68,6 +87,7 @@ Use the repo prompt templates:
 ## Cost Guardrails
 
 - Default to Codex for build work.
+- Do not use Claude/Fable architect sessions before 2026-06-23.
 - Use Claude only after repo state is compressed into `docs/HANDOFF.md` and
   relevant frozen docs.
 - Prefer one architect session per work block.
@@ -85,4 +105,3 @@ Keep it short:
 - Tests/checks run.
 - Open disagreements needing architect/human ruling.
 - Next recommended slice.
-

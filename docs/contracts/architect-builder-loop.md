@@ -2,6 +2,10 @@
 
 Frozen on: 2026-06-11
 
+Activation gate: Claude/Fable architect usage starts on 2026-06-23. Before that
+date, use this loop only for docs, prompt preparation, and dry-run planning.
+See `docs/contracts/activation-policy.md`.
+
 ## Roles
 
 | Role | Allowed | Forbidden |
@@ -26,6 +30,7 @@ Frozen on: 2026-06-11
 
 ## Hard Rules
 
+- Do not use Claude/Fable as the active architect before 2026-06-23.
 - Repo docs are the memory. If it is not in `docs/HANDOFF.md` or frozen docs, it
   did not happen.
 - Success criteria freeze before results exist.
@@ -48,4 +53,3 @@ Use this loop for serious work only:
 - sophisticated OpenClaw skills
 
 Do not use it for trivial docs, one-off scripts, or quick copy fixes.
-
