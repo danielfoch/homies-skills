@@ -8,6 +8,12 @@ agentic workflows.
 - `architect-builder-repo-loop`: Claude acts as architect and judge, Codex acts
   as builder, the repo stores state, and reviewer gates block unverified work.
 
+## Current Prompts
+
+- [`realtor-listing-dashboard-redesign`](prompts/realtor-listing-dashboard-redesign.md):
+  redesign an existing REALTOR.ca statistics dashboard as a premium,
+  responsive analytics experience.
+
 ## Activation Policy
 
 The architect/builder loop is built now, but Claude/Fable architect usage starts
