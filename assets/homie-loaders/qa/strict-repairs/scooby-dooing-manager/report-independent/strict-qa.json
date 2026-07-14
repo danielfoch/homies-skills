@@ -1,0 +1,362 @@
+{
+  "results": [
+    {
+      "slug": "scooby-dooing-manager",
+      "concept": "Exactly one frightened male Manager Homie holds exactly one frightened large brown spotted dog with a blue collar and blank green diamond tag.",
+      "action_expectation": "The immutable connected Manager-and-dog rig performs a controlled shared side-to-side shake; both identities, all anatomy, the collar/tag, crop, scale, and relative pose remain locked.",
+      "source": "assets/homie-loaders/qa/strict-repairs/scooby-dooing-manager/candidates/sources/wildcard/scooby-dooing-manager.png",
+      "source_sha256": "61dc3d62762f91cd870c2593e87b5d4b93aca1b54c91f46062d807edc183b4be",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_mode": "RGB",
+      "grid": [
+        2,
+        2
+      ],
+      "key_geometry": {
+        "outer_edge_non_key_pixels": 0,
+        "gutter_axis_non_key_pixels": 0
+      },
+      "cells": [
+        {
+          "index": 0,
+          "sha256_rgb": "2f9fd09bfeb4d0129f4679d7403bf83b8b98741ad736441946f5a4776a3d68b5",
+          "foreground_pixels": 57285,
+          "foreground_pct": 14.5716,
+          "bbox": [
+            211,
+            74,
+            397,
+            552
+          ],
+          "margins": [
+            211,
+            230,
+            74,
+            75
+          ],
+          "minimum_margin": 74,
+          "centroid": [
+            309.127,
+            286.936
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 115,
+            "areas": [
+              57285
+            ],
+            "largest_area": 57285
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 1,
+          "sha256_rgb": "106f145148201f96da66b0b58655fee2f07e1c2034ea410be31d593726d0e52c",
+          "foreground_pixels": 57285,
+          "foreground_pct": 14.5716,
+          "bbox": [
+            217,
+            72,
+            403,
+            550
+          ],
+          "margins": [
+            217,
+            224,
+            72,
+            77
+          ],
+          "minimum_margin": 72,
+          "centroid": [
+            315.127,
+            284.936
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 115,
+            "areas": [
+              57285
+            ],
+            "largest_area": 57285
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 2,
+          "sha256_rgb": "ea6265804549cc4092a5c6b36a270067943f6853254f55d44fe6e47bec778407",
+          "foreground_pixels": 57285,
+          "foreground_pct": 14.5716,
+          "bbox": [
+            223,
+            76,
+            409,
+            554
+          ],
+          "margins": [
+            223,
+            218,
+            76,
+            73
+          ],
+          "minimum_margin": 73,
+          "centroid": [
+            321.127,
+            288.936
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 115,
+            "areas": [
+              57285
+            ],
+            "largest_area": 57285
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 3,
+          "sha256_rgb": "564ce2148325859b151bf2c7273e1df3cb9250d7829fc5202e6b186699c68951",
+          "foreground_pixels": 57285,
+          "foreground_pct": 14.5716,
+          "bbox": [
+            229,
+            74,
+            415,
+            552
+          ],
+          "margins": [
+            229,
+            212,
+            74,
+            75
+          ],
+          "minimum_margin": 74,
+          "centroid": [
+            327.127,
+            286.936
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 115,
+            "areas": [
+              57285
+            ],
+            "largest_area": 57285
+          },
+          "artifact_flags": []
+        }
+      ],
+      "pair_metrics": [
+        {
+          "mask_xor_pct": 13.9554,
+          "silhouette_motion_p95_px": 6.0,
+          "silhouette_motion_max_px": 6.325,
+          "centroid_shift_px": 6.325,
+          "registration_shift": [
+            -6,
+            2
+          ],
+          "registration_shift_px": 6.325,
+          "registration_iou": 1.0,
+          "registered_residual_pct": 0.0,
+          "upper_anchor_ncc": 1.0
+        },
+        {
+          "mask_xor_pct": 14.9889,
+          "silhouette_motion_p95_px": 6.083,
+          "silhouette_motion_max_px": 7.211,
+          "centroid_shift_px": 7.211,
+          "registration_shift": [
+            -6,
+            -4
+          ],
+          "registration_shift_px": 7.211,
+          "registration_iou": 1.0,
+          "registered_residual_pct": 0.0,
+          "upper_anchor_ncc": 1.0
+        },
+        {
+          "mask_xor_pct": 13.9554,
+          "silhouette_motion_p95_px": 6.0,
+          "silhouette_motion_max_px": 6.325,
+          "centroid_shift_px": 6.325,
+          "registration_shift": [
+            -6,
+            2
+          ],
+          "registration_shift_px": 6.325,
+          "registration_iou": 1.0,
+          "registered_residual_pct": 0.0,
+          "upper_anchor_ncc": 1.0
+        }
+      ],
+      "aggregate": {
+        "max_silhouette_motion_p95_px": 6.083,
+        "max_mask_xor_pct": 14.9889,
+        "max_centroid_shift_px": 7.211,
+        "max_registration_shift_px": 7.211,
+        "max_registered_residual_pct": 0.0,
+        "minimum_upper_anchor_ncc": 1.0,
+        "foreground_area_span_pct": 0.0,
+        "bbox_width_span_pct": 0.0,
+        "bbox_height_span_pct": 0.0,
+        "significant_component_count_span": 0
+      },
+      "stationary_regions": [
+        {
+          "name": "empty-transparent-canvas-corner",
+          "box_pixels": [
+            0,
+            0,
+            75,
+            75
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.0
+        }
+      ],
+      "gif": {
+        "path": "assets/homie-loaders/qa/strict-repairs/scooby-dooing-manager/candidates/gifs/wildcard/scooby-dooing-manager.gif",
+        "exists": true,
+        "sha256": "cf5003e386102c932bd60feba93bc9f82df6224ac421fffbed0abd5431187f07",
+        "bytes": 55401,
+        "size": [
+          256,
+          256
+        ],
+        "frame_count": 6,
+        "unique_phases": 4,
+        "equality_pattern": [
+          0,
+          1,
+          2,
+          3,
+          2,
+          1
+        ],
+        "durations_ms": [
+          210,
+          140,
+          140,
+          210,
+          140,
+          140
+        ],
+        "loop": 0,
+        "has_transparency": true,
+        "corner_alphas": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "alpha_bboxes": [
+          [
+            86,
+            31,
+            162,
+            225
+          ],
+          [
+            89,
+            30,
+            165,
+            224
+          ],
+          [
+            91,
+            31,
+            167,
+            226
+          ],
+          [
+            94,
+            30,
+            170,
+            225
+          ],
+          [
+            91,
+            31,
+            167,
+            226
+          ],
+          [
+            89,
+            30,
+            165,
+            224
+          ]
+        ],
+        "loop_closure_exact": true,
+        "contact": "assets/homie-loaders/qa/strict-repairs/scooby-dooing-manager/report-independent/contacts/scooby-dooing-manager-gif-128.png"
+      },
+      "visual_evidence": {
+        "source_full_contact": "assets/homie-loaders/qa/strict-repairs/scooby-dooing-manager/report-independent/contacts/scooby-dooing-manager-source-full.png",
+        "source_128_contact": "assets/homie-loaders/qa/strict-repairs/scooby-dooing-manager/report-independent/contacts/scooby-dooing-manager-source-128.png"
+      },
+      "manual_review": {
+        "complete": true,
+        "signature_action_readable": true,
+        "stationary_elements_stable": true,
+        "loop_motion_natural": true,
+        "notes": "Independent inspection of every full-size cell, every 128px cell, and all six decoded GIF phases confirms exactly one frightened adult male Manager and one frightened large brown spotted dog. The Manager has two connected arms and hands; the dog has one head, one body, one tail, four readable paws, one blue collar, and one blank green diamond tag. The shared shake reads at 128px and preserves the connected pair byte-identically apart from whole-rig translation, with no redraw, crop, scale jump, text, debris, or extra subject."
+      },
+      "failures": [],
+      "warnings": [],
+      "passed": true
+    }
+  ]
+}

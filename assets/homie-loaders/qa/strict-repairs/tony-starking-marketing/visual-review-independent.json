@@ -1,0 +1,43 @@
+{
+  "tony-starking-marketing": {
+    "cells": [
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      }
+    ],
+    "signature_action_readable": true,
+    "stationary_elements_stable": true,
+    "loop_motion_natural": true,
+    "action_expectation": "The raised armored open palm and chest reactor pulse in four authored intensities while face, anatomy, suit, crop, anchor, and scale remain fixed.",
+    "notes": "Independent inspection of every full-size cell, every 128px cell, and all six decoded GIF phases confirms one canonical adult male Marketing Homie in one continuous red-and-gold powered suit, with one raised five-finger armored palm and one chest reactor. Both emitter pulses remain legible at 128px while face, beard, anatomy, suit seams, boots, crop, anchor, and scale stay fixed. No redraw wiggle, extra prop, text, debris, or whole-frame scale jump is present."
+  }
+}

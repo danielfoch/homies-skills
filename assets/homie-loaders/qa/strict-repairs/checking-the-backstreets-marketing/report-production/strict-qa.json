@@ -1,0 +1,378 @@
+{
+  "results": [
+    {
+      "slug": "checking-the-backstreets-marketing",
+      "concept": "A male canonical Marketing Homie in the supplied black hat-and-bomber outfit performs a sharp 1990s boy-band arm groove.",
+      "action_expectation": "Two complete connected sleeve-forearm-hand units counter-sweep around fixed shoulders while the wide-brim hat, aviators, face, beard, jacket core, long white shirt, hips, ripped jeans, legs and planted boots remain pixel-identical.",
+      "source": "sources/wildcard/checking-the-backstreets-marketing.png",
+      "source_sha256": "8201f41877784d754c90b64d2f1fd21aca04ceab720e97ac16884ea0bf9e9fe1",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_mode": "RGB",
+      "grid": [
+        2,
+        2
+      ],
+      "key_geometry": {
+        "outer_edge_non_key_pixels": 0,
+        "gutter_axis_non_key_pixels": 0
+      },
+      "cells": [
+        {
+          "index": 0,
+          "sha256_rgb": "727089a08955acfc9f9c7650feaa03bcb9e15c0b2b45fc4f4152a0bac32e1940",
+          "foreground_pixels": 65187,
+          "foreground_pct": 16.5816,
+          "bbox": [
+            137,
+            65,
+            510,
+            562
+          ],
+          "margins": [
+            137,
+            117,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            317.475,
+            293.086
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 130,
+            "areas": [
+              65187
+            ],
+            "largest_area": 65187
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 1,
+          "sha256_rgb": "10c05cdea9d4207e8aca57ddadd62b17f58f23fe49be1fc4344ea12cff7c5a6c",
+          "foreground_pixels": 64488,
+          "foreground_pct": 16.4038,
+          "bbox": [
+            129,
+            65,
+            497,
+            562
+          ],
+          "margins": [
+            129,
+            130,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            316.385,
+            294.335
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 129,
+            "areas": [
+              64488
+            ],
+            "largest_area": 64488
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 2,
+          "sha256_rgb": "356f8327fc56475bd1bfe5772dd1c2fc52f332d4abe60fc3376410b13329faed",
+          "foreground_pixels": 63045,
+          "foreground_pct": 16.0367,
+          "bbox": [
+            122,
+            65,
+            483,
+            562
+          ],
+          "margins": [
+            122,
+            144,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            313.623,
+            295.186
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 126,
+            "areas": [
+              63045
+            ],
+            "largest_area": 63045
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 3,
+          "sha256_rgb": "77a715d1fc54b1e1ac9fe75ebfee1e1e2b4c872cfa55a10c5bf1a67c2b6733f4",
+          "foreground_pixels": 62715,
+          "foreground_pct": 15.9528,
+          "bbox": [
+            116,
+            65,
+            483,
+            562
+          ],
+          "margins": [
+            116,
+            144,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            313.222,
+            296.278
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 125,
+            "areas": [
+              62715
+            ],
+            "largest_area": 62715
+          },
+          "artifact_flags": []
+        }
+      ],
+      "pair_metrics": [
+        {
+          "mask_xor_pct": 7.0743,
+          "silhouette_motion_p95_px": 10.77,
+          "silhouette_motion_max_px": 17.692,
+          "centroid_shift_px": 1.658,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9293,
+          "registered_residual_pct": 12.3083,
+          "upper_anchor_ncc": 0.9943
+        },
+        {
+          "mask_xor_pct": 5.4506,
+          "silhouette_motion_p95_px": 10.63,
+          "silhouette_motion_max_px": 16.401,
+          "centroid_shift_px": 2.89,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9455,
+          "registered_residual_pct": 11.3938,
+          "upper_anchor_ncc": 0.9944
+        },
+        {
+          "mask_xor_pct": 5.4546,
+          "silhouette_motion_p95_px": 10.63,
+          "silhouette_motion_max_px": 14.866,
+          "centroid_shift_px": 1.163,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9455,
+          "registered_residual_pct": 12.1885,
+          "upper_anchor_ncc": 0.9924
+        }
+      ],
+      "aggregate": {
+        "max_silhouette_motion_p95_px": 10.77,
+        "max_mask_xor_pct": 7.0743,
+        "max_centroid_shift_px": 2.89,
+        "max_registration_shift_px": 0.0,
+        "max_registered_residual_pct": 12.3083,
+        "minimum_upper_anchor_ncc": 0.9924,
+        "foreground_area_span_pct": 3.8766,
+        "bbox_width_span_pct": 3.2653,
+        "bbox_height_span_pct": 0.0,
+        "significant_component_count_span": 0
+      },
+      "stationary_regions": [
+        {
+          "name": "fixed-hat-aviators-face-shirt-core",
+          "box_pixels": [
+            295,
+            25,
+            339,
+            314
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.0
+        },
+        {
+          "name": "fixed-ripped-jeans-legs-and-boots",
+          "box_pixels": [
+            113,
+            389,
+            514,
+            608
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.0
+        }
+      ],
+      "gif": {
+        "path": "gifs/wildcard/checking-the-backstreets-marketing.gif",
+        "exists": true,
+        "sha256": "f9fea6ce09854f4723c515d6b15a4fab89de6f4b4ca1f7bf9624bfd05aa24387",
+        "bytes": 60642,
+        "size": [
+          256,
+          256
+        ],
+        "frame_count": 6,
+        "unique_phases": 4,
+        "equality_pattern": [
+          0,
+          1,
+          2,
+          3,
+          2,
+          1
+        ],
+        "durations_ms": [
+          210,
+          140,
+          140,
+          210,
+          140,
+          140
+        ],
+        "loop": 0,
+        "has_transparency": true,
+        "corner_alphas": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "alpha_bboxes": [
+          [
+            56,
+            26,
+            208,
+            230
+          ],
+          [
+            53,
+            26,
+            203,
+            230
+          ],
+          [
+            50,
+            26,
+            197,
+            230
+          ],
+          [
+            47,
+            26,
+            197,
+            230
+          ],
+          [
+            50,
+            26,
+            197,
+            230
+          ],
+          [
+            53,
+            26,
+            203,
+            230
+          ]
+        ],
+        "loop_closure_exact": true,
+        "contact": "qa/strict-repairs/checking-the-backstreets-marketing/report-production/contacts/checking-the-backstreets-marketing-gif-128.png"
+      },
+      "visual_evidence": {
+        "source_full_contact": "qa/strict-repairs/checking-the-backstreets-marketing/report-production/contacts/checking-the-backstreets-marketing-source-full.png",
+        "source_128_contact": "qa/strict-repairs/checking-the-backstreets-marketing/report-production/contacts/checking-the-backstreets-marketing-source-128.png"
+      },
+      "manual_review": {
+        "complete": true,
+        "signature_action_readable": true,
+        "stationary_elements_stable": true,
+        "loop_motion_natural": true,
+        "notes": "Inspected all four 627px cells, the 128px source contact and decoded GIF contact. The wide bent-knee stance and opposing open-hand arm hits read as 1990s synchronized boy-band choreography. The same male Marketing face, wide-brim hat, aviators, bomber, long white shirt, knee rips, legs and boots remain fixed. Both connected arms retain exactly one natural hand, margins are clear, and no shoulder seam, duplicate anatomy, debris, palette shimmer, crop or loop snap is visible."
+      },
+      "failures": [],
+      "warnings": [],
+      "passed": true
+    }
+  ]
+}

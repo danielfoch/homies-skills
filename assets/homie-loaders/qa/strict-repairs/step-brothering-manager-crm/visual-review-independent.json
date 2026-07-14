@@ -1,0 +1,43 @@
+{
+  "step-brothering-manager-crm": {
+    "cells": [
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      }
+    ],
+    "signature_action_readable": true,
+    "stationary_elements_stable": true,
+    "loop_motion_natural": true,
+    "action_expectation": "Two fixed male Homies hold the awkward stacked-hands portrait pose while only the camera flash pulses.",
+    "notes": "Independent full-size, 128px and decoded-GIF inspection confirms two canonical male Homies, exactly two clean stacked Manager hands, correct blue shirts and contrasting argyle vests, a deliberate frame-masked crop, transparent corners and no redraw wiggle, debris, duplicate anatomy, palette shimmer or loop discontinuity."
+  }
+}

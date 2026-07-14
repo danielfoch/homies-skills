@@ -1,0 +1,362 @@
+{
+  "results": [
+    {
+      "slug": "buffying-offers",
+      "concept": "Exactly one female Offers Homie in a simple black outfit holds exactly one wooden stake in a ready hunter stance.",
+      "action_expectation": "The immutable female Offers identity, anatomy, empty second hand, black outfit, and single wooden stake remain one rigid rig through a boot-anchored guarded lean.",
+      "source": "assets/homie-loaders/qa/strict-repairs/buffying-offers/candidates/sources/wildcard/buffying-offers.png",
+      "source_sha256": "883c3f2ceb2b749c22e7215b3556a3c9df7a51e9a873788aea99ab677ef26ea8",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_mode": "RGB",
+      "grid": [
+        2,
+        2
+      ],
+      "key_geometry": {
+        "outer_edge_non_key_pixels": 0,
+        "gutter_axis_non_key_pixels": 0
+      },
+      "cells": [
+        {
+          "index": 0,
+          "sha256_rgb": "9830aae7cfdc30920ccb77b65c30e6ff8a21cb6ef18d004c2d14bf2c325392e3",
+          "foreground_pixels": 36703,
+          "foreground_pct": 9.3361,
+          "bbox": [
+            196,
+            74,
+            407,
+            549
+          ],
+          "margins": [
+            196,
+            220,
+            74,
+            78
+          ],
+          "minimum_margin": 74,
+          "centroid": [
+            306.059,
+            293.15
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 73,
+            "areas": [
+              36703
+            ],
+            "largest_area": 36703
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 1,
+          "sha256_rgb": "b2bed88b65774ce85fde2452895537eb69566861d1c341ad4cfdce1b4b2d0191",
+          "foreground_pixels": 36747,
+          "foreground_pct": 9.3473,
+          "bbox": [
+            207,
+            74,
+            414,
+            551
+          ],
+          "margins": [
+            207,
+            213,
+            74,
+            76
+          ],
+          "minimum_margin": 74,
+          "centroid": [
+            314.57,
+            293.051
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 73,
+            "areas": [
+              36747
+            ],
+            "largest_area": 36747
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 2,
+          "sha256_rgb": "ebb2322a1892116740009ec1ce11a1da8852edd443e137e13a627548f1193480",
+          "foreground_pixels": 36734,
+          "foreground_pct": 9.344,
+          "bbox": [
+            208,
+            74,
+            421,
+            553
+          ],
+          "margins": [
+            208,
+            206,
+            74,
+            74
+          ],
+          "minimum_margin": 74,
+          "centroid": [
+            322.606,
+            293.128
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 73,
+            "areas": [
+              36734
+            ],
+            "largest_area": 36734
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 3,
+          "sha256_rgb": "868da16be540fc07d6d7c085200a0bd3cfe86ca1cb6b229cac2584327c097b3e",
+          "foreground_pixels": 36723,
+          "foreground_pct": 9.3412,
+          "bbox": [
+            210,
+            75,
+            428,
+            556
+          ],
+          "margins": [
+            210,
+            199,
+            75,
+            71
+          ],
+          "minimum_margin": 71,
+          "centroid": [
+            331.163,
+            293.727
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 73,
+            "areas": [
+              36723
+            ],
+            "largest_area": 36723
+          },
+          "artifact_flags": []
+        }
+      ],
+      "pair_metrics": [
+        {
+          "mask_xor_pct": 31.5096,
+          "silhouette_motion_p95_px": 10.44,
+          "silhouette_motion_max_px": 15.033,
+          "centroid_shift_px": 8.511,
+          "registration_shift": [
+            -7,
+            3
+          ],
+          "registration_shift_px": 7.616,
+          "registration_iou": 0.8238,
+          "registered_residual_pct": 41.8405,
+          "upper_anchor_ncc": 0.6835
+        },
+        {
+          "mask_xor_pct": 30.388,
+          "silhouette_motion_p95_px": 10.0,
+          "silhouette_motion_max_px": 14.142,
+          "centroid_shift_px": 8.036,
+          "registration_shift": [
+            -7,
+            2
+          ],
+          "registration_shift_px": 7.28,
+          "registration_iou": 0.83,
+          "registered_residual_pct": 40.8303,
+          "upper_anchor_ncc": 0.7196
+        },
+        {
+          "mask_xor_pct": 31.5631,
+          "silhouette_motion_p95_px": 10.44,
+          "silhouette_motion_max_px": 15.033,
+          "centroid_shift_px": 8.578,
+          "registration_shift": [
+            -7,
+            3
+          ],
+          "registration_shift_px": 7.616,
+          "registration_iou": 0.8231,
+          "registered_residual_pct": 41.8768,
+          "upper_anchor_ncc": 0.6938
+        }
+      ],
+      "aggregate": {
+        "max_silhouette_motion_p95_px": 10.44,
+        "max_mask_xor_pct": 31.5631,
+        "max_centroid_shift_px": 8.578,
+        "max_registration_shift_px": 7.616,
+        "max_registered_residual_pct": 41.8768,
+        "minimum_upper_anchor_ncc": 0.6835,
+        "foreground_area_span_pct": 0.1198,
+        "bbox_width_span_pct": 5.1887,
+        "bbox_height_span_pct": 1.2552,
+        "significant_component_count_span": 0
+      },
+      "stationary_regions": [
+        {
+          "name": "empty-transparent-canvas-corner",
+          "box_pixels": [
+            0,
+            0,
+            75,
+            75
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.0
+        }
+      ],
+      "gif": {
+        "path": "assets/homie-loaders/qa/strict-repairs/buffying-offers/candidates/gifs/wildcard/buffying-offers.gif",
+        "exists": true,
+        "sha256": "6565844e06abce38749e33523c26c52d03b4f1975c4837860f16356b4560f572",
+        "bytes": 36431,
+        "size": [
+          256,
+          256
+        ],
+        "frame_count": 6,
+        "unique_phases": 4,
+        "equality_pattern": [
+          0,
+          1,
+          2,
+          3,
+          2,
+          1
+        ],
+        "durations_ms": [
+          210,
+          140,
+          140,
+          210,
+          140,
+          140
+        ],
+        "loop": 0,
+        "has_transparency": true,
+        "corner_alphas": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "alpha_bboxes": [
+          [
+            80,
+            30,
+            166,
+            224
+          ],
+          [
+            85,
+            30,
+            169,
+            225
+          ],
+          [
+            85,
+            30,
+            172,
+            226
+          ],
+          [
+            86,
+            31,
+            175,
+            227
+          ],
+          [
+            85,
+            30,
+            172,
+            226
+          ],
+          [
+            85,
+            30,
+            169,
+            225
+          ]
+        ],
+        "loop_closure_exact": true,
+        "contact": "assets/homie-loaders/qa/strict-repairs/buffying-offers/candidates/strict-qa/contacts/buffying-offers-gif-128.png"
+      },
+      "visual_evidence": {
+        "source_full_contact": "assets/homie-loaders/qa/strict-repairs/buffying-offers/candidates/strict-qa/contacts/buffying-offers-source-full.png",
+        "source_128_contact": "assets/homie-loaders/qa/strict-repairs/buffying-offers/candidates/strict-qa/contacts/buffying-offers-source-128.png"
+      },
+      "manual_review": {
+        "complete": true,
+        "signature_action_readable": true,
+        "stationary_elements_stable": true,
+        "loop_motion_natural": true,
+        "notes": "Inspected the full-size four-cell contact, 128px four-cell contact, and six-phase GIF contact. Exactly one female Offers subject, exactly one wooden stake, one empty open second hand, two arms, and two legs remain continuous and readable. The intentional rigid lean reverses cleanly with no redraw, prop duplication, scale pulse, crop, text, glyphs, or debris."
+      },
+      "failures": [],
+      "warnings": [],
+      "passed": true
+    }
+  ]
+}

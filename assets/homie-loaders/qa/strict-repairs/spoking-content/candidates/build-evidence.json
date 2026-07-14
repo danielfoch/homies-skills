@@ -1,0 +1,67 @@
+{
+  "selected_panel": 2,
+  "selected_panel_role": "only immutable face, torso, garment, arm and five-finger salute source",
+  "registration_shift_per_phase": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ]
+  ],
+  "shared_scale_per_phase": [
+    0.78,
+    0.78,
+    0.78,
+    0.78
+  ],
+  "angles_degrees": [
+    -3.0,
+    -1.0,
+    1.0,
+    3.0
+  ],
+  "frame_sha256_rgba": [
+    "1ab3e4d37eac886c6dc5b7963de536e1f5b3e64c384f18ef85d3a2eb24a35ce1",
+    "8989f9f2a8bfecb68a0903f32db8499dd23e259f726334e9233af96b6f875372",
+    "84fe1500bd25334155f837827934cc80e84a36dd8c8ba223207c19064040b12a",
+    "c574903ce6eeaa1f3b16bb17625488288f9b1effd24da22959ccb6ac8f07cc2e"
+  ],
+  "static_face_torso_sha256_rgba": [
+    "7c5c610b01bfcbc8adab843f4ace84ef6b42e7d145a0b0a38beba436bc87a3a3",
+    "7c5c610b01bfcbc8adab843f4ace84ef6b42e7d145a0b0a38beba436bc87a3a3",
+    "7c5c610b01bfcbc8adab843f4ace84ef6b42e7d145a0b0a38beba436bc87a3a3",
+    "7c5c610b01bfcbc8adab843f4ace84ef6b42e7d145a0b0a38beba436bc87a3a3"
+  ],
+  "minimum_margin_px": 86,
+  "changed_pixels_outside_rig": 0,
+  "sequence": [
+    0,
+    1,
+    2,
+    3,
+    2,
+    1
+  ],
+  "durations_ms": [
+    210,
+    140,
+    140,
+    210,
+    140,
+    140
+  ],
+  "raw_chroma_sha256": "a8d083ef3e8d9032836010231b3b9ebfd0d37757e01a16583ee33d0e4c8ea1e1",
+  "raw_alpha_sha256": "0830152af4a17a2c6a6326bdb86d0bff9808d5340ac667c45cdd839e8c4f4581",
+  "locked_plate_sha256": "cd48f026091fc2330151bcdccf3a030c3e516e2ec0d9d552ef4435556c5db157"
+}

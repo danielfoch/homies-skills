@@ -1,0 +1,81 @@
+{
+  "slug": "robin-hooding-manager",
+  "mode": "built-in image_gen",
+  "accepted_generation_prompt": "generation-prompt.txt",
+  "accepted_generation_prompt_sha256": "eddc4a618c949afe2b8352cf8ccb308682a26c2f5958343739cebbfc9300dff7",
+  "accepted_edit_prompt": null,
+  "generation_reference": {
+    "path": "assets/homie-loaders/references/manager.png",
+    "role": "canonical identity and Homies style",
+    "sha256": "9bdcf4363fb403917761987da581f4cbfe746f1fe564ad64480c582877d8fc55"
+  },
+  "observed_action_reference": {
+    "path": "/var/folders/kz/c40hnqf51b78kdv_h64qjj0h0000gn/T/codex-clipboard-6fa03572-3817-44c6-a267-0ad94e82aa04.png",
+    "role": "wardrobe/action guidance only; not sent in accepted generation",
+    "sha256": "59ea975463351fb6379d93ffd05cc0f761bacc85e66e0de11e2b10f28ea988d1"
+  },
+  "chroma_key": "#ff00ff",
+  "chroma_path": "raw/robin-hooding-manager-chroma.png",
+  "chroma_sha256": "8cad9542c35a82d428e66693389cd38c26026513a4eab1aaab3fb3846863eb04",
+  "alpha_path": "../../raw/robin-hooding-manager-alpha.png",
+  "alpha_sha256": "a879e15c39c031afa2d6168f07f291c5b7033a8d2c7a576177c94bc4f8c584a7",
+  "alpha_command": "python3 $CODEX_HOME/skills/.system/imagegen/scripts/remove_chroma_key.py --input <chroma> --out <alpha> --auto-key border --soft-matte --transparent-threshold 12 --opaque-threshold 220 --despill",
+  "frame_shared_wardrobe_recolour": {
+    "method": "A deterministic HSV transform changes only green upper-garment pixels inside fixed hat/tunic/sleeve/hem polygons to deep muted burgundy. The original olive leggings, tan leather, skin, bow, feather, and metal pixels stay unchanged.",
+    "changed_pixels": 16782,
+    "alpha_geometry_unchanged": true,
+    "mask_path": "assets/homie-loaders/qa/strict-repairs/robin-hooding-manager/candidates/frames/robin-hooding-manager/frame-shared-outlaw-recolour-mask.png",
+    "mask_sha256": "8c1f75dbaf0787ee824bb47044269ddf79c7a162210a0650ec8bd2d2a431cd9e"
+  },
+  "deterministic_animation": {
+    "builder_path": "assets/homie-loaders/scripts/build_robin_hooding_manager_candidate.py",
+    "builder_sha256": "4d5e27a940d949762df67e089c997dceeae5f4a8dbb41ceccf0f9d4f2c99e1ea",
+    "contract": "One recoloured immutable Manager character/bow plate is reused in every cell. The generated string and fixed arrow tip are removed only inside explicit masks; the collinear central shaft remains locked under one visible deterministic string-and-arrow rig. Only the string, nock, shaft overlay, fletching, and arrowhead may vary.",
+    "immutable_plate_path": "assets/homie-loaders/qa/strict-repairs/robin-hooding-manager/candidates/frames/robin-hooding-manager/immutable-manager-archer-plate.png",
+    "immutable_plate_sha256": "0392a11539a8a4a325c8df6c2b23e5c61da1a634f25efc1c97f1c4a18b36fc1b",
+    "locked_character_and_bow_base_path": "assets/homie-loaders/qa/strict-repairs/robin-hooding-manager/candidates/frames/robin-hooding-manager/locked-character-and-bow-base.png",
+    "locked_character_and_bow_base_sha256": "5afa18dcdbf1228c3858ad4e7b084e1329d18587d1c9e93debb29fef23f85006",
+    "allowed_motion_mask_path": "assets/homie-loaders/qa/strict-repairs/robin-hooding-manager/candidates/frames/robin-hooding-manager/allowed-single-string-arrow-nock-rig-mask.png",
+    "allowed_motion_mask_sha256": "7937824f6dbcf3302d2f4f9bb9727e52d73e5dcf40ffdde958558c8e6c3ae31d",
+    "outside_mask_mismatch_pixels_per_phase": [0, 0, 0, 0],
+    "bow_tip_anchors": [[356, 78], [349, 350]],
+    "nock_positions": [[266, 194], [261, 194], [256, 194], [251, 194]],
+    "nock_travel_px": 15,
+    "arrow_length_px": 196,
+    "authored_phase_order": [0, 1, 2, 3],
+    "gif_phase_order": [0, 1, 2, 3, 2, 1],
+    "gif_durations_ms": [210, 140, 140, 210, 140, 140],
+    "builder_assertions": {
+      "foreground_area_span_ratio": 0.00511,
+      "changed_pixel_motion_ratio": 0.10014,
+      "exactly_one_continuous_string_arrow_system": true,
+      "fixed_character_bow_and_bow_hand": true
+    },
+    "consecutive_identical_rebuilds": 2
+  },
+  "outputs": {
+    "source_path": "assets/homie-loaders/qa/strict-repairs/robin-hooding-manager/candidates/sources/wildcard/robin-hooding-manager.png",
+    "source_sha256": "45b28eac67576766fcf254d6affb1d2ec5180f29bc235091da73094f2d37c171",
+    "source_size": [1254, 1254],
+    "source_mode": "RGB",
+    "gif_path": "assets/homie-loaders/qa/strict-repairs/robin-hooding-manager/candidates/gifs/wildcard/robin-hooding-manager.gif",
+    "gif_sha256": "33d8044924f5f549a8856ad5671871f92fc4dc5932ed98549e899defae50ac13",
+    "gif_size": [256, 256],
+    "gif_frames": 6,
+    "gif_unique_phases": 4,
+    "gif_has_transparency": true
+  },
+  "strict_qa": {
+    "status": "PASS",
+    "policy_path": "assets/homie-loaders/qa/strict-repairs/robin-hooding-manager/candidates/policy.json",
+    "policy_sha256": "73a6103a8670b5a42a7f07597aae6dd452fa118cc91a3bf2b9d9c5f0545bb63e",
+    "visual_review_path": "assets/homie-loaders/qa/strict-repairs/robin-hooding-manager/candidates/visual-review.json",
+    "visual_review_sha256": "af25951357318b0f20137209aea88200385e865cd55ea7c2efea5371a1300a0c",
+    "report_json_path": "assets/homie-loaders/qa/strict-repairs/robin-hooding-manager/candidates/qa/strict-qa.json",
+    "report_json_sha256": "77817a161f5104bf01dd923a49878ed1ebcb10d49b67dc58403c5efd1b1ea568",
+    "report_markdown_path": "assets/homie-loaders/qa/strict-repairs/robin-hooding-manager/candidates/qa/strict-qa.md",
+    "report_markdown_sha256": "d00be458bfe423d0e4599ecc979a80698dc881cdf3cc0091054ee8c434c25c3f",
+    "failures": [],
+    "warnings": []
+  }
+}

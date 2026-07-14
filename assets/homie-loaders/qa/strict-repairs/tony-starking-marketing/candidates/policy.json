@@ -1,0 +1,25 @@
+{
+  "tony-starking-marketing": {
+    "concept": "Canonical Marketing Homie in a red/gold powered suit with palm and chest energy pulse",
+    "action_expectation": "The raised armored open palm and chest reactor pulse in four authored intensities while face, anatomy, suit, crop, anchor, and scale remain fixed.",
+    "signature_action": false,
+    "fixed_character_plate": true,
+    "allow_global_motion": false,
+    "max_global_drift_px": 1.0,
+    "max_registered_residual_pct": 12.0,
+    "min_upper_anchor_ncc": 0.9,
+    "min_margin_px": 60,
+    "max_tiny_components": 4,
+    "max_significant_components_per_cell": 1,
+    "max_foreground_area_span_pct": 3.0,
+    "max_bbox_span_pct": 5.0,
+    "max_significant_component_span": 0,
+    "stationary_regions": [
+      {
+        "name": "locked lower body and boots",
+        "box": [0.36, 0.39, 0.66, 0.91],
+        "max_change_pct": 0.0
+      }
+    ]
+  }
+}

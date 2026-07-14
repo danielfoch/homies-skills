@@ -1,0 +1,1436 @@
+{
+  "results": [
+    {
+      "slug": "disco-inferno-ing-reports",
+      "concept": "Reports Homie holds a locked disco stance while the connected pointing arm pumps through a clean up-and-down arc.",
+      "action_expectation": "Only the complete connected raised arm rotates around one fixed shoulder; face, hair, suit, planted arm, torso, hips, legs and shoes remain fixed without body scaling.",
+      "source": "sources/wildcard/disco-inferno-ing-reports.png",
+      "source_sha256": "53c65c90e6f78fd7d1fbe5e3c58f2165b7a8178a513085602db9f89467ece220",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_mode": "RGB",
+      "grid": [
+        2,
+        2
+      ],
+      "key_geometry": {
+        "outer_edge_non_key_pixels": 0,
+        "gutter_axis_non_key_pixels": 0
+      },
+      "cells": [
+        {
+          "index": 0,
+          "sha256_rgb": "f79533a515b36a1981a42761c038e5b25b782bc5786616844fb0ceb6bed2e476",
+          "foreground_pixels": 37826,
+          "foreground_pct": 9.6218,
+          "bbox": [
+            245,
+            65,
+            404,
+            562
+          ],
+          "margins": [
+            245,
+            223,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            339.81,
+            321.132
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 76,
+            "areas": [
+              37826
+            ],
+            "largest_area": 37826
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 1,
+          "sha256_rgb": "79da968f2425e917597d2fd5b98146e0e7240dfb025dd6bb8662f972f71c5d73",
+          "foreground_pixels": 37821,
+          "foreground_pct": 9.6205,
+          "bbox": [
+            237,
+            70,
+            404,
+            562
+          ],
+          "margins": [
+            237,
+            223,
+            70,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            339.517,
+            321.4
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 76,
+            "areas": [
+              37821
+            ],
+            "largest_area": 37821
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 2,
+          "sha256_rgb": "bab04f02bbcfc2b722fd3c52792f6c23056a3c7a37035dd5c89ec966ffba75e8",
+          "foreground_pixels": 37810,
+          "foreground_pct": 9.6177,
+          "bbox": [
+            229,
+            76,
+            404,
+            562
+          ],
+          "margins": [
+            229,
+            223,
+            76,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            339.25,
+            321.704
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 76,
+            "areas": [
+              37810
+            ],
+            "largest_area": 37810
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 3,
+          "sha256_rgb": "4227a72062c65dfe2a45c866a8345d32bcbb2abdc5ed9a5e66221e3f331f4555",
+          "foreground_pixels": 37809,
+          "foreground_pct": 9.6175,
+          "bbox": [
+            222,
+            83,
+            404,
+            562
+          ],
+          "margins": [
+            222,
+            223,
+            83,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            339.0,
+            322.018
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 76,
+            "areas": [
+              37809
+            ],
+            "largest_area": 37809
+          },
+          "artifact_flags": []
+        }
+      ],
+      "pair_metrics": [
+        {
+          "mask_xor_pct": 3.8811,
+          "silhouette_motion_p95_px": 8.944,
+          "silhouette_motion_max_px": 11.662,
+          "centroid_shift_px": 0.397,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9612,
+          "registered_residual_pct": 7.1917,
+          "upper_anchor_ncc": 0.9693
+        },
+        {
+          "mask_xor_pct": 3.8819,
+          "silhouette_motion_p95_px": 8.944,
+          "silhouette_motion_max_px": 11.18,
+          "centroid_shift_px": 0.405,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9612,
+          "registered_residual_pct": 7.2088,
+          "upper_anchor_ncc": 0.965
+        },
+        {
+          "mask_xor_pct": 3.9181,
+          "silhouette_motion_p95_px": 8.773,
+          "silhouette_motion_max_px": 11.402,
+          "centroid_shift_px": 0.401,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9608,
+          "registered_residual_pct": 7.2371,
+          "upper_anchor_ncc": 0.9599
+        }
+      ],
+      "aggregate": {
+        "max_silhouette_motion_p95_px": 8.944,
+        "max_mask_xor_pct": 3.9181,
+        "max_centroid_shift_px": 0.405,
+        "max_registration_shift_px": 0.0,
+        "max_registered_residual_pct": 7.2371,
+        "minimum_upper_anchor_ncc": 0.9599,
+        "foreground_area_span_pct": 0.045,
+        "bbox_width_span_pct": 13.4503,
+        "bbox_height_span_pct": 3.681,
+        "significant_component_count_span": 0
+      },
+      "stationary_regions": [
+        {
+          "name": "fixed-suit-core-legs-shoes",
+          "box_pixels": [
+            219,
+            263,
+            414,
+            608
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.0
+        }
+      ],
+      "gif": {
+        "path": "gifs/wildcard/disco-inferno-ing-reports.gif",
+        "exists": true,
+        "sha256": "34efda5ee99d3f0d35897c1f5f9b3dfb11abe929ef9370cc45ff836ea929d2cf",
+        "bytes": 36087,
+        "size": [
+          256,
+          256
+        ],
+        "frame_count": 6,
+        "unique_phases": 4,
+        "equality_pattern": [
+          0,
+          1,
+          2,
+          3,
+          2,
+          1
+        ],
+        "durations_ms": [
+          210,
+          140,
+          140,
+          210,
+          140,
+          140
+        ],
+        "loop": 0,
+        "has_transparency": true,
+        "corner_alphas": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "alpha_bboxes": [
+          [
+            100,
+            27,
+            165,
+            230
+          ],
+          [
+            97,
+            29,
+            165,
+            230
+          ],
+          [
+            94,
+            31,
+            165,
+            230
+          ],
+          [
+            91,
+            34,
+            165,
+            230
+          ],
+          [
+            94,
+            31,
+            165,
+            230
+          ],
+          [
+            97,
+            29,
+            165,
+            230
+          ]
+        ],
+        "loop_closure_exact": true,
+        "contact": "qa/strict-repairs/pop-dance-hand-cleanup/report-independent-root/contacts/disco-inferno-ing-reports-gif-128.png"
+      },
+      "visual_evidence": {
+        "source_full_contact": "qa/strict-repairs/pop-dance-hand-cleanup/report-independent-root/contacts/disco-inferno-ing-reports-source-full.png",
+        "source_128_contact": "qa/strict-repairs/pop-dance-hand-cleanup/report-independent-root/contacts/disco-inferno-ing-reports-source-128.png"
+      },
+      "manual_review": {
+        "complete": true,
+        "signature_action_readable": true,
+        "stationary_elements_stable": true,
+        "loop_motion_natural": true,
+        "notes": "Independent full-cell and 128px review confirms one character, one connected moving arm, stable suit and legs, no scale pumping, overlap, crop, redraw debris or palette shimmer."
+      },
+      "failures": [],
+      "warnings": [],
+      "passed": true
+    },
+    {
+      "slug": "rickrolling-manager",
+      "concept": "Manager Homie performs a compact Rickroll finger-point in the recognizable striped top and tan coat.",
+      "action_expectation": "Exactly one connected pointing arm pivots around its fixed shoulder while the single head, coat, pocket hand, torso, legs and shoes remain fixed.",
+      "source": "sources/wildcard/rickrolling-manager.png",
+      "source_sha256": "779049d259e522c9274fc99ef206d0f66e4b2e854f86c2b01fd36192ae58f2b6",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_mode": "RGB",
+      "grid": [
+        2,
+        2
+      ],
+      "key_geometry": {
+        "outer_edge_non_key_pixels": 0,
+        "gutter_axis_non_key_pixels": 0
+      },
+      "cells": [
+        {
+          "index": 0,
+          "sha256_rgb": "f9e938f24e70e96256bce34bdfc636c6c1c0c8ed9a80f1d28c44543b75cef659",
+          "foreground_pixels": 48565,
+          "foreground_pct": 12.3535,
+          "bbox": [
+            190,
+            65,
+            431,
+            562
+          ],
+          "margins": [
+            190,
+            196,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            275.201,
+            292.331
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 97,
+            "areas": [
+              48565
+            ],
+            "largest_area": 48565
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 1,
+          "sha256_rgb": "5fe892a108fbc12ea577335ea96a5d6fd6402580d32f32aa6cec783824bdf1ac",
+          "foreground_pixels": 48373,
+          "foreground_pct": 12.3046,
+          "bbox": [
+            190,
+            65,
+            433,
+            562
+          ],
+          "margins": [
+            190,
+            194,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            274.738,
+            292.931
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 97,
+            "areas": [
+              48373
+            ],
+            "largest_area": 48373
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 2,
+          "sha256_rgb": "2cd2b3ef524b42651fd6dea0db49ffcea7933472370b46f105e7700bdb363e40",
+          "foreground_pixels": 48169,
+          "foreground_pct": 12.2527,
+          "bbox": [
+            190,
+            65,
+            435,
+            562
+          ],
+          "margins": [
+            190,
+            192,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            274.225,
+            293.559
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 96,
+            "areas": [
+              48169
+            ],
+            "largest_area": 48169
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 3,
+          "sha256_rgb": "060a49ca68bb17569827f76e63ec23fbdfe5d76abe8ffbfab87c791fef0cbec6",
+          "foreground_pixels": 47940,
+          "foreground_pct": 12.1945,
+          "bbox": [
+            190,
+            65,
+            437,
+            562
+          ],
+          "margins": [
+            190,
+            190,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            273.649,
+            294.262
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 96,
+            "areas": [
+              47940
+            ],
+            "largest_area": 47940
+          },
+          "artifact_flags": []
+        }
+      ],
+      "pair_metrics": [
+        {
+          "mask_xor_pct": 0.9037,
+          "silhouette_motion_p95_px": 4.472,
+          "silhouette_motion_max_px": 5.099,
+          "centroid_shift_px": 0.757,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.991,
+          "registered_residual_pct": 3.0356,
+          "upper_anchor_ncc": 0.9814
+        },
+        {
+          "mask_xor_pct": 0.8622,
+          "silhouette_motion_p95_px": 4.472,
+          "silhouette_motion_max_px": 5.385,
+          "centroid_shift_px": 0.811,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9914,
+          "registered_residual_pct": 3.0487,
+          "upper_anchor_ncc": 0.9814
+        },
+        {
+          "mask_xor_pct": 1.0907,
+          "silhouette_motion_p95_px": 5.099,
+          "silhouette_motion_max_px": 6.083,
+          "centroid_shift_px": 0.909,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9891,
+          "registered_residual_pct": 3.301,
+          "upper_anchor_ncc": 0.9776
+        }
+      ],
+      "aggregate": {
+        "max_silhouette_motion_p95_px": 5.099,
+        "max_mask_xor_pct": 1.0907,
+        "max_centroid_shift_px": 0.909,
+        "max_registration_shift_px": 0.0,
+        "max_registered_residual_pct": 3.301,
+        "minimum_upper_anchor_ncc": 0.9776,
+        "foreground_area_span_pct": 1.2948,
+        "bbox_width_span_pct": 2.459,
+        "bbox_height_span_pct": 0.0,
+        "significant_component_count_span": 0
+      },
+      "stationary_regions": [
+        {
+          "name": "fixed-lower-coat-legs-shoes",
+          "box_pixels": [
+            182,
+            364,
+            364,
+            608
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.0
+        }
+      ],
+      "gif": {
+        "path": "gifs/wildcard/rickrolling-manager.gif",
+        "exists": true,
+        "sha256": "657d1fcd63fb0118e88e099933c9adb61e4133af7df5a086148d7067697a8465",
+        "bytes": 46680,
+        "size": [
+          256,
+          256
+        ],
+        "frame_count": 6,
+        "unique_phases": 4,
+        "equality_pattern": [
+          0,
+          1,
+          2,
+          3,
+          2,
+          1
+        ],
+        "durations_ms": [
+          210,
+          140,
+          140,
+          210,
+          140,
+          140
+        ],
+        "loop": 0,
+        "has_transparency": true,
+        "corner_alphas": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "alpha_bboxes": [
+          [
+            78,
+            27,
+            176,
+            229
+          ],
+          [
+            78,
+            27,
+            177,
+            229
+          ],
+          [
+            78,
+            27,
+            177,
+            229
+          ],
+          [
+            78,
+            27,
+            178,
+            229
+          ],
+          [
+            78,
+            27,
+            177,
+            229
+          ],
+          [
+            78,
+            27,
+            177,
+            229
+          ]
+        ],
+        "loop_closure_exact": true,
+        "contact": "qa/strict-repairs/pop-dance-hand-cleanup/report-independent-root/contacts/rickrolling-manager-gif-128.png"
+      },
+      "visual_evidence": {
+        "source_full_contact": "qa/strict-repairs/pop-dance-hand-cleanup/report-independent-root/contacts/rickrolling-manager-source-full.png",
+        "source_128_contact": "qa/strict-repairs/pop-dance-hand-cleanup/report-independent-root/contacts/rickrolling-manager-source-128.png"
+      },
+      "manual_review": {
+        "complete": true,
+        "signature_action_readable": true,
+        "stationary_elements_stable": true,
+        "loop_motion_natural": true,
+        "notes": "Independent review confirms exactly one locked character plate and one attached pointing arm; head, coat, pocket hand, legs and shoes remain stable with no overlap, crop, debris or shimmer."
+      },
+      "failures": [],
+      "warnings": [],
+      "passed": true
+    },
+    {
+      "slug": "ymca-ing-cma",
+      "concept": "CMA Homie performs four distinct Y, M, C and A letter silhouettes with one stable body and one connected pair of arms.",
+      "action_expectation": "The two complete articulated arms form Y, bent M, open C and overhead A in order; face, jacket core, shirt, hips, flared trousers and shoes remain fixed with no duplicate limbs or scale pumping.",
+      "source": "sources/wildcard/ymca-ing-cma.png",
+      "source_sha256": "490287f88e12bf486dc03b0471e6f7d44f88e08fa46cfde419eb8e6c7da9921f",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_mode": "RGB",
+      "grid": [
+        2,
+        2
+      ],
+      "key_geometry": {
+        "outer_edge_non_key_pixels": 0,
+        "gutter_axis_non_key_pixels": 0
+      },
+      "cells": [
+        {
+          "index": 0,
+          "sha256_rgb": "f6fb7715da91acc67ca2349bc2aed54c7a410fe696a1efcde4007b0db2453766",
+          "foreground_pixels": 48771,
+          "foreground_pct": 12.4059,
+          "bbox": [
+            147,
+            63,
+            480,
+            562
+          ],
+          "margins": [
+            147,
+            147,
+            63,
+            65
+          ],
+          "minimum_margin": 63,
+          "centroid": [
+            314.258,
+            308.01
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 98,
+            "areas": [
+              48771
+            ],
+            "largest_area": 48771
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 1,
+          "sha256_rgb": "45cb4d68eb680b82216d0155b09447f61757216c5261acd10f2d2d68bcf8bc3e",
+          "foreground_pixels": 47825,
+          "foreground_pct": 12.1652,
+          "bbox": [
+            184,
+            107,
+            444,
+            562
+          ],
+          "margins": [
+            184,
+            183,
+            107,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            314.316,
+            316.763
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 96,
+            "areas": [
+              47825
+            ],
+            "largest_area": 47825
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 2,
+          "sha256_rgb": "684d62ff261380636367a45fe710877209cfc9fb688e5a95b6b7163584f9ec14",
+          "foreground_pixels": 46372,
+          "foreground_pct": 11.7956,
+          "bbox": [
+            205,
+            60,
+            423,
+            562
+          ],
+          "margins": [
+            205,
+            204,
+            60,
+            65
+          ],
+          "minimum_margin": 60,
+          "centroid": [
+            311.359,
+            321.251
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 93,
+            "areas": [
+              46372
+            ],
+            "largest_area": 46372
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 3,
+          "sha256_rgb": "853e283a44572e276307a54c4123f7a1828d11183c704f39ef152150d5686fa2",
+          "foreground_pixels": 48131,
+          "foreground_pct": 12.2431,
+          "bbox": [
+            189,
+            81,
+            439,
+            562
+          ],
+          "margins": [
+            189,
+            188,
+            81,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            314.327,
+            313.142
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 96,
+            "areas": [
+              48131
+            ],
+            "largest_area": 48131
+          },
+          "artifact_flags": []
+        }
+      ],
+      "pair_metrics": [
+        {
+          "mask_xor_pct": 20.7002,
+          "silhouette_motion_p95_px": 78.435,
+          "silhouette_motion_max_px": 99.73,
+          "centroid_shift_px": 8.753,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.793,
+          "registered_residual_pct": 28.0135,
+          "upper_anchor_ncc": 0.8799
+        },
+        {
+          "mask_xor_pct": 21.2411,
+          "silhouette_motion_p95_px": 45.541,
+          "silhouette_motion_max_px": 60.877,
+          "centroid_shift_px": 5.374,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.7876,
+          "registered_residual_pct": 29.8567,
+          "upper_anchor_ncc": 0.8607
+        },
+        {
+          "mask_xor_pct": 17.223,
+          "silhouette_motion_p95_px": 56.881,
+          "silhouette_motion_max_px": 66.098,
+          "centroid_shift_px": 8.635,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.8278,
+          "registered_residual_pct": 27.6652,
+          "upper_anchor_ncc": 0.8174
+        }
+      ],
+      "aggregate": {
+        "max_silhouette_motion_p95_px": 78.435,
+        "max_mask_xor_pct": 21.2411,
+        "max_centroid_shift_px": 8.753,
+        "max_registration_shift_px": 0.0,
+        "max_registered_residual_pct": 29.8567,
+        "minimum_upper_anchor_ncc": 0.8174,
+        "foreground_area_span_pct": 5.0002,
+        "bbox_width_span_pct": 45.098,
+        "bbox_height_span_pct": 9.5918,
+        "significant_component_count_span": 0
+      },
+      "stationary_regions": [
+        {
+          "name": "fixed-trouser-legs-and-shoes",
+          "box_pixels": [
+            219,
+            351,
+            408,
+            608
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.0
+        }
+      ],
+      "gif": {
+        "path": "gifs/wildcard/ymca-ing-cma.gif",
+        "exists": true,
+        "sha256": "db3a3112990025c4bb3acd002c83e4becf1628d9f5b310e62b004485db24e2dc",
+        "bytes": 43984,
+        "size": [
+          256,
+          256
+        ],
+        "frame_count": 6,
+        "unique_phases": 4,
+        "equality_pattern": [
+          0,
+          1,
+          2,
+          3,
+          2,
+          1
+        ],
+        "durations_ms": [
+          210,
+          140,
+          140,
+          210,
+          140,
+          140
+        ],
+        "loop": 0,
+        "has_transparency": true,
+        "corner_alphas": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "alpha_bboxes": [
+          [
+            60,
+            26,
+            196,
+            229
+          ],
+          [
+            75,
+            44,
+            181,
+            229
+          ],
+          [
+            84,
+            24,
+            173,
+            229
+          ],
+          [
+            77,
+            33,
+            179,
+            229
+          ],
+          [
+            84,
+            24,
+            173,
+            229
+          ],
+          [
+            75,
+            44,
+            181,
+            229
+          ]
+        ],
+        "loop_closure_exact": true,
+        "contact": "qa/strict-repairs/pop-dance-hand-cleanup/report-independent-root/contacts/ymca-ing-cma-gif-128.png"
+      },
+      "visual_evidence": {
+        "source_full_contact": "qa/strict-repairs/pop-dance-hand-cleanup/report-independent-root/contacts/ymca-ing-cma-source-full.png",
+        "source_128_contact": "qa/strict-repairs/pop-dance-hand-cleanup/report-independent-root/contacts/ymca-ing-cma-source-128.png"
+      },
+      "manual_review": {
+        "complete": true,
+        "signature_action_readable": true,
+        "stationary_elements_stable": true,
+        "loop_motion_natural": true,
+        "notes": "Independent full-cell and 128px inspection confirms all four letters, one fixed face and torso, stable flared trousers and shoes, and no duplicate limbs, old arm remnants, scaling, crop or debris."
+      },
+      "failures": [],
+      "warnings": [],
+      "passed": true
+    },
+    {
+      "slug": "wednesday-ing-offers",
+      "concept": "Offers Homie performs a restrained Wednesday-style hand dance in a locked black dress and braided-hair pose.",
+      "action_expectation": "One connected raised forearm and hand pivots around a fixed elbow; the other connected arm, face, braids, collar, dress, legs and shoes remain fixed, with exactly two hands in every frame.",
+      "source": "sources/wildcard/wednesday-ing-offers.png",
+      "source_sha256": "cd9a11da14ad86e684dd5949421182c218692a736f0764fe58c570b0e8014417",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_mode": "RGB",
+      "grid": [
+        2,
+        2
+      ],
+      "key_geometry": {
+        "outer_edge_non_key_pixels": 0,
+        "gutter_axis_non_key_pixels": 0
+      },
+      "cells": [
+        {
+          "index": 0,
+          "sha256_rgb": "8fde4c106c17cfef4cc68b6cf637680171c2b140e1c1b50a36fb8bd45fa7fb1b",
+          "foreground_pixels": 45248,
+          "foreground_pct": 11.5097,
+          "bbox": [
+            233,
+            65,
+            394,
+            562
+          ],
+          "margins": [
+            233,
+            233,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            304.53,
+            302.704
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 90,
+            "areas": [
+              45248
+            ],
+            "largest_area": 45248
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 1,
+          "sha256_rgb": "2c97ecf3273543080970a4f7d33f9b8f46f226fa12efefb8cdcaa94f11fdf017",
+          "foreground_pixels": 45123,
+          "foreground_pct": 11.4779,
+          "bbox": [
+            233,
+            65,
+            388,
+            562
+          ],
+          "margins": [
+            233,
+            239,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            304.177,
+            303.004
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 90,
+            "areas": [
+              45123
+            ],
+            "largest_area": 45123
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 2,
+          "sha256_rgb": "c5e260e1f8f1ee0d0b14cd302c7a98733be091411be45eae9695764c3005a42d",
+          "foreground_pixels": 45082,
+          "foreground_pct": 11.4675,
+          "bbox": [
+            233,
+            65,
+            387,
+            562
+          ],
+          "margins": [
+            233,
+            240,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            303.948,
+            303.078
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 90,
+            "areas": [
+              45082
+            ],
+            "largest_area": 45082
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 3,
+          "sha256_rgb": "da60f5a74f703b913de5d1a1d6f06408c1d08ba40b7b366c4b8a25a24d4df8bf",
+          "foreground_pixels": 45135,
+          "foreground_pct": 11.481,
+          "bbox": [
+            233,
+            65,
+            387,
+            562
+          ],
+          "margins": [
+            233,
+            240,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            303.858,
+            302.885
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 90,
+            "areas": [
+              45135
+            ],
+            "largest_area": 45135
+          },
+          "artifact_flags": []
+        }
+      ],
+      "pair_metrics": [
+        {
+          "mask_xor_pct": 2.2689,
+          "silhouette_motion_p95_px": 8.955,
+          "silhouette_motion_max_px": 11.0,
+          "centroid_shift_px": 0.463,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9773,
+          "registered_residual_pct": 3.3476,
+          "upper_anchor_ncc": 0.9998
+        },
+        {
+          "mask_xor_pct": 2.3381,
+          "silhouette_motion_p95_px": 9.487,
+          "silhouette_motion_max_px": 11.705,
+          "centroid_shift_px": 0.24,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9766,
+          "registered_residual_pct": 3.5104,
+          "upper_anchor_ncc": 1.0
+        },
+        {
+          "mask_xor_pct": 2.2641,
+          "silhouette_motion_p95_px": 8.944,
+          "silhouette_motion_max_px": 11.0,
+          "centroid_shift_px": 0.212,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9774,
+          "registered_residual_pct": 3.4236,
+          "upper_anchor_ncc": 1.0
+        }
+      ],
+      "aggregate": {
+        "max_silhouette_motion_p95_px": 9.487,
+        "max_mask_xor_pct": 2.3381,
+        "max_centroid_shift_px": 0.463,
+        "max_registration_shift_px": 0.0,
+        "max_registered_residual_pct": 3.5104,
+        "minimum_upper_anchor_ncc": 0.9998,
+        "foreground_area_span_pct": 0.3678,
+        "bbox_width_span_pct": 4.5307,
+        "bbox_height_span_pct": 0.0,
+        "significant_component_count_span": 0
+      },
+      "stationary_regions": [
+        {
+          "name": "fixed-dress-legs-shoes",
+          "box_pixels": [
+            201,
+            263,
+            401,
+            608
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.0
+        }
+      ],
+      "gif": {
+        "path": "gifs/wildcard/wednesday-ing-offers.gif",
+        "exists": true,
+        "sha256": "649e207e1d565c9b1d83907571750de7aedc13a045fc900696679bcca7bbf3ce",
+        "bytes": 41349,
+        "size": [
+          256,
+          256
+        ],
+        "frame_count": 6,
+        "unique_phases": 4,
+        "equality_pattern": [
+          0,
+          1,
+          2,
+          3,
+          2,
+          1
+        ],
+        "durations_ms": [
+          210,
+          140,
+          140,
+          210,
+          140,
+          140
+        ],
+        "loop": 0,
+        "has_transparency": true,
+        "corner_alphas": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "alpha_bboxes": [
+          [
+            95,
+            27,
+            161,
+            229
+          ],
+          [
+            95,
+            27,
+            158,
+            229
+          ],
+          [
+            95,
+            27,
+            158,
+            229
+          ],
+          [
+            95,
+            27,
+            158,
+            229
+          ],
+          [
+            95,
+            27,
+            158,
+            229
+          ],
+          [
+            95,
+            27,
+            158,
+            229
+          ]
+        ],
+        "loop_closure_exact": true,
+        "contact": "qa/strict-repairs/pop-dance-hand-cleanup/report-independent-root/contacts/wednesday-ing-offers-gif-128.png"
+      },
+      "visual_evidence": {
+        "source_full_contact": "qa/strict-repairs/pop-dance-hand-cleanup/report-independent-root/contacts/wednesday-ing-offers-source-full.png",
+        "source_128_contact": "qa/strict-repairs/pop-dance-hand-cleanup/report-independent-root/contacts/wednesday-ing-offers-source-128.png"
+      },
+      "manual_review": {
+        "complete": true,
+        "signature_action_readable": true,
+        "stationary_elements_stable": true,
+        "loop_motion_natural": true,
+        "notes": "Independent review confirms exactly two hands in every frame and no sustained ghost hand; braids, collar, dress, legs and shoes remain stable with no redraw, crop, debris or shimmer."
+      },
+      "failures": [],
+      "warnings": [],
+      "passed": true
+    }
+  ]
+}

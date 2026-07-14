@@ -1,0 +1,90 @@
+{
+  "tyler-durdening-listings": {
+    "cells": [
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      }
+    ],
+    "signature_action_readable": true,
+    "stationary_elements_stable": true,
+    "loop_motion_natural": true,
+    "action_expectation": "Exactly two fists remain visible in every phase while the left jab retracts to guard and the right jab extends with only attached tapered motion marks; face, torso, pelvis, legs, crop, anchor, and scale remain fixed.",
+    "notes": "PASS after an independent re-audit of the corrected candidate. I inspected the full 1254px source contact, all four original 627px cells, every 128px cell, and all six decoded GIF phases. Every phase contains exactly two fists: left jab plus right guard, partial left retraction plus right guard, two-fist guard, then left guard plus right jab. Both extended fists remain continuously attached to their authored forearms and sleeves. The original guard-fist regions retain zero skin pixels after the one-time erase, so no third fist, residual arm, or rod remains. The restrained tapered motion marks sit behind the moving fist and do not read as detached anatomy or a rod at full size or 128px. Direct frame-to-immutable-plate comparison finds zero changed pixels outside the saved two-forearm mask. Face, torso core, pelvis, legs, shoes, crop, anchor, and scale remain byte-locked. No visible crop fault, green debris, redraw drift, or disconnected anatomy is present.",
+    "independent_audit": {
+      "verdict": "PASS",
+      "identity_reference": "assets/homie-loaders/references/listings.png",
+      "identity_reference_sha256": "15ffada285d822e22f3a8dd448b30bd94b79b2337a82a3a6a161a1833eafac0b",
+      "builder_sha256": "7a25bcd688442a36195c5f543600a0537832b1282a90778dc64c8cf0c35a75f1",
+      "immutable_alpha_sha256": "ba9e1e5fa3b1d65c9cbc7c9ecb404b493a95779a09cc7f5e49dd699233c360a5",
+      "source_sha256_rebuilt": "3f04d49bfeca9aa98c3aae199fbb98b8752e7c92b061fba4e451835e6df945b2",
+      "gif_sha256_rebuilt": "abfba32629dab614567f5c07444e85c75770f29528e566bd67c7ee7e521a6bf1",
+      "isolated_rebuild_byte_exact": true,
+      "byte_exact_rebuilt_artifacts": [
+        "sources/wildcard/tyler-durdening-listings.png",
+        "gifs/wildcard/tyler-durdening-listings.gif",
+        "frames/tyler-durdening-listings/immutable-generated-listings-plate.png",
+        "frames/tyler-durdening-listings/allowed-left-and-right-forearm-mask.png",
+        "frames/tyler-durdening-listings/cell-0.png",
+        "frames/tyler-durdening-listings/cell-1.png",
+        "frames/tyler-durdening-listings/cell-2.png",
+        "frames/tyler-durdening-listings/cell-3.png"
+      ],
+      "direct_changed_pixels_outside_allowed_mask_vs_immutable_plate": [0, 0, 0, 0],
+      "changed_pixels_vs_phase_0_full": [0, 2475, 2626, 5679],
+      "changed_pixels_vs_phase_0_at_128": [0, 220, 242, 488],
+      "motion_union_pixels": 6217,
+      "motion_union_bbox": [207, 135, 411, 216],
+      "retained_skin_pixels_in_original_guard_fist_rois": [0, 0],
+      "exactly_two_fists_each_phase_visual": true,
+      "attached_alternating_jabs_visual": true,
+      "visible_residual_fist_arm_or_rod": false,
+      "locked_region_hashes_unique": {
+        "face": 1,
+        "torso_core": 1,
+        "pelvis_legs_and_shoes": 1
+      },
+      "foreground_areas": [43910, 44630, 44770, 43530],
+      "alpha_bboxes": [
+        [207, 69, 413, 558],
+        [210, 69, 413, 558],
+        [212, 69, 413, 558],
+        [212, 69, 413, 558]
+      ],
+      "gif_frame_count": 6,
+      "gif_unique_phases": 4,
+      "gif_equality_pattern": [0, 1, 2, 3, 2, 1],
+      "gif_durations_ms": [210, 140, 140, 210, 140, 140],
+      "gif_loop": 0,
+      "mandatory_repair_notes": []
+    }
+  }
+}

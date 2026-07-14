@@ -1,0 +1,2237 @@
+{
+  "results": [
+    {
+      "slug": "rambo-ing-manager",
+      "concept": "The canonical male Manager Homie tightens a red commando headband in an ink-and-watercolour tactical costume.",
+      "action_expectation": "The two connected red cloth tails cinch and counter-swing around fixed hand contacts while the Manager face, hands, arms, torso, legs and feet remain fixed.",
+      "source": "/tmp/movie-style-canonical-six-final/sources/wildcard/rambo-ing-manager.png",
+      "source_sha256": "1f7efeae3fa6acba083d0ad96514a835a207ac138ab2160a03704563b357969f",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_mode": "RGB",
+      "grid": [
+        2,
+        2
+      ],
+      "key_geometry": {
+        "outer_edge_non_key_pixels": 0,
+        "gutter_axis_non_key_pixels": 0
+      },
+      "cells": [
+        {
+          "index": 0,
+          "sha256_rgb": "9b9346ec7d3fe1b2f5526eebfef61e3f2e399a064637705d35a838a68902ad44",
+          "foreground_pixels": 49368,
+          "foreground_pct": 12.5577,
+          "bbox": [
+            204,
+            65,
+            423,
+            562
+          ],
+          "margins": [
+            204,
+            204,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            313.026,
+            290.25
+          ],
+          "components": {
+            "count": 2,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 1,
+            "significant_floor": 99,
+            "areas": [
+              49352,
+              16
+            ],
+            "largest_area": 49352
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 1,
+          "sha256_rgb": "338edbd9b9d13504ac3792203c2faf978240e8e2cdd7638ece4eb2cd7dd37af8",
+          "foreground_pixels": 49303,
+          "foreground_pct": 12.5412,
+          "bbox": [
+            204,
+            65,
+            423,
+            562
+          ],
+          "margins": [
+            204,
+            204,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            313.03,
+            290.44
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 99,
+            "areas": [
+              49303
+            ],
+            "largest_area": 49303
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 2,
+          "sha256_rgb": "ae8b7c303317d757806130cd7a7fc3f25034a0f3c474eb43a52edfed263dd8b5",
+          "foreground_pixels": 49022,
+          "foreground_pct": 12.4697,
+          "bbox": [
+            204,
+            65,
+            423,
+            562
+          ],
+          "margins": [
+            204,
+            204,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            313.002,
+            291.003
+          ],
+          "components": {
+            "count": 2,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 1,
+            "significant_floor": 98,
+            "areas": [
+              49006,
+              16
+            ],
+            "largest_area": 49006
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 3,
+          "sha256_rgb": "f2c48b84f349bfcb3035024dff28e7b6f6a00a5e33d70d96625511cd27367df2",
+          "foreground_pixels": 49056,
+          "foreground_pct": 12.4783,
+          "bbox": [
+            204,
+            65,
+            423,
+            562
+          ],
+          "margins": [
+            204,
+            204,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            313.011,
+            290.976
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 98,
+            "areas": [
+              49056
+            ],
+            "largest_area": 49056
+          },
+          "artifact_flags": []
+        }
+      ],
+      "pair_metrics": [
+        {
+          "mask_xor_pct": 1.6185,
+          "silhouette_motion_p95_px": 7.0,
+          "silhouette_motion_max_px": 8.944,
+          "centroid_shift_px": 0.191,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9838,
+          "registered_residual_pct": 2.5232,
+          "upper_anchor_ncc": 0.9959
+        },
+        {
+          "mask_xor_pct": 1.2793,
+          "silhouette_motion_p95_px": 6.356,
+          "silhouette_motion_max_px": 12.0,
+          "centroid_shift_px": 0.563,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9872,
+          "registered_residual_pct": 2.7082,
+          "upper_anchor_ncc": 0.9895
+        },
+        {
+          "mask_xor_pct": 0.4882,
+          "silhouette_motion_p95_px": 3.03,
+          "silhouette_motion_max_px": 5.0,
+          "centroid_shift_px": 0.028,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9951,
+          "registered_residual_pct": 2.4512,
+          "upper_anchor_ncc": 0.9924
+        }
+      ],
+      "aggregate": {
+        "max_silhouette_motion_p95_px": 7.0,
+        "max_mask_xor_pct": 1.6185,
+        "max_centroid_shift_px": 0.563,
+        "max_registration_shift_px": 0.0,
+        "max_registered_residual_pct": 2.7082,
+        "minimum_upper_anchor_ncc": 0.9895,
+        "foreground_area_span_pct": 0.7035,
+        "bbox_width_span_pct": 0.0,
+        "bbox_height_span_pct": 0.0,
+        "significant_component_count_span": 0
+      },
+      "stationary_regions": [
+        {
+          "name": "fixed-manager-lower-body",
+          "box_pixels": [
+            0,
+            238,
+            627,
+            627
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.0
+        }
+      ],
+      "gif": {
+        "path": "/tmp/movie-style-canonical-six-final/gifs/wildcard/rambo-ing-manager.gif",
+        "exists": true,
+        "sha256": "e113e558e113b106b6af318149df3dd37263511ef2b249080052e8a78267f2b5",
+        "bytes": 46504,
+        "size": [
+          256,
+          256
+        ],
+        "frame_count": 6,
+        "unique_phases": 4,
+        "equality_pattern": [
+          0,
+          1,
+          2,
+          3,
+          2,
+          1
+        ],
+        "durations_ms": [
+          210,
+          140,
+          140,
+          210,
+          140,
+          140
+        ],
+        "loop": 0,
+        "has_transparency": true,
+        "corner_alphas": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "alpha_bboxes": [
+          [
+            83,
+            26,
+            173,
+            230
+          ],
+          [
+            83,
+            26,
+            173,
+            230
+          ],
+          [
+            83,
+            26,
+            173,
+            230
+          ],
+          [
+            83,
+            26,
+            173,
+            230
+          ],
+          [
+            83,
+            26,
+            173,
+            230
+          ],
+          [
+            83,
+            26,
+            173,
+            230
+          ]
+        ],
+        "loop_closure_exact": true,
+        "contact": "qa/strict-repairs/movie-style-canonical-six/report-final-candidate/contacts/rambo-ing-manager-gif-128.png"
+      },
+      "visual_evidence": {
+        "source_full_contact": "qa/strict-repairs/movie-style-canonical-six/report-final-candidate/contacts/rambo-ing-manager-source-full.png",
+        "source_128_contact": "qa/strict-repairs/movie-style-canonical-six/report-final-candidate/contacts/rambo-ing-manager-source-128.png"
+      },
+      "manual_review": {
+        "complete": true,
+        "signature_action_readable": true,
+        "stationary_elements_stable": true,
+        "loop_motion_natural": true,
+        "notes": "Full-size and 128px source/GIF contacts inspected. Exact Manager face, swept hair and slim ink/watercolour identity retained. The same single body plate is reused; only the connected red tail pixels move. No clay/3D styling, redraw, seam, ghost arm, debris, crop, palette shimmer or whole-body jiggle."
+      },
+      "failures": [],
+      "warnings": [],
+      "passed": true
+    },
+    {
+      "slug": "godfathering-reports",
+      "concept": "The canonical female Reports Homie adopts a composed formal crime-boss steeple pose in a black three-piece suit.",
+      "action_expectation": "One authored eyebrow lifts in a deliberate calculating loop while the Reports face, hair, steepled hands, suit, legs and feet remain fixed.",
+      "source": "/tmp/movie-style-canonical-six-final/sources/wildcard/godfathering-reports.png",
+      "source_sha256": "fd57dab93390d329a566960447f29057dc3cc5e3f6acac37dc75c254e65ce78d",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_mode": "RGB",
+      "grid": [
+        2,
+        2
+      ],
+      "key_geometry": {
+        "outer_edge_non_key_pixels": 0,
+        "gutter_axis_non_key_pixels": 0
+      },
+      "cells": [
+        {
+          "index": 0,
+          "sha256_rgb": "b0db72d275bfa4876252c6485515ab699a75edee82ce7b804cf30654b00f306a",
+          "foreground_pixels": 40906,
+          "foreground_pct": 10.4052,
+          "bbox": [
+            242,
+            65,
+            385,
+            562
+          ],
+          "margins": [
+            242,
+            242,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            314.181,
+            302.023
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 82,
+            "areas": [
+              40906
+            ],
+            "largest_area": 40906
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 1,
+          "sha256_rgb": "7a0276852accbc967fc010f68bde39a620f14afb5426220f3be1a3ce1b6dadae",
+          "foreground_pixels": 40906,
+          "foreground_pct": 10.4052,
+          "bbox": [
+            242,
+            65,
+            385,
+            562
+          ],
+          "margins": [
+            242,
+            242,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            314.181,
+            302.023
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 82,
+            "areas": [
+              40906
+            ],
+            "largest_area": 40906
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 2,
+          "sha256_rgb": "196d770e6ec93736aab20fe6732ecee32aa5e82e4d19f09f74308e99702b270b",
+          "foreground_pixels": 40906,
+          "foreground_pct": 10.4052,
+          "bbox": [
+            242,
+            65,
+            385,
+            562
+          ],
+          "margins": [
+            242,
+            242,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            314.181,
+            302.023
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 82,
+            "areas": [
+              40906
+            ],
+            "largest_area": 40906
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 3,
+          "sha256_rgb": "1cf6542a7a75cc532a2b623ab99ffeed0db9b5c622f9e6fd4357b97b07a35876",
+          "foreground_pixels": 40906,
+          "foreground_pct": 10.4052,
+          "bbox": [
+            242,
+            65,
+            385,
+            562
+          ],
+          "margins": [
+            242,
+            242,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            314.181,
+            302.023
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 82,
+            "areas": [
+              40906
+            ],
+            "largest_area": 40906
+          },
+          "artifact_flags": []
+        }
+      ],
+      "pair_metrics": [
+        {
+          "mask_xor_pct": 0.0,
+          "silhouette_motion_p95_px": 0.0,
+          "silhouette_motion_max_px": 0.0,
+          "centroid_shift_px": 0.0,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 1.0,
+          "registered_residual_pct": 0.2616,
+          "upper_anchor_ncc": 0.9966
+        },
+        {
+          "mask_xor_pct": 0.0,
+          "silhouette_motion_p95_px": 0.0,
+          "silhouette_motion_max_px": 0.0,
+          "centroid_shift_px": 0.0,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 1.0,
+          "registered_residual_pct": 0.3789,
+          "upper_anchor_ncc": 0.9908
+        },
+        {
+          "mask_xor_pct": 0.0,
+          "silhouette_motion_p95_px": 0.0,
+          "silhouette_motion_max_px": 0.0,
+          "centroid_shift_px": 0.0,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 1.0,
+          "registered_residual_pct": 0.3129,
+          "upper_anchor_ncc": 0.9922
+        }
+      ],
+      "aggregate": {
+        "max_silhouette_motion_p95_px": 0.0,
+        "max_mask_xor_pct": 0.0,
+        "max_centroid_shift_px": 0.0,
+        "max_registration_shift_px": 0.0,
+        "max_registered_residual_pct": 0.3789,
+        "minimum_upper_anchor_ncc": 0.9908,
+        "foreground_area_span_pct": 0.0,
+        "bbox_width_span_pct": 0.0,
+        "bbox_height_span_pct": 0.0,
+        "significant_component_count_span": 0
+      },
+      "stationary_regions": [
+        {
+          "name": "fixed-reports-body-below-brow",
+          "box_pixels": [
+            0,
+            125,
+            627,
+            627
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.0
+        },
+        {
+          "name": "fixed-reports-left-face-hair",
+          "box_pixels": [
+            125,
+            19,
+            301,
+            138
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.0
+        }
+      ],
+      "gif": {
+        "path": "/tmp/movie-style-canonical-six-final/gifs/wildcard/godfathering-reports.gif",
+        "exists": true,
+        "sha256": "483911296913f378f6b301c333af74792ee1a0a99a4089239d0fcef6c6334b87",
+        "bytes": 40040,
+        "size": [
+          256,
+          256
+        ],
+        "frame_count": 6,
+        "unique_phases": 4,
+        "equality_pattern": [
+          0,
+          1,
+          2,
+          3,
+          2,
+          1
+        ],
+        "durations_ms": [
+          210,
+          140,
+          140,
+          210,
+          140,
+          140
+        ],
+        "loop": 0,
+        "has_transparency": true,
+        "corner_alphas": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "alpha_bboxes": [
+          [
+            99,
+            26,
+            157,
+            230
+          ],
+          [
+            99,
+            26,
+            157,
+            230
+          ],
+          [
+            99,
+            26,
+            157,
+            230
+          ],
+          [
+            99,
+            26,
+            157,
+            230
+          ],
+          [
+            99,
+            26,
+            157,
+            230
+          ],
+          [
+            99,
+            26,
+            157,
+            230
+          ]
+        ],
+        "loop_closure_exact": true,
+        "contact": "qa/strict-repairs/movie-style-canonical-six/report-final-candidate/contacts/godfathering-reports-gif-128.png"
+      },
+      "visual_evidence": {
+        "source_full_contact": "qa/strict-repairs/movie-style-canonical-six/report-final-candidate/contacts/godfathering-reports-source-full.png",
+        "source_128_contact": "qa/strict-repairs/movie-style-canonical-six/report-final-candidate/contacts/godfathering-reports-source-128.png"
+      },
+      "manual_review": {
+        "complete": true,
+        "signature_action_readable": true,
+        "stationary_elements_stable": true,
+        "loop_motion_natural": true,
+        "notes": "Female Reports face, long dark hair, adult proportions and editorial ink/watercolour treatment are retained. The steeple pose supplies the joke; one local eyebrow patch makes the deliberate loop. The full body and hands remain exact with no redraw, drift, seams, debris or crop."
+      },
+      "failures": [],
+      "warnings": [],
+      "passed": true
+    },
+    {
+      "slug": "pulp-fictioning-reports",
+      "concept": "The canonical female Reports Homie wears a black bob and black-and-white twist-dance suit.",
+      "action_expectation": "The two connected distal forearms counter-rotate around fixed elbows over one bent-knee dance plate; the Reports face, bob, torso, pelvis, legs and shoes remain fixed.",
+      "source": "/tmp/movie-style-canonical-six-final/sources/wildcard/pulp-fictioning-reports.png",
+      "source_sha256": "a8ee778abe1ca338c5be0e9d01f9c1296abd9eeaf96e10a2b546728ab692672a",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_mode": "RGB",
+      "grid": [
+        2,
+        2
+      ],
+      "key_geometry": {
+        "outer_edge_non_key_pixels": 0,
+        "gutter_axis_non_key_pixels": 0
+      },
+      "cells": [
+        {
+          "index": 0,
+          "sha256_rgb": "f1bcbcba830a1b821fe41aa5595309761694a030e2c3eb74bc3ed7a82ed9356b",
+          "foreground_pixels": 50954,
+          "foreground_pct": 12.9611,
+          "bbox": [
+            156,
+            65,
+            456,
+            562
+          ],
+          "margins": [
+            156,
+            171,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            324.666,
+            295.552
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 102,
+            "areas": [
+              50954
+            ],
+            "largest_area": 50954
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 1,
+          "sha256_rgb": "bd5cadef2c50616b4fa6ebbfe7dc63998bc107427285d211a22f136ae2e42668",
+          "foreground_pixels": 50978,
+          "foreground_pct": 12.9672,
+          "bbox": [
+            163,
+            65,
+            459,
+            562
+          ],
+          "margins": [
+            163,
+            168,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            324.938,
+            295.7
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 102,
+            "areas": [
+              50978
+            ],
+            "largest_area": 50978
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 2,
+          "sha256_rgb": "e3368bf3fd75ffced2ee7eb67bfafe6a04eebff471ce3524efd39848c4954b63",
+          "foreground_pixels": 51380,
+          "foreground_pct": 13.0695,
+          "bbox": [
+            172,
+            65,
+            470,
+            562
+          ],
+          "margins": [
+            172,
+            157,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            326.404,
+            294.844
+          ],
+          "components": {
+            "count": 2,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 1,
+            "significant_floor": 103,
+            "areas": [
+              51358,
+              22
+            ],
+            "largest_area": 51358
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 3,
+          "sha256_rgb": "511383b0a14f73fbf99d4b5b198bb26a84e6dc400b1c912182d763f71bd15e5b",
+          "foreground_pixels": 51129,
+          "foreground_pct": 13.0057,
+          "bbox": [
+            169,
+            65,
+            464,
+            562
+          ],
+          "margins": [
+            169,
+            163,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            325.572,
+            295.369
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 102,
+            "areas": [
+              51129
+            ],
+            "largest_area": 51129
+          },
+          "artifact_flags": []
+        }
+      ],
+      "pair_metrics": [
+        {
+          "mask_xor_pct": 3.4515,
+          "silhouette_motion_p95_px": 7.148,
+          "silhouette_motion_max_px": 13.454,
+          "centroid_shift_px": 0.31,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9655,
+          "registered_residual_pct": 6.8433,
+          "upper_anchor_ncc": 0.9997
+        },
+        {
+          "mask_xor_pct": 5.0918,
+          "silhouette_motion_p95_px": 11.402,
+          "silhouette_motion_max_px": 14.866,
+          "centroid_shift_px": 1.698,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9491,
+          "registered_residual_pct": 8.6869,
+          "upper_anchor_ncc": 1.0
+        },
+        {
+          "mask_xor_pct": 3.0491,
+          "silhouette_motion_p95_px": 7.071,
+          "silhouette_motion_max_px": 9.849,
+          "centroid_shift_px": 0.983,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9695,
+          "registered_residual_pct": 6.6746,
+          "upper_anchor_ncc": 1.0
+        }
+      ],
+      "aggregate": {
+        "max_silhouette_motion_p95_px": 11.402,
+        "max_mask_xor_pct": 5.0918,
+        "max_centroid_shift_px": 1.698,
+        "max_registration_shift_px": 0.0,
+        "max_registered_residual_pct": 8.6869,
+        "minimum_upper_anchor_ncc": 0.9997,
+        "foreground_area_span_pct": 0.8344,
+        "bbox_width_span_pct": 1.6835,
+        "bbox_height_span_pct": 0.0,
+        "significant_component_count_span": 0
+      },
+      "stationary_regions": [
+        {
+          "name": "fixed-reports-dance-lower-body",
+          "box_pixels": [
+            0,
+            295,
+            627,
+            627
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.0
+        },
+        {
+          "name": "fixed-reports-bob-face-and-torso",
+          "box_pixels": [
+            288,
+            31,
+            339,
+            238
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.0
+        }
+      ],
+      "gif": {
+        "path": "/tmp/movie-style-canonical-six-final/gifs/wildcard/pulp-fictioning-reports.gif",
+        "exists": true,
+        "sha256": "63c1f929f6b5bfd4b66dd8ff06795cbeb419f145270c1f0bc3113986a653b78a",
+        "bytes": 49952,
+        "size": [
+          256,
+          256
+        ],
+        "frame_count": 6,
+        "unique_phases": 4,
+        "equality_pattern": [
+          0,
+          1,
+          2,
+          3,
+          2,
+          1
+        ],
+        "durations_ms": [
+          210,
+          140,
+          140,
+          210,
+          140,
+          140
+        ],
+        "loop": 0,
+        "has_transparency": true,
+        "corner_alphas": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "alpha_bboxes": [
+          [
+            64,
+            27,
+            186,
+            229
+          ],
+          [
+            67,
+            27,
+            187,
+            229
+          ],
+          [
+            70,
+            27,
+            192,
+            229
+          ],
+          [
+            69,
+            27,
+            189,
+            229
+          ],
+          [
+            70,
+            27,
+            192,
+            229
+          ],
+          [
+            67,
+            27,
+            187,
+            229
+          ]
+        ],
+        "loop_closure_exact": true,
+        "contact": "qa/strict-repairs/movie-style-canonical-six/report-final-candidate/contacts/pulp-fictioning-reports-gif-128.png"
+      },
+      "visual_evidence": {
+        "source_full_contact": "qa/strict-repairs/movie-style-canonical-six/report-final-candidate/contacts/pulp-fictioning-reports-source-full.png",
+        "source_128_contact": "qa/strict-repairs/movie-style-canonical-six/report-final-candidate/contacts/pulp-fictioning-reports-source-128.png"
+      },
+      "manual_review": {
+        "complete": true,
+        "signature_action_readable": true,
+        "stationary_elements_stable": true,
+        "loop_motion_natural": true,
+        "notes": "The black bob is a costume, while the canonical female Reports face, proportions and ink/wash medium stay recognizable. Both connected forearms articulate in opposite directions for a readable twist gesture; face, bob, torso, pelvis, legs and shoes are exact across all phases. Fixed elbow overlaps prevent holes or duplicate limbs. No morph, camera motion, debris, crop or shimmer."
+      },
+      "failures": [],
+      "warnings": [
+        "BBOX_SCALE_OR_PROP_JUMP"
+      ],
+      "passed": true
+    },
+    {
+      "slug": "waynes-worlding-content",
+      "concept": "The canonical male Content Homie headbangs in a backward cap, black tee and ripped jeans while holding an air-guitar stance.",
+      "action_expectation": "One rigid Content head-and-cap layer rocks around a fixed neck pivot; shirt, hands, hips, legs and feet remain pixel-stable.",
+      "source": "/tmp/movie-style-canonical-six-final/sources/wildcard/waynes-worlding-content.png",
+      "source_sha256": "4731e0908ec354e9bfd29cb2d31e10d199bdcd830b5c2f25bd965943887803c5",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_mode": "RGB",
+      "grid": [
+        2,
+        2
+      ],
+      "key_geometry": {
+        "outer_edge_non_key_pixels": 0,
+        "gutter_axis_non_key_pixels": 0
+      },
+      "cells": [
+        {
+          "index": 0,
+          "sha256_rgb": "f4b15303fdc737efee0e9c4a751aca5d31ae0f6778f1f51704afee20710479da",
+          "foreground_pixels": 52236,
+          "foreground_pct": 13.2872,
+          "bbox": [
+            164,
+            67,
+            463,
+            562
+          ],
+          "margins": [
+            164,
+            164,
+            67,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            303.351,
+            306.24
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 104,
+            "areas": [
+              52236
+            ],
+            "largest_area": 52236
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 1,
+          "sha256_rgb": "a23d906be5dcde41a9ed93d3ceeec98c305d47fd66f3fec1b1934f5866959d51",
+          "foreground_pixels": 52282,
+          "foreground_pct": 13.2989,
+          "bbox": [
+            164,
+            66,
+            463,
+            562
+          ],
+          "margins": [
+            164,
+            164,
+            66,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            303.124,
+            306.038
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 105,
+            "areas": [
+              52282
+            ],
+            "largest_area": 52282
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 2,
+          "sha256_rgb": "37440e0df508e1de1f22826b9a233b831dd80f68f19c10dd6ce7f1b335a6ec19",
+          "foreground_pixels": 52335,
+          "foreground_pct": 13.3124,
+          "bbox": [
+            164,
+            66,
+            463,
+            562
+          ],
+          "margins": [
+            164,
+            164,
+            66,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            302.709,
+            305.851
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 105,
+            "areas": [
+              52335
+            ],
+            "largest_area": 52335
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 3,
+          "sha256_rgb": "6fd269adf8b69bce71eea2d2de26177adfc4f67c6f7f213f279c622d7d5bf461",
+          "foreground_pixels": 52298,
+          "foreground_pct": 13.303,
+          "bbox": [
+            164,
+            66,
+            463,
+            562
+          ],
+          "margins": [
+            164,
+            164,
+            66,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            302.887,
+            305.993
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 105,
+            "areas": [
+              52298
+            ],
+            "largest_area": 52298
+          },
+          "artifact_flags": []
+        }
+      ],
+      "pair_metrics": [
+        {
+          "mask_xor_pct": 0.8991,
+          "silhouette_motion_p95_px": 3.362,
+          "silhouette_motion_max_px": 4.0,
+          "centroid_shift_px": 0.304,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.991,
+          "registered_residual_pct": 5.3415,
+          "upper_anchor_ncc": 0.8907
+        },
+        {
+          "mask_xor_pct": 1.6476,
+          "silhouette_motion_p95_px": 6.0,
+          "silhouette_motion_max_px": 7.0,
+          "centroid_shift_px": 0.455,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9835,
+          "registered_residual_pct": 6.708,
+          "upper_anchor_ncc": 0.8446
+        },
+        {
+          "mask_xor_pct": 0.7104,
+          "silhouette_motion_p95_px": 3.0,
+          "silhouette_motion_max_px": 3.162,
+          "centroid_shift_px": 0.227,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9929,
+          "registered_residual_pct": 4.9673,
+          "upper_anchor_ncc": 0.9119
+        }
+      ],
+      "aggregate": {
+        "max_silhouette_motion_p95_px": 6.0,
+        "max_mask_xor_pct": 1.6476,
+        "max_centroid_shift_px": 0.455,
+        "max_registration_shift_px": 0.0,
+        "max_registered_residual_pct": 6.708,
+        "minimum_upper_anchor_ncc": 0.8446,
+        "foreground_area_span_pct": 0.1893,
+        "bbox_width_span_pct": 0.0,
+        "bbox_height_span_pct": 0.2016,
+        "significant_component_count_span": 0
+      },
+      "stationary_regions": [
+        {
+          "name": "fixed-content-body-below-neck",
+          "box_pixels": [
+            0,
+            194,
+            627,
+            627
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.0
+        },
+        {
+          "name": "fixed-content-air-guitar-arm",
+          "box_pixels": [
+            364,
+            113,
+            627,
+            314
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.0
+        }
+      ],
+      "gif": {
+        "path": "/tmp/movie-style-canonical-six-final/gifs/wildcard/waynes-worlding-content.gif",
+        "exists": true,
+        "sha256": "fe7add48a0d6851433c8f285e8c150b2f6332c7f732fb13c98a1320682c299da",
+        "bytes": 45843,
+        "size": [
+          256,
+          256
+        ],
+        "frame_count": 6,
+        "unique_phases": 4,
+        "equality_pattern": [
+          0,
+          1,
+          2,
+          3,
+          2,
+          1
+        ],
+        "durations_ms": [
+          210,
+          140,
+          140,
+          210,
+          140,
+          140
+        ],
+        "loop": 0,
+        "has_transparency": true,
+        "corner_alphas": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "alpha_bboxes": [
+          [
+            67,
+            27,
+            189,
+            229
+          ],
+          [
+            67,
+            27,
+            189,
+            229
+          ],
+          [
+            67,
+            27,
+            189,
+            229
+          ],
+          [
+            67,
+            27,
+            189,
+            229
+          ],
+          [
+            67,
+            27,
+            189,
+            229
+          ],
+          [
+            67,
+            27,
+            189,
+            229
+          ]
+        ],
+        "loop_closure_exact": true,
+        "contact": "qa/strict-repairs/movie-style-canonical-six/report-final-candidate/contacts/waynes-worlding-content-gif-128.png"
+      },
+      "visual_evidence": {
+        "source_full_contact": "qa/strict-repairs/movie-style-canonical-six/report-final-candidate/contacts/waynes-worlding-content-source-full.png",
+        "source_128_contact": "qa/strict-repairs/movie-style-canonical-six/report-final-candidate/contacts/waynes-worlding-content-source-128.png"
+      },
+      "manual_review": {
+        "complete": true,
+        "signature_action_readable": true,
+        "stationary_elements_stable": true,
+        "loop_motion_natural": true,
+        "notes": "Exact Content face, skin tone, short black hair and slim 2D ink/watercolour character system retained. The head/cap is one rigid layer; shirt, arms, hands, pelvis, legs and shoes never move. Joint overlap inspected at full size and 128px with no neck hole, duplicate head, redraw wiggle or palette shimmer."
+      },
+      "failures": [],
+      "warnings": [],
+      "passed": true
+    },
+    {
+      "slug": "bill-and-ted-ing-crm",
+      "concept": "The canonical bald male CRM Homie air-guitars in a denim vest, burgundy tee, plaid waist shirt and mismatched high-tops.",
+      "action_expectation": "Only the connected fretting forearm rotates around one fixed elbow; CRM face, bald head, torso, other hand, hips, legs and shoes remain fixed.",
+      "source": "/tmp/movie-style-canonical-six-final/sources/wildcard/bill-and-ted-ing-crm.png",
+      "source_sha256": "245f304fd6051e6f61c727e6e9952e275568b7037961dae1ecfdb611e93f6291",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_mode": "RGB",
+      "grid": [
+        2,
+        2
+      ],
+      "key_geometry": {
+        "outer_edge_non_key_pixels": 0,
+        "gutter_axis_non_key_pixels": 0
+      },
+      "cells": [
+        {
+          "index": 0,
+          "sha256_rgb": "c1ee7beaa9d596f54d11f46bc3b0809a051919d7901780eb2d0837af0d25f4ca",
+          "foreground_pixels": 53554,
+          "foreground_pct": 13.6225,
+          "bbox": [
+            172,
+            64,
+            454,
+            563
+          ],
+          "margins": [
+            172,
+            173,
+            64,
+            64
+          ],
+          "minimum_margin": 64,
+          "centroid": [
+            302.279,
+            301.92
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 107,
+            "areas": [
+              53554
+            ],
+            "largest_area": 53554
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 1,
+          "sha256_rgb": "8cf66da0b8a8c0b14d4d0ff266088a1a401ee02472035d4349bbad07e8e08726",
+          "foreground_pixels": 53431,
+          "foreground_pct": 13.5912,
+          "bbox": [
+            172,
+            64,
+            450,
+            563
+          ],
+          "margins": [
+            172,
+            177,
+            64,
+            64
+          ],
+          "minimum_margin": 64,
+          "centroid": [
+            301.966,
+            302.118
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 107,
+            "areas": [
+              53431
+            ],
+            "largest_area": 53431
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 2,
+          "sha256_rgb": "2e99ac5250619216b02b18bc7ead8ea0afa0763bcf2d7d46df22f6891d19e67c",
+          "foreground_pixels": 53163,
+          "foreground_pct": 13.523,
+          "bbox": [
+            172,
+            64,
+            443,
+            563
+          ],
+          "margins": [
+            172,
+            184,
+            64,
+            64
+          ],
+          "minimum_margin": 64,
+          "centroid": [
+            301.249,
+            302.66
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 106,
+            "areas": [
+              53163
+            ],
+            "largest_area": 53163
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 3,
+          "sha256_rgb": "b7b00ff0546278f51d8c0b633e88814fa2d24abf420f7de108008e6b152b5522",
+          "foreground_pixels": 53270,
+          "foreground_pct": 13.5503,
+          "bbox": [
+            172,
+            64,
+            447,
+            563
+          ],
+          "margins": [
+            172,
+            180,
+            64,
+            64
+          ],
+          "minimum_margin": 64,
+          "centroid": [
+            301.547,
+            302.465
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 107,
+            "areas": [
+              53270
+            ],
+            "largest_area": 53270
+          },
+          "artifact_flags": []
+        }
+      ],
+      "pair_metrics": [
+        {
+          "mask_xor_pct": 1.2503,
+          "silhouette_motion_p95_px": 5.657,
+          "silhouette_motion_max_px": 7.211,
+          "centroid_shift_px": 0.37,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9875,
+          "registered_residual_pct": 2.547,
+          "upper_anchor_ncc": 0.994
+        },
+        {
+          "mask_xor_pct": 2.0024,
+          "silhouette_motion_p95_px": 9.849,
+          "silhouette_motion_max_px": 12.083,
+          "centroid_shift_px": 0.9,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.98,
+          "registered_residual_pct": 3.4531,
+          "upper_anchor_ncc": 0.9944
+        },
+        {
+          "mask_xor_pct": 1.201,
+          "silhouette_motion_p95_px": 5.657,
+          "silhouette_motion_max_px": 7.071,
+          "centroid_shift_px": 0.357,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.988,
+          "registered_residual_pct": 2.6299,
+          "upper_anchor_ncc": 0.9969
+        }
+      ],
+      "aggregate": {
+        "max_silhouette_motion_p95_px": 9.849,
+        "max_mask_xor_pct": 2.0024,
+        "max_centroid_shift_px": 0.9,
+        "max_registration_shift_px": 0.0,
+        "max_registered_residual_pct": 3.4531,
+        "minimum_upper_anchor_ncc": 0.994,
+        "foreground_area_span_pct": 0.7329,
+        "bbox_width_span_pct": 3.9783,
+        "bbox_height_span_pct": 0.0,
+        "significant_component_count_span": 0
+      },
+      "stationary_regions": [
+        {
+          "name": "fixed-crm-face-torso-left-core",
+          "box_pixels": [
+            0,
+            13,
+            314,
+            451
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.0
+        },
+        {
+          "name": "fixed-crm-lower-body",
+          "box_pixels": [
+            0,
+            314,
+            627,
+            627
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.0
+        }
+      ],
+      "gif": {
+        "path": "/tmp/movie-style-canonical-six-final/gifs/wildcard/bill-and-ted-ing-crm.gif",
+        "exists": true,
+        "sha256": "026f44cba63cf23f9db647dba563d10827a8c2ff77830147107583472ffaac2e",
+        "bytes": 50206,
+        "size": [
+          256,
+          256
+        ],
+        "frame_count": 6,
+        "unique_phases": 4,
+        "equality_pattern": [
+          0,
+          1,
+          2,
+          3,
+          2,
+          1
+        ],
+        "durations_ms": [
+          210,
+          140,
+          140,
+          210,
+          140,
+          140
+        ],
+        "loop": 0,
+        "has_transparency": true,
+        "corner_alphas": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "alpha_bboxes": [
+          [
+            70,
+            26,
+            185,
+            230
+          ],
+          [
+            70,
+            26,
+            184,
+            230
+          ],
+          [
+            70,
+            26,
+            180,
+            230
+          ],
+          [
+            70,
+            26,
+            182,
+            230
+          ],
+          [
+            70,
+            26,
+            180,
+            230
+          ],
+          [
+            70,
+            26,
+            184,
+            230
+          ]
+        ],
+        "loop_closure_exact": true,
+        "contact": "qa/strict-repairs/movie-style-canonical-six/report-final-candidate/contacts/bill-and-ted-ing-crm-gif-128.png"
+      },
+      "visual_evidence": {
+        "source_full_contact": "qa/strict-repairs/movie-style-canonical-six/report-final-candidate/contacts/bill-and-ted-ing-crm-source-full.png",
+        "source_128_contact": "qa/strict-repairs/movie-style-canonical-six/report-final-candidate/contacts/bill-and-ted-ing-crm-source-128.png"
+      },
+      "manual_review": {
+        "complete": true,
+        "signature_action_readable": true,
+        "stationary_elements_stable": true,
+        "loop_motion_natural": true,
+        "notes": "Exact bald CRM face, smile, skin tone and tall ink/watercolour proportions retained. One forearm rotates rigidly at a fixed elbow cap; the other hand, head, torso, plaid waist shirt, legs and mismatched shoes remain exact. No broken elbow, extra hand, redraw, debris, crop or jitter."
+      },
+      "failures": [],
+      "warnings": [],
+      "passed": true
+    },
+    {
+      "slug": "robocopping-offers",
+      "concept": "The canonical female Offers Homie wears a hand-inked silver cyborg-police costume with her face and signature bun visible.",
+      "action_expectation": "The raised arm makes one mechanical servo sweep and the red visor scanner pulses; Offers face, bun, armour core, other arm, legs and boots remain fixed.",
+      "source": "/tmp/movie-style-canonical-six-final/sources/wildcard/robocopping-offers.png",
+      "source_sha256": "095c003b4b2bba6890cb4469654453cab8acfd21c01167b440d54ec3b96d6325",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_mode": "RGB",
+      "grid": [
+        2,
+        2
+      ],
+      "key_geometry": {
+        "outer_edge_non_key_pixels": 0,
+        "gutter_axis_non_key_pixels": 0
+      },
+      "cells": [
+        {
+          "index": 0,
+          "sha256_rgb": "6a3c2e42eabd3213909422b6dfa9f8090a83a4f72b26b2f3714b7194de3a6ff1",
+          "foreground_pixels": 39677,
+          "foreground_pct": 10.0926,
+          "bbox": [
+            239,
+            64,
+            396,
+            563
+          ],
+          "margins": [
+            239,
+            231,
+            64,
+            64
+          ],
+          "minimum_margin": 64,
+          "centroid": [
+            325.079,
+            298.555
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 79,
+            "areas": [
+              39677
+            ],
+            "largest_area": 39677
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 1,
+          "sha256_rgb": "74e6389f95a4928a8c6979c59746ace053ce74d668f6af8e79d8ac80212647b2",
+          "foreground_pixels": 39754,
+          "foreground_pct": 10.1122,
+          "bbox": [
+            238,
+            64,
+            396,
+            563
+          ],
+          "margins": [
+            238,
+            231,
+            64,
+            64
+          ],
+          "minimum_margin": 64,
+          "centroid": [
+            324.739,
+            298.369
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 80,
+            "areas": [
+              39754
+            ],
+            "largest_area": 39754
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 2,
+          "sha256_rgb": "993c3c26bf69718c49573d2ff88263420cdd7096e390cd1321f188261b12e6d6",
+          "foreground_pixels": 39985,
+          "foreground_pct": 10.171,
+          "bbox": [
+            231,
+            64,
+            396,
+            563
+          ],
+          "margins": [
+            231,
+            231,
+            64,
+            64
+          ],
+          "minimum_margin": 64,
+          "centroid": [
+            323.965,
+            297.85
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 80,
+            "areas": [
+              39985
+            ],
+            "largest_area": 39985
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 3,
+          "sha256_rgb": "c914df8c92a78edf28a86138ecdbbd89ca23402315a7a0990bc40b38957127a6",
+          "foreground_pixels": 39876,
+          "foreground_pct": 10.1432,
+          "bbox": [
+            236,
+            64,
+            396,
+            563
+          ],
+          "margins": [
+            236,
+            231,
+            64,
+            64
+          ],
+          "minimum_margin": 64,
+          "centroid": [
+            324.367,
+            298.07
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 80,
+            "areas": [
+              39876
+            ],
+            "largest_area": 39876
+          },
+          "artifact_flags": []
+        }
+      ],
+      "pair_metrics": [
+        {
+          "mask_xor_pct": 2.0362,
+          "silhouette_motion_p95_px": 6.403,
+          "silhouette_motion_max_px": 8.0,
+          "centroid_shift_px": 0.387,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9796,
+          "registered_residual_pct": 7.1528,
+          "upper_anchor_ncc": 0.9976
+        },
+        {
+          "mask_xor_pct": 3.758,
+          "silhouette_motion_p95_px": 11.692,
+          "silhouette_motion_max_px": 14.036,
+          "centroid_shift_px": 0.932,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9624,
+          "registered_residual_pct": 8.2765,
+          "upper_anchor_ncc": 0.9977
+        },
+        {
+          "mask_xor_pct": 2.2949,
+          "silhouette_motion_p95_px": 6.325,
+          "silhouette_motion_max_px": 8.246,
+          "centroid_shift_px": 0.459,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9771,
+          "registered_residual_pct": 7.1545,
+          "upper_anchor_ncc": 0.9975
+        }
+      ],
+      "aggregate": {
+        "max_silhouette_motion_p95_px": 11.692,
+        "max_mask_xor_pct": 3.758,
+        "max_centroid_shift_px": 0.932,
+        "max_registration_shift_px": 0.0,
+        "max_registered_residual_pct": 8.2765,
+        "minimum_upper_anchor_ncc": 0.9975,
+        "foreground_area_span_pct": 0.7736,
+        "bbox_width_span_pct": 5.0314,
+        "bbox_height_span_pct": 0.0,
+        "significant_component_count_span": 0
+      },
+      "stationary_regions": [
+        {
+          "name": "fixed-offers-armour-core-right-side",
+          "box_pixels": [
+            345,
+            138,
+            627,
+            627
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.0
+        },
+        {
+          "name": "fixed-offers-lower-body",
+          "box_pixels": [
+            0,
+            314,
+            627,
+            627
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.0
+        }
+      ],
+      "gif": {
+        "path": "/tmp/movie-style-canonical-six-final/gifs/wildcard/robocopping-offers.gif",
+        "exists": true,
+        "sha256": "03f3bf384bd09379177ebc833a8e2de6a0df834d5aca5bd2bc2cd61723623a69",
+        "bytes": 48103,
+        "size": [
+          256,
+          256
+        ],
+        "frame_count": 6,
+        "unique_phases": 4,
+        "equality_pattern": [
+          0,
+          1,
+          2,
+          3,
+          2,
+          1
+        ],
+        "durations_ms": [
+          210,
+          140,
+          140,
+          210,
+          140,
+          140
+        ],
+        "loop": 0,
+        "has_transparency": true,
+        "corner_alphas": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "alpha_bboxes": [
+          [
+            98,
+            26,
+            162,
+            230
+          ],
+          [
+            97,
+            26,
+            162,
+            230
+          ],
+          [
+            95,
+            26,
+            162,
+            230
+          ],
+          [
+            97,
+            26,
+            162,
+            230
+          ],
+          [
+            95,
+            26,
+            162,
+            230
+          ],
+          [
+            97,
+            26,
+            162,
+            230
+          ]
+        ],
+        "loop_closure_exact": true,
+        "contact": "qa/strict-repairs/movie-style-canonical-six/report-final-candidate/contacts/robocopping-offers-gif-128.png"
+      },
+      "visual_evidence": {
+        "source_full_contact": "qa/strict-repairs/movie-style-canonical-six/report-final-candidate/contacts/robocopping-offers-source-full.png",
+        "source_128_contact": "qa/strict-repairs/movie-style-canonical-six/report-final-candidate/contacts/robocopping-offers-source-128.png"
+      },
+      "manual_review": {
+        "complete": true,
+        "signature_action_readable": true,
+        "stationary_elements_stable": true,
+        "loop_motion_natural": true,
+        "notes": "The loader clearly reads as the female Offers Homie wearing armour, not a replacement robot: face, warm colouring and signature bun remain visible in the original ink/watercolour system. One forearm rotates around a fixed circular elbow cap and the red scanner dot moves. Armour core, other arm, hips, legs and boots remain exact. The chroma cleanup removed the raw four-pixel speck; no debris, seam, morph, crop or shimmer remains."
+      },
+      "failures": [],
+      "warnings": [],
+      "passed": true
+    }
+  ]
+}

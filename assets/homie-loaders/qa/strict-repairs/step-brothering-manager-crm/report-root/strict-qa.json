@@ -1,0 +1,385 @@
+{
+  "results": [
+    {
+      "slug": "step-brothering-manager-crm",
+      "concept": "Manager and CRM Homies recreate the awkward two-brother studio portrait while a camera flash pulses beside them.",
+      "action_expectation": "The two male Homies, their two stacked shoulder hands, blue shirts, complementary argyle vests and portrait frame stay perfectly fixed while only the upper-right camera flash changes size.",
+      "source": "qa/strict-repairs/step-brothering-manager-crm/candidates/sources/wildcard/step-brothering-manager-crm.png",
+      "source_sha256": "c47b0a903d083ae013b83cf04047c749b4abe30c583676197fa183187322bddf",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_mode": "RGB",
+      "grid": [
+        2,
+        2
+      ],
+      "key_geometry": {
+        "outer_edge_non_key_pixels": 0,
+        "gutter_axis_non_key_pixels": 0
+      },
+      "cells": [
+        {
+          "index": 0,
+          "sha256_rgb": "0f94e624092dd171f3810d2b35b4ddc135abb20f21fc20c12c7e4d271f43d901",
+          "foreground_pixels": 149125,
+          "foreground_pct": 37.9328,
+          "bbox": [
+            72,
+            60,
+            556,
+            567
+          ],
+          "margins": [
+            72,
+            71,
+            60,
+            60
+          ],
+          "minimum_margin": 60,
+          "centroid": [
+            303.346,
+            362.826
+          ],
+          "components": {
+            "count": 2,
+            "significant_count": 2,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 298,
+            "areas": [
+              148206,
+              919
+            ],
+            "largest_area": 148206
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 1,
+          "sha256_rgb": "56b07fb06f5659915de73ebb706b0112a6b9fddbf6268b33c8f860624d129155",
+          "foreground_pixels": 149864,
+          "foreground_pct": 38.1208,
+          "bbox": [
+            72,
+            60,
+            556,
+            567
+          ],
+          "margins": [
+            72,
+            71,
+            60,
+            60
+          ],
+          "minimum_margin": 60,
+          "centroid": [
+            304.267,
+            361.718
+          ],
+          "components": {
+            "count": 3,
+            "significant_count": 2,
+            "tiny_count": 0,
+            "small_count": 1,
+            "significant_floor": 300,
+            "areas": [
+              148461,
+              1136,
+              267
+            ],
+            "largest_area": 148461
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 2,
+          "sha256_rgb": "9628f69bc8cf9af685c2c38920b8ec4a915c75e6473b445acd6a9a9c4afd741a",
+          "foreground_pixels": 150893,
+          "foreground_pct": 38.3826,
+          "bbox": [
+            72,
+            60,
+            561,
+            567
+          ],
+          "margins": [
+            72,
+            66,
+            60,
+            60
+          ],
+          "minimum_margin": 60,
+          "centroid": [
+            305.485,
+            360.21
+          ],
+          "components": {
+            "count": 3,
+            "significant_count": 3,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 302,
+            "areas": [
+              148417,
+              2104,
+              372
+            ],
+            "largest_area": 148417
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 3,
+          "sha256_rgb": "ff0cb14e5963b69d6c6cf9736b64dc4756a274ef288bf16ce8221eb012f9b357",
+          "foreground_pixels": 150088,
+          "foreground_pct": 38.1778,
+          "bbox": [
+            72,
+            60,
+            556,
+            567
+          ],
+          "margins": [
+            72,
+            71,
+            60,
+            60
+          ],
+          "minimum_margin": 60,
+          "centroid": [
+            304.528,
+            361.386
+          ],
+          "components": {
+            "count": 3,
+            "significant_count": 2,
+            "tiny_count": 0,
+            "small_count": 1,
+            "significant_floor": 300,
+            "areas": [
+              148443,
+              1359,
+              286
+            ],
+            "largest_area": 148443
+          },
+          "artifact_flags": []
+        }
+      ],
+      "pair_metrics": [
+        {
+          "mask_xor_pct": 0.6355,
+          "silhouette_motion_p95_px": 15.716,
+          "silhouette_motion_max_px": 21.954,
+          "centroid_shift_px": 1.441,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9936,
+          "registered_residual_pct": 1.0295,
+          "upper_anchor_ncc": 1.0
+        },
+        {
+          "mask_xor_pct": 0.8865,
+          "silhouette_motion_p95_px": 13.42,
+          "silhouette_motion_max_px": 18.788,
+          "centroid_shift_px": 1.938,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9911,
+          "registered_residual_pct": 1.6154,
+          "upper_anchor_ncc": 1.0
+        },
+        {
+          "mask_xor_pct": 0.6907,
+          "silhouette_motion_p95_px": 11.636,
+          "silhouette_motion_max_px": 17.0,
+          "centroid_shift_px": 1.516,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9931,
+          "registered_residual_pct": 1.4555,
+          "upper_anchor_ncc": 1.0
+        }
+      ],
+      "aggregate": {
+        "max_silhouette_motion_p95_px": 15.716,
+        "max_mask_xor_pct": 0.8865,
+        "max_centroid_shift_px": 1.938,
+        "max_registration_shift_px": 0.0,
+        "max_registered_residual_pct": 1.6154,
+        "minimum_upper_anchor_ncc": 1.0,
+        "foreground_area_span_pct": 1.1789,
+        "bbox_width_span_pct": 1.0331,
+        "bbox_height_span_pct": 0.0,
+        "significant_component_count_span": 1
+      },
+      "stationary_regions": [
+        {
+          "name": "locked-two-homie-faces-hands-and-argyle",
+          "box_pixels": [
+            94,
+            113,
+            426,
+            527
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.0
+        },
+        {
+          "name": "locked-portrait-bottom-rail",
+          "box_pixels": [
+            75,
+            502,
+            552,
+            571
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.0
+        }
+      ],
+      "gif": {
+        "path": "qa/strict-repairs/step-brothering-manager-crm/candidates/gifs/wildcard/step-brothering-manager-crm.gif",
+        "exists": true,
+        "sha256": "b6c187f55b6e521846fa6ad51625a69a086068bec1d82076181863b931a9370d",
+        "bytes": 89438,
+        "size": [
+          256,
+          256
+        ],
+        "frame_count": 6,
+        "unique_phases": 4,
+        "equality_pattern": [
+          0,
+          1,
+          2,
+          3,
+          2,
+          1
+        ],
+        "durations_ms": [
+          210,
+          140,
+          140,
+          210,
+          140,
+          140
+        ],
+        "loop": 0,
+        "has_transparency": true,
+        "corner_alphas": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "alpha_bboxes": [
+          [
+            29,
+            24,
+            227,
+            232
+          ],
+          [
+            29,
+            24,
+            227,
+            232
+          ],
+          [
+            29,
+            24,
+            229,
+            232
+          ],
+          [
+            29,
+            24,
+            227,
+            232
+          ],
+          [
+            29,
+            24,
+            229,
+            232
+          ],
+          [
+            29,
+            24,
+            227,
+            232
+          ]
+        ],
+        "loop_closure_exact": true,
+        "contact": "qa/strict-repairs/step-brothering-manager-crm/report-root/contacts/step-brothering-manager-crm-gif-128.png"
+      },
+      "visual_evidence": {
+        "source_full_contact": "qa/strict-repairs/step-brothering-manager-crm/report-root/contacts/step-brothering-manager-crm-source-full.png",
+        "source_128_contact": "qa/strict-repairs/step-brothering-manager-crm/report-root/contacts/step-brothering-manager-crm-source-128.png"
+      },
+      "manual_review": {
+        "complete": true,
+        "signature_action_readable": true,
+        "stationary_elements_stable": true,
+        "loop_motion_natural": true,
+        "notes": "Root full-size and 128px inspection confirms exactly two adult male Homies, two distinct stacked Manager hands, stable canonical faces, clean blue shirts and complementary argyle vests, an intentional frame-masked lower crop, and no redraw wiggle, debris, duplicate anatomy or palette shimmer."
+      },
+      "failures": [],
+      "warnings": [],
+      "passed": true
+    }
+  ]
+}

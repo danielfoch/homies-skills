@@ -1,0 +1,9 @@
+.DS_Store
+**/.DS_Store
+.vercel/
+.env
+.env.*
+!.env.example
+**/.tmp-*
+/assets/homie-loaders/homie-loaders-runtime 2.zip
+/assets/homie-loaders/drive-bundles/Homies-AI-Loading-Gallery-Source-Masters-A 2.zip

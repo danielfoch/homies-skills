@@ -1,0 +1,24 @@
+{
+  "smooth-crimining-marketing": {
+    "concept": "Marketing Homie in an ivory-white pinstripe suit and fedora performs a gravity-defying Smooth Criminal-inspired lean.",
+    "action_expectation": "One SHA-locked canonical Marketing Homie plate deepens through four ankle-anchored lean phases; both shoes, socks, ankle cuffs and sole contact pixels remain exactly fixed while the connected body above the ankles moves as one continuous figure.",
+    "signature_action": true,
+    "min_silhouette_motion_px": 8.0,
+    "min_mask_xor_pct": 4.0,
+    "allow_global_motion": true,
+    "fixed_character_plate": true,
+    "max_registered_residual_pct": 55.0,
+    "min_upper_anchor_ncc": 0.68,
+    "min_margin_px": 60,
+    "max_foreground_area_span_pct": 2.0,
+    "max_bbox_span_pct": 17.0,
+    "max_significant_component_span": 0,
+    "stationary_regions": [
+      {
+        "name": "pixel-locked-shoes-soles-and-contact",
+        "box": [0.0, 0.83, 1.0, 0.91],
+        "max_change_pct": 0.0
+      }
+    ]
+  }
+}

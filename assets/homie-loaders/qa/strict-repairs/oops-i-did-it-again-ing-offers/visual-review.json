@@ -1,0 +1,15 @@
+{
+  "oops-i-did-it-again-ing-offers": {
+    "cells": [
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true}
+    ],
+    "signature_action_readable": true,
+    "stationary_elements_stable": true,
+    "loop_motion_natural": true,
+    "action_expectation": "Offers Homie in a seamless glossy pure-red spandex catsuit holds one palm flat across her chest and crossed legs fixed while the opposite forearm straightens into the supplied shoulder-height horizontal reach.",
+    "notes": "Full-size and 128px contacts inspected. One canonical body plate is reused exactly. Bun, face, torso, chest hand, pelvis, crossed legs and both feet have zero changed decoded-GIF pixels outside the reaching arm. One shared GIF palette removes colour flicker. Only the connected reaching forearm changes through an elbow-anchored continuous shear. Four cells have one connected foreground component, no crop, seams, ghosts, debris or extra anatomy."
+  }
+}

@@ -1,0 +1,1436 @@
+{
+  "results": [
+    {
+      "slug": "cha-cha-sliding-marketing",
+      "concept": "Marketing Homie in the gold Cha Cha Slide outfit, crossing and sliding his boots.",
+      "action_expectation": "Gold jacket, black outfit, long silver chain and crossed-foot cha-cha step read immediately; head, torso and jacket remain locked while only the connected boots slide.",
+      "source": "assets/homie-loaders/sources/wildcard/cha-cha-sliding-marketing.png",
+      "source_sha256": "9f82209e57274ed435260e345be60659369ea4530eaeb5d54bf2f6442ccc8e1e",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_mode": "RGB",
+      "grid": [
+        2,
+        2
+      ],
+      "key_geometry": {
+        "outer_edge_non_key_pixels": 0,
+        "gutter_axis_non_key_pixels": 0
+      },
+      "cells": [
+        {
+          "index": 0,
+          "sha256_rgb": "1bf9d027506edfa4ac711f73d4792275e220962f8af873975223d5d656edb2fc",
+          "foreground_pixels": 55855,
+          "foreground_pct": 14.2078,
+          "bbox": [
+            197,
+            65,
+            430,
+            561
+          ],
+          "margins": [
+            197,
+            197,
+            65,
+            66
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            312.874,
+            289.898
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 112,
+            "areas": [
+              55855
+            ],
+            "largest_area": 55855
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 1,
+          "sha256_rgb": "6217a3af3f64b23d653778ec56c6c7a40c07e66021c3863ef6e04119cae24bc1",
+          "foreground_pixels": 55803,
+          "foreground_pct": 14.1946,
+          "bbox": [
+            197,
+            65,
+            430,
+            561
+          ],
+          "margins": [
+            197,
+            197,
+            65,
+            66
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            312.89,
+            289.678
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 112,
+            "areas": [
+              55803
+            ],
+            "largest_area": 55803
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 2,
+          "sha256_rgb": "08b6ad8fe7adcba27995d0046b8e14b47df14f5002204b077237ac624052fdbf",
+          "foreground_pixels": 55728,
+          "foreground_pct": 14.1755,
+          "bbox": [
+            197,
+            65,
+            430,
+            561
+          ],
+          "margins": [
+            197,
+            197,
+            65,
+            66
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            312.905,
+            289.353
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 111,
+            "areas": [
+              55728
+            ],
+            "largest_area": 55728
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 3,
+          "sha256_rgb": "d31dd2791b0ee0a54b56d2c780bedfdb874ea9b6056abb2ba3dbb612da70346e",
+          "foreground_pixels": 55763,
+          "foreground_pct": 14.1844,
+          "bbox": [
+            197,
+            65,
+            430,
+            561
+          ],
+          "margins": [
+            197,
+            197,
+            65,
+            66
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            312.881,
+            289.505
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 112,
+            "areas": [
+              55763
+            ],
+            "largest_area": 55763
+          },
+          "artifact_flags": []
+        }
+      ],
+      "pair_metrics": [
+        {
+          "mask_xor_pct": 0.6321,
+          "silhouette_motion_p95_px": 2.0,
+          "silhouette_motion_max_px": 3.0,
+          "centroid_shift_px": 0.22,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9937,
+          "registered_residual_pct": 4.0924,
+          "upper_anchor_ncc": 1.0
+        },
+        {
+          "mask_xor_pct": 1.2811,
+          "silhouette_motion_p95_px": 4.0,
+          "silhouette_motion_max_px": 5.0,
+          "centroid_shift_px": 0.325,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9872,
+          "registered_residual_pct": 5.1938,
+          "upper_anchor_ncc": 1.0
+        },
+        {
+          "mask_xor_pct": 0.7453,
+          "silhouette_motion_p95_px": 2.236,
+          "silhouette_motion_max_px": 3.0,
+          "centroid_shift_px": 0.153,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9925,
+          "registered_residual_pct": 4.3393,
+          "upper_anchor_ncc": 1.0
+        }
+      ],
+      "aggregate": {
+        "max_silhouette_motion_p95_px": 4.0,
+        "max_mask_xor_pct": 1.2811,
+        "max_centroid_shift_px": 0.325,
+        "max_registration_shift_px": 0.0,
+        "max_registered_residual_pct": 5.1938,
+        "minimum_upper_anchor_ncc": 1.0,
+        "foreground_area_span_pct": 0.2277,
+        "bbox_width_span_pct": 0.0,
+        "bbox_height_span_pct": 0.0,
+        "significant_component_count_span": 0
+      },
+      "stationary_regions": [
+        {
+          "name": "locked-head-torso-jacket",
+          "box_pixels": [
+            157,
+            31,
+            470,
+            389
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.05
+        }
+      ],
+      "gif": {
+        "path": "assets/homie-loaders/gifs/wildcard/cha-cha-sliding-marketing.gif",
+        "exists": true,
+        "sha256": "7ded39ff1072437354d1b684b288a75a50b9e180a4a57faa35bfbace52e7bf51",
+        "bytes": 51890,
+        "size": [
+          256,
+          256
+        ],
+        "frame_count": 6,
+        "unique_phases": 4,
+        "equality_pattern": [
+          0,
+          1,
+          2,
+          3,
+          2,
+          1
+        ],
+        "durations_ms": [
+          210,
+          140,
+          140,
+          210,
+          140,
+          140
+        ],
+        "loop": 0,
+        "has_transparency": true,
+        "corner_alphas": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "alpha_bboxes": [
+          [
+            80,
+            26,
+            176,
+            229
+          ],
+          [
+            80,
+            26,
+            176,
+            229
+          ],
+          [
+            80,
+            26,
+            176,
+            229
+          ],
+          [
+            80,
+            26,
+            176,
+            229
+          ],
+          [
+            80,
+            26,
+            176,
+            229
+          ],
+          [
+            80,
+            26,
+            176,
+            229
+          ]
+        ],
+        "loop_closure_exact": true,
+        "contact": "assets/homie-loaders/qa/strict-repairs/pop-dance-reference-rebuilds/qa-production/contacts/cha-cha-sliding-marketing-gif-128.png"
+      },
+      "visual_evidence": {
+        "source_full_contact": "assets/homie-loaders/qa/strict-repairs/pop-dance-reference-rebuilds/qa-production/contacts/cha-cha-sliding-marketing-source-full.png",
+        "source_128_contact": "assets/homie-loaders/qa/strict-repairs/pop-dance-reference-rebuilds/qa-production/contacts/cha-cha-sliding-marketing-source-128.png"
+      },
+      "manual_review": {
+        "complete": true,
+        "signature_action_readable": true,
+        "stationary_elements_stable": true,
+        "loop_motion_natural": true,
+        "notes": "Reviewed all four 627px cells, four 128px cells and six-frame GIF contact. One locked gold-jacket character; only connected boots move; no scale, crop, duplicate-body or face drift."
+      },
+      "failures": [],
+      "warnings": [],
+      "passed": true
+    },
+    {
+      "slug": "harlem-shaking-listings",
+      "concept": "Listings Homie in the original bright-pink Harlem Shake suit, counter-swinging both low fists.",
+      "action_expectation": "The pink suit, leaned stance and alternating fists match the original meme without a second body, scale pumping or redrawn face.",
+      "source": "assets/homie-loaders/sources/wildcard/harlem-shaking-listings.png",
+      "source_sha256": "dcae5b74e1fde76716840c0637148f0859c48e01d20529ba92a50e23bbb1ac67",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_mode": "RGB",
+      "grid": [
+        2,
+        2
+      ],
+      "key_geometry": {
+        "outer_edge_non_key_pixels": 0,
+        "gutter_axis_non_key_pixels": 0
+      },
+      "cells": [
+        {
+          "index": 0,
+          "sha256_rgb": "899f3668129fb14d6d637bcfc4037867efce94dcd311b17a901437cc13da781d",
+          "foreground_pixels": 51341,
+          "foreground_pct": 13.0596,
+          "bbox": [
+            183,
+            66,
+            443,
+            562
+          ],
+          "margins": [
+            183,
+            184,
+            66,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            299.789,
+            303.041
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 103,
+            "areas": [
+              51341
+            ],
+            "largest_area": 51341
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 1,
+          "sha256_rgb": "c698fb0f585a8ccbb18db09b8f1f6f07ffee086a2b06476674990dabbacd2fb9",
+          "foreground_pixels": 50771,
+          "foreground_pct": 12.9146,
+          "bbox": [
+            190,
+            66,
+            435,
+            562
+          ],
+          "margins": [
+            190,
+            192,
+            66,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            299.475,
+            303.918
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 102,
+            "areas": [
+              50771
+            ],
+            "largest_area": 50771
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 2,
+          "sha256_rgb": "306db1a8f03feafa07fed07dab14b4f0fef766701cc90f0cb19e9db96b38ddf5",
+          "foreground_pixels": 49893,
+          "foreground_pct": 12.6913,
+          "bbox": [
+            197,
+            66,
+            418,
+            562
+          ],
+          "margins": [
+            197,
+            209,
+            66,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            299.405,
+            305.269
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 100,
+            "areas": [
+              49893
+            ],
+            "largest_area": 49893
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 3,
+          "sha256_rgb": "cda5b1a5f7f98c7eb95dc5cc616c19d344370448516c05db782d7684d5020228",
+          "foreground_pixels": 50280,
+          "foreground_pct": 12.7897,
+          "bbox": [
+            196,
+            66,
+            427,
+            562
+          ],
+          "margins": [
+            196,
+            200,
+            66,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            299.254,
+            304.609
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 101,
+            "areas": [
+              50280
+            ],
+            "largest_area": 50280
+          },
+          "artifact_flags": []
+        }
+      ],
+      "pair_metrics": [
+        {
+          "mask_xor_pct": 6.1839,
+          "silhouette_motion_p95_px": 9.487,
+          "silhouette_motion_max_px": 12.649,
+          "centroid_shift_px": 0.932,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9382,
+          "registered_residual_pct": 10.8798,
+          "upper_anchor_ncc": 0.9619
+        },
+        {
+          "mask_xor_pct": 12.0362,
+          "silhouette_motion_p95_px": 17.464,
+          "silhouette_motion_max_px": 25.08,
+          "centroid_shift_px": 1.352,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.8796,
+          "registered_residual_pct": 16.8089,
+          "upper_anchor_ncc": 0.9455
+        },
+        {
+          "mask_xor_pct": 7.1111,
+          "silhouette_motion_p95_px": 9.899,
+          "silhouette_motion_max_px": 14.0,
+          "centroid_shift_px": 0.676,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9289,
+          "registered_residual_pct": 12.2716,
+          "upper_anchor_ncc": 0.9605
+        }
+      ],
+      "aggregate": {
+        "max_silhouette_motion_p95_px": 17.464,
+        "max_mask_xor_pct": 12.0362,
+        "max_centroid_shift_px": 1.352,
+        "max_registration_shift_px": 0.0,
+        "max_registered_residual_pct": 16.8089,
+        "minimum_upper_anchor_ncc": 0.9455,
+        "foreground_area_span_pct": 2.8659,
+        "bbox_width_span_pct": 16.3866,
+        "bbox_height_span_pct": 0.0,
+        "significant_component_count_span": 0
+      },
+      "stationary_regions": [
+        {
+          "name": "locked-face-and-pink-core",
+          "box_pixels": [
+            270,
+            31,
+            357,
+            157
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.05
+        }
+      ],
+      "gif": {
+        "path": "assets/homie-loaders/gifs/wildcard/harlem-shaking-listings.gif",
+        "exists": true,
+        "sha256": "0ed728cdf6f997429f280cf2c0bd371f58af2e56d44675e77e96d5183913c67f",
+        "bytes": 41256,
+        "size": [
+          256,
+          256
+        ],
+        "frame_count": 6,
+        "unique_phases": 4,
+        "equality_pattern": [
+          0,
+          1,
+          2,
+          3,
+          2,
+          1
+        ],
+        "durations_ms": [
+          210,
+          140,
+          140,
+          210,
+          140,
+          140
+        ],
+        "loop": 0,
+        "has_transparency": true,
+        "corner_alphas": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "alpha_bboxes": [
+          [
+            75,
+            27,
+            181,
+            229
+          ],
+          [
+            77,
+            27,
+            177,
+            229
+          ],
+          [
+            80,
+            27,
+            171,
+            229
+          ],
+          [
+            80,
+            27,
+            174,
+            229
+          ],
+          [
+            80,
+            27,
+            171,
+            229
+          ],
+          [
+            77,
+            27,
+            177,
+            229
+          ]
+        ],
+        "loop_closure_exact": true,
+        "contact": "assets/homie-loaders/qa/strict-repairs/pop-dance-reference-rebuilds/qa-production/contacts/harlem-shaking-listings-gif-128.png"
+      },
+      "visual_evidence": {
+        "source_full_contact": "assets/homie-loaders/qa/strict-repairs/pop-dance-reference-rebuilds/qa-production/contacts/harlem-shaking-listings-source-full.png",
+        "source_128_contact": "assets/homie-loaders/qa/strict-repairs/pop-dance-reference-rebuilds/qa-production/contacts/harlem-shaking-listings-source-128.png"
+      },
+      "manual_review": {
+        "complete": true,
+        "signature_action_readable": true,
+        "stationary_elements_stable": true,
+        "loop_motion_natural": true,
+        "notes": "Reviewed all four 627px cells, four 128px cells and six-frame GIF contact. Pink suit/face/legs are one immutable plate; both connected arms counter-swing without a second character, ghost hands or scale pumping."
+      },
+      "failures": [],
+      "warnings": [],
+      "passed": true
+    },
+    {
+      "slug": "umbrella-ing-manager",
+      "concept": "Manager Homie physically holding a broad clear umbrella while a highlight travels across the canopy.",
+      "action_expectation": "One open transparent umbrella is visibly connected from hooked handle in hand through shaft and ribs to canopy; Manager body and umbrella geometry remain fixed.",
+      "source": "assets/homie-loaders/sources/wildcard/umbrella-ing-manager.png",
+      "source_sha256": "1cb06b7cc5b767c8f185e5ba6b2eeede18810b6b48a66781b6682e6e4fa04976",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_mode": "RGB",
+      "grid": [
+        2,
+        2
+      ],
+      "key_geometry": {
+        "outer_edge_non_key_pixels": 0,
+        "gutter_axis_non_key_pixels": 0
+      },
+      "cells": [
+        {
+          "index": 0,
+          "sha256_rgb": "719e4e599d3edb4afe41034ed4fd85d77dc64947108104703a69f96203471c49",
+          "foreground_pixels": 53844,
+          "foreground_pct": 13.6963,
+          "bbox": [
+            178,
+            65,
+            448,
+            562
+          ],
+          "margins": [
+            178,
+            179,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            294.061,
+            272.32
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 108,
+            "areas": [
+              53844
+            ],
+            "largest_area": 53844
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 1,
+          "sha256_rgb": "fd4eca779a3125349f944a972bd5fb257c15bb6501d9b34e8d3f43ce78b3083f",
+          "foreground_pixels": 53943,
+          "foreground_pct": 13.7215,
+          "bbox": [
+            178,
+            65,
+            448,
+            562
+          ],
+          "margins": [
+            178,
+            179,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            293.956,
+            272.088
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 108,
+            "areas": [
+              53943
+            ],
+            "largest_area": 53943
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 2,
+          "sha256_rgb": "00dea5a6cac222ca5240613a204cb4344dd312d19eed03b1409ba8ed39a56ad0",
+          "foreground_pixels": 53860,
+          "foreground_pct": 13.7003,
+          "bbox": [
+            178,
+            65,
+            448,
+            562
+          ],
+          "margins": [
+            178,
+            179,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            294.036,
+            272.286
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 108,
+            "areas": [
+              53860
+            ],
+            "largest_area": 53860
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 3,
+          "sha256_rgb": "0c5073e26e2dbbc9f94dfc2f23a84cac882b51ecf78dddbcc7882c5b5f750f5d",
+          "foreground_pixels": 53855,
+          "foreground_pct": 13.6991,
+          "bbox": [
+            178,
+            65,
+            448,
+            562
+          ],
+          "margins": [
+            178,
+            179,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            294.04,
+            272.292
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 108,
+            "areas": [
+              53855
+            ],
+            "largest_area": 53855
+          },
+          "artifact_flags": []
+        }
+      ],
+      "pair_metrics": [
+        {
+          "mask_xor_pct": 0.2354,
+          "silhouette_motion_p95_px": 2.236,
+          "silhouette_motion_max_px": 2.828,
+          "centroid_shift_px": 0.254,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9976,
+          "registered_residual_pct": 0.91,
+          "upper_anchor_ncc": 1.0
+        },
+        {
+          "mask_xor_pct": 0.2057,
+          "silhouette_motion_p95_px": 2.236,
+          "silhouette_motion_max_px": 2.828,
+          "centroid_shift_px": 0.213,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9979,
+          "registered_residual_pct": 1.1398,
+          "upper_anchor_ncc": 0.9981
+        },
+        {
+          "mask_xor_pct": 0.2318,
+          "silhouette_motion_p95_px": 3.0,
+          "silhouette_motion_max_px": 4.243,
+          "centroid_shift_px": 0.007,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9977,
+          "registered_residual_pct": 1.1869,
+          "upper_anchor_ncc": 0.9981
+        }
+      ],
+      "aggregate": {
+        "max_silhouette_motion_p95_px": 3.0,
+        "max_mask_xor_pct": 0.2354,
+        "max_centroid_shift_px": 0.254,
+        "max_registration_shift_px": 0.0,
+        "max_registered_residual_pct": 1.1869,
+        "minimum_upper_anchor_ncc": 0.9981,
+        "foreground_area_span_pct": 0.1838,
+        "bbox_width_span_pct": 0.0,
+        "bbox_height_span_pct": 0.0,
+        "significant_component_count_span": 0
+      },
+      "stationary_regions": [
+        {
+          "name": "locked-manager-and-handle",
+          "box_pixels": [
+            176,
+            169,
+            451,
+            602
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.05
+        }
+      ],
+      "gif": {
+        "path": "assets/homie-loaders/gifs/wildcard/umbrella-ing-manager.gif",
+        "exists": true,
+        "sha256": "27008816e0cab2e190ccb898c64c3a1173f580bb4a1e8a4eda73578a1948187c",
+        "bytes": 47503,
+        "size": [
+          256,
+          256
+        ],
+        "frame_count": 6,
+        "unique_phases": 4,
+        "equality_pattern": [
+          0,
+          1,
+          2,
+          3,
+          2,
+          1
+        ],
+        "durations_ms": [
+          210,
+          140,
+          140,
+          210,
+          140,
+          140
+        ],
+        "loop": 0,
+        "has_transparency": true,
+        "corner_alphas": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "alpha_bboxes": [
+          [
+            73,
+            27,
+            183,
+            229
+          ],
+          [
+            73,
+            27,
+            183,
+            229
+          ],
+          [
+            73,
+            27,
+            183,
+            229
+          ],
+          [
+            73,
+            27,
+            183,
+            229
+          ],
+          [
+            73,
+            27,
+            183,
+            229
+          ],
+          [
+            73,
+            27,
+            183,
+            229
+          ]
+        ],
+        "loop_closure_exact": true,
+        "contact": "assets/homie-loaders/qa/strict-repairs/pop-dance-reference-rebuilds/qa-production/contacts/umbrella-ing-manager-gif-128.png"
+      },
+      "visual_evidence": {
+        "source_full_contact": "assets/homie-loaders/qa/strict-repairs/pop-dance-reference-rebuilds/qa-production/contacts/umbrella-ing-manager-source-full.png",
+        "source_128_contact": "assets/homie-loaders/qa/strict-repairs/pop-dance-reference-rebuilds/qa-production/contacts/umbrella-ing-manager-source-128.png"
+      },
+      "manual_review": {
+        "complete": true,
+        "signature_action_readable": true,
+        "stationary_elements_stable": true,
+        "loop_motion_natural": true,
+        "notes": "Reviewed all four 627px cells, four 128px cells and six-frame GIF contact. Hooked handle is visibly in the hand and connected through shaft/ribs to one complete canopy; body, umbrella size and anchor are unchanged."
+      },
+      "failures": [],
+      "warnings": [],
+      "passed": true
+    },
+    {
+      "slug": "dougie-ing-content",
+      "concept": "Content Homie in a reference-matched mid-Dougie chest-brush pose with one low hand sweeping at the hip.",
+      "action_expectation": "White tee, black pants, fixed chest-brush forearm and clean low-hand elbow sweep read as the Dougie; face, shirt, shoulders and legs remain locked.",
+      "source": "assets/homie-loaders/sources/wildcard/dougie-ing-content.png",
+      "source_sha256": "2fd19cfb84a7bcfc8b06a675c1d808d159ba6cc69197f054e00e3bdac37f4b36",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_mode": "RGB",
+      "grid": [
+        2,
+        2
+      ],
+      "key_geometry": {
+        "outer_edge_non_key_pixels": 0,
+        "gutter_axis_non_key_pixels": 0
+      },
+      "cells": [
+        {
+          "index": 0,
+          "sha256_rgb": "47a91c1c62d6517822192cacabf686c32e111fde72f64852ce64fd6d0299fafc",
+          "foreground_pixels": 46063,
+          "foreground_pct": 11.717,
+          "bbox": [
+            213,
+            64,
+            403,
+            563
+          ],
+          "margins": [
+            213,
+            224,
+            64,
+            64
+          ],
+          "minimum_margin": 64,
+          "centroid": [
+            317.09,
+            300.793
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 92,
+            "areas": [
+              46063
+            ],
+            "largest_area": 46063
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 1,
+          "sha256_rgb": "f231d6ecb694bf70a0f8f0cb8f8b72a9b6a268b47e7597ad7631eaf7a3524e2f",
+          "foreground_pixels": 46187,
+          "foreground_pct": 11.7486,
+          "bbox": [
+            213,
+            64,
+            404,
+            563
+          ],
+          "margins": [
+            213,
+            223,
+            64,
+            64
+          ],
+          "minimum_margin": 64,
+          "centroid": [
+            317.431,
+            300.761
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 92,
+            "areas": [
+              46187
+            ],
+            "largest_area": 46187
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 2,
+          "sha256_rgb": "a0b7646d8ac2908292e8cf2253fbca6d1d8fa78f3c8cb346ee86ed16e3a5301f",
+          "foreground_pixels": 46175,
+          "foreground_pct": 11.7455,
+          "bbox": [
+            213,
+            64,
+            414,
+            563
+          ],
+          "margins": [
+            213,
+            213,
+            64,
+            64
+          ],
+          "minimum_margin": 64,
+          "centroid": [
+            317.725,
+            300.687
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 92,
+            "areas": [
+              46175
+            ],
+            "largest_area": 46175
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 3,
+          "sha256_rgb": "b854570f40603eb7176382c943373a3f524e8936f876119f75a150931a0a9403",
+          "foreground_pixels": 46164,
+          "foreground_pct": 11.7427,
+          "bbox": [
+            213,
+            64,
+            406,
+            563
+          ],
+          "margins": [
+            213,
+            221,
+            64,
+            64
+          ],
+          "minimum_margin": 64,
+          "centroid": [
+            317.519,
+            300.757
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 92,
+            "areas": [
+              46164
+            ],
+            "largest_area": 46164
+          },
+          "artifact_flags": []
+        }
+      ],
+      "pair_metrics": [
+        {
+          "mask_xor_pct": 1.9366,
+          "silhouette_motion_p95_px": 7.0,
+          "silhouette_motion_max_px": 8.544,
+          "centroid_shift_px": 0.343,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9806,
+          "registered_residual_pct": 3.2764,
+          "upper_anchor_ncc": 1.0
+        },
+        {
+          "mask_xor_pct": 3.4935,
+          "silhouette_motion_p95_px": 11.0,
+          "silhouette_motion_max_px": 14.142,
+          "centroid_shift_px": 0.303,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9651,
+          "registered_residual_pct": 4.387,
+          "upper_anchor_ncc": 1.0
+        },
+        {
+          "mask_xor_pct": 2.2635,
+          "silhouette_motion_p95_px": 7.225,
+          "silhouette_motion_max_px": 9.055,
+          "centroid_shift_px": 0.217,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9774,
+          "registered_residual_pct": 3.3042,
+          "upper_anchor_ncc": 1.0
+        }
+      ],
+      "aggregate": {
+        "max_silhouette_motion_p95_px": 11.0,
+        "max_mask_xor_pct": 3.4935,
+        "max_centroid_shift_px": 0.343,
+        "max_registration_shift_px": 0.0,
+        "max_registered_residual_pct": 4.387,
+        "minimum_upper_anchor_ncc": 1.0,
+        "foreground_area_span_pct": 0.2686,
+        "bbox_width_span_pct": 5.7292,
+        "bbox_height_span_pct": 0.0,
+        "significant_component_count_span": 0
+      },
+      "stationary_regions": [
+        {
+          "name": "locked-face-shirt-chest-brush",
+          "box_pixels": [
+            188,
+            31,
+            357,
+            376
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.05
+        }
+      ],
+      "gif": {
+        "path": "assets/homie-loaders/gifs/wildcard/dougie-ing-content.gif",
+        "exists": true,
+        "sha256": "e697752fe1fe588a938e7e32d1a0aef6a7ba8f9e177288b33e7ed5529fb00667",
+        "bytes": 35827,
+        "size": [
+          256,
+          256
+        ],
+        "frame_count": 6,
+        "unique_phases": 4,
+        "equality_pattern": [
+          0,
+          1,
+          2,
+          3,
+          2,
+          1
+        ],
+        "durations_ms": [
+          210,
+          140,
+          140,
+          210,
+          140,
+          140
+        ],
+        "loop": 0,
+        "has_transparency": true,
+        "corner_alphas": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "alpha_bboxes": [
+          [
+            87,
+            26,
+            165,
+            230
+          ],
+          [
+            87,
+            26,
+            165,
+            230
+          ],
+          [
+            87,
+            26,
+            169,
+            230
+          ],
+          [
+            87,
+            26,
+            166,
+            230
+          ],
+          [
+            87,
+            26,
+            169,
+            230
+          ],
+          [
+            87,
+            26,
+            165,
+            230
+          ]
+        ],
+        "loop_closure_exact": true,
+        "contact": "assets/homie-loaders/qa/strict-repairs/pop-dance-reference-rebuilds/qa-production/contacts/dougie-ing-content-gif-128.png"
+      },
+      "visual_evidence": {
+        "source_full_contact": "assets/homie-loaders/qa/strict-repairs/pop-dance-reference-rebuilds/qa-production/contacts/dougie-ing-content-source-full.png",
+        "source_128_contact": "assets/homie-loaders/qa/strict-repairs/pop-dance-reference-rebuilds/qa-production/contacts/dougie-ing-content-source-128.png"
+      },
+      "manual_review": {
+        "complete": true,
+        "signature_action_readable": true,
+        "stationary_elements_stable": true,
+        "loop_motion_natural": true,
+        "notes": "Rejected the first hands-at-head rig and regenerated a cleaner mid-Dougie locked plate. Reviewed all four 627px cells, four 128px cells and six-frame GIF contact: face, shirt, chest-brush arm, legs and camera are exact; only the skin-isolated low distal forearm sweeps around its elbow with no sleeve cuts or leftover fragments."
+      },
+      "failures": [],
+      "warnings": [],
+      "passed": true
+    }
+  ]
+}

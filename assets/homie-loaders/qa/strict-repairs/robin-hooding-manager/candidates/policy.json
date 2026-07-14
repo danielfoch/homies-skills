@@ -1,0 +1,37 @@
+{
+  "robin-hooding-manager": {
+    "concept": "Canonical Manager Homie as a muted red-and-olive forest outlaw at full draw",
+    "action_expectation": "Across four authored phases, the nock and its one connected arrow retreat 15px toward the cheek while both string ends stay fixed to the immutable bow tips; the arrowhead travels with the shaft and the shared burgundy, olive, and tan character plate remains fixed.",
+    "signature_action": true,
+    "min_silhouette_motion_px": 2.5,
+    "min_mask_xor_pct": 1.5,
+    "fixed_character_plate": true,
+    "allow_global_motion": false,
+    "max_global_drift_px": 1.0,
+    "max_registered_residual_pct": 12.0,
+    "min_upper_anchor_ncc": 0.86,
+    "min_margin_px": 60,
+    "max_tiny_components": 8,
+    "max_significant_components_per_cell": 1,
+    "max_foreground_area_span_pct": 3.0,
+    "max_bbox_span_pct": 6.0,
+    "max_significant_component_span": 0,
+    "stationary_regions": [
+      {
+        "name": "locked face core",
+        "box": [0.367, 0.199, 0.423, 0.263],
+        "max_change_pct": 0.0
+      },
+      {
+        "name": "locked bow hand and upper forearm",
+        "box": [0.612, 0.239, 0.695, 0.293],
+        "max_change_pct": 0.0
+      },
+      {
+        "name": "locked lower body and boots",
+        "box": [0.28, 0.57, 0.56, 0.92],
+        "max_change_pct": 0.0
+      }
+    ]
+  }
+}

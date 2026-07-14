@@ -1,0 +1,43 @@
+{
+  "tarzaning-manager": {
+    "cells": [
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      }
+    ],
+    "signature_action_readable": true,
+    "stationary_elements_stable": true,
+    "loop_motion_natural": true,
+    "action_expectation": "The locked male Manager and its one continuous vine swing left-to-right and back around one fixed overhead knot.",
+    "notes": "Root full-size, 128px, and six-frame GIF inspection confirms one canonical male Manager, exactly two connected arms and hands, two legs and feet, one securely covered brown waist wrap, one uninterrupted vine, a fixed top pivot, a smooth reversible pendulum loop, and no redraw wiggle, debris, duplicate anatomy, crop, scale jump, or palette shimmer."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "step-brothering-manager-crm": {
+    "concept": "Manager and CRM Homies recreate the awkward two-brother studio portrait while a camera flash pulses beside them.",
+    "action_expectation": "The two male Homies, their two stacked shoulder hands, blue shirts, complementary argyle vests and portrait frame stay perfectly fixed while only the upper-right camera flash changes size.",
+    "signature_action": true,
+    "min_silhouette_motion_px": 8.0,
+    "min_mask_xor_pct": 0.5,
+    "allow_global_motion": false,
+    "max_global_drift_px": 0.5,
+    "fixed_character_plate": true,
+    "max_registered_residual_pct": 3.0,
+    "min_upper_anchor_ncc": 0.99,
+    "min_margin_px": 60,
+    "max_foreground_area_span_pct": 2.0,
+    "max_bbox_span_pct": 2.0,
+    "max_tiny_components": 0,
+    "max_significant_components_per_cell": 3,
+    "max_significant_component_span": 1,
+    "stationary_regions": [
+      {
+        "name": "locked-two-homie-faces-hands-and-argyle",
+        "box": [0.15, 0.18, 0.68, 0.84],
+        "max_change_pct": 0.0
+      },
+      {
+        "name": "locked-portrait-bottom-rail",
+        "box": [0.12, 0.80, 0.88, 0.91],
+        "max_change_pct": 0.0
+      }
+    ]
+  }
+}

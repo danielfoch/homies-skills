@@ -1,0 +1,378 @@
+{
+  "results": [
+    {
+      "slug": "spoking-content",
+      "concept": "Canonical Content Homie holds one anatomically correct five-finger split salute while one locked arm rig makes a restrained reversible motion.",
+      "action_expectation": "At full size and 128px, read a clear 2+2 finger grouping with thumb out; the same hand, face, torso, uniform, crop, and scale persist through the loop.",
+      "source": "assets/homie-loaders/qa/strict-repairs/spoking-content/candidates/spoking-content.png",
+      "source_sha256": "36d0c2ab59419c30dacdb4b1705bdfce997a61f989235a7935dcae77e1157833",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_mode": "RGB",
+      "grid": [
+        2,
+        2
+      ],
+      "key_geometry": {
+        "outer_edge_non_key_pixels": 0,
+        "gutter_axis_non_key_pixels": 0
+      },
+      "cells": [
+        {
+          "index": 0,
+          "sha256_rgb": "2aa978854b820ad982389bb90b16991fbac320a4ec04f0fbfeecd53ae05b2170",
+          "foreground_pixels": 90841,
+          "foreground_pct": 23.1072,
+          "bbox": [
+            120,
+            86,
+            482,
+            505
+          ],
+          "margins": [
+            120,
+            145,
+            86,
+            122
+          ],
+          "minimum_margin": 86,
+          "centroid": [
+            316.728,
+            329.074
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 182,
+            "areas": [
+              90841
+            ],
+            "largest_area": 90841
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 1,
+          "sha256_rgb": "c2d328f70f901bdf60af10597c4aea064409b5a57b37efbc701abdba4eafe02a",
+          "foreground_pixels": 90750,
+          "foreground_pct": 23.084,
+          "bbox": [
+            123,
+            86,
+            482,
+            505
+          ],
+          "margins": [
+            123,
+            145,
+            86,
+            122
+          ],
+          "minimum_margin": 86,
+          "centroid": [
+            316.834,
+            329.393
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 182,
+            "areas": [
+              90750
+            ],
+            "largest_area": 90750
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 2,
+          "sha256_rgb": "84684082c24da1012543742be26c0565dc6f0373ffd500dad84d92aff7cb2b9e",
+          "foreground_pixels": 90659,
+          "foreground_pct": 23.0609,
+          "bbox": [
+            126,
+            86,
+            482,
+            505
+          ],
+          "margins": [
+            126,
+            145,
+            86,
+            122
+          ],
+          "minimum_margin": 86,
+          "centroid": [
+            316.96,
+            329.687
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 181,
+            "areas": [
+              90659
+            ],
+            "largest_area": 90659
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 3,
+          "sha256_rgb": "5a92fc13154d15a71bfbb8320c37fd8c8cff6b030e65340f7c4b560de4ef899b",
+          "foreground_pixels": 90579,
+          "foreground_pct": 23.0405,
+          "bbox": [
+            128,
+            86,
+            482,
+            505
+          ],
+          "margins": [
+            128,
+            145,
+            86,
+            122
+          ],
+          "minimum_margin": 86,
+          "centroid": [
+            317.073,
+            329.989
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 181,
+            "areas": [
+              90579
+            ],
+            "largest_area": 90579
+          },
+          "artifact_flags": []
+        }
+      ],
+      "pair_metrics": [
+        {
+          "mask_xor_pct": 2.0569,
+          "silhouette_motion_p95_px": 4.0,
+          "silhouette_motion_max_px": 5.099,
+          "centroid_shift_px": 0.336,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9794,
+          "registered_residual_pct": 7.7404,
+          "upper_anchor_ncc": 0.975
+        },
+        {
+          "mask_xor_pct": 2.0482,
+          "silhouette_motion_p95_px": 4.0,
+          "silhouette_motion_max_px": 5.099,
+          "centroid_shift_px": 0.32,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9795,
+          "registered_residual_pct": 7.7987,
+          "upper_anchor_ncc": 0.9771
+        },
+        {
+          "mask_xor_pct": 2.0468,
+          "silhouette_motion_p95_px": 4.0,
+          "silhouette_motion_max_px": 5.099,
+          "centroid_shift_px": 0.322,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9795,
+          "registered_residual_pct": 7.7985,
+          "upper_anchor_ncc": 0.9847
+        }
+      ],
+      "aggregate": {
+        "max_silhouette_motion_p95_px": 4.0,
+        "max_mask_xor_pct": 2.0569,
+        "max_centroid_shift_px": 0.336,
+        "max_registration_shift_px": 0.0,
+        "max_registered_residual_pct": 7.7987,
+        "minimum_upper_anchor_ncc": 0.975,
+        "foreground_area_span_pct": 0.2889,
+        "bbox_width_span_pct": 2.2378,
+        "bbox_height_span_pct": 0.0,
+        "significant_component_count_span": 0
+      },
+      "stationary_regions": [
+        {
+          "name": "locked-face",
+          "box_pixels": [
+            275,
+            90,
+            390,
+            260
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.1
+        },
+        {
+          "name": "locked-torso",
+          "box_pixels": [
+            285,
+            290,
+            450,
+            485
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.1
+        }
+      ],
+      "gif": {
+        "path": "assets/homie-loaders/qa/strict-repairs/spoking-content/candidates/spoking-content.gif",
+        "exists": true,
+        "sha256": "b9b88ac4ee647344eea4a9e811d2a6bda4fbfed3e7223df0bed74995acef3b47",
+        "bytes": 67933,
+        "size": [
+          256,
+          256
+        ],
+        "frame_count": 6,
+        "unique_phases": 4,
+        "equality_pattern": [
+          0,
+          1,
+          2,
+          3,
+          2,
+          1
+        ],
+        "durations_ms": [
+          210,
+          140,
+          140,
+          210,
+          140,
+          140
+        ],
+        "loop": 0,
+        "has_transparency": true,
+        "corner_alphas": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "alpha_bboxes": [
+          [
+            49,
+            35,
+            197,
+            206
+          ],
+          [
+            50,
+            35,
+            197,
+            206
+          ],
+          [
+            51,
+            35,
+            197,
+            206
+          ],
+          [
+            53,
+            35,
+            197,
+            206
+          ],
+          [
+            51,
+            35,
+            197,
+            206
+          ],
+          [
+            50,
+            35,
+            197,
+            206
+          ]
+        ],
+        "loop_closure_exact": true,
+        "contact": "assets/homie-loaders/qa/strict-repairs/spoking-content/candidates/qa-final/contacts/spoking-content-gif-128.png"
+      },
+      "visual_evidence": {
+        "source_full_contact": "assets/homie-loaders/qa/strict-repairs/spoking-content/candidates/qa-final/contacts/spoking-content-source-full.png",
+        "source_128_contact": "assets/homie-loaders/qa/strict-repairs/spoking-content/candidates/qa-final/contacts/spoking-content-source-128.png"
+      },
+      "manual_review": {
+        "complete": true,
+        "signature_action_readable": true,
+        "stationary_elements_stable": true,
+        "loop_motion_natural": true,
+        "notes": "Inspected full, 128px, and GIF contacts. The same anatomically correct hand is used in all phases; face, torso, uniform, crop, and scale are locked."
+      },
+      "failures": [],
+      "warnings": [],
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "tyler-durdening-listings": {
+    "cells": [
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      }
+    ],
+    "signature_action_readable": true,
+    "stationary_elements_stable": true,
+    "loop_motion_natural": true,
+    "action_expectation": "Exactly two fists remain visible in every phase while the left jab retracts to guard and the right jab extends with only attached tapered motion marks; face, torso, pelvis, legs, crop, anchor, and scale remain fixed.",
+    "notes": "Inspected all four 627px authored cells, all four 128px cells, and the reversible six-frame GIF contact. Exactly two fists are visible in every phase: the left jab retracts through a half phase to a two-fist guard before the right jab extends. The short tapered motion marks remain attached to the active forearm and never read as a detached rod. Face, torso core, pelvis, legs, shoes, framing, and body scale are byte-identical outside the saved two-forearm mask."
+  }
+}

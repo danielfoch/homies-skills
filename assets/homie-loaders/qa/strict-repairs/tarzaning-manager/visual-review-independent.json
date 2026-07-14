@@ -1,0 +1,43 @@
+{
+  "tarzaning-manager": {
+    "cells": [
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      }
+    ],
+    "signature_action_readable": true,
+    "stationary_elements_stable": true,
+    "loop_motion_natural": true,
+    "action_expectation": "One immutable male Manager-and-vine rig swings through a clear left-to-right pendulum arc around one pixel-fixed overhead vine pivot, then reverses without redrawing.",
+    "notes": "Independent full-size, 128px, six-frame GIF, and individual-frame inspection confirms exactly one canonical adult male Manager Homie; a clear bare-chested, brown jungle-wrap, barefoot look; exactly two connected arms/hands and two legs/feet; one uninterrupted vine; a fixed top pivot; generous crop safety; and a readable reversible pendulum loop. No debris, duplicate anatomy, redraw wiggle, scale jump, palette shimmer, or continuity break was observed. A clean rebuild to /tmp/tarzaning-independent produced byte-identical source and GIF SHA-256 hashes (d6e7ed933ce01da07e22c4849557af9278dde2a26a1ba0e8db497c5de6edadb2 and c2cc058d3577f27a64feca83bad642798b895e059962f38c6b1836c4c80b3f3f)."
+  }
+}

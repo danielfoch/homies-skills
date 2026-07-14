@@ -1,0 +1,27 @@
+{
+  "slug": "tony-starking-marketing",
+  "mode": "built-in image_gen",
+  "accepted_generation_prompt": "generation-prompt.txt",
+  "accepted_generation_prompt_sha256": "9af6af6cd2d4fd14c1f35b3a47679feea923d6cb5b24f93b379c36e488577c11",
+  "accepted_edit_prompt": "edit-prompt.txt",
+  "accepted_edit_prompt_sha256": "c322c91482e61bff2c086ac40021ac77ef3e44ea3297c018ac6d998d13537d2d",
+  "generation_reference": {
+    "path": "assets/homie-loaders/references/marketing.png",
+    "role": "canonical identity and Homies style",
+    "sha256": "ebc684e0e97a4dba458a1287e1796a11d4f0937701827ba17b621f2562c85841"
+  },
+  "observed_action_reference": {
+    "path": "/var/folders/kz/c40hnqf51b78kdv_h64qjj0h0000gn/T/codex-clipboard-b3c150bd-6e34-4abf-be0a-8ea402c62838.png",
+    "role": "wardrobe/open-palm action guidance only; not sent in accepted generation",
+    "sha256": "1d21b57d9a1dc7c966be21b9beffc24420a9b5f64358e83481a0dbe8ad429522"
+  },
+  "edit_target": "raw/tony-starking-marketing-chroma-v1.png",
+  "edit_target_sha256": "accb930115c0a98099da7f5d0ebb39d87f914554c5df70d7cbb31fd287db682d",
+  "chroma_key": "#00ff00",
+  "chroma_path": "raw/tony-starking-marketing-chroma.png",
+  "chroma_sha256": "6851f2e0ced2df66c39e05b04c022104a5ce9f87bcfa784963c527432504f0c3",
+  "alpha_path": "../../raw/tony-starking-marketing-alpha.png",
+  "alpha_sha256": "4d5c485655b1ce4d963fcf6ab7e5e6c7fe5247fd743d66e2c2ff3b68f5fa5725",
+  "alpha_command": "python3 $CODEX_HOME/skills/.system/imagegen/scripts/remove_chroma_key.py --input <chroma> --out <alpha> --auto-key border --soft-matte --transparent-threshold 12 --opaque-threshold 220 --despill --force",
+  "blocked_generation_attempts_before_acceptance": 3
+}

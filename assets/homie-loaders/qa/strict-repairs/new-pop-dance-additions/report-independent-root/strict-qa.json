@@ -1,0 +1,1504 @@
+{
+  "results": [
+    {
+      "slug": "david-blaining-manager",
+      "concept": "A male canonical Manager Homie in an all-black street-magician outfit makes a visible arc of playing cards fly between his deck and open hand.",
+      "action_expectation": "The same complete Manager body, deck, hands and five inner cards stay locked while the detached outer card travels outward and upward through a controlled arc.",
+      "source": "sources/wildcard/david-blaining-manager.png",
+      "source_sha256": "2b910c9ca4c8b91c45a3a0667d534284d42dab7bf295d57efaf1cd62e745446e",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_mode": "RGB",
+      "grid": [
+        2,
+        2
+      ],
+      "key_geometry": {
+        "outer_edge_non_key_pixels": 0,
+        "gutter_axis_non_key_pixels": 0
+      },
+      "cells": [
+        {
+          "index": 0,
+          "sha256_rgb": "c768aff08ca3df0ab18957431cc5f1eab5ac51208cd0281367d1e8e333f6c3e2",
+          "foreground_pixels": 46808,
+          "foreground_pct": 11.9065,
+          "bbox": [
+            183,
+            65,
+            436,
+            562
+          ],
+          "margins": [
+            183,
+            191,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            296.031,
+            293.362
+          ],
+          "components": {
+            "count": 2,
+            "significant_count": 2,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 94,
+            "areas": [
+              46160,
+              648
+            ],
+            "largest_area": 46160
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 1,
+          "sha256_rgb": "bf7af54fd08bca3a6d983f3610925e1ac5826e6b0f2902d0c38bbb48339c723a",
+          "foreground_pixels": 46810,
+          "foreground_pct": 11.907,
+          "bbox": [
+            183,
+            65,
+            440,
+            562
+          ],
+          "margins": [
+            183,
+            187,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            296.097,
+            293.322
+          ],
+          "components": {
+            "count": 2,
+            "significant_count": 2,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 94,
+            "areas": [
+              46160,
+              650
+            ],
+            "largest_area": 46160
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 2,
+          "sha256_rgb": "bb6ff00c566ebe5386ac7d410a58f973296a5e0a833c05f3d3f95cac10e43d90",
+          "foreground_pixels": 46808,
+          "foreground_pct": 11.9065,
+          "bbox": [
+            183,
+            65,
+            444,
+            562
+          ],
+          "margins": [
+            183,
+            183,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            296.161,
+            293.279
+          ],
+          "components": {
+            "count": 2,
+            "significant_count": 2,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 94,
+            "areas": [
+              46160,
+              648
+            ],
+            "largest_area": 46160
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 3,
+          "sha256_rgb": "dd7bb65d08f455b0e3c23b306e4c321de8cb9d597e470e92e4a1728a514a24c8",
+          "foreground_pixels": 46806,
+          "foreground_pct": 11.906,
+          "bbox": [
+            183,
+            65,
+            440,
+            562
+          ],
+          "margins": [
+            183,
+            187,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            296.097,
+            293.317
+          ],
+          "components": {
+            "count": 2,
+            "significant_count": 2,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 94,
+            "areas": [
+              46160,
+              646
+            ],
+            "largest_area": 46160
+          },
+          "artifact_flags": []
+        }
+      ],
+      "pair_metrics": [
+        {
+          "mask_xor_pct": 0.6261,
+          "silhouette_motion_p95_px": 4.472,
+          "silhouette_motion_max_px": 5.657,
+          "centroid_shift_px": 0.076,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9937,
+          "registered_residual_pct": 1.3012,
+          "upper_anchor_ncc": 1.0
+        },
+        {
+          "mask_xor_pct": 0.7619,
+          "silhouette_motion_p95_px": 5.385,
+          "silhouette_motion_max_px": 6.403,
+          "centroid_shift_px": 0.078,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9924,
+          "registered_residual_pct": 1.4216,
+          "upper_anchor_ncc": 1.0
+        },
+        {
+          "mask_xor_pct": 0.6389,
+          "silhouette_motion_p95_px": 4.123,
+          "silhouette_motion_max_px": 5.099,
+          "centroid_shift_px": 0.075,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9936,
+          "registered_residual_pct": 1.2927,
+          "upper_anchor_ncc": 1.0
+        }
+      ],
+      "aggregate": {
+        "max_silhouette_motion_p95_px": 5.385,
+        "max_mask_xor_pct": 0.7619,
+        "max_centroid_shift_px": 0.078,
+        "max_registration_shift_px": 0.0,
+        "max_registered_residual_pct": 1.4216,
+        "minimum_upper_anchor_ncc": 1.0,
+        "foreground_area_span_pct": 0.0085,
+        "bbox_width_span_pct": 3.1128,
+        "bbox_height_span_pct": 0.0,
+        "significant_component_count_span": 0
+      },
+      "stationary_regions": [
+        {
+          "name": "fixed-manager-face-torso-deck-and-inner-card-arc",
+          "box_pixels": [
+            226,
+            25,
+            314,
+            389
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.0
+        },
+        {
+          "name": "fixed-manager-legs-and-shoes",
+          "box_pixels": [
+            176,
+            320,
+            401,
+            602
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.0
+        }
+      ],
+      "gif": {
+        "path": "gifs/wildcard/david-blaining-manager.gif",
+        "exists": true,
+        "sha256": "aeaaba28b2da3c570592ca828375e68b7e1acbf961c4fa96e7eb185a95523dd2",
+        "bytes": 45770,
+        "size": [
+          256,
+          256
+        ],
+        "frame_count": 6,
+        "unique_phases": 4,
+        "equality_pattern": [
+          0,
+          1,
+          2,
+          3,
+          2,
+          1
+        ],
+        "durations_ms": [
+          210,
+          140,
+          140,
+          210,
+          140,
+          140
+        ],
+        "loop": 0,
+        "has_transparency": true,
+        "corner_alphas": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "alpha_bboxes": [
+          [
+            75,
+            27,
+            178,
+            229
+          ],
+          [
+            75,
+            27,
+            179,
+            229
+          ],
+          [
+            75,
+            27,
+            181,
+            229
+          ],
+          [
+            75,
+            27,
+            180,
+            229
+          ],
+          [
+            75,
+            27,
+            181,
+            229
+          ],
+          [
+            75,
+            27,
+            179,
+            229
+          ]
+        ],
+        "loop_closure_exact": true,
+        "contact": "qa/strict-repairs/new-pop-dance-additions/report-independent-root/contacts/david-blaining-manager-gif-128.png"
+      },
+      "visual_evidence": {
+        "source_full_contact": "qa/strict-repairs/new-pop-dance-additions/report-independent-root/contacts/david-blaining-manager-source-full.png",
+        "source_128_contact": "qa/strict-repairs/new-pop-dance-additions/report-independent-root/contacts/david-blaining-manager-source-128.png"
+      },
+      "manual_review": {
+        "complete": true,
+        "signature_action_readable": true,
+        "stationary_elements_stable": true,
+        "loop_motion_natural": true,
+        "notes": "Independent full-cell and decoded-GIF inspection confirms one male Manager, one deck, six visible flying cards, and one controlled outer-card arc; no anatomy, crop, scale, or palette defect."
+      },
+      "failures": [],
+      "warnings": [],
+      "passed": true
+    },
+    {
+      "slug": "cranking-that-marketing",
+      "concept": "The male canonical Marketing Homie wears the supplied white graffiti jacket and black/yellow Crank That wardrobe while holding the recognizable Superman balance pose.",
+      "action_expectation": "Both complete sleeve-arm-hand units sweep in opposite directions around fixed shoulders while the face, cap, wraparound shades, jacket core, red shirt, planted leg and raised rear leg remain locked.",
+      "source": "sources/wildcard/cranking-that-marketing.png",
+      "source_sha256": "4d33e26e76d4e34e6317f9d5af735ef21c1534fc0959e9145482ffd88152ec9c",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_mode": "RGB",
+      "grid": [
+        2,
+        2
+      ],
+      "key_geometry": {
+        "outer_edge_non_key_pixels": 0,
+        "gutter_axis_non_key_pixels": 0
+      },
+      "cells": [
+        {
+          "index": 0,
+          "sha256_rgb": "50c7ed42500cf0c55b129e4c1ac94c7a289838d1118ca7398adf53ba8832a7a8",
+          "foreground_pixels": 83272,
+          "foreground_pct": 21.1819,
+          "bbox": [
+            65,
+            69,
+            559,
+            562
+          ],
+          "margins": [
+            65,
+            68,
+            69,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            326.739,
+            277.107
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 167,
+            "areas": [
+              83272
+            ],
+            "largest_area": 83272
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 1,
+          "sha256_rgb": "2c8d66f609f100e0cde440d57d19dfbf186aefb18282b75a24e328e51fa4d382",
+          "foreground_pixels": 82836,
+          "foreground_pct": 21.0709,
+          "bbox": [
+            68,
+            69,
+            560,
+            562
+          ],
+          "margins": [
+            68,
+            67,
+            69,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            326.537,
+            278.067
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 166,
+            "areas": [
+              82836
+            ],
+            "largest_area": 82836
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 2,
+          "sha256_rgb": "81c92758807733ef77c67b271600e314bbecf2d6dec33dfc2f8bc2d1adc8c52a",
+          "foreground_pixels": 82346,
+          "foreground_pct": 20.9463,
+          "bbox": [
+            74,
+            69,
+            562,
+            562
+          ],
+          "margins": [
+            74,
+            65,
+            69,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            325.942,
+            279.563
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 165,
+            "areas": [
+              82346
+            ],
+            "largest_area": 82346
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 3,
+          "sha256_rgb": "b89609e3136845547526cf61ae4e45e7925d7ae12c2d69b22e19d0c0096023d7",
+          "foreground_pixels": 82474,
+          "foreground_pct": 20.9789,
+          "bbox": [
+            71,
+            69,
+            561,
+            562
+          ],
+          "margins": [
+            71,
+            66,
+            69,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            326.2,
+            278.855
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 165,
+            "areas": [
+              82474
+            ],
+            "largest_area": 82474
+          },
+          "artifact_flags": []
+        }
+      ],
+      "pair_metrics": [
+        {
+          "mask_xor_pct": 3.2362,
+          "silhouette_motion_p95_px": 5.831,
+          "silhouette_motion_max_px": 9.487,
+          "centroid_shift_px": 0.981,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9676,
+          "registered_residual_pct": 10.3577,
+          "upper_anchor_ncc": 0.9685
+        },
+        {
+          "mask_xor_pct": 4.9062,
+          "silhouette_motion_p95_px": 9.849,
+          "silhouette_motion_max_px": 13.342,
+          "centroid_shift_px": 1.61,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9509,
+          "registered_residual_pct": 13.1596,
+          "upper_anchor_ncc": 0.9531
+        },
+        {
+          "mask_xor_pct": 3.4066,
+          "silhouette_motion_p95_px": 5.657,
+          "silhouette_motion_max_px": 7.616,
+          "centroid_shift_px": 0.754,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9659,
+          "registered_residual_pct": 10.6455,
+          "upper_anchor_ncc": 0.968
+        }
+      ],
+      "aggregate": {
+        "max_silhouette_motion_p95_px": 9.849,
+        "max_mask_xor_pct": 4.9062,
+        "max_centroid_shift_px": 1.61,
+        "max_registration_shift_px": 0.0,
+        "max_registered_residual_pct": 13.1596,
+        "minimum_upper_anchor_ncc": 0.9531,
+        "foreground_area_span_pct": 1.1203,
+        "bbox_width_span_pct": 1.222,
+        "bbox_height_span_pct": 0.0,
+        "significant_component_count_span": 0
+      },
+      "stationary_regions": [
+        {
+          "name": "fixed-marketing-cap-shades-and-face",
+          "box_pixels": [
+            251,
+            31,
+            339,
+            169
+          ],
+          "change_pct_vs_cell0": [
+            0.3376,
+            0.3458,
+            0.42
+          ],
+          "max_change_pct": 0.42,
+          "max_allowed_change_pct": 0.5
+        },
+        {
+          "name": "fixed-planted-and-raised-legs",
+          "box_pixels": [
+            213,
+            357,
+            458,
+            602
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.0
+        }
+      ],
+      "gif": {
+        "path": "gifs/wildcard/cranking-that-marketing.gif",
+        "exists": true,
+        "sha256": "b7f1bfcdda93c2990548c7aba3c44995e29a1c248b889a1a7086bb7edfea78b5",
+        "bytes": 69646,
+        "size": [
+          256,
+          256
+        ],
+        "frame_count": 6,
+        "unique_phases": 4,
+        "equality_pattern": [
+          0,
+          1,
+          2,
+          3,
+          2,
+          1
+        ],
+        "durations_ms": [
+          210,
+          140,
+          140,
+          210,
+          140,
+          140
+        ],
+        "loop": 0,
+        "has_transparency": true,
+        "corner_alphas": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "alpha_bboxes": [
+          [
+            27,
+            28,
+            228,
+            229
+          ],
+          [
+            28,
+            28,
+            229,
+            229
+          ],
+          [
+            30,
+            28,
+            229,
+            229
+          ],
+          [
+            29,
+            28,
+            229,
+            229
+          ],
+          [
+            30,
+            28,
+            229,
+            229
+          ],
+          [
+            28,
+            28,
+            229,
+            229
+          ]
+        ],
+        "loop_closure_exact": true,
+        "contact": "qa/strict-repairs/new-pop-dance-additions/report-independent-root/contacts/cranking-that-marketing-gif-128.png"
+      },
+      "visual_evidence": {
+        "source_full_contact": "qa/strict-repairs/new-pop-dance-additions/report-independent-root/contacts/cranking-that-marketing-source-full.png",
+        "source_128_contact": "qa/strict-repairs/new-pop-dance-additions/report-independent-root/contacts/cranking-that-marketing-source-128.png"
+      },
+      "manual_review": {
+        "complete": true,
+        "signature_action_readable": true,
+        "stationary_elements_stable": true,
+        "loop_motion_natural": true,
+        "notes": "Independent inspection confirms the requested white graffiti jacket/red shirt/sideways cap/white shades/black-gold trousers and the wide Superman balance pose, with two complete hands and fixed legs."
+      },
+      "failures": [],
+      "warnings": [],
+      "passed": true
+    },
+    {
+      "slug": "cranking-the-step-marketing",
+      "concept": "The male canonical Marketing Homie wears the supplied Crank That wardrobe in the crossed-foot small-hop step.",
+      "action_expectation": "Two complete bent sleeve-arm-fist units pump around fixed shoulder joins while the cap, wraparound shades, face, jacket core, crossed legs and both shoes remain locked.",
+      "source": "sources/wildcard/cranking-the-step-marketing.png",
+      "source_sha256": "66ae82445f37ef02edbdd6a36c1cd33ef33c8d2846ed9157273c185f81276d40",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_mode": "RGB",
+      "grid": [
+        2,
+        2
+      ],
+      "key_geometry": {
+        "outer_edge_non_key_pixels": 0,
+        "gutter_axis_non_key_pixels": 0
+      },
+      "cells": [
+        {
+          "index": 0,
+          "sha256_rgb": "81cb429774ca584f4f48ccade17b090a809290e1d99debf293daedd601d9645a",
+          "foreground_pixels": 66937,
+          "foreground_pct": 17.0267,
+          "bbox": [
+            184,
+            65,
+            442,
+            562
+          ],
+          "margins": [
+            184,
+            185,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            311.33,
+            295.773
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 134,
+            "areas": [
+              66937
+            ],
+            "largest_area": 66937
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 1,
+          "sha256_rgb": "7b325f775cddc510c553b0d2264f849642af0ab5599c7b89a12d1cc2691ad04b",
+          "foreground_pixels": 67008,
+          "foreground_pct": 17.0448,
+          "bbox": [
+            185,
+            65,
+            442,
+            562
+          ],
+          "margins": [
+            185,
+            185,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            311.312,
+            295.635
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 134,
+            "areas": [
+              67008
+            ],
+            "largest_area": 67008
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 2,
+          "sha256_rgb": "2f0222aaba3b311d3bf834e6161ab5e204a92dcfd33f34b8e475ecd2b234dd96",
+          "foreground_pixels": 67106,
+          "foreground_pct": 17.0697,
+          "bbox": [
+            187,
+            65,
+            442,
+            562
+          ],
+          "margins": [
+            187,
+            185,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            311.266,
+            295.446
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 134,
+            "areas": [
+              67106
+            ],
+            "largest_area": 67106
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 3,
+          "sha256_rgb": "1cf6f7b14feea8aa05a729a482bed9e74b6107feadbd843c2d77252c7fe5306d",
+          "foreground_pixels": 67039,
+          "foreground_pct": 17.0527,
+          "bbox": [
+            186,
+            65,
+            442,
+            562
+          ],
+          "margins": [
+            186,
+            185,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            311.299,
+            295.57
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 134,
+            "areas": [
+              67039
+            ],
+            "largest_area": 67039
+          },
+          "artifact_flags": []
+        }
+      ],
+      "pair_metrics": [
+        {
+          "mask_xor_pct": 0.2729,
+          "silhouette_motion_p95_px": 2.828,
+          "silhouette_motion_max_px": 3.162,
+          "centroid_shift_px": 0.139,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9973,
+          "registered_residual_pct": 5.1593,
+          "upper_anchor_ncc": 0.9953
+        },
+        {
+          "mask_xor_pct": 0.4761,
+          "silhouette_motion_p95_px": 4.123,
+          "silhouette_motion_max_px": 5.831,
+          "centroid_shift_px": 0.195,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9952,
+          "registered_residual_pct": 5.9271,
+          "upper_anchor_ncc": 0.9962
+        },
+        {
+          "mask_xor_pct": 0.3111,
+          "silhouette_motion_p95_px": 3.0,
+          "silhouette_motion_max_px": 4.0,
+          "centroid_shift_px": 0.128,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9969,
+          "registered_residual_pct": 5.1089,
+          "upper_anchor_ncc": 0.9963
+        }
+      ],
+      "aggregate": {
+        "max_silhouette_motion_p95_px": 4.123,
+        "max_mask_xor_pct": 0.4761,
+        "max_centroid_shift_px": 0.195,
+        "max_registration_shift_px": 0.0,
+        "max_registered_residual_pct": 5.9271,
+        "minimum_upper_anchor_ncc": 0.9953,
+        "foreground_area_span_pct": 0.2522,
+        "bbox_width_span_pct": 1.1696,
+        "bbox_height_span_pct": 0.0,
+        "significant_component_count_span": 0
+      },
+      "stationary_regions": [
+        {
+          "name": "fixed-cap-shades-and-face",
+          "box_pixels": [
+            263,
+            25,
+            364,
+            176
+          ],
+          "change_pct_vs_cell0": [
+            0.0393,
+            0.0328,
+            0.0328
+          ],
+          "max_change_pct": 0.0393,
+          "max_allowed_change_pct": 0.5
+        },
+        {
+          "name": "fixed-crossed-leg-step",
+          "box_pixels": [
+            157,
+            351,
+            426,
+            602
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.0
+        }
+      ],
+      "gif": {
+        "path": "gifs/wildcard/cranking-the-step-marketing.gif",
+        "exists": true,
+        "sha256": "79a64b5207cb4f922ad8b1f2d9c663d019db1998bae3ee4c6a1306078efa21ae",
+        "bytes": 60699,
+        "size": [
+          256,
+          256
+        ],
+        "frame_count": 6,
+        "unique_phases": 4,
+        "equality_pattern": [
+          0,
+          1,
+          2,
+          3,
+          2,
+          1
+        ],
+        "durations_ms": [
+          210,
+          140,
+          140,
+          210,
+          140,
+          140
+        ],
+        "loop": 0,
+        "has_transparency": true,
+        "corner_alphas": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "alpha_bboxes": [
+          [
+            75,
+            27,
+            180,
+            229
+          ],
+          [
+            76,
+            27,
+            180,
+            229
+          ],
+          [
+            76,
+            27,
+            180,
+            229
+          ],
+          [
+            76,
+            27,
+            180,
+            229
+          ],
+          [
+            76,
+            27,
+            180,
+            229
+          ],
+          [
+            76,
+            27,
+            180,
+            229
+          ]
+        ],
+        "loop_closure_exact": true,
+        "contact": "qa/strict-repairs/new-pop-dance-additions/report-independent-root/contacts/cranking-the-step-marketing-gif-128.png"
+      },
+      "visual_evidence": {
+        "source_full_contact": "qa/strict-repairs/new-pop-dance-additions/report-independent-root/contacts/cranking-the-step-marketing-source-full.png",
+        "source_128_contact": "qa/strict-repairs/new-pop-dance-additions/report-independent-root/contacts/cranking-the-step-marketing-source-128.png"
+      },
+      "manual_review": {
+        "complete": true,
+        "signature_action_readable": true,
+        "stationary_elements_stable": true,
+        "loop_motion_natural": true,
+        "notes": "Independent inspection confirms the same requested wardrobe and a distinct crossed-foot small-hop pose; both fists counter-pump with no body redraw or limb overlap."
+      },
+      "failures": [],
+      "warnings": [],
+      "passed": true
+    },
+    {
+      "slug": "cranking-the-motorbike-marketing",
+      "concept": "The male canonical Marketing Homie wears the supplied Crank That wardrobe in the low motorcycle-rev dance step.",
+      "action_expectation": "Both complete forearm-fist units counter-rotate around fixed elbows like revving handlebars while the head, jacket core, upper sleeves, bent knees, baggy pants and shoes remain locked.",
+      "source": "sources/wildcard/cranking-the-motorbike-marketing.png",
+      "source_sha256": "de8c01b16070f67ccd247b0ea3919fd151c3e07e6f67e25bbaa57e10e3c59145",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_mode": "RGB",
+      "grid": [
+        2,
+        2
+      ],
+      "key_geometry": {
+        "outer_edge_non_key_pixels": 0,
+        "gutter_axis_non_key_pixels": 0
+      },
+      "cells": [
+        {
+          "index": 0,
+          "sha256_rgb": "e72d9b27996b1f98a771a9bf926ce7665f6d7053c38246a7f78861f9ad6aa377",
+          "foreground_pixels": 73688,
+          "foreground_pct": 18.744,
+          "bbox": [
+            162,
+            65,
+            463,
+            562
+          ],
+          "margins": [
+            162,
+            164,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            299.134,
+            318.583
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 147,
+            "areas": [
+              73688
+            ],
+            "largest_area": 73688
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 1,
+          "sha256_rgb": "d562357899303a5e7911fd967301a4e2ac3248196f9eb3ac8e351f97fc458f1a",
+          "foreground_pixels": 73688,
+          "foreground_pct": 18.744,
+          "bbox": [
+            162,
+            65,
+            462,
+            562
+          ],
+          "margins": [
+            162,
+            165,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            299.124,
+            318.625
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 147,
+            "areas": [
+              73688
+            ],
+            "largest_area": 73688
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 2,
+          "sha256_rgb": "6466c64d72906060c5c045aefd76ee0d0faa0b6b459de938e3c1ed0ab1ab9ffc",
+          "foreground_pixels": 73784,
+          "foreground_pct": 18.7684,
+          "bbox": [
+            162,
+            65,
+            458,
+            562
+          ],
+          "margins": [
+            162,
+            169,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            299.293,
+            318.59
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 148,
+            "areas": [
+              73784
+            ],
+            "largest_area": 73784
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 3,
+          "sha256_rgb": "200ad4cd2b22c23b42a698ab60915e05fef5d0253ff90b9c14efb07863afaa76",
+          "foreground_pixels": 73732,
+          "foreground_pct": 18.7552,
+          "bbox": [
+            162,
+            65,
+            460,
+            562
+          ],
+          "margins": [
+            162,
+            167,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            299.204,
+            318.608
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 147,
+            "areas": [
+              73732
+            ],
+            "largest_area": 73732
+          },
+          "artifact_flags": []
+        }
+      ],
+      "pair_metrics": [
+        {
+          "mask_xor_pct": 0.3171,
+          "silhouette_motion_p95_px": 4.0,
+          "silhouette_motion_max_px": 5.0,
+          "centroid_shift_px": 0.044,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9968,
+          "registered_residual_pct": 4.6569,
+          "upper_anchor_ncc": 0.9971
+        },
+        {
+          "mask_xor_pct": 0.3952,
+          "silhouette_motion_p95_px": 6.84,
+          "silhouette_motion_max_px": 8.602,
+          "centroid_shift_px": 0.173,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.996,
+          "registered_residual_pct": 5.368,
+          "upper_anchor_ncc": 0.9951
+        },
+        {
+          "mask_xor_pct": 0.2167,
+          "silhouette_motion_p95_px": 4.006,
+          "silhouette_motion_max_px": 5.0,
+          "centroid_shift_px": 0.091,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9978,
+          "registered_residual_pct": 4.5546,
+          "upper_anchor_ncc": 0.9962
+        }
+      ],
+      "aggregate": {
+        "max_silhouette_motion_p95_px": 6.84,
+        "max_mask_xor_pct": 0.3952,
+        "max_centroid_shift_px": 0.173,
+        "max_registration_shift_px": 0.0,
+        "max_registered_residual_pct": 5.368,
+        "minimum_upper_anchor_ncc": 0.9951,
+        "foreground_area_span_pct": 0.1302,
+        "bbox_width_span_pct": 1.6722,
+        "bbox_height_span_pct": 0.0,
+        "significant_component_count_span": 0
+      },
+      "stationary_regions": [
+        {
+          "name": "fixed-cap-shades-and-face",
+          "box_pixels": [
+            263,
+            25,
+            357,
+            176
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.0
+        },
+        {
+          "name": "fixed-bent-knee-stance",
+          "box_pixels": [
+            125,
+            357,
+            483,
+            602
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.0
+        }
+      ],
+      "gif": {
+        "path": "gifs/wildcard/cranking-the-motorbike-marketing.gif",
+        "exists": true,
+        "sha256": "53da1b2b94980c464e23fbb7a72516abc80e014db792fe3cc1611b29ce0c038f",
+        "bytes": 62194,
+        "size": [
+          256,
+          256
+        ],
+        "frame_count": 6,
+        "unique_phases": 4,
+        "equality_pattern": [
+          0,
+          1,
+          2,
+          3,
+          2,
+          1
+        ],
+        "durations_ms": [
+          210,
+          140,
+          140,
+          210,
+          140,
+          140
+        ],
+        "loop": 0,
+        "has_transparency": true,
+        "corner_alphas": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "alpha_bboxes": [
+          [
+            66,
+            27,
+            189,
+            229
+          ],
+          [
+            66,
+            27,
+            189,
+            229
+          ],
+          [
+            66,
+            27,
+            187,
+            229
+          ],
+          [
+            66,
+            27,
+            188,
+            229
+          ],
+          [
+            66,
+            27,
+            187,
+            229
+          ],
+          [
+            66,
+            27,
+            189,
+            229
+          ]
+        ],
+        "loop_closure_exact": true,
+        "contact": "qa/strict-repairs/new-pop-dance-additions/report-independent-root/contacts/cranking-the-motorbike-marketing-gif-128.png"
+      },
+      "visual_evidence": {
+        "source_full_contact": "qa/strict-repairs/new-pop-dance-additions/report-independent-root/contacts/cranking-the-motorbike-marketing-source-full.png",
+        "source_128_contact": "qa/strict-repairs/new-pop-dance-additions/report-independent-root/contacts/cranking-the-motorbike-marketing-source-128.png"
+      },
+      "manual_review": {
+        "complete": true,
+        "signature_action_readable": true,
+        "stationary_elements_stable": true,
+        "loop_motion_natural": true,
+        "notes": "Independent inspection confirms a third distinct low motorbike-rev pose in the same wardrobe; both fists remain connected, the bent-knee stance stays fixed, and there is no crop or scale pumping."
+      },
+      "failures": [],
+      "warnings": [],
+      "passed": true
+    }
+  ]
+}

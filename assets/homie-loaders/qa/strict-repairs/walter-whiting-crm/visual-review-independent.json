@@ -1,0 +1,86 @@
+{
+  "walter-whiting-crm": {
+    "cells": [
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      }
+    ],
+    "signature_action_readable": true,
+    "stationary_elements_stable": true,
+    "loop_motion_natural": true,
+    "action_expectation": "The CRM identity, face, body, hands, hazmat suit, respirator geometry, and single briefcase remain pixel-locked while only a glasses glint and respirator-filter highlight pulse locally.",
+    "notes": "PASS after an independent re-audit of the corrected source. I inspected the full 1254px source contact, all four original 627px cells, every 128px cell, and all six decoded GIF phases rather than relying on the prior review. The subject is the intended brown-skinned bald male CRM identity with connected adult anatomy, one pair of clear eyeglasses, one gray respirator assembly resting at the neck, and exactly one dark hard-sided briefcase. The briefcase remains vertical and rigidly attached to the same hand; there is no cardboard-like whole-character tilt. Face, body, hands, yellow suit, shoes, briefcase, silhouette, crop, scale, and anchor remain pixel-locked. Only the glasses glint and respirator-filter highlight change inside the prescribed local mask. No duplicate prop, disconnected anatomy, crop fault, detached component, green debris/spill, text, or glyph is visible.",
+    "independent_audit": {
+      "verdict": "PASS",
+      "identity_reference": "assets/homie-loaders/references/crm.png",
+      "identity_reference_sha256": "033872e6e3ed7f9fefa317090c204a243ccfbe541e766ef8786e3e92ed46a59d",
+      "builder_sha256": "27f79d0537ce9476012216a36ad980a49980ebd814dc2593ddbd16e0206d2268",
+      "immutable_alpha_sha256": "994483ad6390e70ac43a862a9213a5d5b24ead56aa2b3e3bf643c900003e3230",
+      "accepted_chroma_sha256": "0acddc575a1789fba5cdc629bdcf117762676da416a440731e26c88ffddb4836",
+      "source_sha256_rebuilt": "3c30d08ce62138368d0ec71a261b0e573de85c0520acc0a26db47ad680939944",
+      "gif_sha256_rebuilt": "d1086c933c49a0e2e9ee1959fd3fcf768b042e97f5637318d27d5d58dd5f959d",
+      "isolated_rebuild_byte_exact": true,
+      "byte_exact_rebuilt_artifacts": [
+        "sources/wildcard/walter-whiting-crm.png",
+        "gifs/wildcard/walter-whiting-crm.gif",
+        "frames/walter-whiting-crm/locked-crm-hazmat-respirator-and-briefcase.png",
+        "frames/walter-whiting-crm/allowed-glasses-and-respirator-highlight-mask.png",
+        "frames/walter-whiting-crm/cell-0.png",
+        "frames/walter-whiting-crm/cell-1.png",
+        "frames/walter-whiting-crm/cell-2.png",
+        "frames/walter-whiting-crm/cell-3.png"
+      ],
+      "builder_evidence_semantic_payload_match": true,
+      "direct_changed_pixels_outside_allowed_mask_vs_locked_plate": [0, 0, 0, 0],
+      "changed_pixels_vs_phase_0_full": [0, 304, 437, 308],
+      "changed_pixels_vs_phase_0_at_128": [0, 76, 116, 88],
+      "motion_union_pixels": 615,
+      "motion_union_bbox": [296, 98, 349, 174],
+      "all_pixels_outside_allowed_mask_hashes_unique": 1,
+      "body_hands_suit_briefcase_region_hashes_unique": 1,
+      "alpha_silhouette_hashes_unique": 1,
+      "foreground_areas": [52689, 52689, 52689, 52689],
+      "alpha_bboxes": [
+        [221, 74, 405, 552],
+        [221, 74, 405, 552],
+        [221, 74, 405, 552],
+        [221, 74, 405, 552]
+      ],
+      "gif_frame_count": 6,
+      "gif_unique_phases": 4,
+      "gif_equality_pattern": [0, 1, 2, 3, 2, 1],
+      "gif_durations_ms": [210, 140, 140, 210, 140, 140],
+      "gif_loop": 0,
+      "mandatory_repair_notes": []
+    }
+  }
+}

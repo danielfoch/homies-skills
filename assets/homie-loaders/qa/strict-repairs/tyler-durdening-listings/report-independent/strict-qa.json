@@ -1,0 +1,395 @@
+{
+  "results": [
+    {
+      "slug": "tyler-durdening-listings",
+      "concept": "Canonical Listings Homie in red leather performs controlled shadow boxing",
+      "action_expectation": "Exactly two fists remain visible in every phase while the left jab retracts to guard and the right jab extends with only attached tapered motion marks; face, torso, pelvis, legs, crop, anchor, and scale remain fixed.",
+      "source": "assets/homie-loaders/qa/strict-repairs/tyler-durdening-listings/candidates/sources/wildcard/tyler-durdening-listings.png",
+      "source_sha256": "3f04d49bfeca9aa98c3aae199fbb98b8752e7c92b061fba4e451835e6df945b2",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_mode": "RGB",
+      "grid": [
+        2,
+        2
+      ],
+      "key_geometry": {
+        "outer_edge_non_key_pixels": 0,
+        "gutter_axis_non_key_pixels": 0
+      },
+      "cells": [
+        {
+          "index": 0,
+          "sha256_rgb": "d7ac688bf301dac6fd35279fdb5732fa0fede198a3ce46d85a32e0428a3aebf4",
+          "foreground_pixels": 43633,
+          "foreground_pct": 11.0989,
+          "bbox": [
+            207,
+            70,
+            413,
+            557
+          ],
+          "margins": [
+            207,
+            214,
+            70,
+            70
+          ],
+          "minimum_margin": 70,
+          "centroid": [
+            311.745,
+            289.666
+          ],
+          "components": {
+            "count": 2,
+            "significant_count": 1,
+            "tiny_count": 1,
+            "small_count": 1,
+            "significant_floor": 87,
+            "areas": [
+              43630,
+              3
+            ],
+            "largest_area": 43630
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 1,
+          "sha256_rgb": "74e7148fbe45dcb21d846272c9c150e16145a64d2346c79ad141e3777daf5051",
+          "foreground_pixels": 44351,
+          "foreground_pct": 11.2815,
+          "bbox": [
+            210,
+            70,
+            413,
+            557
+          ],
+          "margins": [
+            210,
+            214,
+            70,
+            70
+          ],
+          "minimum_margin": 70,
+          "centroid": [
+            310.684,
+            287.527
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 89,
+            "areas": [
+              44351
+            ],
+            "largest_area": 44351
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 2,
+          "sha256_rgb": "4f06971d0d88ce935a5d178992648a44539b203eb139ce52dec1786d5f8a3723",
+          "foreground_pixels": 44484,
+          "foreground_pct": 11.3154,
+          "bbox": [
+            212,
+            70,
+            413,
+            557
+          ],
+          "margins": [
+            212,
+            214,
+            70,
+            70
+          ],
+          "minimum_margin": 70,
+          "centroid": [
+            310.217,
+            287.052
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 89,
+            "areas": [
+              44484
+            ],
+            "largest_area": 44484
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 3,
+          "sha256_rgb": "3a7ac0002cfd6bb2dff42600f20ac979e3c90e3898055b2ea674aad3b8bd6925",
+          "foreground_pixels": 43252,
+          "foreground_pct": 11.002,
+          "bbox": [
+            212,
+            70,
+            413,
+            557
+          ],
+          "margins": [
+            212,
+            214,
+            70,
+            70
+          ],
+          "minimum_margin": 70,
+          "centroid": [
+            308.131,
+            290.691
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 87,
+            "areas": [
+              43252
+            ],
+            "largest_area": 43252
+          },
+          "artifact_flags": []
+        }
+      ],
+      "pair_metrics": [
+        {
+          "mask_xor_pct": 1.7485,
+          "silhouette_motion_p95_px": 12.042,
+          "silhouette_motion_max_px": 15.0,
+          "centroid_shift_px": 2.387,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9825,
+          "registered_residual_pct": 5.3064,
+          "upper_anchor_ncc": 0.9116
+        },
+        {
+          "mask_xor_pct": 2.6196,
+          "silhouette_motion_p95_px": 11.0,
+          "silhouette_motion_max_px": 14.866,
+          "centroid_shift_px": 0.667,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9738,
+          "registered_residual_pct": 4.2971,
+          "upper_anchor_ncc": 0.9946
+        },
+        {
+          "mask_xor_pct": 2.7695,
+          "silhouette_motion_p95_px": 24.252,
+          "silhouette_motion_max_px": 27.857,
+          "centroid_shift_px": 4.194,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9723,
+          "registered_residual_pct": 6.4518,
+          "upper_anchor_ncc": 0.9088
+        }
+      ],
+      "aggregate": {
+        "max_silhouette_motion_p95_px": 24.252,
+        "max_mask_xor_pct": 2.7695,
+        "max_centroid_shift_px": 4.194,
+        "max_registration_shift_px": 0.0,
+        "max_registered_residual_pct": 6.4518,
+        "minimum_upper_anchor_ncc": 0.9088,
+        "foreground_area_span_pct": 2.8005,
+        "bbox_width_span_pct": 2.4752,
+        "bbox_height_span_pct": 0.0,
+        "significant_component_count_span": 0
+      },
+      "stationary_regions": [
+        {
+          "name": "locked face",
+          "box_pixels": [
+            276,
+            69,
+            351,
+            144
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.0
+        },
+        {
+          "name": "locked torso core",
+          "box_pixels": [
+            276,
+            219,
+            351,
+            282
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.0
+        },
+        {
+          "name": "locked pelvis legs and shoes",
+          "box_pixels": [
+            238,
+            282,
+            395,
+            571
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.0
+        }
+      ],
+      "gif": {
+        "path": "assets/homie-loaders/qa/strict-repairs/tyler-durdening-listings/candidates/gifs/wildcard/tyler-durdening-listings.gif",
+        "exists": true,
+        "sha256": "abfba32629dab614567f5c07444e85c75770f29528e566bd67c7ee7e521a6bf1",
+        "bytes": 45206,
+        "size": [
+          256,
+          256
+        ],
+        "frame_count": 6,
+        "unique_phases": 4,
+        "equality_pattern": [
+          0,
+          1,
+          2,
+          3,
+          2,
+          1
+        ],
+        "durations_ms": [
+          210,
+          140,
+          140,
+          210,
+          140,
+          140
+        ],
+        "loop": 0,
+        "has_transparency": true,
+        "corner_alphas": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "alpha_bboxes": [
+          [
+            85,
+            29,
+            169,
+            228
+          ],
+          [
+            86,
+            29,
+            169,
+            228
+          ],
+          [
+            87,
+            29,
+            169,
+            228
+          ],
+          [
+            87,
+            29,
+            169,
+            228
+          ],
+          [
+            87,
+            29,
+            169,
+            228
+          ],
+          [
+            86,
+            29,
+            169,
+            228
+          ]
+        ],
+        "loop_closure_exact": true,
+        "contact": "assets/homie-loaders/qa/strict-repairs/tyler-durdening-listings/report-independent/contacts/tyler-durdening-listings-gif-128.png"
+      },
+      "visual_evidence": {
+        "source_full_contact": "assets/homie-loaders/qa/strict-repairs/tyler-durdening-listings/report-independent/contacts/tyler-durdening-listings-source-full.png",
+        "source_128_contact": "assets/homie-loaders/qa/strict-repairs/tyler-durdening-listings/report-independent/contacts/tyler-durdening-listings-source-128.png"
+      },
+      "manual_review": {
+        "complete": true,
+        "signature_action_readable": true,
+        "stationary_elements_stable": true,
+        "loop_motion_natural": true,
+        "notes": "PASS after an independent re-audit of the corrected candidate. I inspected the full 1254px source contact, all four original 627px cells, every 128px cell, and all six decoded GIF phases. Every phase contains exactly two fists: left jab plus right guard, partial left retraction plus right guard, two-fist guard, then left guard plus right jab. Both extended fists remain continuously attached to their authored forearms and sleeves. The original guard-fist regions retain zero skin pixels after the one-time erase, so no third fist, residual arm, or rod remains. The restrained tapered motion marks sit behind the moving fist and do not read as detached anatomy or a rod at full size or 128px. Direct frame-to-immutable-plate comparison finds zero changed pixels outside the saved two-forearm mask. Face, torso core, pelvis, legs, shoes, crop, anchor, and scale remain byte-locked. No visible crop fault, green debris, redraw drift, or disconnected anatomy is present."
+      },
+      "failures": [],
+      "warnings": [],
+      "passed": true
+    }
+  ]
+}

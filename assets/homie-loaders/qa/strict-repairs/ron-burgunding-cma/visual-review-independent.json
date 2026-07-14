@@ -1,0 +1,66 @@
+{
+  "ron-burgunding-cma": {
+    "cells": [
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      }
+    ],
+    "signature_action_readable": true,
+    "stationary_elements_stable": true,
+    "loop_motion_natural": true,
+    "action_expectation": "At full size and 128px, read one coherent amber tumbler toast with stable hand, moustache, face, burgundy suit, crop, and scale.",
+    "notes": "Independent review of the 1254px source contact, all four full-size cells, all four 128px cells, and the decoded six-frame 128px GIF contact. One amber tumbler remains continuously and coherently gripped by the same hand while the single arm/glass rig makes a restrained reversible toast. The Black male CMA identity, moustache, face, burgundy suit, torso, crop, and scale remain locked. No duplicate tumbler, grip break, detached fragment, redraw drift, crop fault, or green debris is visible.",
+    "independent_audit": {
+      "verdict": "PASS",
+      "identity_reference": "assets/homie-loaders/sources/cma/cma-deck-reveal.png",
+      "identity_reference_sha256": "5cf07ac060c962cd113b9c77d5311071e18ebaafbdcbc4f7500c42d01edc8b58",
+      "source_sha256_rebuilt": "0049af3ccaf578d2713c271b0f956cfe6d6d18b88cc29d2752f42299349f9b2f",
+      "gif_sha256_rebuilt": "9747e6408df19ae78d84804fbb7e11b4bc03d4f88a92e27b03612a68243503fd",
+      "isolated_rebuild_byte_exact": true,
+      "rebuilt_artifacts_compared": [
+        "raw-alpha.png",
+        "locked-plate.png",
+        "alpha-normalized.png",
+        "ron-burgunding-cma.png",
+        "ron-burgunding-cma.gif",
+        "build-evidence.json"
+      ],
+      "frame_rgba_hashes_match_build_evidence": true,
+      "direct_changed_pixels_outside_allowed_rig_vs_locked_plate": [0, 0, 0, 0],
+      "changed_pixels_at_128_vs_phase_0": [0, 941, 977, 1006],
+      "static_face_torso_hashes_unique": 1,
+      "alpha_area_span_pct": 0.3136,
+      "minimum_margin_px": 83,
+      "mandatory_repair_notes": []
+    }
+  }
+}

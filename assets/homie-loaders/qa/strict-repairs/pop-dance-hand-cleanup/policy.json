@@ -1,0 +1,71 @@
+{
+  "disco-inferno-ing-reports": {
+    "concept": "Reports Homie holds a locked disco stance while the connected pointing arm pumps through a clean up-and-down arc.",
+    "action_expectation": "Only the complete connected raised arm rotates around one fixed shoulder; face, hair, suit, planted arm, torso, hips, legs and shoes remain fixed without body scaling.",
+    "signature_action": true,
+    "min_silhouette_motion_px": 5.0,
+    "min_mask_xor_pct": 2.0,
+    "allow_global_motion": false,
+    "max_global_drift_px": 0.5,
+    "fixed_character_plate": true,
+    "max_registered_residual_pct": 8.0,
+    "min_upper_anchor_ncc": 0.95,
+    "min_margin_px": 60,
+    "max_bbox_span_pct": 14.0,
+    "stationary_regions": [
+      {"name": "fixed-suit-core-legs-shoes", "box": [0.35, 0.42, 0.66, 0.97], "max_change_pct": 0.0}
+    ]
+  },
+  "rickrolling-manager": {
+    "concept": "Manager Homie performs a compact Rickroll finger-point in the recognizable striped top and tan coat.",
+    "action_expectation": "Exactly one connected pointing arm pivots around its fixed shoulder while the single head, coat, pocket hand, torso, legs and shoes remain fixed.",
+    "signature_action": true,
+    "min_silhouette_motion_px": 4.0,
+    "min_mask_xor_pct": 0.9,
+    "allow_global_motion": false,
+    "max_global_drift_px": 0.5,
+    "fixed_character_plate": true,
+    "max_registered_residual_pct": 4.0,
+    "min_upper_anchor_ncc": 0.97,
+    "min_margin_px": 60,
+    "max_bbox_span_pct": 5.0,
+    "stationary_regions": [
+      {"name": "fixed-lower-coat-legs-shoes", "box": [0.29, 0.58, 0.58, 0.97], "max_change_pct": 0.0}
+    ]
+  },
+  "ymca-ing-cma": {
+    "concept": "CMA Homie performs four distinct Y, M, C and A letter silhouettes with one stable body and one connected pair of arms.",
+    "action_expectation": "The two complete articulated arms form Y, bent M, open C and overhead A in order; face, jacket core, shirt, hips, flared trousers and shoes remain fixed with no duplicate limbs or scale pumping.",
+    "signature_action": true,
+    "min_silhouette_motion_px": 50.0,
+    "min_mask_xor_pct": 15.0,
+    "allow_global_motion": false,
+    "max_global_drift_px": 0.5,
+    "fixed_character_plate": true,
+    "max_registered_residual_pct": 31.0,
+    "min_upper_anchor_ncc": 0.81,
+    "min_margin_px": 60,
+    "max_foreground_area_span_pct": 6.0,
+    "max_bbox_span_pct": 46.0,
+    "stationary_regions": [
+      {"name": "fixed-trouser-legs-and-shoes", "box": [0.35, 0.56, 0.65, 0.97], "max_change_pct": 0.0}
+    ]
+  },
+  "wednesday-ing-offers": {
+    "concept": "Offers Homie performs a restrained Wednesday-style hand dance in a locked black dress and braided-hair pose.",
+    "action_expectation": "One connected raised forearm and hand pivots around a fixed elbow; the other connected arm, face, braids, collar, dress, legs and shoes remain fixed, with exactly two hands in every frame.",
+    "signature_action": true,
+    "min_silhouette_motion_px": 6.0,
+    "min_mask_xor_pct": 1.5,
+    "allow_global_motion": false,
+    "max_global_drift_px": 0.5,
+    "fixed_character_plate": true,
+    "max_registered_residual_pct": 4.0,
+    "min_upper_anchor_ncc": 0.99,
+    "min_margin_px": 60,
+    "max_bbox_span_pct": 5.0,
+    "stationary_regions": [
+      {"name": "fixed-dress-legs-shoes", "box": [0.32, 0.42, 0.64, 0.97], "max_change_pct": 0.0}
+    ]
+  }
+}

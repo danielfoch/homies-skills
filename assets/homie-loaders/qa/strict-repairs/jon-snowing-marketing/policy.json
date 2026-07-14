@@ -1,0 +1,24 @@
+{
+  "jon-snowing-marketing": {
+    "concept": "A male Marketing Homie in black northern fur and leather holds one vertical sword with both hands while snow drifts and the blade glints.",
+    "action_expectation": "One immutable Marketing-Homie, cloak, hands, and sword plate remains pixel-locked while six deliberate snowflakes cross the surrounding negative space and one small glint travels along the blade.",
+    "signature_action": true,
+    "min_silhouette_motion_px": 7.5,
+    "min_mask_xor_pct": 2.0,
+    "allow_global_motion": false,
+    "fixed_character_plate": true,
+    "min_margin_px": 60,
+    "max_foreground_area_span_pct": 0.0,
+    "max_bbox_span_pct": 3.0,
+    "max_tiny_components": 0,
+    "max_significant_components_per_cell": 7,
+    "max_significant_component_span": 0,
+    "stationary_regions": [
+      {
+        "name": "locked-face-fur-torso-and-hands",
+        "box": [230, 84, 366, 286],
+        "max_change_pct": 0.0
+      }
+    ]
+  }
+}

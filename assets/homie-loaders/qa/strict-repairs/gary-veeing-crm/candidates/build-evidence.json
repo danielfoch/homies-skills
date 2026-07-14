@@ -1,0 +1,73 @@
+{
+  "selected_panel": 1,
+  "selected_panel_role": "only immutable male CRM face, torso, beanie, shirt, arms and hands source",
+  "registration_shift_per_phase": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ]
+  ],
+  "shared_scale_per_phase": [
+    0.78,
+    0.78,
+    0.78,
+    0.78
+  ],
+  "left_angles_degrees": [
+    2.0,
+    0.7,
+    -0.7,
+    -2.0
+  ],
+  "right_angles_degrees": [
+    -2.0,
+    -0.7,
+    0.7,
+    2.0
+  ],
+  "frame_sha256_rgba": [
+    "12930d6cfaf081cdcff9548434bf8cb60e66b081f215bfdcde6500953f2154ca",
+    "ea319b2efa8bccb4bb255240530ed831a79835f56cc179e67a28f7d63fd9f850",
+    "8f66dd4fde5320140c85f6e95442725bafa99143c998cbc9ba557ca5c4db8c0a",
+    "fcdd95c63b015ab23fe2fa12a89e78ec47ab36e91f40945f0e8b0e49e7c3f7ed"
+  ],
+  "static_face_torso_sha256_rgba": [
+    "63b2d813e285211be058a309124e148177a58664a7b878c0e6643aae8001130a",
+    "63b2d813e285211be058a309124e148177a58664a7b878c0e6643aae8001130a",
+    "63b2d813e285211be058a309124e148177a58664a7b878c0e6643aae8001130a",
+    "63b2d813e285211be058a309124e148177a58664a7b878c0e6643aae8001130a"
+  ],
+  "minimum_margin_px": 82,
+  "changed_pixels_outside_rigs": 0,
+  "sequence": [
+    0,
+    1,
+    2,
+    3,
+    2,
+    1
+  ],
+  "durations_ms": [
+    210,
+    140,
+    140,
+    210,
+    140,
+    140
+  ],
+  "raw_chroma_sha256": "14a1f3e3897946029de271ec038e06a55fe0755abb594326df7ec926dedf8b4e",
+  "raw_alpha_sha256": "c9649111456532d9443e1e1899d790d4c9779b83004dfd0a782b824977db4050",
+  "locked_plate_sha256": "c9657edca34bc3182a025caed7402d28e93882712f4596d66dff78b23c233dea"
+}

@@ -1,0 +1,30 @@
+{
+  "walter-whiting-crm": {
+    "concept": "One canonical dark-skinned bald male CRM Homie broods in a yellow hazmat suit with glasses, a respirator at his neck, and exactly one briefcase.",
+    "action_expectation": "The CRM identity, face, body, hands, hazmat suit, respirator geometry, and single briefcase remain pixel-locked while only a glasses glint and respirator-filter highlight pulse locally.",
+    "signature_action": false,
+    "allow_global_motion": false,
+    "max_global_drift_px": 0.5,
+    "fixed_character_plate": true,
+    "max_registered_residual_pct": 1.0,
+    "min_upper_anchor_ncc": 0.96,
+    "min_margin_px": 60,
+    "max_foreground_area_span_pct": 0.05,
+    "max_bbox_span_pct": 0.1,
+    "max_tiny_components": 0,
+    "max_significant_components_per_cell": 1,
+    "max_significant_component_span": 0,
+    "stationary_regions": [
+      {
+        "name": "empty-transparent-canvas-corner",
+        "box": [0.0, 0.0, 0.12, 0.12],
+        "max_change_pct": 0.0
+      },
+      {
+        "name": "locked-body-hands-suit-and-briefcase",
+        "box": [0.18, 0.31, 0.82, 0.92],
+        "max_change_pct": 0.0
+      }
+    ]
+  }
+}

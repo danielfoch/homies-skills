@@ -1,0 +1,8 @@
+{
+  "mode": "built-in image_gen",
+  "canonical_identity_reference": "assets/homie-loaders/sources/content/concept-sketch.png",
+  "wardrobe_pose_reference": "/var/folders/kz/c40hnqf51b78kdv_h64qjj0h0000gn/T/codex-clipboard-e612df06-aa60-4b48-988b-59f597073a3f.png",
+  "accepted_prompt": "imagegen-prompt.txt",
+  "accepted_chroma_output": "raw-chroma.png",
+  "targeted_edit_prompts": []
+}

@@ -1,0 +1,43 @@
+{
+  "robin-hooding-manager": {
+    "cells": [
+      {
+        "full_size_inspected": false,
+        "thumbnail_128_inspected": false,
+        "crop_clear": false,
+        "anatomy_clear": false,
+        "prop_continuity_clear": false,
+        "no_unintended_redraw_wiggle": false
+      },
+      {
+        "full_size_inspected": false,
+        "thumbnail_128_inspected": false,
+        "crop_clear": false,
+        "anatomy_clear": false,
+        "prop_continuity_clear": false,
+        "no_unintended_redraw_wiggle": false
+      },
+      {
+        "full_size_inspected": false,
+        "thumbnail_128_inspected": false,
+        "crop_clear": false,
+        "anatomy_clear": false,
+        "prop_continuity_clear": false,
+        "no_unintended_redraw_wiggle": false
+      },
+      {
+        "full_size_inspected": false,
+        "thumbnail_128_inspected": false,
+        "crop_clear": false,
+        "anatomy_clear": false,
+        "prop_continuity_clear": false,
+        "no_unintended_redraw_wiggle": false
+      }
+    ],
+    "signature_action_readable": false,
+    "stationary_elements_stable": false,
+    "loop_motion_natural": false,
+    "action_expectation": "Across four authored phases, the nock and its one connected arrow retreat 15px toward the cheek while both string ends stay fixed to the immutable bow tips; the arrowhead travels with the shaft and the shared burgundy, olive, and tan character plate remains fixed.",
+    "notes": ""
+  }
+}

@@ -1,0 +1,376 @@
+{
+  "results": [
+    {
+      "slug": "ron-burgunding-cma",
+      "concept": "Canonical CMA Homie holds one continuous raised tumbler while a single locked arm-and-glass rig makes a restrained reversible toast.",
+      "action_expectation": "At full size and 128px, read one coherent amber tumbler toast with stable hand, moustache, face, burgundy suit, crop, and scale.",
+      "source": "assets/homie-loaders/qa/strict-repairs/ron-burgunding-cma/candidates/ron-burgunding-cma.png",
+      "source_sha256": "0049af3ccaf578d2713c271b0f956cfe6d6d18b88cc29d2752f42299349f9b2f",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_mode": "RGB",
+      "grid": [
+        2,
+        2
+      ],
+      "key_geometry": {
+        "outer_edge_non_key_pixels": 0,
+        "gutter_axis_non_key_pixels": 0
+      },
+      "cells": [
+        {
+          "index": 0,
+          "sha256_rgb": "ec17e4f7dcd9cbc989d0f760bab90e3f3fbe7d96cbfd44a5a5b1d68bbc03c70f",
+          "foreground_pixels": 94043,
+          "foreground_pct": 23.9217,
+          "bbox": [
+            101,
+            84,
+            451,
+            517
+          ],
+          "margins": [
+            101,
+            176,
+            84,
+            110
+          ],
+          "minimum_margin": 84,
+          "centroid": [
+            291.511,
+            335.964
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 188,
+            "areas": [
+              94043
+            ],
+            "largest_area": 94043
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 1,
+          "sha256_rgb": "e28d6b4a207d0df967c326930bc80bd5fa709e6cb2abb4d7aadc8d11369646a8",
+          "foreground_pixels": 94143,
+          "foreground_pct": 23.9471,
+          "bbox": [
+            103,
+            84,
+            451,
+            517
+          ],
+          "margins": [
+            103,
+            176,
+            84,
+            110
+          ],
+          "minimum_margin": 84,
+          "centroid": [
+            291.52,
+            335.981
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 188,
+            "areas": [
+              94143
+            ],
+            "largest_area": 94143
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 2,
+          "sha256_rgb": "45426fb0fd82c66bde7356c160d9663097252ba651e11f7629a9c0b96f447f46",
+          "foreground_pixels": 94222,
+          "foreground_pct": 23.9672,
+          "bbox": [
+            106,
+            84,
+            451,
+            517
+          ],
+          "margins": [
+            106,
+            176,
+            84,
+            110
+          ],
+          "minimum_margin": 84,
+          "centroid": [
+            291.551,
+            336.0
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 188,
+            "areas": [
+              94222
+            ],
+            "largest_area": 94222
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 3,
+          "sha256_rgb": "0db67f569f32ad0dd66cc8fffe8f9e0e54d14380ba0818d458fd6226b02f61c3",
+          "foreground_pixels": 94328,
+          "foreground_pct": 23.9942,
+          "bbox": [
+            109,
+            84,
+            451,
+            517
+          ],
+          "margins": [
+            109,
+            176,
+            84,
+            110
+          ],
+          "minimum_margin": 84,
+          "centroid": [
+            291.551,
+            336.001
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 189,
+            "areas": [
+              94328
+            ],
+            "largest_area": 94328
+          },
+          "artifact_flags": []
+        }
+      ],
+      "pair_metrics": [
+        {
+          "mask_xor_pct": 0.933,
+          "silhouette_motion_p95_px": 3.606,
+          "silhouette_motion_max_px": 4.243,
+          "centroid_shift_px": 0.019,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9907,
+          "registered_residual_pct": 9.7415,
+          "upper_anchor_ncc": 0.943
+        },
+        {
+          "mask_xor_pct": 0.9963,
+          "silhouette_motion_p95_px": 3.606,
+          "silhouette_motion_max_px": 4.243,
+          "centroid_shift_px": 0.037,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.99,
+          "registered_residual_pct": 9.8834,
+          "upper_anchor_ncc": 0.937
+        },
+        {
+          "mask_xor_pct": 1.0761,
+          "silhouette_motion_p95_px": 3.606,
+          "silhouette_motion_max_px": 5.0,
+          "centroid_shift_px": 0.001,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9892,
+          "registered_residual_pct": 10.0332,
+          "upper_anchor_ncc": 0.9372
+        }
+      ],
+      "aggregate": {
+        "max_silhouette_motion_p95_px": 3.606,
+        "max_mask_xor_pct": 1.0761,
+        "max_centroid_shift_px": 0.037,
+        "max_registration_shift_px": 0.0,
+        "max_registered_residual_pct": 10.0332,
+        "minimum_upper_anchor_ncc": 0.937,
+        "foreground_area_span_pct": 0.3026,
+        "bbox_width_span_pct": 2.3088,
+        "bbox_height_span_pct": 0.0,
+        "significant_component_count_span": 0
+      },
+      "stationary_regions": [
+        {
+          "name": "locked-face",
+          "box_pixels": [
+            265,
+            90,
+            340,
+            220
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.1
+        },
+        {
+          "name": "locked-suit-core",
+          "box_pixels": [
+            285,
+            260,
+            365,
+            490
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.1
+        }
+      ],
+      "gif": {
+        "path": "assets/homie-loaders/qa/strict-repairs/ron-burgunding-cma/candidates/ron-burgunding-cma.gif",
+        "exists": true,
+        "sha256": "9747e6408df19ae78d84804fbb7e11b4bc03d4f88a92e27b03612a68243503fd",
+        "bytes": 80027,
+        "size": [
+          256,
+          256
+        ],
+        "frame_count": 6,
+        "unique_phases": 4,
+        "equality_pattern": [
+          0,
+          1,
+          2,
+          3,
+          2,
+          1
+        ],
+        "durations_ms": [
+          210,
+          140,
+          140,
+          210,
+          140,
+          140
+        ],
+        "loop": 0,
+        "has_transparency": true,
+        "corner_alphas": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "alpha_bboxes": [
+          [
+            41,
+            34,
+            184,
+            211
+          ],
+          [
+            42,
+            34,
+            184,
+            211
+          ],
+          [
+            43,
+            34,
+            184,
+            211
+          ],
+          [
+            44,
+            34,
+            184,
+            211
+          ],
+          [
+            43,
+            34,
+            184,
+            211
+          ],
+          [
+            42,
+            34,
+            184,
+            211
+          ]
+        ],
+        "loop_closure_exact": true,
+        "contact": "assets/homie-loaders/qa/strict-repairs/ron-burgunding-cma/candidates/qa-preflight/contacts/ron-burgunding-cma-gif-128.png"
+      },
+      "visual_evidence": {
+        "source_full_contact": "assets/homie-loaders/qa/strict-repairs/ron-burgunding-cma/candidates/qa-preflight/contacts/ron-burgunding-cma-source-full.png",
+        "source_128_contact": "assets/homie-loaders/qa/strict-repairs/ron-burgunding-cma/candidates/qa-preflight/contacts/ron-burgunding-cma-source-128.png"
+      },
+      "manual_review": {
+        "complete": false
+      },
+      "failures": [
+        "VISUAL_REVIEW_REQUIRED"
+      ],
+      "warnings": [],
+      "passed": false
+    }
+  ]
+}

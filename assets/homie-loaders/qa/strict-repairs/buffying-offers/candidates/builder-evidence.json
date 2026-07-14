@@ -1,0 +1,118 @@
+{
+  "slug": "buffying-offers",
+  "builder": "/Users/danielfoch/Documents/Homies/assets/homie-loaders/scripts/build_candidate_buffying_offers.py",
+  "builder_sha256": "d52c8b6dec8adc741286a9da6a4ff1207a4e97b7b6848bff20bff7506e0c18f1",
+  "immutable_alpha": {
+    "path": "/Users/danielfoch/Documents/Homies/assets/homie-loaders/qa/strict-repairs/raw/buffying-offers-alpha.png",
+    "sha256": "e16759f730bced67498091968b19d339409f0ca1a50dab254bc9548057e81f29",
+    "size": [
+      1024,
+      1536
+    ]
+  },
+  "accepted_chroma": {
+    "path": "/Users/danielfoch/Documents/Homies/assets/homie-loaders/qa/strict-repairs/buffying-offers/candidates/raw/buffying-offers-chroma.png",
+    "sha256": "694169c8e047fef7b8f9aacd3018bd5026317d865d93e580882eef3f40ca51e5"
+  },
+  "locked_plate": {
+    "path": "/Users/danielfoch/Documents/Homies/assets/homie-loaders/qa/strict-repairs/buffying-offers/candidates/frames/buffying-offers/locked-female-offers-and-single-stake.png",
+    "sha256": "9b9929b6a83842b93ec1eefe84414b453d7c5b320374d3302733c4ab2c7a6ee9"
+  },
+  "motion": {
+    "kind": "rigid boot-anchored guarded hunter lean",
+    "angles_deg": [
+      2.8,
+      0.9,
+      -0.9,
+      -2.8
+    ],
+    "pivot_px": [
+      313,
+      550
+    ]
+  },
+  "authored_cells": [
+    {
+      "path": "/Users/danielfoch/Documents/Homies/assets/homie-loaders/qa/strict-repairs/buffying-offers/candidates/frames/buffying-offers/cell-0.png",
+      "sha256": "1c4b6c303b25e71e8d555a340bf18edfb9c20b15c4c75825a7036f94c8d53a1c"
+    },
+    {
+      "path": "/Users/danielfoch/Documents/Homies/assets/homie-loaders/qa/strict-repairs/buffying-offers/candidates/frames/buffying-offers/cell-1.png",
+      "sha256": "24d99ae8b391740b58c4d234d9c3b1d3d4224913e07e2efbf46d6d0e5d0042ac"
+    },
+    {
+      "path": "/Users/danielfoch/Documents/Homies/assets/homie-loaders/qa/strict-repairs/buffying-offers/candidates/frames/buffying-offers/cell-2.png",
+      "sha256": "bdc2100968a8ebdc148d22f175f9b04794df1f4415896d34c6701174390ce35e"
+    },
+    {
+      "path": "/Users/danielfoch/Documents/Homies/assets/homie-loaders/qa/strict-repairs/buffying-offers/candidates/frames/buffying-offers/cell-3.png",
+      "sha256": "2f992cd7535ba51b5ea8b7297f4066ae1ae15dbea6f925315a714a6f044d43b6"
+    }
+  ],
+  "source": {
+    "path": "/Users/danielfoch/Documents/Homies/assets/homie-loaders/qa/strict-repairs/buffying-offers/candidates/sources/wildcard/buffying-offers.png",
+    "sha256": "883c3f2ceb2b749c22e7215b3556a3c9df7a51e9a873788aea99ab677ef26ea8"
+  },
+  "gif": {
+    "path": "/Users/danielfoch/Documents/Homies/assets/homie-loaders/qa/strict-repairs/buffying-offers/candidates/gifs/wildcard/buffying-offers.gif",
+    "sha256": "6565844e06abce38749e33523c26c52d03b4f1975c4837860f16356b4560f572",
+    "sequence": [
+      0,
+      1,
+      2,
+      3,
+      2,
+      1
+    ],
+    "durations_ms": [
+      210,
+      140,
+      140,
+      210,
+      140,
+      140
+    ]
+  },
+  "assertions": {
+    "frame_pixel_hashes": [
+      "d4e1708697afd419e8450a4a37fc4d061dd50279ad01b62900b6b66892d4d5a3",
+      "fdc134b992356fdcd438eee79652df856e82a9641ae40235d1d271dac5dad903",
+      "f25c9dec77540327bd16544d32239b97b06a514999ae7bac6d2aaf4e5e484061",
+      "db2c3b1ee7ae8d9eb8da03bf96230e99cb78f664975be62e5187b853e9030e38"
+    ],
+    "foreground_areas": [
+      37220,
+      37190,
+      37191,
+      37179
+    ],
+    "foreground_area_span": 0.0011015583019881785,
+    "bboxes": [
+      [
+        196,
+        74,
+        407,
+        549
+      ],
+      [
+        207,
+        74,
+        414,
+        551
+      ],
+      [
+        208,
+        74,
+        421,
+        554
+      ],
+      [
+        209,
+        74,
+        428,
+        556
+      ]
+    ],
+    "motion_ratio": 1.0013605685744464
+  }
+}

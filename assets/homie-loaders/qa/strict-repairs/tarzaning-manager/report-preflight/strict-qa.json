@@ -1,0 +1,346 @@
+{
+  "results": [
+    {
+      "slug": "tarzaning-manager",
+      "concept": "",
+      "action_expectation": "",
+      "source": "qa/strict-repairs/tarzaning-manager/candidates/sources/wildcard/tarzaning-manager.png",
+      "source_sha256": "d6e7ed933ce01da07e22c4849557af9278dde2a26a1ba0e8db497c5de6edadb2",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_mode": "RGB",
+      "grid": [
+        2,
+        2
+      ],
+      "key_geometry": {
+        "outer_edge_non_key_pixels": 0,
+        "gutter_axis_non_key_pixels": 0
+      },
+      "cells": [
+        {
+          "index": 0,
+          "sha256_rgb": "6cb3f41435e8e8aa9a6a22ff1429ec0379e6d055dea3164e3d1c18a6b644c769",
+          "foreground_pixels": 29313,
+          "foreground_pct": 7.4563,
+          "bbox": [
+            199,
+            62,
+            379,
+            544
+          ],
+          "margins": [
+            199,
+            248,
+            62,
+            83
+          ],
+          "minimum_margin": 62,
+          "centroid": [
+            266.666,
+            336.579
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 64,
+            "areas": [
+              29313
+            ],
+            "largest_area": 29313
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 1,
+          "sha256_rgb": "8ee8acf15305389e17cfc636e7bf2eb9b0967328d3a0ce6aac0a6bc55d5dc42e",
+          "foreground_pixels": 29280,
+          "foreground_pct": 7.4479,
+          "bbox": [
+            215,
+            62,
+            426,
+            529
+          ],
+          "margins": [
+            215,
+            201,
+            62,
+            98
+          ],
+          "minimum_margin": 62,
+          "centroid": [
+            294.443,
+            332.801
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 64,
+            "areas": [
+              29280
+            ],
+            "largest_area": 29280
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 2,
+          "sha256_rgb": "ba4c3a6e5de5a975a7f00c535e825d9dead99313f40c1ff8a2b306186119c6f5",
+          "foreground_pixels": 29308,
+          "foreground_pct": 7.4551,
+          "bbox": [
+            232,
+            62,
+            471,
+            511
+          ],
+          "margins": [
+            232,
+            156,
+            62,
+            116
+          ],
+          "minimum_margin": 62,
+          "centroid": [
+            321.679,
+            326.142
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 64,
+            "areas": [
+              29308
+            ],
+            "largest_area": 29308
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 3,
+          "sha256_rgb": "ea59c5ff21f1aff1a955eeb9c3077f98624a339a54217e924a029a9e0e72b168",
+          "foreground_pixels": 29323,
+          "foreground_pct": 7.4589,
+          "bbox": [
+            236,
+            62,
+            514,
+            493
+          ],
+          "margins": [
+            236,
+            113,
+            62,
+            134
+          ],
+          "minimum_margin": 62,
+          "centroid": [
+            348.127,
+            316.677
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 64,
+            "areas": [
+              29323
+            ],
+            "largest_area": 29323
+          },
+          "artifact_flags": []
+        }
+      ],
+      "pair_metrics": [
+        {
+          "mask_xor_pct": 61.7861,
+          "silhouette_motion_p95_px": 34.366,
+          "silhouette_motion_max_px": 49.041,
+          "centroid_shift_px": 28.033,
+          "registration_shift": [
+            -20,
+            18
+          ],
+          "registration_shift_px": 26.907,
+          "registration_iou": 0.5809,
+          "registered_residual_pct": 77.1929,
+          "upper_anchor_ncc": -0.2239
+        },
+        {
+          "mask_xor_pct": 61.7947,
+          "silhouette_motion_p95_px": 34.438,
+          "silhouette_motion_max_px": 48.847,
+          "centroid_shift_px": 28.038,
+          "registration_shift": [
+            -18,
+            20
+          ],
+          "registration_shift_px": 26.907,
+          "registration_iou": 0.5803,
+          "registered_residual_pct": 77.238,
+          "upper_anchor_ncc": -0.2267
+        },
+        {
+          "mask_xor_pct": 61.7976,
+          "silhouette_motion_p95_px": 34.482,
+          "silhouette_motion_max_px": 49.193,
+          "centroid_shift_px": 28.09,
+          "registration_shift": [
+            -16,
+            22
+          ],
+          "registration_shift_px": 27.203,
+          "registration_iou": 0.58,
+          "registered_residual_pct": 77.3607,
+          "upper_anchor_ncc": 0.0036
+        }
+      ],
+      "aggregate": {
+        "max_silhouette_motion_p95_px": 34.482,
+        "max_mask_xor_pct": 61.7976,
+        "max_centroid_shift_px": 28.09,
+        "max_registration_shift_px": 27.203,
+        "max_registered_residual_pct": 77.3607,
+        "minimum_upper_anchor_ncc": -0.2267,
+        "foreground_area_span_pct": 0.1467,
+        "bbox_width_span_pct": 43.5556,
+        "bbox_height_span_pct": 11.1354,
+        "significant_component_count_span": 0
+      },
+      "stationary_regions": [],
+      "gif": {
+        "path": "qa/strict-repairs/tarzaning-manager/candidates/gifs/wildcard/tarzaning-manager.gif",
+        "exists": true,
+        "sha256": "c2cc058d3577f27a64feca83bad642798b895e059962f38c6b1836c4c80b3f3f",
+        "bytes": 33908,
+        "size": [
+          256,
+          256
+        ],
+        "frame_count": 6,
+        "unique_phases": 4,
+        "equality_pattern": [
+          0,
+          1,
+          2,
+          3,
+          2,
+          1
+        ],
+        "durations_ms": [
+          210,
+          140,
+          140,
+          210,
+          140,
+          140
+        ],
+        "loop": 0,
+        "has_transparency": true,
+        "corner_alphas": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "alpha_bboxes": [
+          [
+            81,
+            25,
+            155,
+            222
+          ],
+          [
+            88,
+            25,
+            174,
+            216
+          ],
+          [
+            95,
+            25,
+            192,
+            208
+          ],
+          [
+            96,
+            25,
+            210,
+            201
+          ],
+          [
+            95,
+            25,
+            192,
+            208
+          ],
+          [
+            88,
+            25,
+            174,
+            216
+          ]
+        ],
+        "loop_closure_exact": true,
+        "contact": "qa/strict-repairs/tarzaning-manager/report-preflight/contacts/tarzaning-manager-gif-128.png"
+      },
+      "visual_evidence": {
+        "source_full_contact": "qa/strict-repairs/tarzaning-manager/report-preflight/contacts/tarzaning-manager-source-full.png",
+        "source_128_contact": "qa/strict-repairs/tarzaning-manager/report-preflight/contacts/tarzaning-manager-source-128.png"
+      },
+      "manual_review": {
+        "complete": false
+      },
+      "failures": [
+        "VISUAL_REVIEW_REQUIRED"
+      ],
+      "warnings": [
+        "BBOX_SCALE_OR_PROP_JUMP",
+        "STATIONARY_REGIONS_NOT_ANNOTATED"
+      ],
+      "passed": false
+    }
+  ]
+}

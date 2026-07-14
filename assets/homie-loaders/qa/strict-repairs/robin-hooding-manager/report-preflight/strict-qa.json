@@ -1,0 +1,345 @@
+{
+  "results": [
+    {
+      "slug": "robin-hooding-manager",
+      "concept": "",
+      "action_expectation": "",
+      "source": "qa/strict-repairs/robin-hooding-manager/candidates/sources/wildcard/robin-hooding-manager.png",
+      "source_sha256": "106b27e0d48c553a4a49a613160190f4906eb41cf2520228b5b29ce7bec9f3b1",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_mode": "RGB",
+      "grid": [
+        2,
+        2
+      ],
+      "key_geometry": {
+        "outer_edge_non_key_pixels": 0,
+        "gutter_axis_non_key_pixels": 0
+      },
+      "cells": [
+        {
+          "index": 0,
+          "sha256_rgb": "64e0b4155b132eff5b0a5df3dd3424dfb8eb3b188c5eb5c65e86dfaa42f02fa4",
+          "foreground_pixels": 36394,
+          "foreground_pct": 9.2575,
+          "bbox": [
+            166,
+            70,
+            460,
+            557
+          ],
+          "margins": [
+            166,
+            167,
+            70,
+            70
+          ],
+          "minimum_margin": 70,
+          "centroid": [
+            278.079,
+            302.242
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 73,
+            "areas": [
+              36394
+            ],
+            "largest_area": 36394
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 1,
+          "sha256_rgb": "ffb2d579709ed3de87a58c729d4c5733e0f423a5cd4b4cd0b1c8c944eb7ea643",
+          "foreground_pixels": 36453,
+          "foreground_pct": 9.2725,
+          "bbox": [
+            166,
+            70,
+            460,
+            557
+          ],
+          "margins": [
+            166,
+            167,
+            70,
+            70
+          ],
+          "minimum_margin": 70,
+          "centroid": [
+            278.232,
+            302.035
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 73,
+            "areas": [
+              36453
+            ],
+            "largest_area": 36453
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 2,
+          "sha256_rgb": "4f01256416a2fc3703475d59909a5295973e0ce185a7ea3017ef09bc071197c9",
+          "foreground_pixels": 36468,
+          "foreground_pct": 9.2763,
+          "bbox": [
+            166,
+            70,
+            460,
+            557
+          ],
+          "margins": [
+            166,
+            167,
+            70,
+            70
+          ],
+          "minimum_margin": 70,
+          "centroid": [
+            278.25,
+            301.998
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 73,
+            "areas": [
+              36468
+            ],
+            "largest_area": 36468
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 3,
+          "sha256_rgb": "5764902512718b6409a671b8eff378e4b1138a8b426a7b86b3c2ee89c9345032",
+          "foreground_pixels": 36516,
+          "foreground_pct": 9.2886,
+          "bbox": [
+            166,
+            70,
+            460,
+            557
+          ],
+          "margins": [
+            166,
+            167,
+            70,
+            70
+          ],
+          "minimum_margin": 70,
+          "centroid": [
+            278.304,
+            301.877
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 73,
+            "areas": [
+              36516
+            ],
+            "largest_area": 36516
+          },
+          "artifact_flags": []
+        }
+      ],
+      "pair_metrics": [
+        {
+          "mask_xor_pct": 0.1619,
+          "silhouette_motion_p95_px": 1.0,
+          "silhouette_motion_max_px": 1.0,
+          "centroid_shift_px": 0.257,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9984,
+          "registered_residual_pct": 1.9285,
+          "upper_anchor_ncc": 0.991
+        },
+        {
+          "mask_xor_pct": 0.0411,
+          "silhouette_motion_p95_px": 1.0,
+          "silhouette_motion_max_px": 1.0,
+          "centroid_shift_px": 0.041,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9996,
+          "registered_residual_pct": 1.7001,
+          "upper_anchor_ncc": 0.9819
+        },
+        {
+          "mask_xor_pct": 0.1314,
+          "silhouette_motion_p95_px": 1.0,
+          "silhouette_motion_max_px": 1.0,
+          "centroid_shift_px": 0.132,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9987,
+          "registered_residual_pct": 3.0973,
+          "upper_anchor_ncc": 0.9715
+        }
+      ],
+      "aggregate": {
+        "max_silhouette_motion_p95_px": 1.0,
+        "max_mask_xor_pct": 0.1619,
+        "max_centroid_shift_px": 0.257,
+        "max_registration_shift_px": 0.0,
+        "max_registered_residual_pct": 3.0973,
+        "minimum_upper_anchor_ncc": 0.9715,
+        "foreground_area_span_pct": 0.3346,
+        "bbox_width_span_pct": 0.0,
+        "bbox_height_span_pct": 0.0,
+        "significant_component_count_span": 0
+      },
+      "stationary_regions": [],
+      "gif": {
+        "path": "qa/strict-repairs/robin-hooding-manager/candidates/gifs/wildcard/robin-hooding-manager.gif",
+        "exists": true,
+        "sha256": "ac4891f54141feb0fc4876624ccdb458f670ac82acf880509520f519c747711b",
+        "bytes": 41343,
+        "size": [
+          256,
+          256
+        ],
+        "frame_count": 6,
+        "unique_phases": 4,
+        "equality_pattern": [
+          0,
+          1,
+          2,
+          3,
+          2,
+          1
+        ],
+        "durations_ms": [
+          210,
+          140,
+          140,
+          210,
+          140,
+          140
+        ],
+        "loop": 0,
+        "has_transparency": true,
+        "corner_alphas": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "alpha_bboxes": [
+          [
+            68,
+            29,
+            187,
+            227
+          ],
+          [
+            68,
+            29,
+            187,
+            227
+          ],
+          [
+            68,
+            29,
+            187,
+            227
+          ],
+          [
+            68,
+            29,
+            187,
+            227
+          ],
+          [
+            68,
+            29,
+            187,
+            227
+          ],
+          [
+            68,
+            29,
+            187,
+            227
+          ]
+        ],
+        "loop_closure_exact": true,
+        "contact": "qa/strict-repairs/robin-hooding-manager/report-preflight/contacts/robin-hooding-manager-gif-128.png"
+      },
+      "visual_evidence": {
+        "source_full_contact": "qa/strict-repairs/robin-hooding-manager/report-preflight/contacts/robin-hooding-manager-source-full.png",
+        "source_128_contact": "qa/strict-repairs/robin-hooding-manager/report-preflight/contacts/robin-hooding-manager-source-128.png"
+      },
+      "manual_review": {
+        "complete": false
+      },
+      "failures": [
+        "VISUAL_REVIEW_REQUIRED"
+      ],
+      "warnings": [
+        "STATIONARY_REGIONS_NOT_ANNOTATED"
+      ],
+      "passed": false
+    }
+  ]
+}

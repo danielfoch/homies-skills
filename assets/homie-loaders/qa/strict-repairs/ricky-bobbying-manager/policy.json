@@ -1,0 +1,30 @@
+{
+  "ricky-bobbying-manager": {
+    "concept": "A male Manager Homie in a brand-free Homies stock-car suit hoists a giant silver victory trophy while a highlight sweeps across the cup.",
+    "action_expectation": "The iconic trophy-hoisting pose, two connected hands, Manager face, racing suit, trophy geometry and checkered finish rail remain locked while only the trophy-surface glint travels.",
+    "signature_action": false,
+    "allow_global_motion": false,
+    "max_global_drift_px": 0.5,
+    "fixed_character_plate": true,
+    "max_registered_residual_pct": 1.5,
+    "min_upper_anchor_ncc": 0.985,
+    "min_margin_px": 60,
+    "max_foreground_area_span_pct": 0.05,
+    "max_bbox_span_pct": 0.1,
+    "max_tiny_components": 0,
+    "max_significant_components_per_cell": 1,
+    "max_significant_component_span": 0,
+    "stationary_regions": [
+      {
+        "name": "locked-manager-face-hands-suit-and-trophy-base",
+        "box": [0.18, 0.24, 0.78, 0.82],
+        "max_change_pct": 0.0
+      },
+      {
+        "name": "locked-checkered-finish-rail",
+        "box": [0.16, 0.82, 0.84, 0.91],
+        "max_change_pct": 0.0
+      }
+    ]
+  }
+}

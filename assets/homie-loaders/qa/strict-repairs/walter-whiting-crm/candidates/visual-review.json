@@ -1,0 +1,43 @@
+{
+  "walter-whiting-crm": {
+    "cells": [
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      }
+    ],
+    "signature_action_readable": true,
+    "stationary_elements_stable": true,
+    "loop_motion_natural": true,
+    "action_expectation": "One pixel-locked canonical dark-skinned bald CRM Homie in yellow hazmat gear holds one briefcase while only a glasses glint and respirator-filter highlight pulse locally.",
+    "notes": "Inspected the corrected full-size four-cell contact, 128px four-cell contact, and six-phase GIF contact. The canonical dark-skinned bald male CRM identity remains clear; one pair of glasses, one neck respirator, exactly one briefcase, two connected hands, and two legs remain continuous. The body, face, suit, briefcase, crop, scale, and anchor are static while only the masked glasses/filter highlights change. No cardboard tilt, AI redraw, extra equipment, text, glyphs, or debris is present."
+  }
+}

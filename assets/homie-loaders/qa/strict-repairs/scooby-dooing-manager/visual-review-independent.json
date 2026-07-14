@@ -1,0 +1,43 @@
+{
+  "scooby-dooing-manager": {
+    "cells": [
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      }
+    ],
+    "signature_action_readable": true,
+    "stationary_elements_stable": true,
+    "loop_motion_natural": true,
+    "action_expectation": "The immutable connected Manager-and-dog rig performs a controlled shared side-to-side shake; both identities, all anatomy, the collar/tag, crop, scale, and relative pose remain locked.",
+    "notes": "Independent inspection of every full-size cell, every 128px cell, and all six decoded GIF phases confirms exactly one frightened adult male Manager and one frightened large brown spotted dog. The Manager has two connected arms and hands; the dog has one head, one body, one tail, four readable paws, one blue collar, and one blank green diamond tag. The shared shake reads at 128px and preserves the connected pair byte-identically apart from whole-rig translation, with no redraw, crop, scale jump, text, debris, or extra subject."
+  }
+}

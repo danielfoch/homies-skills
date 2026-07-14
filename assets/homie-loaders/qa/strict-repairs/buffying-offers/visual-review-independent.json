@@ -1,0 +1,43 @@
+{
+  "buffying-offers": {
+    "cells": [
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      }
+    ],
+    "signature_action_readable": true,
+    "stationary_elements_stable": true,
+    "loop_motion_natural": true,
+    "action_expectation": "The immutable female Offers identity, anatomy, empty second hand, black outfit, and single wooden stake remain one rigid rig through a boot-anchored guarded lean.",
+    "notes": "Independent inspection of every full-size cell, every 128px cell, and all six decoded GIF phases confirms one unmistakably adult female Offers Homie in a simple black outfit, exactly one plain wooden stake, one empty second hand, two connected arms and hands, and two complete legs and boots. The guarded lean is visible at 128px and reverses cleanly around the boot anchor with no redraw, crop, scale jump, prop duplication, pseudo-text, or debris."
+  }
+}

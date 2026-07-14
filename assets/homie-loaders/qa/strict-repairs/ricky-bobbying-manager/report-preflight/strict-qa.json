@@ -1,0 +1,345 @@
+{
+  "results": [
+    {
+      "slug": "ricky-bobbying-manager",
+      "concept": "",
+      "action_expectation": "",
+      "source": "qa/strict-repairs/ricky-bobbying-manager/candidates/sources/wildcard/ricky-bobbying-manager.png",
+      "source_sha256": "b1bb23d5bffba5cfe01a2dfbc3270c693aab2a17481c88baad20ab4fc667fc9d",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_mode": "RGB",
+      "grid": [
+        2,
+        2
+      ],
+      "key_geometry": {
+        "outer_edge_non_key_pixels": 0,
+        "gutter_axis_non_key_pixels": 0
+      },
+      "cells": [
+        {
+          "index": 0,
+          "sha256_rgb": "f30e277a62dda43d0cfd621c295d3bbcdf05aaf47b87ea6af2483d0823a5cd8a",
+          "foreground_pixels": 87746,
+          "foreground_pct": 22.3199,
+          "bbox": [
+            103,
+            66,
+            525,
+            567
+          ],
+          "margins": [
+            103,
+            102,
+            66,
+            60
+          ],
+          "minimum_margin": 60,
+          "centroid": [
+            307.583,
+            372.092
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 175,
+            "areas": [
+              87746
+            ],
+            "largest_area": 87746
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 1,
+          "sha256_rgb": "b921051b725f17a097209737946d2a6ebe6a1b36c243e1e63271edaa19e3976d",
+          "foreground_pixels": 87747,
+          "foreground_pct": 22.3202,
+          "bbox": [
+            103,
+            66,
+            525,
+            567
+          ],
+          "margins": [
+            103,
+            102,
+            66,
+            60
+          ],
+          "minimum_margin": 60,
+          "centroid": [
+            307.583,
+            372.088
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 175,
+            "areas": [
+              87747
+            ],
+            "largest_area": 87747
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 2,
+          "sha256_rgb": "e76228eebd3808dbeb179fed08ad94487b2d2ed32ac36b70c2f4f1b2b4b9b8a4",
+          "foreground_pixels": 87747,
+          "foreground_pct": 22.3202,
+          "bbox": [
+            103,
+            66,
+            525,
+            567
+          ],
+          "margins": [
+            103,
+            102,
+            66,
+            60
+          ],
+          "minimum_margin": 60,
+          "centroid": [
+            307.583,
+            372.088
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 175,
+            "areas": [
+              87747
+            ],
+            "largest_area": 87747
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 3,
+          "sha256_rgb": "024c9e0127e9fc7374025af0e35b55656925faa23111c455258f70aae8c2e3ee",
+          "foreground_pixels": 87747,
+          "foreground_pct": 22.3202,
+          "bbox": [
+            103,
+            66,
+            525,
+            567
+          ],
+          "margins": [
+            103,
+            102,
+            66,
+            60
+          ],
+          "minimum_margin": 60,
+          "centroid": [
+            307.583,
+            372.088
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 175,
+            "areas": [
+              87747
+            ],
+            "largest_area": 87747
+          },
+          "artifact_flags": []
+        }
+      ],
+      "pair_metrics": [
+        {
+          "mask_xor_pct": 0.0011,
+          "silhouette_motion_p95_px": 1.0,
+          "silhouette_motion_max_px": 1.0,
+          "centroid_shift_px": 0.003,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 1.0,
+          "registered_residual_pct": 0.294,
+          "upper_anchor_ncc": 0.9911
+        },
+        {
+          "mask_xor_pct": 0.0,
+          "silhouette_motion_p95_px": 0.0,
+          "silhouette_motion_max_px": 0.0,
+          "centroid_shift_px": 0.0,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 1.0,
+          "registered_residual_pct": 0.5835,
+          "upper_anchor_ncc": 0.9954
+        },
+        {
+          "mask_xor_pct": 0.0,
+          "silhouette_motion_p95_px": 0.0,
+          "silhouette_motion_max_px": 0.0,
+          "centroid_shift_px": 0.0,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 1.0,
+          "registered_residual_pct": 0.6473,
+          "upper_anchor_ncc": 0.9985
+        }
+      ],
+      "aggregate": {
+        "max_silhouette_motion_p95_px": 1.0,
+        "max_mask_xor_pct": 0.0011,
+        "max_centroid_shift_px": 0.003,
+        "max_registration_shift_px": 0.0,
+        "max_registered_residual_pct": 0.6473,
+        "minimum_upper_anchor_ncc": 0.9911,
+        "foreground_area_span_pct": 0.0011,
+        "bbox_width_span_pct": 0.0,
+        "bbox_height_span_pct": 0.0,
+        "significant_component_count_span": 0
+      },
+      "stationary_regions": [],
+      "gif": {
+        "path": "qa/strict-repairs/ricky-bobbying-manager/candidates/gifs/wildcard/ricky-bobbying-manager.gif",
+        "exists": true,
+        "sha256": "b53b43d1ef074de525ed74644a93c7ab760b740b2ae3593e3d3e63f7039b51d9",
+        "bytes": 70265,
+        "size": [
+          256,
+          256
+        ],
+        "frame_count": 6,
+        "unique_phases": 4,
+        "equality_pattern": [
+          0,
+          1,
+          2,
+          3,
+          2,
+          1
+        ],
+        "durations_ms": [
+          210,
+          140,
+          140,
+          210,
+          140,
+          140
+        ],
+        "loop": 0,
+        "has_transparency": true,
+        "corner_alphas": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "alpha_bboxes": [
+          [
+            42,
+            27,
+            214,
+            231
+          ],
+          [
+            42,
+            27,
+            214,
+            231
+          ],
+          [
+            42,
+            27,
+            214,
+            231
+          ],
+          [
+            42,
+            27,
+            214,
+            231
+          ],
+          [
+            42,
+            27,
+            214,
+            231
+          ],
+          [
+            42,
+            27,
+            214,
+            231
+          ]
+        ],
+        "loop_closure_exact": true,
+        "contact": "qa/strict-repairs/ricky-bobbying-manager/report-preflight/contacts/ricky-bobbying-manager-gif-128.png"
+      },
+      "visual_evidence": {
+        "source_full_contact": "qa/strict-repairs/ricky-bobbying-manager/report-preflight/contacts/ricky-bobbying-manager-source-full.png",
+        "source_128_contact": "qa/strict-repairs/ricky-bobbying-manager/report-preflight/contacts/ricky-bobbying-manager-source-128.png"
+      },
+      "manual_review": {
+        "complete": false
+      },
+      "failures": [
+        "VISUAL_REVIEW_REQUIRED"
+      ],
+      "warnings": [
+        "STATIONARY_REGIONS_NOT_ANNOTATED"
+      ],
+      "passed": false
+    }
+  ]
+}

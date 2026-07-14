@@ -1,0 +1,378 @@
+{
+  "results": [
+    {
+      "slug": "elle-woodsing-reports",
+      "concept": "A clearly female Homie in a hot-pink suit and sunglasses holds a coordinated handbag and a small sweater-wearing chihuahua.",
+      "action_expectation": "The chihuahua's connected outer forepaw makes a compact friendly wave while the woman, sunglasses, ponytail, hot-pink suit, handbag, holding arm, dog body, legs and feet remain fixed.",
+      "source": "/tmp/elle-woodsing-paw-v1/sources/wildcard/elle-woodsing-reports.png",
+      "source_sha256": "f92d7d99e097d674824257f9ac694068ac58656b6b2598e5aa0906e2fb7b8622",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_mode": "RGB",
+      "grid": [
+        2,
+        2
+      ],
+      "key_geometry": {
+        "outer_edge_non_key_pixels": 0,
+        "gutter_axis_non_key_pixels": 0
+      },
+      "cells": [
+        {
+          "index": 0,
+          "sha256_rgb": "42132b4c959a25eb1f4c3696c22c0d2ac13e50985d1522ef8f9876bf82c8f381",
+          "foreground_pixels": 42894,
+          "foreground_pct": 10.9109,
+          "bbox": [
+            224,
+            64,
+            402,
+            563
+          ],
+          "margins": [
+            224,
+            225,
+            64,
+            64
+          ],
+          "minimum_margin": 64,
+          "centroid": [
+            316.507,
+            289.845
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 86,
+            "areas": [
+              42894
+            ],
+            "largest_area": 42894
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 1,
+          "sha256_rgb": "7babf71f0716c671b373a910f25a538cb57abd2f6e13923ad9a40c8c42aa2733",
+          "foreground_pixels": 42904,
+          "foreground_pct": 10.9135,
+          "bbox": [
+            224,
+            64,
+            400,
+            563
+          ],
+          "margins": [
+            224,
+            227,
+            64,
+            64
+          ],
+          "minimum_margin": 64,
+          "centroid": [
+            316.507,
+            289.814
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 86,
+            "areas": [
+              42904
+            ],
+            "largest_area": 42904
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 2,
+          "sha256_rgb": "a39919a3c648c7954511e70b939cbe0a8b4281497299ba039f57c168916d54bb",
+          "foreground_pixels": 42869,
+          "foreground_pct": 10.9046,
+          "bbox": [
+            224,
+            64,
+            400,
+            563
+          ],
+          "margins": [
+            224,
+            227,
+            64,
+            64
+          ],
+          "minimum_margin": 64,
+          "centroid": [
+            316.437,
+            289.89
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 86,
+            "areas": [
+              42869
+            ],
+            "largest_area": 42869
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 3,
+          "sha256_rgb": "720c38b604aa2e88a1df290d97a4614ac3837ab354d4acce5c1759e169beb7a7",
+          "foreground_pixels": 42802,
+          "foreground_pct": 10.8875,
+          "bbox": [
+            224,
+            64,
+            400,
+            563
+          ],
+          "margins": [
+            224,
+            227,
+            64,
+            64
+          ],
+          "minimum_margin": 64,
+          "centroid": [
+            316.322,
+            290.047
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 86,
+            "areas": [
+              42802
+            ],
+            "largest_area": 42802
+          },
+          "artifact_flags": []
+        }
+      ],
+      "pair_metrics": [
+        {
+          "mask_xor_pct": 0.3955,
+          "silhouette_motion_p95_px": 4.189,
+          "silhouette_motion_max_px": 5.0,
+          "centroid_shift_px": 0.031,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.996,
+          "registered_residual_pct": 0.8631,
+          "upper_anchor_ncc": 1.0
+        },
+        {
+          "mask_xor_pct": 0.3096,
+          "silhouette_motion_p95_px": 4.472,
+          "silhouette_motion_max_px": 5.099,
+          "centroid_shift_px": 0.103,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9969,
+          "registered_residual_pct": 0.8381,
+          "upper_anchor_ncc": 1.0
+        },
+        {
+          "mask_xor_pct": 0.2541,
+          "silhouette_motion_p95_px": 4.789,
+          "silhouette_motion_max_px": 5.099,
+          "centroid_shift_px": 0.194,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9975,
+          "registered_residual_pct": 0.8417,
+          "upper_anchor_ncc": 1.0
+        }
+      ],
+      "aggregate": {
+        "max_silhouette_motion_p95_px": 4.789,
+        "max_mask_xor_pct": 0.3955,
+        "max_centroid_shift_px": 0.194,
+        "max_registration_shift_px": 0.0,
+        "max_registered_residual_pct": 0.8631,
+        "minimum_upper_anchor_ncc": 1.0,
+        "foreground_area_span_pct": 0.2379,
+        "bbox_width_span_pct": 1.1364,
+        "bbox_height_span_pct": 0.0,
+        "significant_component_count_span": 0
+      },
+      "stationary_regions": [
+        {
+          "name": "female-homie-face-ponytail-suit-handbag-left-core",
+          "box_pixels": [
+            0,
+            0,
+            364,
+            627
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.0
+        },
+        {
+          "name": "fixed-lower-body-handbag-dog-body-legs-feet",
+          "box_pixels": [
+            0,
+            238,
+            627,
+            627
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.0
+        }
+      ],
+      "gif": {
+        "path": "/tmp/elle-woodsing-paw-v1/gifs/wildcard/elle-woodsing-reports.gif",
+        "exists": true,
+        "sha256": "8d8be2ccb4967f22afe71b475127572101ff52cdc6f31025471f34ba73c179a8",
+        "bytes": 45589,
+        "size": [
+          256,
+          256
+        ],
+        "frame_count": 6,
+        "unique_phases": 4,
+        "equality_pattern": [
+          0,
+          1,
+          2,
+          3,
+          2,
+          1
+        ],
+        "durations_ms": [
+          210,
+          140,
+          140,
+          210,
+          140,
+          140
+        ],
+        "loop": 0,
+        "has_transparency": true,
+        "corner_alphas": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "alpha_bboxes": [
+          [
+            91,
+            26,
+            164,
+            230
+          ],
+          [
+            91,
+            26,
+            163,
+            230
+          ],
+          [
+            91,
+            26,
+            163,
+            230
+          ],
+          [
+            91,
+            26,
+            163,
+            230
+          ],
+          [
+            91,
+            26,
+            163,
+            230
+          ],
+          [
+            91,
+            26,
+            163,
+            230
+          ]
+        ],
+        "loop_closure_exact": true,
+        "contact": "/tmp/elle-woodsing-paw-v1/strict-policy/contacts/elle-woodsing-reports-gif-128.png"
+      },
+      "visual_evidence": {
+        "source_full_contact": "/tmp/elle-woodsing-paw-v1/strict-policy/contacts/elle-woodsing-reports-source-full.png",
+        "source_128_contact": "/tmp/elle-woodsing-paw-v1/strict-policy/contacts/elle-woodsing-reports-source-128.png"
+      },
+      "manual_review": {
+        "complete": true,
+        "signature_action_readable": true,
+        "stationary_elements_stable": true,
+        "loop_motion_natural": true,
+        "notes": "Full-size, 128px, and magnified paw contacts inspected. The character unmistakably reads as an adult woman with a feminine face/body, blonde high ponytail, hot-pink sunglasses, tailored pink blazer and pencil skirt, pink heels, coordinated handbag, and exactly one tan chihuahua in a purple-and-pink sweater. One canonical plate is reused exactly. Only the dog's connected outer forepaw rotates around its wrist; the woman, bag, holding hand, dog head/body, suit, legs, and feet are pixel-identical. No seams, ghosts, debris, crop, extra anatomy, palette shimmer, or whole-body jiggle."
+      },
+      "failures": [],
+      "warnings": [],
+      "passed": true
+    }
+  ]
+}

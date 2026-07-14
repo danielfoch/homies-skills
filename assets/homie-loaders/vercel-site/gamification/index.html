@@ -1,0 +1,634 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Interactive Homies gamification layer handoff prototype" />
+    <title>Homies · Progress prototype</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Primary navigation">
+        <div class="brand-cluster">
+          <a class="brand" href="/" aria-label="Back to animation gallery">
+            <span class="brand-word">homies</span><span class="brand-beta">beta</span>
+          </a>
+          <button class="level-chip js-open-progress" type="button" aria-label="Level 5, 40 percent to Level 6. View activity stats.">
+            <span class="level-chip-number">L5</span>
+            <span class="level-chip-copy">
+              <span class="level-chip-name">Operator</span>
+              <span class="level-chip-track" aria-hidden="true"><span style="width: 40%"></span></span>
+            </span>
+          </button>
+        </div>
+
+        <nav class="side-nav">
+          <a class="side-nav-link active" href="#dashboard" aria-current="page">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3h11A2.5 2.5 0 0 1 20 5.5v8a2.5 2.5 0 0 1-2.5 2.5H10l-5 4v-4.5A2.5 2.5 0 0 1 4 13.5Z"/></svg>
+            Chat
+          </a>
+          <a class="side-nav-link" href="#progress/overview">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 19V9m7 10V5m7 14v-7"/></svg>
+            My progress
+          </a>
+          <a class="side-nav-link" href="#progress/leaderboard">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0Zm0 2H4v2a4 4 0 0 0 4 4m9-6h3v2a4 4 0 0 1-4 4"/></svg>
+            Leaderboard
+          </a>
+          <a class="side-nav-link" href="#progress/achievements">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m12 3 2.2 4.5 5 .7-3.6 3.5.9 5-4.5-2.4-4.5 2.4.9-5L4.8 8.2l5-.7Z"/></svg>
+            Achievements
+          </a>
+          <a class="side-nav-link" href="#progress/community">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M8 15a4 4 0 1 0 0-8 4 4 0 0 0 0 8Zm8-2a3 3 0 1 0 0-6m-2 13H2v-1a6 6 0 0 1 12 0Zm2-5a5 5 0 0 1 6 4.9V20h-6"/></svg>
+            Community
+          </a>
+          <a class="side-nav-link" href="#progress/partners">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 20V8l8-5 8 5v12M8 20v-6h8v6M3 20h18"/><path d="M9 9h6"/></svg>
+            Partner hub
+          </a>
+        </nav>
+
+        <div class="sidebar-spacer"></div>
+        <div class="privacy-mini">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3 5 6v5c0 4.7 2.8 8.3 7 10 4.2-1.7 7-5.3 7-10V6Z"/><path d="m9 12 2 2 4-5"/></svg>
+          <span>You choose what other Homies can see—down to each data point. <button class="privacy-mini-link js-open-sharing" type="button">Manage sharing</button></span>
+        </div>
+        <button class="profile-row" type="button" aria-label="Open account menu">
+          <span class="avatar">TM</span>
+          <span><strong>Taylor M. <span class="micro-badge" title="Offer Scout · 5 offers">5</span></strong><small>Agent workspace</small></span>
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></svg>
+        </button>
+      </aside>
+
+      <header class="mobile-header">
+        <a class="brand" href="/" aria-label="Back to animation gallery">
+          <span class="brand-word">homies</span><span class="brand-beta">beta</span>
+        </a>
+        <button class="level-chip js-open-progress" type="button" aria-label="Level 5, 40 percent to Level 6. View activity stats.">
+          <span class="level-chip-number">L5</span>
+          <span class="level-chip-copy">
+            <span class="level-chip-name">Operator</span>
+            <span class="level-chip-track" aria-hidden="true"><span style="width: 40%"></span></span>
+          </span>
+        </button>
+      </header>
+
+      <main id="main-content" tabindex="-1">
+        <section id="dashboard-view" class="view dashboard-view" aria-labelledby="dashboard-title">
+          <div class="dashboard-topbar">
+            <div>
+              <p class="eyebrow">Sunday, July 12</p>
+              <h1 id="dashboard-title">What can the Homies help with?</h1>
+            </div>
+            <button class="icon-button" type="button" aria-label="Open notifications">
+              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9M10 21h4"/></svg>
+            </button>
+          </div>
+
+          <div class="agent-grid" aria-label="Homies teams">
+            <button class="agent-card" type="button"><span class="agent-icon coral">C</span><span><strong>CRM</strong><small>Follow up and stay organized</small></span><span aria-hidden="true">→</span></button>
+            <button class="agent-card" type="button"><span class="agent-icon violet">C</span><span><strong>CMA</strong><small>Build a market-ready analysis</small></span><span aria-hidden="true">→</span></button>
+            <button class="agent-card" type="button"><span class="agent-icon green">O</span><span><strong>Offers</strong><small>Prepare a confident offer</small></span><span aria-hidden="true">→</span></button>
+            <button class="agent-card" type="button"><span class="agent-icon blue">S</span><span><strong>Showings</strong><small>Coordinate the whole tour</small></span><span aria-hidden="true">→</span></button>
+          </div>
+
+          <div class="chat-stage">
+            <div class="chat-empty-mark" aria-hidden="true">h</div>
+            <p>Ask a question or hand off a task.</p>
+            <article class="chat-win-card" aria-label="Example completed chat task">
+              <div class="chat-win-icon" aria-hidden="true">✓</div>
+              <div><strong>Your offer package is ready</strong><span>Verified Homies task · +5 points · Offer progress 9/10</span></div>
+              <button class="button win-button js-share-win" data-metric="offer" data-milestone="5" type="button">Share this win</button>
+            </article>
+            <article id="war-plan-card" class="war-plan-card" aria-labelledby="war-plan-title" hidden></article>
+            <form class="composer" id="demo-composer">
+              <label class="sr-only" for="prompt-input">Message Homies</label>
+              <textarea id="prompt-input" rows="1" placeholder="Message the Homies…"></textarea>
+              <button class="send-button" type="submit" aria-label="Send prompt">
+                <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m5 12 14-8-4 16-3-6Z"/><path d="m12 14 7-10"/></svg>
+              </button>
+            </form>
+            <p class="composer-note">Prototype: sending a prompt updates the level chip.</p>
+          </div>
+        </section>
+
+        <section id="progress-view" class="view progress-view" aria-labelledby="progress-title" hidden>
+          <div class="progress-header">
+            <div>
+              <a class="back-link" href="#dashboard">← Back to chat</a>
+              <p class="eyebrow">Your Homies activity</p>
+              <h1 id="progress-title">Progress that follows the work</h1>
+              <p class="lede">See what you have shipped, how your habits are building, and what gets you to the next level.</p>
+            </div>
+            <div class="demo-control" aria-label="Prototype controls">
+              <label for="activity-select">Demo a completed action</label>
+              <div>
+                <select id="activity-select">
+                  <option value="prompt">Accepted prompt · +1</option>
+                  <option value="cma">CMA / home valuation · +5</option>
+                  <option value="offer">Offer completed · +5</option>
+                  <option value="follow_up">Follow-up completed · +5</option>
+                  <option value="showing">Showing booked · +5</option>
+                  <option value="appointment">Appointment booked · +5</option>
+                  <option value="listing_presentation">Listing presentation · +5</option>
+                  <option value="listing_sent">Listing sent to buyer · +5</option>
+                  <option value="market_report">Market report sent · +5</option>
+                  <option value="newsletter">Newsletter sent · +5</option>
+                  <option value="social_post">Social post published · +5</option>
+                  <option value="dm_sent">DM sent · +5</option>
+                </select>
+                <button id="simulate-button" class="button secondary" type="button">Add</button>
+              </div>
+            </div>
+          </div>
+
+          <article class="level-hero" aria-labelledby="level-heading">
+            <div class="level-medallion" aria-hidden="true"><span>5</span></div>
+            <div class="level-hero-copy">
+              <div class="level-kicker"><span class="live-dot"></span> Current level</div>
+              <h2 id="level-heading">Level 5 · Operator</h2>
+              <p>You have built real momentum. Keep completing work through Homies to reach Producer.</p>
+              <div class="hero-progress-label"><strong><span id="hero-points">1,020</span> points</strong><span id="hero-next-copy">330 to Level 6</span></div>
+              <div class="hero-progress" role="progressbar" aria-valuemin="800" aria-valuemax="1350" aria-valuenow="1020" aria-label="40 percent to Level 6">
+                <span style="width: 40%"></span>
+              </div>
+              <button id="war-plan-button" class="button war-plan-button" type="button">⚡ Help me reach Level 6</button>
+            </div>
+            <div class="hero-side-stats">
+              <div><span>#3</span><small>Team rank this month</small></div>
+              <div><span>4</span><small>Active days this week</small></div>
+            </div>
+          </article>
+
+          <nav class="tab-list" role="tablist" aria-label="Progress sections">
+            <button id="overview-tab" role="tab" aria-selected="true" aria-controls="overview-panel" data-tab="overview" type="button">Overview</button>
+            <button id="achievements-tab" role="tab" aria-selected="false" aria-controls="achievements-panel" data-tab="achievements" type="button">Achievements</button>
+            <button id="leaderboard-tab" role="tab" aria-selected="false" aria-controls="leaderboard-panel" data-tab="leaderboard" type="button">Leaderboard</button>
+            <button id="community-tab" role="tab" aria-selected="false" aria-controls="community-panel" data-tab="community" type="button">Community</button>
+            <button id="partners-tab" role="tab" aria-selected="false" aria-controls="partners-panel" data-tab="partners" type="button">Partner hub</button>
+            <button id="levels-tab" role="tab" aria-selected="false" aria-controls="levels-panel" data-tab="levels" type="button">All levels</button>
+          </nav>
+
+          <section id="overview-panel" class="tab-panel" role="tabpanel" aria-labelledby="overview-tab">
+            <div class="accountability-grid">
+              <article class="card partner-cta-card" id="partner-cta-card">
+                <div class="partner-stat-pill" aria-hidden="true">90%</div>
+                <div class="partner-cta-copy">
+                  <p class="eyebrow">Accountability partner</p>
+                  <h3>90% of realtors are more successful when they share their goals and progress with an accountability partner.</h3>
+                  <p id="partner-cta-status">Invite one trusted agent. You each choose exactly which numbers the other can see, and Homies keeps you both honest with a Monday digest.</p>
+                </div>
+                <div class="partner-cta-actions">
+                  <button id="invite-partner-button" class="button primary" type="button">Invite an accountability partner</button>
+                  <button id="partner-manage-button" class="button secondary" type="button" hidden>Manage partner</button>
+                </div>
+              </article>
+              <article class="card coach-report-card">
+                <p class="eyebrow">Coach &amp; team-lead reports</p>
+                <h3>Send your scorecard up the chain</h3>
+                <p id="coach-report-status">A clean weekly summary of the data points you pick—no inbox screenshots, no spreadsheet exports.</p>
+                <button id="coach-report-button" class="button secondary" type="button">Set up a report</button>
+              </article>
+            </div>
+
+            <div class="section-heading">
+              <div><p class="eyebrow">Your business scoreboard</p><h2>Momentum, not just totals</h2><p>Every metric with its weekly trend, how this week compares, and the next badge it feeds. Lifetime counts still matter—they just ride shotgun now.</p></div>
+              <div class="metric-controls"><div class="metric-picker-wrap"><button id="add-metric-button" class="button secondary" type="button" aria-expanded="false">+ Add metric</button><div id="metric-picker" class="metric-picker" hidden></div></div><span class="joined-date">Joined Jan 12, 2026</span></div>
+            </div>
+            <div id="scoreboard" class="scoreboard"></div>
+
+            <article class="card gci-card" id="gci-card">
+              <div class="gci-head">
+                <span class="gci-lock" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg></span>
+                <div>
+                  <p class="eyebrow">Gross commission income · Private to you</p>
+                  <h3><span id="gci-current">$186,400</span> <small>GCI logged · 2026 YTD</small></h3>
+                  <p>GCI never enters points, badges or leaderboards. Share it only with people you explicitly choose—your accountability partner or coach.</p>
+                </div>
+                <div class="gci-actions">
+                  <button id="gci-manual-button" class="button secondary" type="button">Add manually</button>
+                  <button id="gci-scan-button" class="button primary" type="button">Scan my email for past GCI</button>
+                </div>
+              </div>
+              <div id="gci-years" class="gci-years" aria-label="GCI by year"></div>
+            </article>
+
+            <article class="card contribution-card">
+              <div class="card-header"><div><p class="eyebrow">Your activity graph</p><h2>365 days of shipping</h2><p>Like GitHub contributions, but for the client work and growth habits that move a real-estate business.</p></div><span class="period-pill"><strong>197</strong> active days</span></div>
+              <div class="heatmap-scroll"><div id="activity-heatmap" class="activity-heatmap" role="img" aria-label="365-day activity heatmap; darker squares represent more verified Homies activity"></div></div>
+              <div class="heatmap-footer"><span>Jan 12, 2026 → today</span><span class="heatmap-key">Less <i data-strength="0"></i><i data-strength="1"></i><i data-strength="2"></i><i data-strength="3"></i><i data-strength="4"></i> More</span></div>
+            </article>
+
+            <div class="analytics-grid">
+              <article class="card chart-card">
+                <div class="card-header">
+                  <div><p class="eyebrow">Activity history</p><h2>Work completed over time</h2></div>
+                  <select id="chart-period" aria-label="Activity chart period">
+                    <option value="12">12 weeks</option>
+                    <option value="8">8 weeks</option>
+                    <option value="4">4 weeks</option>
+                  </select>
+                </div>
+                <div id="chart-legend" class="chart-legend" aria-label="Toggle chart series"></div>
+                <div id="activity-chart" class="activity-chart" role="img" aria-label="Weekly prompts and completed task activity"></div>
+                <details class="chart-data">
+                  <summary>View chart as a table</summary>
+                  <div class="table-scroll"><table id="chart-table"></table></div>
+                </details>
+              </article>
+
+              <article class="card breakdown-card">
+                <div class="card-header"><div><p class="eyebrow">Task mix</p><h2>Where Homies helps most</h2></div><span class="period-pill">All time</span></div>
+                <div id="task-breakdown" class="task-breakdown"></div>
+              </article>
+            </div>
+
+            <article class="card next-actions">
+              <div><p class="eyebrow">A useful next step</p><h2>330 points to Producer</h2><p>At your recent pace, you are about three active weeks away.</p></div>
+              <div class="action-suggestions">
+                <span><strong>Complete a CMA</strong><small>+5 points</small></span>
+                <span><strong>Book an appointment</strong><small>+5 points</small></span>
+                <a class="button primary" href="#dashboard">Start a task</a>
+              </div>
+            </article>
+          </section>
+
+          <section id="achievements-panel" class="tab-panel" role="tabpanel" aria-labelledby="achievements-tab" hidden>
+            <div class="section-heading">
+              <div><p class="eyebrow">Your badge cabinet</p><h2>Every real-estate win has a quest line</h2><p>Each KPI unlocks at 1, 5, 10, 20, 50, 100, 250, 500 and 1,000. Badges are cosmetic—Impact Points stay simple and fair.</p></div>
+              <span class="joined-date"><strong id="achievement-earned-count">25</strong> badges earned</span>
+            </div>
+
+            <article id="next-achievement" class="achievement-hero card"></article>
+
+            <div class="achievement-section-header">
+              <div><p class="eyebrow">Pinned to your profile</p><h2>Your badge loadout</h2></div>
+              <button class="text-button" type="button" id="edit-pins-button">Edit pins · 3 max</button>
+            </div>
+            <div id="pinned-badges" class="pinned-badges"></div>
+
+            <div class="achievement-section-header">
+              <div><p class="eyebrow">14 achievement quest lines</p><h2>Choose your next win</h2></div>
+              <span class="period-pill">Lifetime · verified work</span>
+            </div>
+            <div id="achievement-tracks" class="achievement-tracks"></div>
+          </section>
+
+          <section id="leaderboard-panel" class="tab-panel" role="tabpanel" aria-labelledby="leaderboard-tab" hidden>
+            <div class="section-heading leaderboard-heading">
+              <div><p class="eyebrow">Team leaderboard</p><h2>See how your activity stacks up</h2><p>Points reward accepted prompts and verified completed work—not database size.</p></div>
+              <div class="filter-row">
+                <label>Metric<select id="leaderboard-metric"><option value="points">Impact points</option><option value="tasksCompleted">Tasks completed</option><option value="promptsSubmitted">Prompts</option><option value="follow_up">Follow-ups</option><option value="showing">Showings booked</option><option value="appointment">Appointments</option><option value="cma">CMAs &amp; home valuations</option><option value="offer">Offers</option><option value="listing_presentation">Listing presentations</option><option value="listing_sent">Listings sent</option><option value="market_report">Market reports sent</option><option value="newsletter">Newsletters sent</option><option value="social_post">Social posts</option><option value="dm_sent">DMs sent</option><option value="crm_contact">Contacts activated</option></select></label>
+                <label>Period<select id="leaderboard-period"><option value="month">This month</option><option value="week">This week</option><option value="all_time">All time</option></select></label>
+                <label>Scope<select id="leaderboard-scope"><option value="team">My team</option><option value="cohort">Coaching cohort</option><option value="brokerage">Brokerage</option><option value="global">All Homies</option></select></label>
+              </div>
+            </div>
+
+            <div class="rank-summary-grid">
+              <article class="rank-card accent-card"><small>Your rank</small><strong id="current-rank">#3</strong><span>Top 25% of your team</span></article>
+              <article class="rank-card"><small>Points this month</small><strong>418</strong><span class="positive">↑ 18% from June</span></article>
+              <article class="rank-card"><small>Personal best</small><strong>#2</strong><span>May 2026</span></article>
+            </div>
+
+            <article class="coach-banner card">
+              <span class="coach-icon" aria-hidden="true">◎</span>
+              <div><p class="eyebrow">Coach &amp; team mode</p><h3>Turn activity into an accountability operating system</h3><p>Invite a cohort, choose visible KPIs, set weekly targets, compare contribution graphs, and spot agents who need support before the pipeline slips.</p></div>
+              <div class="coach-mini-stats"><span><strong>42</strong>Agents</span><span><strong>76%</strong>On pace</span><span><strong>9</strong>Need support</span></div>
+              <button class="button secondary" id="coach-preview-button" type="button">Preview coach view</button>
+            </article>
+
+            <article class="card leaderboard-card">
+              <div class="table-scroll">
+                <table class="leaderboard-table">
+                  <thead><tr><th scope="col">Rank</th><th scope="col">Agent</th><th scope="col">Level</th><th scope="col" id="metric-column-heading">Impact points</th><th scope="col">Movement</th></tr></thead>
+                  <tbody id="leaderboard-body"></tbody>
+                </table>
+              </div>
+              <div class="leaderboard-note">
+                <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3 5 6v5c0 4.7 2.8 8.3 7 10 4.2-1.7 7-5.3 7-10V6Z"/><path d="m9 12 2 2 4-5"/></svg>
+                <p><strong>Fair by design.</strong> Rankings use server-verified activity. Imported CRM contacts do not earn points, you can unshare any data point, and cohorts under five stay private.</p>
+                <button class="text-button js-open-sharing" type="button">Ranking privacy</button>
+              </div>
+            </article>
+          </section>
+
+          <section id="community-panel" class="tab-panel" role="tabpanel" aria-labelledby="community-tab" hidden>
+            <div class="section-heading community-heading">
+              <div><p class="eyebrow">Community beta</p><h2>Wins, workflows and answers from other Homies</h2><p>Follow great agents, celebrate verified wins, and try sanitized prompt templates without exposing client data.</p></div>
+              <button class="button primary" id="create-post-button" type="button">+ Share something</button>
+            </div>
+            <div class="community-filter" aria-label="Filter community feed">
+              <button type="button" aria-pressed="true">For you</button><button type="button" aria-pressed="false">Wins</button><button type="button" aria-pressed="false">Prompts</button><button type="button" aria-pressed="false">Q&amp;A</button><button type="button" aria-pressed="false">Following</button>
+            </div>
+
+            <div class="community-layout">
+              <div id="community-feed" class="community-feed">
+                <article class="feed-post achievement-post" data-post-type="win">
+                  <header class="feed-author">
+                    <button class="profile-avatar js-open-profile" data-profile="maya" type="button">MR</button>
+                    <div><button class="author-name js-open-profile" data-profile="maya" type="button">Maya R. <span class="micro-badge tier-5" title="Market Centurion · 100 CMAs">100</span><span class="micro-badge tier-4" title="Offer Engine · 50 offers">50</span></button><span>Toronto · Level 7 Accelerator · 18m</span></div>
+                    <span class="post-kind">Verified win</span>
+                  </header>
+                  <div class="feed-body">
+                    <div class="feed-achievement-badge badge-mark tier-5"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 11.5 9-7.5 9 7.5"/><path d="M5.5 10v10.5h13V10"/><path d="m8.5 16.5 2.3-2.4 1.8 1.8 2.9-3.2"/></svg><span>100</span><small>CMA</small></div>
+                    <div><p class="eyebrow">Achievement unlocked</p><h3>Market Centurion</h3><p>I just completed my 100th CMA with Homies. My pricing workflow is finally running like a system.</p></div>
+                  </div>
+                  <footer class="feed-actions"><button class="reaction-button" type="button">🔥 <span>42</span></button><button type="button">💬 8 replies</button><button class="js-share-win" data-metric="cma" data-milestone="100" type="button">Share like this</button></footer>
+                </article>
+
+                <article class="feed-post prompt-post" data-post-type="prompt">
+                  <header class="feed-author">
+                    <button class="profile-avatar violet js-open-profile" data-profile="priya" type="button">PS</button>
+                    <div><button class="author-name js-open-profile" data-profile="priya" type="button">Priya S. <span class="micro-badge tier-3" title="Appointment Ace · 20 appointments">20</span></button><span>Vancouver · Level 5 Operator · 1h</span></div>
+                    <span class="post-kind prompt">Prompt</span>
+                  </header>
+                  <div class="feed-copy"><h3>My five-minute open-house follow-up</h3><p>This gets me a warm, personal draft without sounding like a sequence.</p></div>
+                  <blockquote class="prompt-template">Draft a concise follow-up for [CONTACT TYPE] who visited [PROPERTY]. Reference [DETAIL THEY MENTIONED], ask one low-pressure question, and keep it under 90 words.</blockquote>
+                  <div class="template-safety"><span>✓ Sanitized template</span><span>3 placeholders</span><span>Used 86 times</span></div>
+                  <footer class="feed-actions"><button class="reaction-button" type="button">💡 <span>31</span></button><button type="button">💬 12 replies</button><button class="button primary try-prompt-button" data-prompt="Draft a concise follow-up for [CONTACT TYPE] who visited [PROPERTY]. Reference [DETAIL THEY MENTIONED], ask one low-pressure question, and keep it under 90 words." type="button">Try this prompt</button></footer>
+                </article>
+
+                <article class="feed-post question-post" data-post-type="question">
+                  <header class="feed-author">
+                    <button class="profile-avatar green js-open-profile" data-profile="jordan" type="button">JK</button>
+                    <div><button class="author-name js-open-profile" data-profile="jordan" type="button">Jordan K. <span class="micro-badge tier-2" title="Follow-Up Flow · 10 follow-ups">10</span></button><span>Calgary · Level 4 Builder · 3h</span></div>
+                    <span class="post-kind question">Q&amp;A</span>
+                  </header>
+                  <div class="feed-copy"><h3>What’s your cleanest buyer-tour recap workflow?</h3><p>I’m looking for a repeatable way to compare three homes and send something useful before the clients get back to the car.</p></div>
+                  <div class="accepted-answer"><span>✓ Top answer</span><p>Have Homies structure the recap into “loved / unsure / deal-breaker,” then turn the strongest option into three next-step questions. Keep the original notes attached privately.</p><button class="author-name js-open-profile" data-profile="dave" type="button">— Dave Carey</button></div>
+                  <footer class="feed-actions"><button class="reaction-button" type="button">🙌 <span>18</span></button><button type="button">💬 15 answers</button><button type="button">Save</button></footer>
+                </article>
+              </div>
+
+              <aside class="community-rail">
+                <article class="card creator-card">
+                  <p class="eyebrow">Creator spotlight</p>
+                  <div class="creator-profile"><button class="profile-avatar large js-open-profile" data-profile="dave" type="button">DC</button><div><h3>Dave Carey <span class="verified-mark" aria-label="Featured creator">✓</span></h3><p>AI Realtor workflows · Ottawa</p></div></div>
+                  <p>Sharing the systems behind 250+ Homies follow-ups and a sharper weekly pipeline review.</p>
+                  <div class="creator-stats"><span><strong>#4</strong>Global follow-ups</span><span><strong>1.8k</strong>Followers</span></div>
+                  <button class="button primary follow-button" type="button">Follow</button><button class="button secondary js-open-profile" data-profile="dave" type="button">View profile</button>
+                </article>
+                <article class="card community-rules"><p class="eyebrow">Built for useful signal</p><h3>No points for likes</h3><p>Community activity never changes levels. Progress comes from real work; the feed is for learning and celebrating.</p><a href="#progress/levels">How scoring works →</a></article>
+                <article class="card discord-card"><span class="discord-icon" aria-hidden="true">#</span><div><h3>Discord bridge · framed</h3><p>Explicitly shared wins and prompts can flow into allowlisted channels with linked identities.</p></div><span class="coming-pill">Phase 3</span></article>
+              </aside>
+            </div>
+          </section>
+
+          <section id="partners-panel" class="tab-panel" role="tabpanel" aria-labelledby="partners-tab" hidden>
+            <div class="partner-page-header">
+              <div><p class="eyebrow">Homies partner platform</p><h2>One identity. Every team and coach.</h2><p>Organizations get a collaborative operating system; every Realtor keeps their personal Homies account, history and achievements.</p></div>
+              <div class="partner-header-actions">
+                <label for="partner-org-select">Viewing concept as<select id="partner-org-select"><option value="golfi">Golfi Team concept · Admin</option><option value="ferry">Ferry Coaching concept · Coach</option></select></label>
+                <button class="button primary js-open-invite" type="button">+ Invite members</button>
+              </div>
+            </div>
+
+            <article id="partner-hero" class="partner-hero card" style="--partner-color:#d85a30">
+              <div class="partner-concept-note">Illustrative white-label concept · no affiliation implied</div>
+              <span id="partner-logo" class="partner-logo">GT</span>
+              <div class="partner-hero-copy"><p id="partner-type" class="eyebrow">Team &amp; brokerage workspace</p><h2 id="partner-name">Golfi Team concept</h2><p id="partner-tagline">A collective accountability layer for agents, team leads and brokerage operators.</p><div class="partner-hero-links"><span id="partner-domain">ai.golfiteam.example</span><span>Powered by Homies</span></div></div>
+              <div class="partner-hero-metrics"><div><strong id="partner-member-count">126</strong><span>Active members</span></div><div><strong id="partner-active-rate">84%</strong><span>Weekly active</span></div><div><strong id="partner-rank">#2</strong><span>Team benchmark</span></div></div>
+            </article>
+
+            <article id="portable-identity-card" class="portable-identity-card card">
+              <div class="portable-avatar">TM</div>
+              <div><p class="eyebrow">Taylor’s portable Homies identity</p><h3>Level 5 · 59 badges · 365-day history</h3><p>One verified activity fact updates Taylor once, then contributes to every eligible organization projection.</p></div>
+              <div class="membership-flow" aria-label="Taylor belongs to both a team and a coaching organization">
+                <span class="membership-node person">Taylor</span><i aria-hidden="true">→</i><span class="membership-node team">Golfi Team</span><i aria-hidden="true">+</i><span class="membership-node coach">Ferry Coaching</span>
+              </div>
+              <span class="ownership-pill">User owns progress</span>
+            </article>
+
+            <nav class="partner-subnav" aria-label="Partner dashboard sections">
+              <button data-partner-view="overview" aria-pressed="true" type="button">Overview</button>
+              <button data-partner-view="members" aria-pressed="false" type="button">Members &amp; subaccounts</button>
+              <button data-partner-view="cohorts" aria-pressed="false" type="button">Cohorts &amp; teams</button>
+              <button data-partner-view="brand" aria-pressed="false" type="button">Brand, billing &amp; exits</button>
+            </nav>
+
+            <section class="partner-view" data-partner-panel="overview">
+              <div id="partner-stat-grid" class="partner-stat-grid"></div>
+
+              <div class="partner-overview-grid">
+                <article class="card collective-card">
+                  <div class="card-header"><div><p class="eyebrow">Collective activity</p><h2>How the organization is shipping</h2></div><label class="compact-select">Metric<select id="partner-chart-metric"><option value="tasks">Verified tasks</option><option value="points">Impact points</option><option value="active">Active members</option></select></label></div>
+                  <div id="partner-activity-bars" class="partner-activity-bars" role="img" aria-label="Twelve-week organization activity chart"></div>
+                  <div class="partner-chart-foot"><span>12 weeks ago</span><span>This week</span></div>
+                </article>
+
+                <article class="card channel-funnel-card">
+                  <div class="card-header"><div><p class="eyebrow">Partner sales channel</p><h2>Invite-to-retention funnel</h2></div><span class="period-pill">This quarter</span></div>
+                  <div id="partner-funnel" class="partner-funnel"></div>
+                  <p class="funnel-note">Partner attribution survives plan changes; member activity never changes referral ownership silently.</p>
+                </article>
+              </div>
+
+              <div class="partner-overview-grid rankings-grid">
+                <article class="card organization-ranking-card">
+                  <div class="card-header"><div><p class="eyebrow">Organization league</p><h2 id="organization-ranking-title">Team vs. team benchmark</h2></div><label class="ranking-mode"><span>Normalize</span><select id="organization-ranking-mode"><option value="per_agent">Per active agent</option><option value="total">Raw collective total</option></select></label></div>
+                  <div class="table-scroll"><table class="organization-ranking-table"><thead><tr><th>Rank</th><th>Organization</th><th>Active</th><th id="org-ranking-value-heading">Tasks / active agent</th><th>Movement</th></tr></thead><tbody id="organization-ranking-body"></tbody></table></div>
+                  <p class="ranking-footnote">Separate team and coaching leagues keep unlike operating models from being compared. Minimum cohort and privacy rules apply.</p>
+                </article>
+
+                <article class="card attribution-card">
+                  <p class="eyebrow">One fact, many allowed rollups</p><h2>No duplicate personal credit</h2>
+                  <div class="attribution-diagram"><span>Confirmed showing</span><i>1×</i><strong>Taylor’s lifetime KPI</strong><div><b>↳</b><span>Golfi Team projection</span><span>Ferry Coaching projection</span></div></div>
+                  <ul><li>Personal score is calculated once.</li><li>Each active membership receives an aggregate projection.</li><li>Revoked consent stops future visibility, not personal history.</li></ul>
+                </article>
+              </div>
+            </section>
+
+            <section class="partner-view" data-partner-panel="members" hidden>
+              <div class="partner-section-heading"><div><p class="eyebrow">Members &amp; subaccounts</p><h2>Invite, segment and support every Realtor</h2><p>Members remain first-class Homies users—not records owned by a partner.</p></div><div><label>Filter<select id="member-status-filter"><option value="all">All members</option><option value="on_track">On track</option><option value="support">Needs support</option><option value="invited">Invited</option></select></label><button class="button primary js-open-invite" type="button">Invite people</button></div></div>
+              <article class="card member-table-card"><div class="table-scroll"><table class="member-table"><thead><tr><th>Member</th><th>Memberships</th><th>Program / pod</th><th>This week</th><th>Level</th><th>Status</th><th></th></tr></thead><tbody id="partner-member-body"></tbody></table></div></article>
+              <div class="member-governance-grid">
+                <article class="card"><p class="eyebrow">Role-based access</p><h3>Partner admins see only what members consent to share</h3><div class="role-grid"><span><strong>Owner</strong>Billing, brand, policies</span><span><strong>Team lead</strong>Assigned pod metrics</span><span><strong>Coach</strong>Enrolled cohort goals</span><span><strong>Member</strong>Own account &amp; sharing</span></div></article>
+                <article class="card"><p class="eyebrow">Support signals</p><h3>Intervene without public shaming</h3><p>Private alerts flag stale integrations, missed personal goals or declining activity. Coaches see suggested check-ins—not a public “bottom performer” wall.</p><button class="button secondary" id="preview-support-button" type="button">Preview support queue</button></article>
+              </div>
+            </section>
+
+            <section class="partner-view" data-partner-panel="cohorts" hidden>
+              <div class="partner-section-heading"><div><p class="eyebrow">Cohorts, pods &amp; offices</p><h2>Build accountability groups without duplicating accounts</h2><p>A member can sit in multiple nested groups while the underlying person and activity ledger stay canonical.</p></div><button class="button primary" id="create-cohort-button" type="button">+ Create cohort</button></div>
+              <div id="partner-cohort-grid" class="partner-cohort-grid"></div>
+              <article class="card organization-tree-card"><div><p class="eyebrow">Organization structure</p><h2>Flexible hierarchy</h2><p>Brokerage → office → team → pod, or coach → program → cohort. Roles and visibility inherit downward but can be narrowed.</p></div><div id="organization-tree" class="organization-tree"></div></article>
+            </section>
+
+            <section class="partner-view" data-partner-panel="brand" hidden>
+              <div class="brand-billing-grid">
+                <article class="card white-label-card">
+                  <div><p class="eyebrow">White-label studio</p><h2>Make Homies feel native to the partner</h2><p>Branding changes presentation, not data ownership or the scoring policy.</p></div>
+                  <div id="white-label-preview" class="white-label-preview" style="--preview-color:#d85a30"><header><span id="white-label-logo">GT</span><div><strong id="white-label-name">Golfi Team AI</strong><small id="white-label-domain">ai.golfiteam.example</small></div></header><div class="white-label-screen"><i></i><i></i><i></i><strong>Good morning, Taylor.</strong><span>Your Level 5 progress and team goals are ready.</span></div><footer><span id="powered-by-homies">Powered by Homies</span><span>Secure personal account</span></footer></div>
+                  <div class="brand-controls"><label>Primary colour<span class="brand-swatches"><button data-brand-color="#d85a30" class="selected" style="--swatch:#d85a30" type="button" aria-label="Homies coral"></button><button data-brand-color="#174f4b" style="--swatch:#174f4b" type="button" aria-label="Evergreen"></button><button data-brand-color="#275f9f" style="--swatch:#275f9f" type="button" aria-label="Brokerage blue"></button><button data-brand-color="#3d2e74" style="--swatch:#3d2e74" type="button" aria-label="Coaching violet"></button></span></label><label class="switch-row"><span><strong>Powered by Homies</strong><small>Recommended trust mark</small></span><input id="powered-by-toggle" type="checkbox" checked></label><button class="button secondary" id="save-brand-button" type="button">Save brand concept</button></div>
+                </article>
+
+                <div class="billing-stack">
+                  <article class="card billing-card"><p class="eyebrow">Seat sponsorship</p><h2>Choose who pays</h2><div class="billing-options"><button data-billing-mode="sponsored" aria-pressed="true" type="button"><strong>Partner sponsored</strong><span>Organization covers every active seat</span></button><button data-billing-mode="split" aria-pressed="false" type="button"><strong>Split billing</strong><span>Partner subsidy + member balance</span></button><button data-billing-mode="member" aria-pressed="false" type="button"><strong>Member paid</strong><span>Partner attribution, user subscription</span></button></div><div class="billing-summary"><span><strong id="billing-seats">126</strong>Sponsored seats</span><span><strong>7</strong>Pending invites</span><span><strong>94%</strong>90-day retention</span></div></article>
+                  <article class="card portability-card"><div class="portability-icon">↗</div><div><p class="eyebrow">Exit without losing Homies</p><h2>The relationship can end; the account does not</h2><p>Ending a team or coaching membership removes that organization’s access. The Realtor keeps their identity, level, badges, history, other memberships and integrations.</p></div><button class="button primary" id="preview-exit-button" type="button">Preview safe exit</button></article>
+                </div>
+              </div>
+
+              <article class="card retention-rails-card"><div><p class="eyebrow">Alumni retention rail</p><h2>Convert partner churn into direct Homies retention</h2></div><div class="retention-steps"><span><b>1</b>Membership ends</span><i>→</i><span><b>2</b>Personal account remains</span><i>→</i><span><b>3</b>90-day alumni discount</span><i>→</i><span><b>4</b>User chooses plan</span></div><p>Discount eligibility is time-bound, disclosed, non-renewing and never changes historical partner attribution.</p></article>
+            </section>
+          </section>
+
+          <section id="levels-panel" class="tab-panel" role="tabpanel" aria-labelledby="levels-tab" hidden>
+            <div class="section-heading">
+              <div><p class="eyebrow">The path from Starter to Legend</p><h2>Ten levels, one simple system</h2><p>Finish onboarding to unlock Level 2. Then earn one point per accepted prompt (up to 20 a day) and five per verified completed task.</p></div>
+            </div>
+            <div id="level-ladder" class="level-ladder"></div>
+            <article class="card rules-card">
+              <div><span class="rules-icon">+1</span><p><strong>Accepted prompt</strong><small>First 20 each day earn points; every valid prompt stays in your stats.</small></p></div>
+              <div><span class="rules-icon">+5</span><p><strong>Verified task</strong><small>Awarded only after an offer, CMA, follow-up, appointment, or other Homies workflow succeeds.</small></p></div>
+              <div><span class="rules-icon shield">✓</span><p><strong>No farming</strong><small>Retries, drafts, failed runs, bulk imports, and admin impersonation never award points.</small></p></div>
+            </article>
+          </section>
+        </section>
+      </main>
+    </div>
+
+    <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+
+    <dialog id="achievement-dialog" class="modal achievement-modal" aria-labelledby="achievement-dialog-title">
+      <div id="celebration-sparks" class="celebration-sparks" aria-hidden="true"></div>
+      <button class="modal-close" data-close-dialog="achievement-dialog" type="button" aria-label="Close achievement">×</button>
+      <p class="eyebrow">Achievement unlocked</p>
+      <div id="achievement-dialog-badge"></div>
+      <h2 id="achievement-dialog-title">Momentum Maker</h2>
+      <p id="achievement-dialog-copy"></p>
+      <div class="modal-actions"><button class="button primary js-share-current" type="button">Share this win</button><button class="button secondary" data-close-dialog="achievement-dialog" type="button">Keep working</button></div>
+    </dialog>
+
+    <dialog id="share-dialog" class="modal share-modal" aria-labelledby="share-dialog-title">
+      <button class="modal-close" data-close-dialog="share-dialog" type="button" aria-label="Close share preview">×</button>
+      <p class="eyebrow">Share this win</p><h2 id="share-dialog-title">Make the moment yours</h2><p class="modal-lede">Editable, opt-in, and generated without client or property details.</p>
+      <div class="share-layout">
+        <div id="share-card" class="share-card"></div>
+        <div class="share-controls"><label for="share-caption">Caption</label><textarea id="share-caption" rows="7"></textarea><span class="safe-note">✓ Only the KPI, badge and milestone are included.</span></div>
+      </div>
+      <div class="share-destinations"><button class="share-destination" data-share-destination="linkedin" type="button"><span>in</span> LinkedIn badge</button><button class="share-destination" data-share-destination="instagram" type="button"><span>◎</span> Instagram Story</button><button class="share-destination" data-share-destination="native" type="button"><span>↗</span> More apps</button></div>
+      <div class="modal-actions"><button class="button primary" id="post-community-button" type="button">Post to community</button><button class="button secondary" id="copy-caption-button" type="button">Copy caption</button><button class="button secondary" data-close-dialog="share-dialog" type="button">Cancel</button></div>
+    </dialog>
+
+    <dialog id="profile-dialog" class="modal profile-modal" aria-labelledby="profile-dialog-title">
+      <button class="modal-close" data-close-dialog="profile-dialog" type="button" aria-label="Close profile">×</button>
+      <div id="profile-dialog-content"></div>
+    </dialog>
+
+    <dialog id="prompt-dialog" class="modal prompt-modal" aria-labelledby="prompt-dialog-title">
+      <button class="modal-close" data-close-dialog="prompt-dialog" type="button" aria-label="Close prompt options">×</button>
+      <p class="eyebrow">Try this prompt</p><h2 id="prompt-dialog-title">You already have a draft</h2><p>Would you like to replace it or add the shared template underneath? Nothing is sent automatically.</p>
+      <div class="modal-actions"><button class="button primary" data-prompt-choice="replace" type="button">Replace draft</button><button class="button secondary" data-prompt-choice="append" type="button">Add below</button><button class="button secondary" data-close-dialog="prompt-dialog" type="button">Cancel</button></div>
+    </dialog>
+
+    <dialog id="partner-invite-dialog" class="modal partner-invite-modal" aria-labelledby="partner-invite-title">
+      <button class="modal-close" data-close-dialog="partner-invite-dialog" type="button" aria-label="Close partner invitation">×</button>
+      <p class="eyebrow">Partner invitation</p><h2 id="partner-invite-title">Invite people without creating duplicate accounts</h2><p class="modal-lede">Existing Homies users link their identity. New users create one portable account, then accept the organization membership and sharing request.</p>
+      <form id="partner-invite-form">
+        <div class="invite-step"><span>1</span><div><label for="invite-emails">Emails</label><textarea id="invite-emails" rows="3" placeholder="agent@example.com&#10;teamlead@example.com" required></textarea><small>Paste one or many. CSV and share-link import use the same acceptance flow.</small></div></div>
+        <div class="invite-step"><span>2</span><div class="invite-field-grid"><label>Role<select id="invite-role"><option>Member</option><option>Team lead</option><option>Coach</option><option>Organization admin</option></select></label><label>Group / cohort<select id="invite-cohort"><option>Q3 Momentum</option><option>Listing Growth Pod</option><option>Buyer Conversion Lab</option><option>No group yet</option></select></label><label>Seat billing<select id="invite-billing"><option>Partner sponsored</option><option>Split subsidy</option><option>Member paid</option></select></label></div></div>
+        <div class="invite-step"><span>3</span><div><strong class="invite-label">Requested sharing</strong><div class="sharing-request-grid"><label><input type="checkbox" checked> Activity totals</label><label><input type="checkbox" checked> Goal progress</label><label><input type="checkbox"> Exact KPI counts</label><label><input type="checkbox"> Public ranking</label></div><small>The invitee reviews and accepts these permissions. Nothing is silently enabled.</small></div></div>
+        <div class="invite-preview"><span id="invite-preview-logo">GT</span><div><strong id="invite-preview-name">You’re invited to Golfi Team AI</strong><small>Your Homies progress stays yours—even if this membership ends.</small></div></div>
+        <div class="modal-actions"><button class="button primary" type="submit">Create invitations</button><button class="button secondary" id="copy-invite-link-button" type="button">Copy invite link</button><button class="button secondary" data-close-dialog="partner-invite-dialog" type="button">Cancel</button></div>
+      </form>
+    </dialog>
+
+    <dialog id="accountability-dialog" class="modal accountability-modal" aria-labelledby="accountability-title">
+      <button class="modal-close" data-close-dialog="accountability-dialog" type="button" aria-label="Close accountability invitation">×</button>
+      <p class="eyebrow">Accountability partner</p>
+      <h2 id="accountability-title">Two agents, one shared scoreboard</h2>
+      <p class="modal-lede">You each see only the data points the other agrees to share. Either of you can end the partnership—or unshare a single number—at any time.</p>
+      <form id="accountability-form">
+        <div class="invite-step"><span>1</span><div><label for="partner-email">Their email</label><input id="partner-email" type="email" placeholder="agent@brokerage.com" required><small>Already on Homies? They get an in-app request. Not yet? They get a one-click invite.</small></div></div>
+        <div class="invite-step"><span>2</span><div><strong class="invite-label">What they can see about you</strong><div class="sharing-request-grid" id="partner-share-grid">
+          <label><input type="checkbox" checked data-share="points"> Level &amp; points</label>
+          <label><input type="checkbox" checked data-share="active_days"> Active days &amp; streak</label>
+          <label><input type="checkbox" checked data-share="follow_up"> Follow-ups &amp; touches</label>
+          <label><input type="checkbox" checked data-share="appointment"> Appointments &amp; showings</label>
+          <label><input type="checkbox" checked data-share="offer"> Offers &amp; deals</label>
+          <label><input type="checkbox" data-share="gci"> GCI (off by default)</label>
+        </div><small>They choose their own list for you. Unsharing later hides future data, never your history.</small></div></div>
+        <div class="invite-step"><span>3</span><div><label class="switch-row"><span><strong>Monday digest</strong><small>Both of you get one weekly recap of each other's pace</small></span><input id="partner-digest-toggle" type="checkbox" checked></label></div></div>
+        <div class="modal-actions"><button class="button primary" type="submit">Send invitation</button><button class="button secondary" data-close-dialog="accountability-dialog" type="button">Not now</button></div>
+      </form>
+    </dialog>
+
+    <dialog id="coach-report-dialog" class="modal coach-report-modal" aria-labelledby="coach-report-title">
+      <button class="modal-close" data-close-dialog="coach-report-dialog" type="button" aria-label="Close report setup">×</button>
+      <p class="eyebrow">Progress reports</p>
+      <h2 id="coach-report-title">Report to a team lead or coach</h2>
+      <p class="modal-lede">Homies assembles the scorecard from verified activity, so your coach sees real pace—not self-reported numbers.</p>
+      <form id="coach-report-form">
+        <div class="invite-step"><span>1</span><div class="invite-field-grid">
+          <label>Recipient email<input id="report-email" type="email" placeholder="coach@team.com" required></label>
+          <label>Their role<select id="report-role"><option>Coach</option><option>Team lead</option><option>Broker / manager</option><option>Mentor</option></select></label>
+          <label>Cadence<select id="report-cadence"><option value="weekly">Weekly · Monday 8am</option><option value="biweekly">Every two weeks</option><option value="monthly">Monthly · 1st</option><option value="once">One time, right now</option></select></label>
+        </div></div>
+        <div class="invite-step"><span>2</span><div><strong class="invite-label">Included data points</strong><div class="sharing-request-grid" id="report-share-grid">
+          <label><input type="checkbox" checked data-report="points"> Points, level &amp; streak</label>
+          <label><input type="checkbox" checked data-report="tasks"> Verified tasks by type</label>
+          <label><input type="checkbox" checked data-report="follow_up"> Follow-ups &amp; avg touches per client</label>
+          <label><input type="checkbox" checked data-report="appointments"> Appointments, showings &amp; offers</label>
+          <label><input type="checkbox" data-report="goals"> Goal progress vs war plan</label>
+          <label><input type="checkbox" data-report="gci"> GCI (off by default)</label>
+        </div></div></div>
+        <div class="report-preview" id="report-preview" aria-live="polite"></div>
+        <div class="modal-actions"><button class="button primary" type="submit">Start sending</button><button class="button secondary" data-close-dialog="coach-report-dialog" type="button">Cancel</button></div>
+      </form>
+    </dialog>
+
+    <dialog id="sharing-dialog" class="modal sharing-modal" aria-labelledby="sharing-title">
+      <button class="modal-close" data-close-dialog="sharing-dialog" type="button" aria-label="Close sharing controls">×</button>
+      <p class="eyebrow">Privacy &amp; sharing</p>
+      <h2 id="sharing-title">Your profile, your data points</h2>
+      <p class="modal-lede">New Homies profiles share progress with the community by default so everyone can learn from each other. Flip the master switch—or unshare any single data point—whenever you like.</p>
+      <label class="switch-row master-share-row"><span><strong>Share my progress with other Homies</strong><small id="master-share-copy">Sharing on · other members can see the data points below</small></span><input id="master-share-toggle" type="checkbox" checked></label>
+      <div class="sharing-datapoint-grid" id="sharing-datapoint-grid"></div>
+      <p class="sharing-footnote">Unsharing hides a data point from profiles, leaderboards and community features going forward. Your own dashboard always shows everything. GCI is never shared unless you explicitly turn it on.</p>
+      <div class="modal-actions"><button class="button primary" id="save-sharing-button" type="button">Save sharing settings</button><button class="button secondary" data-close-dialog="sharing-dialog" type="button">Cancel</button></div>
+    </dialog>
+
+    <dialog id="gci-dialog" class="modal gci-modal" aria-labelledby="gci-dialog-title">
+      <button class="modal-close" data-close-dialog="gci-dialog" type="button" aria-label="Close GCI options">×</button>
+      <p class="eyebrow">Gross commission income</p>
+      <h2 id="gci-dialog-title">Build your GCI history</h2>
+      <p class="modal-lede">Two ways in: type it yourself, or ask your homie to reconstruct it from your inbox. Either way it stays private until you say otherwise.</p>
+      <div class="gci-mode-grid">
+        <section class="gci-mode" id="gci-manual-mode">
+          <h3>Add a year manually</h3>
+          <div class="gci-manual-row">
+            <label>Year<select id="gci-manual-year"><option>2026</option><option selected>2025</option><option>2024</option><option>2023</option><option>2022</option></select></label>
+            <label>GCI<input id="gci-manual-amount" type="text" inputmode="numeric" placeholder="$215,000"></label>
+            <button id="gci-manual-save" class="button secondary" type="button">Save</button>
+          </div>
+        </section>
+        <section class="gci-mode gci-scan-mode">
+          <h3>Let your homie scan your email</h3>
+          <p>Your homie searches the inbox you connected for <strong>brokerage commission statements, trust/EFT transfer notices and tax slips (T4A / 1099)</strong>, then drafts a per-year GCI number for you to confirm. Raw emails never leave your account; only the confirmed totals are stored.</p>
+          <div class="gci-scan-years" id="gci-scan-years">
+            <label><input type="checkbox" checked value="2025"> 2025</label>
+            <label><input type="checkbox" checked value="2024"> 2024</label>
+            <label><input type="checkbox" value="2023"> 2023</label>
+            <label><input type="checkbox" value="2022"> 2022</label>
+          </div>
+          <label class="exit-confirm"><input id="gci-consent" type="checkbox"> I authorize my homie to read commission-related email from these years to draft my GCI history. I review every number before it is saved.</label>
+          <button id="gci-scan-start" class="button primary" type="button" disabled>Start the scan</button>
+          <div id="gci-scan-progress" class="gci-scan-progress" hidden></div>
+        </section>
+      </div>
+    </dialog>
+
+    <dialog id="member-exit-dialog" class="modal member-exit-modal" aria-labelledby="member-exit-title">
+      <button class="modal-close" data-close-dialog="member-exit-dialog" type="button" aria-label="Close membership exit preview">×</button>
+      <p class="eyebrow">Portable account promise</p><h2 id="member-exit-title">Leave Ferry Coaching—not Homies</h2><p class="modal-lede">This preview shows the same safe handoff whether the member leaves or the partner removes them.</p>
+      <div class="exit-summary-grid"><section><span class="exit-state keep">✓</span><div><h3>Taylor keeps</h3><ul><li>Homies login and personal workspace</li><li>Level 5, points, badges and activity history</li><li>Golfi Team membership and every other group</li><li>Personal integrations and saved preferences</li></ul></div></section><section><span class="exit-state end">×</span><div><h3>Ferry access ends</h3><ul><li>Future exact KPI visibility</li><li>Coach-only content and cohort ranking</li><li>Sponsored seat at the paid-through date</li><li>Member-level drill-down for that organization</li></ul></div></section></div>
+      <article class="exit-discount"><span>Alumni rail</span><div><strong>Keep full Homies · 30% off for 3 months</strong><small>Then standard personal pricing. Or continue on the personal Free plan with no service cliff.</small></div><button class="text-button" type="button">Offer terms</button></article>
+      <label class="exit-confirm"><input id="exit-understanding" type="checkbox"> I understand this removes one membership only and preserves Taylor’s personal Homies account.</label>
+      <div class="modal-actions"><button class="button primary" id="simulate-exit-button" type="button" disabled>Simulate safe exit</button><button class="button secondary" data-close-dialog="member-exit-dialog" type="button">Keep membership</button></div>
+    </dialog>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

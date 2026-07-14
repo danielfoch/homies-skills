@@ -1,0 +1,2923 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:,">
+  <title>Homies AI loading animations</title>
+  <style>
+    :root { color-scheme: light; --canvas:#fbf9f6; --paper:#fff; --surface:#f4f1ea;
+      --border:#e6e0d8; --ink:#1e1d1c; --muted:#69635e; --coral:#e3423c; }
+    * { box-sizing:border-box; }
+    body { margin:0; color:var(--ink); background:var(--canvas);
+      font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    main { width:min(1540px,calc(100% - 40px)); margin:0 auto; padding:56px 0 96px; }
+    .hero { max-width:760px; margin-bottom:60px; }
+    h1 { font-size:clamp(36px,6vw,68px); letter-spacing:-.045em; line-height:.95; margin:0 0 22px; }
+    .hero p { color:var(--muted); font-size:18px; }
+    .actions { display:flex; flex-wrap:wrap; gap:10px; margin-top:24px; }
+    .actions a { display:inline-flex; min-height:42px; align-items:center; justify-content:center;
+      padding:0 16px; border:1px solid var(--border); border-radius:999px; color:var(--ink);
+      background:var(--paper); font-weight:700; text-decoration:none; }
+    .actions a.primary { color:#fff; border-color:var(--coral); background:var(--coral); }
+    .actions a.gamification { color:var(--coral); border-color:rgba(227,66,60,.35); background:#fff7f4; }
+    .actions a:hover { transform:translateY(-1px); }
+    section { margin:64px 0; }
+    header { display:flex; justify-content:space-between; gap:24px; align-items:end; margin:0 0 22px; }
+    h2 { font-size:30px; letter-spacing:-.025em; margin:2px 0 6px; }
+    header p { color:var(--muted); max-width:680px; margin:0 0 8px; }
+    header small { color:var(--muted); }
+    .eyebrow { color:var(--coral); font-size:12px; font-weight:700; letter-spacing:.12em; text-transform:uppercase; }
+    .reference { width:92px; height:92px; object-fit:contain; }
+    .grid { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:12px; }
+    .card { min-width:0; background:rgba(255,255,255,.76); border:1px solid var(--border);
+      border-radius:20px; padding:16px; text-align:center; }
+    .card img { width:128px; height:128px; object-fit:contain; display:block; margin:0 auto 10px; }
+    .label { font-weight:700; }
+    .phrase { min-height:42px; color:var(--muted); font-family:Georgia,serif; font-style:italic; }
+    code { display:block; overflow:hidden; text-overflow:ellipsis; color:#8b8179; font-size:11px; }
+    .stories-section { margin:112px 0 0; padding:clamp(32px,5vw,72px);
+      border-radius:36px; color:#f4f1ea; background:#1a1714; overflow:hidden; }
+    .stories-section > header { align-items:flex-start; margin-bottom:0; }
+    .stories-section h2 { max-width:820px; margin:5px 0 12px;
+      font-size:clamp(42px,6vw,76px); letter-spacing:-.045em; line-height:.95; }
+    .stories-section header p { max-width:780px; color:#bdb5ab; font-size:18px; }
+    .stories-section .eyebrow { color:#ea5536; }
+    .stories-section .actions a { color:#f4f1ea; border-color:#504a44; background:#28231f; }
+    .stories-section .actions a.primary { color:#1a1714; border-color:#ea5536; background:#ea5536; }
+    .story-list { display:grid; gap:clamp(64px,8vw,120px); max-width:1080px;
+      margin:clamp(42px,6vw,80px) auto 0; }
+    .story-item { min-width:0; margin:0; content-visibility:auto;
+      contain-intrinsic-size:1080px 1995px; }
+    .story-art-link { display:block; overflow:hidden; border:0;
+      border-radius:26px; background:#28231f; box-shadow:0 28px 80px rgba(0,0,0,.34); }
+    .story-item img { display:block; width:100%; max-width:1080px; height:auto; }
+    .story-item figcaption { display:flex; align-items:center; justify-content:space-between;
+      gap:20px; padding:16px 4px 0; color:#bdb5ab; }
+    .story-item figcaption strong { color:#f4f1ea; }
+    .story-item figcaption a { flex:none; color:#f1977a; font-weight:700; text-decoration:none; }
+    .story-item figcaption a:hover { color:#fff; text-decoration:underline; }
+    @media (max-width:1000px) { .grid { grid-template-columns:repeat(3,minmax(0,1fr)); } }
+    @media (max-width:640px) { main { width:min(100% - 24px,1540px); padding-top:32px; }
+      header { align-items:start; } .reference { width:64px; height:64px; }
+      .grid { grid-template-columns:repeat(2,minmax(0,1fr)); gap:8px; }
+      .card { padding:10px 6px; } .card img { width:96px; height:96px; }
+      .stories-section { margin-top:88px; padding:28px 12px 34px; border-radius:24px; }
+      .stories-section > header { display:block; padding:0 8px; }
+      .stories-section h2 { font-size:clamp(40px,14vw,60px); }
+      .story-list { gap:64px; margin-top:42px; }
+      .story-art-link { border-radius:16px; }
+      .story-item figcaption { align-items:flex-start; padding:12px 4px 0; font-size:13px; }
+      .story-item figcaption span { max-width:70%; } }
+    @media (prefers-reduced-motion:reduce) { .card img { animation-play-state:paused; } }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="hero">
+      <div class="eyebrow">370 transparent loading loops</div>
+      <h1>Meet the team<br>doing the work.</h1>
+      <p>A growing set of job-specific loaders for every Homie. The funny status
+      copy is live text, not baked into the art, so it remains accessible and
+      easy to rotate.</p>
+      <div class="actions">
+        <a class="primary" href="homie-loaders-runtime.zip?v=018427e71e5b" download>Download runtime pack</a>
+        <a href="https://drive.google.com/drive/folders/19x9h9uso4AAFRUsz_PSOzw4mufi6JfKp">Open Google Drive package</a>
+        <a class="gamification" href="gamification/">View gamification concept</a>
+        <a href="manifest.json?v=ab584292e816">View implementation manifest</a>
+      </div>
+    </div>
+    
+            <section>
+              <header>
+                <div>
+                  <div class="eyebrow">Your front door</div>
+                  <h2>Manager Homie</h2>
+                  <p>Brief it once. It pulls in the right specialists and brings the finished work back for your review.</p>
+                  <small>Understands the goal · Delegates to the right specialists · Brings back finished work for your review</small>
+                </div>
+                <img class="reference" src="references/manager.png?v=9bdcf4363fb4" alt="" loading="lazy" decoding="async">
+              </header>
+              <div class="grid">
+                <article class="card">
+                  <img src="gifs/manager/front-door-brief.gif?v=9c97265b3964" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Receive the brief</div>
+                  <div class="phrase">Opening the front door…</div>
+                  <code>front-door-brief</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/manager/decode-goal.gif?v=bf34dbe37e8e" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Decode the goal</div>
+                  <div class="phrase">Translating your brainwave…</div>
+                  <code>decode-goal</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/manager/split-request.gif?v=66bdcfe9edfa" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Split the request</div>
+                  <div class="phrase">Chopping the big thing into little things…</div>
+                  <code>split-request</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/manager/match-specialists.gif?v=8b65b928bef1" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Match specialists</div>
+                  <div class="phrase">Matchmaking tasks and talent…</div>
+                  <code>match-specialists</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/manager/route-switchboard.gif?v=e61722e3c441" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Route the work</div>
+                  <div class="phrase">Routing the request without sparks…</div>
+                  <code>route-switchboard</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/manager/dispatch-bench.gif?v=950c7ac60ffa" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Dispatch the bench</div>
+                  <div class="phrase">Herding the Homies…</div>
+                  <code>dispatch-bench</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/manager/monitor-progress.gif?v=f34366daeeba" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Monitor progress</div>
+                  <div class="phrase">Watching the watched pots…</div>
+                  <code>monitor-progress</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/manager/review-deliverables.gif?v=dcb26610ad4d" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Review deliverables</div>
+                  <div class="phrase">Inspecting the homework…</div>
+                  <code>review-deliverables</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/manager/assemble-package.gif?v=3832021d0f89" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Assemble the package</div>
+                  <div class="phrase">Stitching the clever bits together…</div>
+                  <code>assemble-package</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/manager/return-results.gif?v=10da4364b575" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Return results</div>
+                  <div class="phrase">Returning with receipts…</div>
+                  <code>return-results</code>
+                </article>
+                </div>
+            </section>
+            
+            <section>
+              <header>
+                <div>
+                  <div class="eyebrow">Pricing and comps</div>
+                  <h2>CMA Homie</h2>
+                  <p>Pulls comparables and builds sale and lease CMAs, with every assumption shown.</p>
+                  <small>Sale and lease CMAs · Comparable analysis · Pricing recommendations · Listing presentations · Investment analysis</small>
+                </div>
+                <img class="reference" src="references/cma.png?v=ec5d3ef9ea98" alt="" loading="lazy" decoding="async">
+              </header>
+              <div class="grid">
+                <article class="card">
+                  <img src="gifs/cma/map-magnifier.gif?v=0c78310f4a0a" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Scan the map</div>
+                  <div class="phrase">Hunting for comps…</div>
+                  <code>map-magnifier</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/cma/radius-compass.gif?v=0f1b4ef40953" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Draw a comp radius</div>
+                  <div class="phrase">Circling the likely suspects…</div>
+                  <code>radius-compass</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/cma/comp-card-shuffle.gif?v=fdfd372d57b3" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Shuffle comp cards</div>
+                  <div class="phrase">Interrogating the comps…</div>
+                  <code>comp-card-shuffle</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/cma/calculator-tap.gif?v=9f7280524c58" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Work the calculator</div>
+                  <div class="phrase">Crunching the curb appeal…</div>
+                  <code>calculator-tap</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/cma/value-balance.gif?v=6e140f79adf2" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Balance value</div>
+                  <div class="phrase">Balancing bricks and bucks…</div>
+                  <code>value-balance</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/cma/sale-lease-split.gif?v=16c9a7d33ca7" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Compare sale and lease</div>
+                  <div class="phrase">Comparing keys with closing signs…</div>
+                  <code>sale-lease-split</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/cma/price-dot-plot.gif?v=0c9d0a36a8ab" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Plot the price trend</div>
+                  <div class="phrase">Connecting expensive little dots…</div>
+                  <code>price-dot-plot</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/cma/adjustment-coins.gif?v=7d596fd60006" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Apply adjustments</div>
+                  <div class="phrase">Adjusting the apples and granite countertops…</div>
+                  <code>adjustment-coins</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/cma/investment-stress-test.gif?v=57545b1d64e7" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Stress-test the investment</div>
+                  <div class="phrase">Stress-testing the spreadsheet…</div>
+                  <code>investment-stress-test</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/cma/cma-deck-reveal.gif?v=a916975eee8d" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Reveal the CMA deck</div>
+                  <div class="phrase">Presenting the price prophecy…</div>
+                  <code>cma-deck-reveal</code>
+                </article>
+                </div>
+            </section>
+            
+            <section>
+              <header>
+                <div>
+                  <div class="eyebrow">Follow-up and pipeline</div>
+                  <h2>CRM Homie</h2>
+                  <p>Keeps every lead warm and your CRM current, and drafts the next touch in your voice.</p>
+                  <small>Automated follow-up · Lead scoring · Re-engagement campaigns · Conversation summaries · Birthday and anniversary outreach</small>
+                </div>
+                <img class="reference" src="references/crm.png?v=033872e6e3ed" alt="" loading="lazy" decoding="async">
+              </header>
+              <div class="grid">
+                <article class="card">
+                  <img src="gifs/crm/rolodex-riffle.gif?v=42cc3f1efdd6" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Riffle the Rolodex</div>
+                  <div class="phrase">Rolodexing relentlessly…</div>
+                  <code>rolodex-riffle</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/crm/pipeline-slide.gif?v=1d5fecf559e4" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Slide the pipeline</div>
+                  <div class="phrase">Scooting leads along…</div>
+                  <code>pipeline-slide</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/crm/lead-score.gif?v=82cf8f76bc96" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Score leads</div>
+                  <div class="phrase">Judging prospects politely…</div>
+                  <code>lead-score</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/crm/followup-conveyor.gif?v=0f5806b647ba" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Run the follow-up conveyor</div>
+                  <div class="phrase">Automating the gentle nudge…</div>
+                  <code>followup-conveyor</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/crm/next-touch-typewriter.gif?v=fea3a1dfbc43" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Type the next touch</div>
+                  <div class="phrase">Typing in your voice…</div>
+                  <code>next-touch-typewriter</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/crm/conversation-condense.gif?v=5313e1256367" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Condense a conversation</div>
+                  <div class="phrase">Summarizing the saga…</div>
+                  <code>conversation-condense</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/crm/cold-lead-warmer.gif?v=9d688dc724b4" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Warm a cold lead</div>
+                  <div class="phrase">Warming up the cold ones…</div>
+                  <code>cold-lead-warmer</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/crm/reengagement-windup.gif?v=43c42f9aa6bf" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Wind up re-engagement</div>
+                  <div class="phrase">Jump-starting the maybes…</div>
+                  <code>reengagement-windup</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/crm/birthday-mail.gif?v=c7f4fd7ff98a" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Send birthday mail</div>
+                  <div class="phrase">Remembering birthdays suspiciously well…</div>
+                  <code>birthday-mail</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/crm/anniversary-reminder.gif?v=b86e1ad7cf47" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Set an anniversary reminder</div>
+                  <div class="phrase">Celebrating before the reminder fires…</div>
+                  <code>anniversary-reminder</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/crm/hottest-lead-roast.gif?v=30c8ca834ff0" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Find the hottest leads</div>
+                  <div class="phrase">Finding the hottest ones…</div>
+                  <code>hottest-lead-roast</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/crm/coldest-lead-freezer.gif?v=68c447d4ffe2" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Find the coldest leads</div>
+                  <div class="phrase">Finding the coldest ones…</div>
+                  <code>coldest-lead-freezer</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/crm/crack-cold-one.gif?v=5103045ddd46" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Crack a cold one</div>
+                  <div class="phrase">Cracking a cold one…</div>
+                  <code>crack-cold-one</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/crm/lead-temperature-check.gif?v=a3865e2c98fa" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Check lead temperature</div>
+                  <div class="phrase">Checking lead temperature…</div>
+                  <code>lead-temperature-check</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/crm/blowtorch-thaw.gif?v=8dd221432cb1" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Speed-warm cold leads</div>
+                  <div class="phrase">Speedwarming up the cold leads…</div>
+                  <code>blowtorch-thaw</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/crm/flamethrower-thaw.gif?v=c3edbec71aca" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Turboheat cold leads</div>
+                  <div class="phrase">Turbocharging the heating process…</div>
+                  <code>flamethrower-thaw</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/crm/forget-me-not-bouquet.gif?v=e73a2a98fb41" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Make a forget-me-not bouquet</div>
+                  <div class="phrase">Forget-me-notting…</div>
+                  <code>forget-me-not-bouquet</code>
+                </article>
+                </div>
+            </section>
+            
+            <section>
+              <header>
+                <div>
+                  <div class="eyebrow">Listing prep and sites</div>
+                  <h2>Listings Homie</h2>
+                  <p>Builds property profiles and branded listing pages, ready for your review.</p>
+                  <small>Listing landing pages · Property descriptions · Feature sheets · Pre-listing checklists · Open-house registration</small>
+                </div>
+                <img class="reference" src="references/listings.png?v=15ffada285d8" alt="" loading="lazy" decoding="async">
+              </header>
+              <div class="grid">
+                <article class="card">
+                  <img src="gifs/listings/landing-blocks.gif?v=d2031586cf88" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Build a landing page</div>
+                  <div class="phrase">Stacking pixels into curb appeal…</div>
+                  <code>landing-blocks</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/listings/page-unroll.gif?v=517cf17a7db1" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Unroll the listing page</div>
+                  <div class="phrase">Unrolling the listing front door…</div>
+                  <code>page-unroll</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/listings/description-draft.gif?v=f0c3f8d5eba8" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Draft a description</div>
+                  <div class="phrase">Adjectivizing the square footage…</div>
+                  <code>description-draft</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/listings/prose-prune.gif?v=14511507091d" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Prune the prose</div>
+                  <div class="phrase">De-fluffing the property prose…</div>
+                  <code>prose-prune</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/listings/feature-layout.gif?v=43b627ff2d29" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Lay out a feature sheet</div>
+                  <div class="phrase">Feature-sheeting the shiny bits…</div>
+                  <code>feature-layout</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/listings/profile-measure.gif?v=48730fd087df" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Measure the property profile</div>
+                  <div class="phrase">Measuring twice, listing once…</div>
+                  <code>profile-measure</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/listings/checklist-sprint.gif?v=a012f9e08a72" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Sprint through the checklist</div>
+                  <div class="phrase">Checkmarking every last corner…</div>
+                  <code>checklist-sprint</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/listings/cushion-staging.gif?v=894fc17009c7" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Stage the cushions</div>
+                  <div class="phrase">Straightening the tiny cushions…</div>
+                  <code>cushion-staging</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/listings/guest-register.gif?v=bbecdb231d88" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Register open-house guests</div>
+                  <div class="phrase">Guest-listing the open house…</div>
+                  <code>guest-register</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/listings/open-house-sign.gif?v=1babd4d16078" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Set the open-house sign</div>
+                  <div class="phrase">Sign-spinning the front lawn…</div>
+                  <code>open-house-sign</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/listings/details-dig.gif?v=2e789b3655f3" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Dig into the details</div>
+                  <div class="phrase">Digging into the details…</div>
+                  <code>details-dig</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/listings/buyer-profile-binoculars.gif?v=bd6b58ac5524" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Find the right buyer profile</div>
+                  <div class="phrase">Looking for the right buyer profile…</div>
+                  <code>buyer-profile-binoculars</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/listings/cinderblock-foundation.gif?v=3b90a0c94d0e" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Lay a solid foundation</div>
+                  <div class="phrase">Putting down a solid foundation…</div>
+                  <code>cinderblock-foundation</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/listings/cornerstone-set.gif?v=5ea8dabefd67" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Set the cornerstone</div>
+                  <div class="phrase">Cornerstoning…</div>
+                  <code>cornerstone-set</code>
+                </article>
+                </div>
+            </section>
+            
+            <section>
+              <header>
+                <div>
+                  <div class="eyebrow">Social and ads</div>
+                  <h2>Marketing Homie</h2>
+                  <p>Designs branded posts and carousels in your colours, ready to schedule.</p>
+                  <small>Just Listed and Just Sold · Reel and TikTok scripts · Market-update carousels · Facebook and Instagram ads · Luxury brochures</small>
+                </div>
+                <img class="reference" src="references/marketing.png?v=ebc684e0e97a" alt="" loading="lazy" decoding="async">
+              </header>
+              <div class="grid">
+                <article class="card">
+                  <img src="gifs/marketing/listing-badge.gif?v=321b5144f77e" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Badge a new listing</div>
+                  <div class="phrase">Badging the brand-new listing…</div>
+                  <code>listing-badge</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/marketing/sold-confetti.gif?v=c011dc0f95cf" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Celebrate a sale</div>
+                  <div class="phrase">Confetti-ing the happy handoff…</div>
+                  <code>sold-confetti</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/marketing/reel-storyboard.gif?v=e4da65a84b97" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Storyboard a reel</div>
+                  <div class="phrase">Storyboarding the scroll-stopper…</div>
+                  <code>reel-storyboard</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/marketing/portrait-rehearsal.gif?v=d41798a6fa91" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Rehearse a portrait video</div>
+                  <div class="phrase">Rehearsing the hook in portrait mode…</div>
+                  <code>portrait-rehearsal</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/marketing/market-carousel.gif?v=1ddf5b3d86bb" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Spin a market carousel</div>
+                  <div class="phrase">Carouseling the market tea…</div>
+                  <code>market-carousel</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/marketing/ad-targeting.gif?v=a4cdf7fc818e" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Target an ad</div>
+                  <div class="phrase">Targeting thumbs, respectfully…</div>
+                  <code>ad-targeting</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/marketing/hook-test.gif?v=d6cf9ae24516" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Test creative hooks</div>
+                  <div class="phrase">Hook-testing the tiny rectangles…</div>
+                  <code>hook-test</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/marketing/luxury-fold.gif?v=0454a77cee0f" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Fold a luxury brochure</div>
+                  <div class="phrase">Foil-folding the fancy stuff…</div>
+                  <code>luxury-fold</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/marketing/palette-match.gif?v=cb38e9198d61" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Match the brand palette</div>
+                  <div class="phrase">Colour-matching the vibes…</div>
+                  <code>palette-match</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/marketing/post-queue.gif?v=b00924f82d6c" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Queue social posts</div>
+                  <div class="phrase">Queueing tomorrow’s thumb-stoppers…</div>
+                  <code>post-queue</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/marketing/target-hit.gif?v=52e887923ee5" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Hit the target</div>
+                  <div class="phrase">Hitting the target…</div>
+                  <code>target-hit</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/marketing/palette-mix.gif?v=f644ec19c7c5" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Mix the paint palette</div>
+                  <div class="phrase">Paletting…</div>
+                  <code>palette-mix</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/marketing/hook-sharpen.gif?v=c2d8d2f436c6" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Sharpen the hooks</div>
+                  <div class="phrase">Sharpening the hooks…</div>
+                  <code>hook-sharpen</code>
+                </article>
+                </div>
+            </section>
+            
+            <section>
+              <header>
+                <div>
+                  <div class="eyebrow">Market and neighbourhood</div>
+                  <h2>Research Homie</h2>
+                  <p>Pulls market and neighbourhood context, and sources every claim it makes.</p>
+                  <small>Neighbourhood and school reports · Commute analysis · Market context, every claim sourced · Home-valuation funnels · Buyer property comparisons</small>
+                </div>
+                <img class="reference" src="references/research.png?v=7b2a5f674730" alt="" loading="lazy" decoding="async">
+              </header>
+              <div class="grid">
+                <article class="card">
+                  <img src="gifs/research/neighbourhood-loupe.gif?v=29e855f58329" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Magnify the neighbourhood</div>
+                  <div class="phrase">Magnifying the neighbourhood…</div>
+                  <code>neighbourhood-loupe</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/research/school-pins.gif?v=2bff31863ef1" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Pin nearby schools</div>
+                  <div class="phrase">Pinning down the school run…</div>
+                  <code>school-pins</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/research/commute-timer.gif?v=8c5cbafb55ca" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Time the commute</div>
+                  <div class="phrase">Timing the traffic gremlins…</div>
+                  <code>commute-timer</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/research/source-check.gif?v=166dffac41ff" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Check the sources</div>
+                  <div class="phrase">Footnoting the fine print…</div>
+                  <code>source-check</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/research/fact-web.gif?v=58091e12a8a0" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Connect the facts</div>
+                  <div class="phrase">Cross-examining the market facts…</div>
+                  <code>fact-web</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/research/trend-overlay.gif?v=8f943467d58d" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Align trend overlays</div>
+                  <div class="phrase">Contextualizing the market mood…</div>
+                  <code>trend-overlay</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/research/valuation-funnel.gif?v=1a6e706cd9ac" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Funnel valuations</div>
+                  <div class="phrase">Funneling homes into reality…</div>
+                  <code>valuation-funnel</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/research/house-balance.gif?v=5bfb94666be6" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Balance properties</div>
+                  <div class="phrase">Weighing apples against floor plans…</div>
+                  <code>house-balance</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/research/buyer-grid.gif?v=b56b7d2f319a" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Build a buyer comparison</div>
+                  <div class="phrase">Shortlisting the contenders…</div>
+                  <code>buyer-grid</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/research/street-scan.gif?v=306ef7cb7bf4" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Scan the street</div>
+                  <div class="phrase">Peeking behind the picket fences…</div>
+                  <code>street-scan</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/research/nosy-neighbouring.gif?v=f35cfd357063" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Snoop around the neighbourhood</div>
+                  <div class="phrase">Nosy neighbouring…</div>
+                  <code>nosy-neighbouring</code>
+                </article>
+                </div>
+            </section>
+            
+            <section>
+              <header>
+                <div>
+                  <div class="eyebrow">Copy and client messages</div>
+                  <h2>Content Homie</h2>
+                  <p>Writes listing copy and client emails that sound like you, not a template.</p>
+                  <small>Listing copy in your voice · Client emails and updates · Marketing plans · Seller update reports · Re-engagement copy</small>
+                </div>
+                <img class="reference" src="references/content.png?v=961286dfa42f" alt="" loading="lazy" decoding="async">
+              </header>
+              <div class="grid">
+                <article class="card">
+                  <img src="gifs/content/listing-copy-keyboard.gif?v=a173ce4ffb49" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Write listing copy</div>
+                  <div class="phrase">Wordsmithing the listing…</div>
+                  <code>listing-copy-keyboard</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/content/voice-tuning-fork.gif?v=68bfe4c4423b" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Tune the voice</div>
+                  <div class="phrase">Tuning the voice…</div>
+                  <code>voice-tuning-fork</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/content/client-email-send.gif?v=762459a0dd66" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Send a client email</div>
+                  <div class="phrase">Humanizing the inbox…</div>
+                  <code>client-email-send</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/content/marketing-plan-cards.gif?v=6f2f6494a900" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Arrange a marketing plan</div>
+                  <div class="phrase">Plotting the marketing plot…</div>
+                  <code>marketing-plan-cards</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/content/seller-update-packet.gif?v=3b75e11e7d9e" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Compile a seller update</div>
+                  <div class="phrase">Seller-updating…</div>
+                  <code>seller-update-packet</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/content/reengagement-dustoff.gif?v=097f8080e99e" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Dust off re-engagement copy</div>
+                  <div class="phrase">Rewarming cold leads…</div>
+                  <code>reengagement-dustoff</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/content/camera-snap.gif?v=ca4f476c12ec" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Take a property photo</div>
+                  <div class="phrase">Shutterbugging…</div>
+                  <code>camera-snap</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/content/video-timeline-trim.gif?v=11617082962e" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Trim the video timeline</div>
+                  <div class="phrase">Trimming the timeline…</div>
+                  <code>video-timeline-trim</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/content/concept-sketch.gif?v=ce373ed52ead" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Sketch a content concept</div>
+                  <div class="phrase">Doodling the big idea…</div>
+                  <code>concept-sketch</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/content/copy-proofread.gif?v=ddadd93c2762" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Proofread the copy</div>
+                  <div class="phrase">Proofreading past perfection…</div>
+                  <code>copy-proofread</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/content/old-files-dustoff.gif?v=c5b80229c91b" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Dust off old files</div>
+                  <div class="phrase">Dusting off the old files…</div>
+                  <code>old-files-dustoff</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/content/target-examine.gif?v=69c4531dfbf5" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Examine the targets</div>
+                  <div class="phrase">Examining the targets…</div>
+                  <code>target-examine</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/content/film-tape-trim.gif?v=a54d24034c92" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Trim the film tape</div>
+                  <div class="phrase">Carefully trimming…</div>
+                  <code>film-tape-trim</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/content/laser-pointer-scan.gif?v=4c198865f819" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Get the laser out</div>
+                  <div class="phrase">Getting the laser out…</div>
+                  <code>laser-pointer-scan</code>
+                </article>
+                </div>
+            </section>
+            
+            <section>
+              <header>
+                <div>
+                  <div class="eyebrow">Offers and paperwork</div>
+                  <h2>Offers Homie</h2>
+                  <p>Drafts purchase and lease offers, fills out the paperwork, and sends it for signature.</p>
+                  <small>Purchase and lease offers · Offer paperwork, filled out · Sent out for e-signature · Counter-offers and amendments · Closing-document prep</small>
+                </div>
+                <img class="reference" src="references/offers.png?v=970e5dac19b4" alt="" loading="lazy" decoding="async">
+              </header>
+              <div class="grid">
+                <article class="card">
+                  <img src="gifs/offers/purchase-offer-draft.gif?v=0e429b70cef7" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Draft a purchase offer</div>
+                  <div class="phrase">Drafting the dream…</div>
+                  <code>purchase-offer-draft</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/offers/lease-offer-draft.gif?v=a355cfe83365" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Draft a lease offer</div>
+                  <div class="phrase">Leasing the details…</div>
+                  <code>lease-offer-draft</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/offers/paperwork-page-flip.gif?v=3dbb6b04d7c7" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Flip through paperwork</div>
+                  <div class="phrase">Paperwork-cardioing…</div>
+                  <code>paperwork-page-flip</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/offers/typewriter-terms.gif?v=789599812949" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Type the terms</div>
+                  <div class="phrase">Clacking the fine print…</div>
+                  <code>typewriter-terms</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/offers/calculator-tap.gif?v=c7d6ca621019" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Calculate the figures</div>
+                  <div class="phrase">Number-crunching responsibly…</div>
+                  <code>calculator-tap</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/offers/checklist-fill.gif?v=f185512775af" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Fill every box</div>
+                  <div class="phrase">Filling every tiny box…</div>
+                  <code>checklist-fill</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/offers/esign-send.gif?v=b4bedc09518f" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Send for e-signature</div>
+                  <div class="phrase">E-signing at light speed…</div>
+                  <code>esign-send</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/offers/counteroffer-volley.gif?v=483320f62f7e" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Volley a counter-offer</div>
+                  <div class="phrase">Counter-offering politely…</div>
+                  <code>counteroffer-volley</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/offers/amendment-mend.gif?v=cd2429d46643" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Mend an amendment</div>
+                  <div class="phrase">Amendment-mending…</div>
+                  <code>amendment-mend</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/offers/closing-bundle.gif?v=8d847e2efc20" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Bundle closing documents</div>
+                  <div class="phrase">Bundling the closing…</div>
+                  <code>closing-bundle</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/offers/lowball-juggle.gif?v=0afc55101c76" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Juggle the lowballs</div>
+                  <div class="phrase">Juggling the lowballs…</div>
+                  <code>lowball-juggle</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/offers/paper-conditioning.gif?v=7de77864960b" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Condition the paperwork</div>
+                  <div class="phrase">Conditioning…</div>
+                  <code>paper-conditioning</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/offers/offer-strengthen.gif?v=0e319aefedea" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Strengthen the offer</div>
+                  <div class="phrase">Strengthening…</div>
+                  <code>offer-strengthen</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/offers/deposit-safe-check.gif?v=75f334a35b6e" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Check the deposit</div>
+                  <div class="phrase">Checking the deposit…</div>
+                  <code>deposit-safe-check</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/offers/client-protection.gif?v=b3b339953d6b" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Protect the client</div>
+                  <div class="phrase">Protecting the client…</div>
+                  <code>client-protection</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/offers/paper-hanger-organize.gif?v=19bff7637984" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Organize the paperwork</div>
+                  <div class="phrase">Organizing…</div>
+                  <code>paper-hanger-organize</code>
+                </article>
+                </div>
+            </section>
+            
+            <section>
+              <header>
+                <div>
+                  <div class="eyebrow">Reports and decks</div>
+                  <h2>Reports Homie</h2>
+                  <p>Builds reports, dashboards, and presentations you can share with a single link.</p>
+                  <small>Reports and dashboards · Client-ready presentations · Performance reporting · Meeting summaries · Shareable live links</small>
+                </div>
+                <img class="reference" src="references/reports.png?v=174d8b396fd0" alt="" loading="lazy" decoding="async">
+              </header>
+              <div class="grid">
+                <article class="card">
+                  <img src="gifs/reports/report-page-wrangle.gif?v=e785015f11b0" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Wrangle report pages</div>
+                  <div class="phrase">Report-wrangling…</div>
+                  <code>report-page-wrangle</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/reports/dashboard-tile-grid.gif?v=209e87d54cf7" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Build a dashboard grid</div>
+                  <div class="phrase">Dashboarding intensely…</div>
+                  <code>dashboard-tile-grid</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/reports/presentation-deck-shuffle.gif?v=c9dac447f41a" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Shuffle a presentation deck</div>
+                  <div class="phrase">Deck-shuffling…</div>
+                  <code>presentation-deck-shuffle</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/reports/performance-plot.gif?v=1c0fd9fcb163" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Plot performance</div>
+                  <div class="phrase">Performance-peeking…</div>
+                  <code>performance-plot</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/reports/meeting-summary-funnel.gif?v=c1178331df3d" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Distill a meeting summary</div>
+                  <div class="phrase">Meeting-distilling…</div>
+                  <code>meeting-summary-funnel</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/reports/share-link-click.gif?v=3040039c0430" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Create a share link</div>
+                  <div class="phrase">Link-conjuring…</div>
+                  <code>share-link-click</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/reports/presentation-pointer.gif?v=2b264fe7519a" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Present with a pointer</div>
+                  <div class="phrase">Pointer-wielding…</div>
+                  <code>presentation-pointer</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/reports/fact-funnel.gif?v=70ac4a4edfcd" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Funnel the facts</div>
+                  <div class="phrase">Fact-funneling…</div>
+                  <code>fact-funnel</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/reports/chart-whisper.gif?v=c6a899faf2c1" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Align the chart</div>
+                  <div class="phrase">Chart-whispering…</div>
+                  <code>chart-whisper</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/reports/client-ready-polish.gif?v=10ae9afdc0f1" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Polish the client deck</div>
+                  <div class="phrase">Polishing for humans…</div>
+                  <code>client-ready-polish</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/reports/details-lasso.gif?v=f606bcfb2689" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Wrangle the details</div>
+                  <div class="phrase">Wrangling the details…</div>
+                  <code>details-lasso</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/reports/dashboard-snowboard.gif?v=6430a0d25686" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Dashboard on a snowboard</div>
+                  <div class="phrase">Dashboarding…</div>
+                  <code>dashboard-snowboard</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/reports/dashboard-skateboard.gif?v=058e6965dace" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Dashboard on a skateboard</div>
+                  <div class="phrase">Dashboarding…</div>
+                  <code>dashboard-skateboard</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/reports/data-decant.gif?v=e0a47a6c86f7" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Decant the data</div>
+                  <div class="phrase">Data-decanting…</div>
+                  <code>data-decant</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/reports/data-pressure-wash.gif?v=e63270a35a34" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Clean the data</div>
+                  <div class="phrase">Cleaning the data…</div>
+                  <code>data-pressure-wash</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/reports/details-meditation.gif?v=e8bd4ed448ea" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Meditate on the details</div>
+                  <div class="phrase">Meditating on the details…</div>
+                  <code>details-meditation</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/reports/thread-pull.gif?v=eabadbe4f565" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Pull the thread</div>
+                  <div class="phrase">Thread-pulling…</div>
+                  <code>thread-pull</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/reports/chain-break.gif?v=22e1a1a23670" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Break the chain</div>
+                  <div class="phrase">Un-chaining…</div>
+                  <code>chain-break</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/reports/data-plug-in.gif?v=6826bcdaa750" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Plug in the data</div>
+                  <div class="phrase">Plugging in the data…</div>
+                  <code>data-plug-in</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/reports/screen-polish.gif?v=fd1a052fb0f3" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Polish the report</div>
+                  <div class="phrase">Polishing…</div>
+                  <code>screen-polish</code>
+                </article>
+                </div>
+            </section>
+            
+            <section>
+              <header>
+                <div>
+                  <div class="eyebrow">Manager-led handoffs</div>
+                  <h2>Teamwork Homies</h2>
+                  <p>Manager Homie routes the work, tags in the right specialist, and keeps multi-Homie jobs moving without dropping the baton.</p>
+                  <small>Manager-to-specialist handoffs · Tag-ins and baton passes · Two-Homie collaboration · Shared finishing moves</small>
+                </div>
+                <img class="reference" src="references/manager.png?v=9bdcf4363fb4" alt="" loading="lazy" decoding="async">
+              </header>
+              <div class="grid">
+                <article class="card">
+                  <img src="gifs/teamwork/football-handoff-manager-cma.gif?v=b76bb389f44f" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Hand off to CMA Homie</div>
+                  <div class="phrase">Handing off to CMA Homie…</div>
+                  <code>football-handoff-manager-cma</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/teamwork/football-handoff-manager-crm.gif?v=cfe5b5077257" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Hand off to CRM Homie</div>
+                  <div class="phrase">Handing off to CRM Homie…</div>
+                  <code>football-handoff-manager-crm</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/teamwork/football-handoff-manager-listings.gif?v=68224f85e90a" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Hand off to Listings Homie</div>
+                  <div class="phrase">Handing off to Listings Homie…</div>
+                  <code>football-handoff-manager-listings</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/teamwork/football-handoff-manager-marketing.gif?v=d8a333f8aead" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Hand off to Marketing Homie</div>
+                  <div class="phrase">Handing off to Marketing Homie…</div>
+                  <code>football-handoff-manager-marketing</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/teamwork/wrestling-tag-in-manager-research.gif?v=23b4a36e9854" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Tag in Research Homie</div>
+                  <div class="phrase">Tagging in Research Homie…</div>
+                  <code>wrestling-tag-in-manager-research</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/teamwork/wrestling-tag-in-manager-content.gif?v=be5359bb7cc9" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Tag in Content Homie</div>
+                  <div class="phrase">Tagging in Content Homie…</div>
+                  <code>wrestling-tag-in-manager-content</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/teamwork/wrestling-tag-in-manager-offers.gif?v=0ab6c0dbb203" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Tag in Offers Homie</div>
+                  <div class="phrase">Tagging in Offers Homie…</div>
+                  <code>wrestling-tag-in-manager-offers</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/teamwork/wrestling-tag-in-manager-reports.gif?v=3e1488e951e1" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Tag in Reports Homie</div>
+                  <div class="phrase">Tagging in Reports Homie…</div>
+                  <code>wrestling-tag-in-manager-reports</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/teamwork/baton-pass-manager-cma.gif?v=24ca9de3b56d" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Pass the baton to CMA Homie</div>
+                  <div class="phrase">Passing the baton to CMA Homie…</div>
+                  <code>baton-pass-manager-cma</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/teamwork/baton-pass-manager-marketing.gif?v=43c0a15f90a5" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Pass the baton to Marketing Homie</div>
+                  <div class="phrase">Passing the baton to Marketing Homie…</div>
+                  <code>baton-pass-manager-marketing</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/teamwork/baton-pass-manager-research.gif?v=5845f2d2490a" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Pass the baton to Research Homie</div>
+                  <div class="phrase">Passing the baton to Research Homie…</div>
+                  <code>baton-pass-manager-research</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/teamwork/baton-pass-manager-reports.gif?v=f0e0e79eda75" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Pass the baton to Reports Homie</div>
+                  <div class="phrase">Passing the baton to Reports Homie…</div>
+                  <code>baton-pass-manager-reports</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/teamwork/sign-clothesline-manager-crm.gif?v=8309407207e5" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Clothesline the sign — Manager + CRM</div>
+                  <div class="phrase">Clotheslining the sign with CRM…</div>
+                  <code>sign-clothesline-manager-crm</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/teamwork/sign-clothesline-manager-listings.gif?v=5480fb789658" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Clothesline the sign — Manager + Listings</div>
+                  <div class="phrase">Clotheslining the sign with Listings…</div>
+                  <code>sign-clothesline-manager-listings</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/teamwork/sign-clothesline-manager-content.gif?v=d3a23d0590f9" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Clothesline the sign — Manager + Content</div>
+                  <div class="phrase">Clotheslining the sign with Content…</div>
+                  <code>sign-clothesline-manager-content</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/teamwork/sign-clothesline-manager-offers.gif?v=ecc89ffa12b1" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Clothesline the sign — Manager + Offers</div>
+                  <div class="phrase">Clotheslining the sign with Offers…</div>
+                  <code>sign-clothesline-manager-offers</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/teamwork/high-five-manager-cma.gif?v=7e82163380cc" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">High five — Manager + CMA</div>
+                  <div class="phrase">High-fiving the CMA Homie…</div>
+                  <code>high-five-manager-cma</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/teamwork/high-five-manager-crm.gif?v=2139f45b171b" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">High five — Manager + CRM</div>
+                  <div class="phrase">High-fiving the CRM Homie…</div>
+                  <code>high-five-manager-crm</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/teamwork/high-five-manager-research.gif?v=e91a182100fe" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">High five — Manager + Research</div>
+                  <div class="phrase">High-fiving the Research Homie…</div>
+                  <code>high-five-manager-research</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/teamwork/high-five-manager-content.gif?v=cb55f2069ccb" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">High five — Manager + Content</div>
+                  <div class="phrase">High-fiving the Content Homie…</div>
+                  <code>high-five-manager-content</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/teamwork/bruce-wayning-manager-listings.gif?v=bcd3a912acc5" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Bruce-Wayning — Manager + Listings</div>
+                  <div class="phrase">Bruce-Wayning with Listings…</div>
+                  <code>bruce-wayning-manager-listings</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/teamwork/bruce-wayning-manager-marketing.gif?v=eec2faa2c92a" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Bruce-Wayning — Manager + Marketing</div>
+                  <div class="phrase">Bruce-Wayning with Marketing…</div>
+                  <code>bruce-wayning-manager-marketing</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/teamwork/bruce-wayning-manager-offers.gif?v=b3bf63688866" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Bruce-Wayning — Manager + Offers</div>
+                  <div class="phrase">Bruce-Wayning with Offers…</div>
+                  <code>bruce-wayning-manager-offers</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/teamwork/bruce-wayning-manager-reports.gif?v=bdf9dda915d2" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Bruce-Wayning — Manager + Reports</div>
+                  <div class="phrase">Bruce-Wayning with Reports…</div>
+                  <code>bruce-wayning-manager-reports</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/teamwork/dream-working-manager-cma.gif?v=fc827ac090f5" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Dream-working — Manager + CMA</div>
+                  <div class="phrase">Dream-working with CMA…</div>
+                  <code>dream-working-manager-cma</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/teamwork/dream-working-manager-marketing.gif?v=ffd52e543095" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Dream-working — Manager + Marketing</div>
+                  <div class="phrase">Dream-working with Marketing…</div>
+                  <code>dream-working-manager-marketing</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/teamwork/dream-working-manager-research.gif?v=48c508ab52ec" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Dream-working — Manager + Research</div>
+                  <div class="phrase">Dream-working with Research…</div>
+                  <code>dream-working-manager-research</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/teamwork/dream-working-manager-reports.gif?v=03d9197c9abf" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Dream-working — Manager + Reports</div>
+                  <div class="phrase">Dream-working with Reports…</div>
+                  <code>dream-working-manager-reports</code>
+                </article>
+                </div>
+            </section>
+            
+            <section>
+              <header>
+                <div>
+                  <div class="eyebrow">Finishing moves and odd jobs</div>
+                  <h2>Wildcard Homies</h2>
+                  <p>Playful all-purpose loaders for the last mile, final polish, testing, packaging, amplifying, harmonizing, and everything in between.</p>
+                  <small>Finishing and packaging · Testing and weighing · Creative amplification · Playful business metaphors</small>
+                </div>
+                <img class="reference" src="references/manager.png?v=9bdcf4363fb4" alt="" loading="lazy" decoding="async">
+              </header>
+              <div class="grid">
+                <article class="card">
+                  <img src="gifs/wildcard/last-mile-treadmill-offers.gif?v=b78b42019ae1" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Run the last mile</div>
+                  <div class="phrase">Running the last mile…</div>
+                  <code>last-mile-treadmill-offers</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/box-packaging-manager.gif?v=11fce43742c6" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Package the work</div>
+                  <div class="phrase">Packaging…</div>
+                  <code>box-packaging-manager</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/gift-wrap-crm.gif?v=67d611a5821d" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Wrap it up</div>
+                  <div class="phrase">Wrapping it up…</div>
+                  <code>gift-wrap-crm</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/gift-bow-reports.gif?v=65e26723e322" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Put a bow on it</div>
+                  <div class="phrase">Putting a bow on it…</div>
+                  <code>gift-bow-reports</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/envelope-kiss-content.gif?v=ac8767ed265c" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Seal it with a kiss</div>
+                  <div class="phrase">SWAKing…</div>
+                  <code>envelope-kiss-content</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/sundae-cherry-reports.gif?v=277f4ef02a20" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Add the cherry on top</div>
+                  <div class="phrase">Putting the cherry on top…</div>
+                  <code>sundae-cherry-reports</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/burrito-wrap-marketing.gif?v=3678e890e5ba" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Wrap it up</div>
+                  <div class="phrase">Wrapping up…</div>
+                  <code>burrito-wrap-marketing</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/competition-grill-marketing.gif?v=de8f13ff4075" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Grill the competition</div>
+                  <div class="phrase">Grilling the competition…</div>
+                  <code>competition-grill-marketing</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/flavour-cook-content.gif?v=a618a0840dbd" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Add some flavour</div>
+                  <div class="phrase">Adding some flavour…</div>
+                  <code>flavour-cook-content</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/stand-mixer-content.gif?v=e1ec8d630c62" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Mix it up</div>
+                  <div class="phrase">Mixing it up…</div>
+                  <code>stand-mixer-content</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/stone-unturned-research.gif?v=034da8661980" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Leave no stone unturned</div>
+                  <div class="phrase">Leaving no stone unturned…</div>
+                  <code>stone-unturned-research</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/jetpack-manager.gif?v=75e5a36a0ed8" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Turn on the jets</div>
+                  <div class="phrase">Turning on the jets…</div>
+                  <code>jetpack-manager</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/dirtbike-listings.gif?v=c545d49acd24" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Take it for a rip</div>
+                  <div class="phrase">Taking it for a rip…</div>
+                  <code>dirtbike-listings</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/seadoo-cma.gif?v=5c42dfa08b21" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Test-drive it</div>
+                  <div class="phrase">Test-driving…</div>
+                  <code>seadoo-cma</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/lab-tests-research.gif?v=f621066fa631" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Run some tests</div>
+                  <div class="phrase">Running some tests…</div>
+                  <code>lab-tests-research</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/sniff-test-listings.gif?v=49ddab6043c9" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Sniff-test the shirt</div>
+                  <div class="phrase">Sniff-testing…</div>
+                  <code>sniff-test-listings</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/options-scale-offers.gif?v=a299cecbe688" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Weigh the options</div>
+                  <div class="phrase">Weighing the options…</div>
+                  <code>options-scale-offers</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/seed-planting-crm.gif?v=2200cc422dd5" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Plant the seeds</div>
+                  <div class="phrase">Planting the seeds…</div>
+                  <code>seed-planting-crm</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/gold-carrot-harvest-cma.gif?v=65f5f6e30659" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Harvest the gold</div>
+                  <div class="phrase">Harvesting…</div>
+                  <code>gold-carrot-harvest-cma</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/super-homie-manager.gif?v=de3c6057da4b" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Suit up as Super Homie</div>
+                  <div class="phrase">Super-Homie-ing…</div>
+                  <code>super-homie-manager</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/megaphone-amplify-marketing.gif?v=2d45a0fa49f3" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Amplify the message</div>
+                  <div class="phrase">Amplifying…</div>
+                  <code>megaphone-amplify-marketing</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/guitar-amp-content.gif?v=927999ccb91b" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Plug into the amp</div>
+                  <div class="phrase">Amplifying…</div>
+                  <code>guitar-amp-content</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/harmonizing-manager-keyboard.gif?v=698fbab56de6" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Harmonize on keys</div>
+                  <div class="phrase">Harmonizing…</div>
+                  <code>harmonizing-manager-keyboard</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/harmonizing-marketing-drums.gif?v=1f59c9db0844" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Harmonize on drums</div>
+                  <div class="phrase">Harmonizing…</div>
+                  <code>harmonizing-marketing-drums</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/harmonizing-research-saxophone.gif?v=c165c5fe5410" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Harmonize on saxophone</div>
+                  <div class="phrase">Harmonizing…</div>
+                  <code>harmonizing-research-saxophone</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/harmonizing-content-bass.gif?v=fdb96ea14ffb" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Harmonize on bass</div>
+                  <div class="phrase">Harmonizing…</div>
+                  <code>harmonizing-content-bass</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/full-shovel-dig-listings.gif?v=52a22362937e" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Dig in</div>
+                  <div class="phrase">Digging…</div>
+                  <code>full-shovel-dig-listings</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/cash-rake-offers.gif?v=e0098fbb6d23" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Rake in the cash</div>
+                  <div class="phrase">Cashifying…</div>
+                  <code>cash-rake-offers</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/moptimizing-crm.gif?v=7d7b15df5fe4" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Moptimize</div>
+                  <div class="phrase">Moptimizing…</div>
+                  <code>moptimizing-crm</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/paint-remix-marketing.gif?v=7c5f3c4b83c2" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Mix the palette</div>
+                  <div class="phrase">Remixing…</div>
+                  <code>paint-remix-marketing</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/dj-remix-content.gif?v=17dc5f43d07f" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Remix the track</div>
+                  <div class="phrase">Remixing…</div>
+                  <code>dj-remix-content</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/hammer-details-manager.gif?v=07d140d05ce2" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Hammer out the details</div>
+                  <div class="phrase">Hammering out the details…</div>
+                  <code>hammer-details-manager</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/wood-drill-research.gif?v=2530de416452" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Drill into the detail</div>
+                  <div class="phrase">Drilling down…</div>
+                  <code>wood-drill-research</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/ground-auger-cma.gif?v=0d68a014499b" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Drill beneath the surface</div>
+                  <div class="phrase">Drilling down…</div>
+                  <code>ground-auger-cma</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/lead-funnel-plumbing-crm.gif?v=fdf2a5b38a3c" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Plumb the lead funnel</div>
+                  <div class="phrase">Lead-funnel-plumbing…</div>
+                  <code>lead-funnel-plumbing-crm</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/deslop-reports.gif?v=54cf7374a4ca" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Remove the slop</div>
+                  <div class="phrase">De-slopping…</div>
+                  <code>deslop-reports</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/context-window-shopping-listings.gif?v=02dbfabf0b76" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Window-shop the listings</div>
+                  <div class="phrase">Context window shopping…</div>
+                  <code>context-window-shopping-listings</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/prompting-a-move-manager.gif?v=568a09980e05" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Prompt a move</div>
+                  <div class="phrase">Prompting a move…</div>
+                  <code>prompting-a-move-manager</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/model-home-training-research.gif?v=b9a750e4b868" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Train the model homes</div>
+                  <div class="phrase">Model-home training…</div>
+                  <code>model-home-training-research</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/depolarizing-parka-offers.gif?v=ed7289a36e44" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">De-polarize</div>
+                  <div class="phrase">De-polarizing…</div>
+                  <code>depolarizing-parka-offers</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/deed-tecting-research.gif?v=e124329546b8" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Detect the deed</div>
+                  <div class="phrase">Deed-tecting…</div>
+                  <code>deed-tecting-research</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/zoning-out-research.gif?v=7ecd68b40c08" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Zone out</div>
+                  <div class="phrase">Zoning out…</div>
+                  <code>zoning-out-research</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/looking-under-asking-research.gif?v=5c25af734d77" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Look under asking</div>
+                  <div class="phrase">Looking under asking…</div>
+                  <code>looking-under-asking-research</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/forecasting-market-reports.gif?v=429fbd39ede1" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Forecast the market</div>
+                  <div class="phrase">Forecasting the market…</div>
+                  <code>forecasting-market-reports</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/surveying-situation-cma.gif?v=d70d1f82974a" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Survey the situation</div>
+                  <div class="phrase">Surveying the situation…</div>
+                  <code>surveying-situation-cma</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/sifting-listings-listings.gif?v=127d484eb75d" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Sift the listings</div>
+                  <div class="phrase">Sifting the listings…</div>
+                  <code>sifting-listings-listings</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/keying-criteria-listings.gif?v=646f1b7a63db" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Key in the criteria</div>
+                  <div class="phrase">Keying in the criteria…</div>
+                  <code>keying-criteria-listings</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/room-inating-listings.gif?v=21542bc1b3b9" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Room-inate</div>
+                  <div class="phrase">Room-inating…</div>
+                  <code>room-inating-listings</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/raising-roof-cma.gif?v=740aac7dcdfc" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Raise the roof</div>
+                  <div class="phrase">Raising the roof…</div>
+                  <code>raising-roof-cma</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/cooking-price-cma.gif?v=7edb86382c7b" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Cook up a price</div>
+                  <div class="phrase">Cooking up a price…</div>
+                  <code>cooking-price-cma</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/price-ceiling-offers.gif?v=712353276b6c" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Find the price ceiling</div>
+                  <div class="phrase">Finding the price ceiling…</div>
+                  <code>price-ceiling-offers</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/testing-market-cma.gif?v=9920a14d320e" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Test the market</div>
+                  <div class="phrase">Testing the market…</div>
+                  <code>testing-market-cma</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/market-temperature-cma.gif?v=b91a25d40091" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Take the market&#x27;s temperature</div>
+                  <div class="phrase">Taking the market’s temperature…</div>
+                  <code>market-temperature-cma</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/ironing-terms-offers.gif?v=2209ed5e71c4" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Iron out the terms</div>
+                  <div class="phrase">Ironing out the terms…</div>
+                  <code>ironing-terms-offers</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/fine-tuning-fine-print-offers.gif?v=68cfea177dfd" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Fine-tune the fine print</div>
+                  <div class="phrase">Fine-tuning the fine print…</div>
+                  <code>fine-tuning-fine-print-offers</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/signature-chase-offers.gif?v=26dea59dff41" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Chase signatures</div>
+                  <div class="phrase">Chasing signatures…</div>
+                  <code>signature-chase-offers</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/red-flag-scan-reports.gif?v=569a78ab8f63" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Spot the red flags</div>
+                  <div class="phrase">Spotting the red flags…</div>
+                  <code>red-flag-scan-reports</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/rate-wrangling-cma.gif?v=3269276afb6b" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Wrangle the rates</div>
+                  <div class="phrase">Rate wrangling…</div>
+                  <code>rate-wrangling-cma</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/making-connections-crm.gif?v=bf20bf2372bb" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Make connections</div>
+                  <div class="phrase">Making connections…</div>
+                  <code>making-connections-crm</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/cleaning-pipeline-crm.gif?v=afa0c43046a3" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Clean the pipeline</div>
+                  <div class="phrase">Cleaning the pipeline…</div>
+                  <code>cleaning-pipeline-crm</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/tying-loose-ends-manager.gif?v=c4a5cccdd38b" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Tie up loose ends</div>
+                  <div class="phrase">Tying up loose ends…</div>
+                  <code>tying-loose-ends-manager</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/operating-on-file-reports.gif?v=bb4682f86d28" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Operate on the file</div>
+                  <div class="phrase">Operating…</div>
+                  <code>operating-on-file-reports</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/locking-in-offers.gif?v=b21dff2320d0" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Lock it in</div>
+                  <div class="phrase">Locking in…</div>
+                  <code>locking-in-offers</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/lockboxing-offers.gif?v=2af532610c3d" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Lockbox the deal</div>
+                  <div class="phrase">Lockboxing…</div>
+                  <code>lockboxing-offers</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/running-comps-cma.gif?v=d0ff36a36cff" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Run the comps</div>
+                  <div class="phrase">Running the comps…</div>
+                  <code>running-comps-cma</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/combing-mls-crm.gif?v=d383917eedaf" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Comb the MLS</div>
+                  <div class="phrase">Combing the MLS…</div>
+                  <code>combing-mls-crm</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/counter-offering-offers.gif?v=ff76b11584eb" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Counter offer</div>
+                  <div class="phrase">Counter offering…</div>
+                  <code>counter-offering-offers</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/farming-sphere-crm.gif?v=29ee7785c6d9" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Farm the sphere</div>
+                  <div class="phrase">Farming your sphere…</div>
+                  <code>farming-sphere-crm</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/holding-offers-listings.gif?v=8a0e3c2a0fe1" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Hold the offers</div>
+                  <div class="phrase">Holding offers…</div>
+                  <code>holding-offers-listings</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/breaking-ice-crm.gif?v=49d7cf90054b" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Break the ice</div>
+                  <div class="phrase">Breaking the ice…</div>
+                  <code>breaking-ice-crm</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/measuring-appraisal-gap-cma.gif?v=64096ac7d6bd" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Measure the appraisal gap</div>
+                  <div class="phrase">Measuring the appraisal gap…</div>
+                  <code>measuring-appraisal-gap-cma</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/dom-inoing-reports.gif?v=745b97909775" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">DOM-ino the listings</div>
+                  <div class="phrase">DOM-inoing…</div>
+                  <code>dom-inoing-reports</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/clause-climbing-offers.gif?v=39fe49bad245" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Climb the clauses</div>
+                  <div class="phrase">Clause climbing…</div>
+                  <code>clause-climbing-offers</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/closing-loop-manager.gif?v=5c56bdf6636d" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Close the loop</div>
+                  <div class="phrase">Closing the loop…</div>
+                  <code>closing-loop-manager</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/stress-testing-deal-cma.gif?v=9a761795627b" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Stress-test the deal</div>
+                  <div class="phrase">Stress-testing the deal…</div>
+                  <code>stress-testing-deal-cma</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/securitizing-scanner-offers.gif?v=786b729b5886" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Securitize the deal</div>
+                  <div class="phrase">Securitizing…</div>
+                  <code>securitizing-scanner-offers</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/checking-title-research.gif?v=9e12671cac09" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Check title</div>
+                  <div class="phrase">Checking title…</div>
+                  <code>checking-title-research</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/escrow-lating-offers.gif?v=5b18e329ef7c" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Escrow-late</div>
+                  <div class="phrase">Escrow-lating…</div>
+                  <code>escrow-lating-offers</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/down-payment-hike-offers.gif?v=2bee4db9a672" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Hike the down payment</div>
+                  <div class="phrase">1st-down-paymentizing…</div>
+                  <code>down-payment-hike-offers</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/heavy-lifting-squat-manager.gif?v=51935a1ce975" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Do the heavy lifting</div>
+                  <div class="phrase">Heavy lifting…</div>
+                  <code>heavy-lifting-squat-manager</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/wingwalkering-manager.gif?v=d9602da2cce3" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Wingwalker the work</div>
+                  <div class="phrase">Wingwalkering…</div>
+                  <code>wingwalkering-manager</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/putting-out-fires-reports.gif?v=392fdaad5ac8" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Put out fires</div>
+                  <div class="phrase">Looking for fires to put out…</div>
+                  <code>putting-out-fires-reports</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/rumbling-research.gif?v=fb16fc4fe738" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Rumble through it</div>
+                  <div class="phrase">Rumbling…</div>
+                  <code>rumbling-research</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/lay-of-land-research.gif?v=80ac7ab1f73f" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Get the lay of the land</div>
+                  <div class="phrase">Getting the lay of the land…</div>
+                  <code>lay-of-land-research</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/panning-for-gold-crm.gif?v=4616084d72ed" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Pan for gold</div>
+                  <div class="phrase">Panning for gold…</div>
+                  <code>panning-for-gold-crm</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/needling-in-haystack-research.gif?v=db376e51819b" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Needle the haystack</div>
+                  <div class="phrase">Needling in the haystack…</div>
+                  <code>needling-in-haystack-research</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/diamonding-in-rough-crm.gif?v=e97c03612089" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Diamond the rough</div>
+                  <div class="phrase">Diamonding in the rough…</div>
+                  <code>diamonding-in-rough-crm</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/podcasting-marketing.gif?v=110cfff4b867" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Podcast</div>
+                  <div class="phrase">Podcasting…</div>
+                  <code>podcasting-marketing</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/cutting-red-tape-research.gif?v=d8637fa0980c" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Cut the red tape</div>
+                  <div class="phrase">Cutting through red tape…</div>
+                  <code>cutting-red-tape-research</code>
+                </article>
+                </div>
+            </section>
+            
+            <section>
+              <header>
+                <div>
+                  <div class="eyebrow">Cinematic Easter eggs</div>
+                  <h2>Movie Night Homies</h2>
+                  <p>Affectionate movie-character homages with tiny, reversible gestures for playful AI loading states.</p>
+                  <small>Iconic costume cameos · Tiny reversible gestures · Recognizable small-scale silhouettes · Logo-free cinematic Easter eggs</small>
+                </div>
+                <img class="reference" src="references/manager.png?v=9bdcf4363fb4" alt="" loading="lazy" decoding="async">
+              </header>
+              <div class="grid">
+                <article class="card">
+                  <img src="gifs/wildcard/lloyd-doblering-manager.gif?v=bd4e3cd78e36" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Hold the boombox</div>
+                  <div class="phrase">Lloyd-Doblering…</div>
+                  <code>lloyd-doblering-manager</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/ferris-buellering-marketing.gif?v=c665e70948a8" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Take the day off</div>
+                  <div class="phrase">Ferris-Buellering…</div>
+                  <code>ferris-buellering-marketing</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/harry-pottering-research.gif?v=dc215ebdf024" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Flick the wand</div>
+                  <div class="phrase">Harry-Pottering…</div>
+                  <code>harry-pottering-research</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/frodo-bagginsing-crm.gif?v=46f7e9c82638" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Raise the glowing sword</div>
+                  <div class="phrase">Frodo-Bagginsing…</div>
+                  <code>frodo-bagginsing-crm</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/neo-ing-offers.gif?v=b55d146f9a7e" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Dodge the bullets</div>
+                  <div class="phrase">Neo-ing…</div>
+                  <code>neo-ing-offers</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/indy-jonesing-reports.gif?v=6fe2532dcd90" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Tip the fedora</div>
+                  <div class="phrase">Indy-Jonesing…</div>
+                  <code>indy-jonesing-reports</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/jack-sparrowing-marketing.gif?v=c5a19e835a0e" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Do the pirate walk</div>
+                  <div class="phrase">Jack-Sparrowing…</div>
+                  <code>jack-sparrowing-marketing</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/rocky-balboa-ing-cma.gif?v=a2def4aea181" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Pump the fists</div>
+                  <div class="phrase">Rocky-Balboa-ing…</div>
+                  <code>rocky-balboa-ing-cma</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/mavericking-manager.gif?v=eef66ae66f91" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Carry the flight helmet</div>
+                  <div class="phrase">Mavericking…</div>
+                  <code>mavericking-manager</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/james-bonding-manager.gif?v=71ed3a9abf2d" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Ready the tux</div>
+                  <div class="phrase">James-Bonding…</div>
+                  <code>james-bonding-manager</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/sherlocking-research.gif?v=8e44c1962f9a" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Raise the magnifier</div>
+                  <div class="phrase">Sherlocking…</div>
+                  <code>sherlocking-research</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/gandalfing-reports.gif?v=2bfa6af0f82b" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Tap the staff</div>
+                  <div class="phrase">Gandalfing…</div>
+                  <code>gandalfing-reports</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/paddingtoning-manager.gif?v=a0cb2ef76a99" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Tip the bucket hat</div>
+                  <div class="phrase">Paddingtoning…</div>
+                  <code>paddingtoning-manager</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/peter-panning-listings.gif?v=cd3223662f68" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Fly to Neverland</div>
+                  <div class="phrase">Peter-Panning…</div>
+                  <code>peter-panning-listings</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/tinkerbelling-content.gif?v=7cf7352468f7" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Fly with fairy wings</div>
+                  <div class="phrase">Tinkerbelling…</div>
+                  <code>tinkerbelling-content</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/baymaxing-manager.gif?v=70a191e4890d" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Wave slowly</div>
+                  <div class="phrase">Baymaxing…</div>
+                  <code>baymaxing-manager</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/wall-e-ing-research.gif?v=c816b4b8ef98" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Focus the robot eyes</div>
+                  <div class="phrase">WALL-E-ing…</div>
+                  <code>wall-e-ing-research</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/marioing-offers.gif?v=6628ad8060d1" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Make the iconic jump</div>
+                  <div class="phrase">Marioing…</div>
+                  <code>marioing-offers</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/mario-riding-yoshi-offers.gif?v=22a5379d496c" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Ride the green dinosaur</div>
+                  <div class="phrase">Marioing with Yoshi…</div>
+                  <code>mario-riding-yoshi-offers</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/marty-mcflying-manager.gif?v=7a9507e8bc2e" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Check the clock</div>
+                  <div class="phrase">Marty-McFlying…</div>
+                  <code>marty-mcflying-manager</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/doc-browning-research.gif?v=c1fd500512a3" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Drop the goggles</div>
+                  <div class="phrase">Doc-Browning…</div>
+                  <code>doc-browning-research</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/ghostbustering-reports.gif?v=c384e59e865c" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Lower the goggles</div>
+                  <div class="phrase">Ghostbustering…</div>
+                  <code>ghostbustering-reports</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/gizmo-ing-crm.gif?v=725dbaf33ddb" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Perk the ears</div>
+                  <div class="phrase">Gizmo-ing…</div>
+                  <code>gizmo-ing-crm</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/mrs-doubtfiring-content.gif?v=3e982e4bcfd2" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Wave politely</div>
+                  <div class="phrase">Mrs.-Doubtfiring…</div>
+                  <code>mrs-doubtfiring-content</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/mask-ing-marketing.gif?v=47bf794a0b28" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Stretch the eyebrows</div>
+                  <div class="phrase">Mask-ing…</div>
+                  <code>mask-ing-marketing</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/cher-horowitzing-marketing.gif?v=36bc53cca6ec" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Check the flip phone</div>
+                  <div class="phrase">Cher-Horowitzing…</div>
+                  <code>cher-horowitzing-marketing</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/elle-woodsing-reports.gif?v=8d8be2ccb496" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Wave the tiny witness</div>
+                  <div class="phrase">Elle-Woodsing…</div>
+                  <code>elle-woodsing-reports</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/edward-scissorhanding-offers.gif?v=1eb8766f5483" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Snip carefully</div>
+                  <div class="phrase">Edward-Scissorhanding…</div>
+                  <code>edward-scissorhanding-offers</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/iron-manning-reports.gif?v=f6c813bf5648" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Pulse the armour</div>
+                  <div class="phrase">Iron-Manning…</div>
+                  <code>iron-manning-reports</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/elsa-ing-reports.gif?v=d31d65166e9d" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Form the snowflake</div>
+                  <div class="phrase">Elsa-ing…</div>
+                  <code>elsa-ing-reports</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/sonic-ing-crm.gif?v=81169ad0c980" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Tap the fast foot</div>
+                  <div class="phrase">Sonic-ing…</div>
+                  <code>sonic-ing-crm</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/deadpooling-marketing.gif?v=0e5bd65f0f24" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Wave and shrug</div>
+                  <div class="phrase">Deadpooling…</div>
+                  <code>deadpooling-marketing</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/grooting-research.gif?v=fd035ced7feb" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Grow the sprout</div>
+                  <div class="phrase">Grooting…</div>
+                  <code>grooting-research</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/furiosa-ing-manager.gif?v=796411f95beb" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Flex the mechanical arm</div>
+                  <div class="phrase">Furiosa-ing…</div>
+                  <code>furiosa-ing-manager</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/m3ganing-listings.gif?v=132391e3fad2" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Dance rigidly</div>
+                  <div class="phrase">M3GANing…</div>
+                  <code>m3ganing-listings</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/paul-atreidesing-cma.gif?v=e627262e5389" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Pulse the blue eyes</div>
+                  <div class="phrase">Paul-Atreidesing…</div>
+                  <code>paul-atreidesing-cma</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/elphaba-ing-offers.gif?v=b4fb51b62785" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Lift the brim</div>
+                  <div class="phrase">Elphaba-ing…</div>
+                  <code>elphaba-ing-offers</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/yoda-ing-cma.gif?v=0fd1efd3522c" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Lift the rock</div>
+                  <div class="phrase">Yoda-ing…</div>
+                  <code>yoda-ing-cma</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/darth-vadering-offers.gif?v=f8fc26ffacc6" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Use the Force</div>
+                  <div class="phrase">Darth-Vadering…</div>
+                  <code>darth-vadering-offers</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/terminatoring-reports.gif?v=e90f4776136b" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Pulse the red eye</div>
+                  <div class="phrase">Terminatoring…</div>
+                  <code>terminatoring-reports</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/batmaning-manager.gif?v=831a51744060" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Spread the cape</div>
+                  <div class="phrase">Batmaning…</div>
+                  <code>batmaning-manager</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/supermanning-marketing.gif?v=499877834150" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Take flight</div>
+                  <div class="phrase">Supermanning…</div>
+                  <code>supermanning-marketing</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/spider-manning-crm.gif?v=bc3b1ad33ac7" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Hang by a thread</div>
+                  <div class="phrase">Spider-Manning…</div>
+                  <code>spider-manning-crm</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/wolverine-ing-research.gif?v=ac8b3b6f8443" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Pop the claws</div>
+                  <div class="phrase">Wolverine-ing…</div>
+                  <code>wolverine-ing-research</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/joker-ing-content.gif?v=dd0587a1a560" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Tilt the grin</div>
+                  <div class="phrase">Joker-ing…</div>
+                  <code>joker-ing-content</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/beetlejuicing-listings.gif?v=809f842f9aaa" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Shimmy in stripes</div>
+                  <div class="phrase">Beetlejuicing…</div>
+                  <code>beetlejuicing-listings</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/forrest-gumping-crm.gif?v=1092e85d3933" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Run everywhere</div>
+                  <div class="phrase">Forrest-Gumping…</div>
+                  <code>forrest-gumping-crm</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/mary-poppinsing-reports.gif?v=145fb41be2e9" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Float with the umbrella</div>
+                  <div class="phrase">Mary-Poppinsing…</div>
+                  <code>mary-poppinsing-reports</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/ace-ventura-ing-marketing.gif?v=3adc56a8e93a" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Whip the head around</div>
+                  <div class="phrase">Ace-Ventura-ing…</div>
+                  <code>ace-ventura-ing-marketing</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/shreking-manager.gif?v=ab564cb2867a" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Twitch the ogre ears</div>
+                  <div class="phrase">Shreking…</div>
+                  <code>shreking-manager</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/barbie-ing-listings.gif?v=f6dffd1150fb" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Strike the pink pose</div>
+                  <div class="phrase">Barbie-ing…</div>
+                  <code>barbie-ing-listings</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/ken-ing-marketing.gif?v=e33cd3cb1e42" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Point the thumbs</div>
+                  <div class="phrase">Ken-ing…</div>
+                  <code>ken-ing-marketing</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/willy-wonka-ing-offers.gif?v=ac637974e11b" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Take a theatrical bow</div>
+                  <div class="phrase">Willy-Wonka-ing…</div>
+                  <code>willy-wonka-ing-offers</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/mr-beaning-research.gif?v=369de5c2b466" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Raise the eyebrow</div>
+                  <div class="phrase">Mr.-Beaning…</div>
+                  <code>mr-beaning-research</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/austin-powersing-content.gif?v=4cf9d1ffaf96" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Fire the finger guns</div>
+                  <div class="phrase">Austin-Powersing…</div>
+                  <code>austin-powersing-content</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/zoolandering-reports.gif?v=fcfae2d7db29" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Serve the model face</div>
+                  <div class="phrase">Zoolandering…</div>
+                  <code>zoolandering-reports</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/elf-ing-cma.gif?v=54ff4445a071" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Bounce with cheer</div>
+                  <div class="phrase">Elf-ing…</div>
+                  <code>elf-ing-cma</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/home-alone-ing-crm.gif?v=05f9b1d0df54" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Gasp and reset</div>
+                  <div class="phrase">Home-Alone-ing…</div>
+                  <code>home-alone-ing-crm</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/et-ing-research.gif?v=587fd833492d" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Light the fingertip</div>
+                  <div class="phrase">E.T.-ing…</div>
+                  <code>et-ing-research</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/mission-impossible-ing-manager.gif?v=266ca67071b6" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Hang in there</div>
+                  <div class="phrase">Mission-Impossible-ing…</div>
+                  <code>mission-impossible-ing-manager</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/groundhog-daying-content.gif?v=7a8e566790c1" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Check the watch again</div>
+                  <div class="phrase">Groundhog-Daying…</div>
+                  <code>groundhog-daying-content</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/karate-kidding-offers.gif?v=586d6385b37e" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Hold the crane kick</div>
+                  <div class="phrase">Karate-Kidding…</div>
+                  <code>karate-kidding-offers</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/dirty-dancing-listings.gif?v=3204f0acc121" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Sway romantically</div>
+                  <div class="phrase">Dirty-Dancing…</div>
+                  <code>dirty-dancing-listings</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/pulp-fictioning-manager.gif?v=3a2e7a99398b" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Twist the night away</div>
+                  <div class="phrase">Pulp-Fictioning…</div>
+                  <code>pulp-fictioning-manager</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/michael-burrying-manager.gif?v=73f692939de5" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Drum at the desk</div>
+                  <div class="phrase">Michael-Burrying…</div>
+                  <code>michael-burrying-manager</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/harvey-spectering-manager.gif?v=7e882a15e944" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Adjust the closer suit</div>
+                  <div class="phrase">Harvey-Spectering…</div>
+                  <code>harvey-spectering-manager</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/waynes-worlding-content.gif?v=8b4cc2178ff8" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Headbang in the basement</div>
+                  <div class="phrase">Wayne’s-Worlding…</div>
+                  <code>waynes-worlding-content</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/bill-and-ted-ing-crm.gif?v=f8d7b3737fca" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Air-guitar the future</div>
+                  <div class="phrase">Bill-and-Ted-ing…</div>
+                  <code>bill-and-ted-ing-crm</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/robocopping-offers.gif?v=f6666d906a7c" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Run the servo check</div>
+                  <div class="phrase">RoboCopping…</div>
+                  <code>robocopping-offers</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/rambo-ing-manager.gif?v=c8ed8c77df5e" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Tighten the headband</div>
+                  <div class="phrase">Rambo-ing…</div>
+                  <code>rambo-ing-manager</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/godfathering-reports.gif?v=6543c01befc8" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Make the offer</div>
+                  <div class="phrase">Godfathering…</div>
+                  <code>godfathering-reports</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/sky-walkering-manager.gif?v=fa32f5cf0772" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Sweep the lightsaber</div>
+                  <div class="phrase">Sky-Walkering…</div>
+                  <code>sky-walkering-manager</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/hyah-ing-listings.gif?v=e8ebbcb7fc16" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Swing the hero sword</div>
+                  <div class="phrase">Hyah-ing…</div>
+                  <code>hyah-ing-listings</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/master-chiefing-reports.gif?v=c9683741bda0" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Present the helmet</div>
+                  <div class="phrase">Master-Chiefing…</div>
+                  <code>master-chiefing-reports</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/glengarrying-offers.gif?v=fd53b419ca31" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Always be closing</div>
+                  <div class="phrase">Glengarrying…</div>
+                  <code>glengarrying-offers</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/dumbledoring-research.gif?v=55fce07c3970" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Conduct the spell</div>
+                  <div class="phrase">Dumbledoring…</div>
+                  <code>dumbledoring-research</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/buzz-lightyearing-manager.gif?v=b61c28f1e592" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Deploy the wings</div>
+                  <div class="phrase">Buzz-Lightyearing…</div>
+                  <code>buzz-lightyearing-manager</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/inspector-gadgeting-crm.gif?v=017bcee54a8c" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Deploy the gadgets</div>
+                  <div class="phrase">Inspector-Gadgeting…</div>
+                  <code>inspector-gadgeting-crm</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/step-brothering-manager-crm.gif?v=b6c187f55b6e" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Pose for the brother portrait</div>
+                  <div class="phrase">Step-Brothering…</div>
+                  <code>step-brothering-manager-crm</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/ricky-bobbying-manager.gif?v=b53b43d1ef07" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Hoist the victory trophy</div>
+                  <div class="phrase">Ricky-Bobbying…</div>
+                  <code>ricky-bobbying-manager</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/tarzaning-manager.gif?v=c2cc058d3577" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Swing through the jungle</div>
+                  <div class="phrase">Tarzaning…</div>
+                  <code>tarzaning-manager</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/jon-snowing-marketing.gif?v=081883e2ec70" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Hold the watch</div>
+                  <div class="phrase">Jon-Snowing…</div>
+                  <code>jon-snowing-marketing</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/spoking-content.gif?v=b9b88ac4ee64" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Raise the logic</div>
+                  <div class="phrase">Spoking…</div>
+                  <code>spoking-content</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/gatsbying-manager.gif?v=085f3f58c889" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Raise the toast</div>
+                  <div class="phrase">Gatsbying…</div>
+                  <code>gatsbying-manager</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/scooby-dooing-manager.gif?v=cf5003e38610" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Solve the spooky mystery</div>
+                  <div class="phrase">Scooby-Dooing…</div>
+                  <code>scooby-dooing-manager</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/walter-whiting-crm.gif?v=d1086c933c49" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Brood over the brief</div>
+                  <div class="phrase">Walter-Whiting…</div>
+                  <code>walter-whiting-crm</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/buffying-offers.gif?v=6565844e06ab" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Stake out the deal</div>
+                  <div class="phrase">Buffying…</div>
+                  <code>buffying-offers</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/ron-burgunding-cma.gif?v=9747e6408df1" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Stay classy</div>
+                  <div class="phrase">Ron-Burgunding…</div>
+                  <code>ron-burgunding-cma</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/tony-starking-marketing.gif?v=5abb05d4b2a9" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Power the palm</div>
+                  <div class="phrase">Tony-Starking…</div>
+                  <code>tony-starking-marketing</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/tyler-durdening-listings.gif?v=abfba32629da" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Shadow-box the brief</div>
+                  <div class="phrase">Tyler-Durdening…</div>
+                  <code>tyler-durdening-listings</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/robin-hooding-manager.gif?v=33d8044924f5" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Draw the shot</div>
+                  <div class="phrase">Robin-Hooding…</div>
+                  <code>robin-hooding-manager</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/gary-veeing-crm.gif?v=916e302a614d" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Bring the energy</div>
+                  <div class="phrase">Gary-Veeing…</div>
+                  <code>gary-veeing-crm</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/serhanting-manager.gif?v=ec406f690b73" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Button up the deal</div>
+                  <div class="phrase">Serhanting…</div>
+                  <code>serhanting-manager</code>
+                </article>
+                </div>
+            </section>
+            
+            <section>
+              <header>
+                <div>
+                  <div class="eyebrow">Music-video moves and party-loop nostalgia</div>
+                  <h2>Pop &amp; Dance Homies</h2>
+                  <p>Recognizable pop-video homages and universally loved dance-floor loops rebuilt as tiny, logo-free loading gestures.</p>
+                  <small>Music-video micro-moves · Party-floor classics · Tiny reversible choreography · Logo-free pop Easter eggs</small>
+                </div>
+                <img class="reference" src="references/manager.png?v=9bdcf4363fb4" alt="" loading="lazy" decoding="async">
+              </header>
+              <div class="grid">
+                <article class="card">
+                  <img src="gifs/wildcard/sell-phoning-manager.gif?v=c70112813d19" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Do the Hotline Bling dance</div>
+                  <div class="phrase">Sell-phoning…</div>
+                  <code>sell-phoning-manager</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/shake-it-offing-research.gif?v=0225d3c7b451" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Shake the shoulders</div>
+                  <div class="phrase">Shake-It-Offing…</div>
+                  <code>shake-it-offing-research</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/single-ladying-offers.gif?v=e3e3a19fb894" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Wag the ring finger</div>
+                  <div class="phrase">Single-Ladying…</div>
+                  <code>single-ladying-offers</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/thrillering-marketing.gif?v=cef86e9c9814" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Hit the Thriller claw-step</div>
+                  <div class="phrase">Thrillering…</div>
+                  <code>thrillering-marketing</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/moonwalking-content.gif?v=1cc265754c39" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Glide backward</div>
+                  <div class="phrase">Moonwalking…</div>
+                  <code>moonwalking-content</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/bad-romancing-reports.gif?v=4846a36fbb42" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Make the monster claws</div>
+                  <div class="phrase">Bad-Romancing…</div>
+                  <code>bad-romancing-reports</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/poker-facing-listings.gif?v=845d736b4e47" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Lower the shades</div>
+                  <div class="phrase">Poker-Facing…</div>
+                  <code>poker-facing-listings</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/gangnam-styling-cma.gif?v=e65d0078a8ca" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Ride the beat</div>
+                  <div class="phrase">Gangnam-Styling…</div>
+                  <code>gangnam-styling-cma</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/bye-bye-bye-ing-listings.gif?v=3b4332e75238" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Point in sync</div>
+                  <div class="phrase">Bye-Bye-Bye-ing…</div>
+                  <code>bye-bye-bye-ing-listings</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/oops-i-did-it-again-ing-offers.gif?v=268893b78d9d" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Hit the chest-and-reach pose</div>
+                  <div class="phrase">Oops-I-Did-It-Again-ing…</div>
+                  <code>oops-i-did-it-again-ing-offers</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/hit-me-baby-one-more-timing-research.gif?v=e3c2d8775f56" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Flick the hair</div>
+                  <div class="phrase">Hit-Me-Baby-One-More-Timing…</div>
+                  <code>hit-me-baby-one-more-timing-research</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/voguing-reports.gif?v=a44d03ba6794" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Strike the angles</div>
+                  <div class="phrase">Voguing…</div>
+                  <code>voguing-reports</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/espresso-ing-content.gif?v=6678635afa96" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Sip and smirk</div>
+                  <div class="phrase">Espresso-ing…</div>
+                  <code>espresso-ing-content</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/umbrella-ing-manager.gif?v=27008816e0ca" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Hold the umbrella</div>
+                  <div class="phrase">Umbrella-ing…</div>
+                  <code>umbrella-ing-manager</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/macarena-ing-manager.gif?v=d316ae46ab0c" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Cross the hands</div>
+                  <div class="phrase">Macarena-ing…</div>
+                  <code>macarena-ing-manager</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/ymca-ing-cma.gif?v=db3a31129900" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Spell YMCA</div>
+                  <div class="phrase">YMCA-ing…</div>
+                  <code>ymca-ing-cma</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/cha-cha-sliding-marketing.gif?v=7ded39ff1072" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Cross through the slide</div>
+                  <div class="phrase">Cha-Cha-Sliding…</div>
+                  <code>cha-cha-sliding-marketing</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/dougie-ing-content.gif?v=e697752fe1fe" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Brush through the Dougie</div>
+                  <div class="phrase">Dougie-ing…</div>
+                  <code>dougie-ing-content</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/rickrolling-manager.gif?v=657d1fcd63fb" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Point and step</div>
+                  <div class="phrase">Rickrolling…</div>
+                  <code>rickrolling-manager</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/harlem-shaking-listings.gif?v=0ed728cdf6f9" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Shake the pink suit</div>
+                  <div class="phrase">Harlem-Shaking…</div>
+                  <code>harlem-shaking-listings</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/wednesday-ing-offers.gif?v=649e207e1d56" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Dance stiffly</div>
+                  <div class="phrase">Wednesday-ing…</div>
+                  <code>wednesday-ing-offers</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/napoleon-dynamiting-content.gif?v=64381aa5a4f3" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Side-step awkwardly</div>
+                  <div class="phrase">Napoleon-Dynamiting…</div>
+                  <code>napoleon-dynamiting-content</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/disco-inferno-ing-reports.gif?v=34efda5ee99d" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Point to disco</div>
+                  <div class="phrase">Disco-Inferno-ing…</div>
+                  <code>disco-inferno-ing-reports</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/wrecking-ball-riding-research.gif?v=c5f19d522537" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Ride the wrecking ball</div>
+                  <div class="phrase">Wrecking-Balling…</div>
+                  <code>wrecking-ball-riding-research</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/popping-my-collar-manager.gif?v=11145dca83f6" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Pop the collar</div>
+                  <div class="phrase">Popping my collar…</div>
+                  <code>popping-my-collar-manager</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/dirt-off-your-shoulders-marketing.gif?v=f8dc4629706b" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Brush off the dirt</div>
+                  <div class="phrase">Getting that dirt off your shoulders…</div>
+                  <code>dirt-off-your-shoulders-marketing</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/reformering-offers.gif?v=379ef3974702" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Work the reformer</div>
+                  <div class="phrase">Reformering…</div>
+                  <code>reformering-offers</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/jazzing-content.gif?v=c64f575f909a" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Raise the jazz hands</div>
+                  <div class="phrase">Jazzing…</div>
+                  <code>jazzing-content</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/jazzercising-reports.gif?v=7eae8d0309a3" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Jazzercise it out</div>
+                  <div class="phrase">Jazzercising…</div>
+                  <code>jazzercising-reports</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/smooth-crimining-marketing.gif?v=e32192594d77" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Hit the impossible lean</div>
+                  <div class="phrase">Smooth-Crimining…</div>
+                  <code>smooth-crimining-marketing</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/checking-the-backstreets-marketing.gif?v=f9fea6ce0985" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Check the backstreets</div>
+                  <div class="phrase">Checking the Backstreets…</div>
+                  <code>checking-the-backstreets-marketing</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/david-blaining-manager.gif?v=aeaaba28b2da" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Make the cards fly</div>
+                  <div class="phrase">David-Blaining…</div>
+                  <code>david-blaining-manager</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/cranking-that-marketing.gif?v=b7f1bfcdda93" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Hit the Superman</div>
+                  <div class="phrase">Cranking That…</div>
+                  <code>cranking-that-marketing</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/cranking-the-step-marketing.gif?v=79a64b5207cb" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Crank through the step</div>
+                  <div class="phrase">Cranking…</div>
+                  <code>cranking-the-step-marketing</code>
+                </article>
+                
+                <article class="card">
+                  <img src="gifs/wildcard/cranking-the-motorbike-marketing.gif?v=53da1b2b9498" alt="" width="128" height="128" loading="lazy" decoding="async">
+                  <div class="label">Rev the dance</div>
+                  <div class="phrase">Cranking…</div>
+                  <code>cranking-the-motorbike-marketing</code>
+                </article>
+                </div>
+            </section>
+            
+    
+            <section class="stories-section" id="beta-stories" aria-labelledby="beta-stories-title">
+              <header>
+                <div>
+                  <div class="eyebrow">Beta tester social kit</div>
+                  <h2 id="beta-stories-title">Built to stop the scroll.</h2>
+                  <p>Eight ready-to-post Instagram Stories for the agents helping shape Homies. Every design appears below at its full 1080 × 1920 size.</p>
+                  <div class="actions">
+                    <a class="primary" href="stories/homies-beta-instagram-stories.zip?v=c1a5d08d300b" download>Download all 8 Stories</a>
+                  </div>
+                </div>
+              </header>
+              <div class="story-list">
+                <figure class="story-item">
+                  <a class="story-art-link" href="stories/01-helping-build-the-future.png?v=2a350d543f3c">
+                    <img src="stories/01-helping-build-the-future.png?v=2a350d543f3c" alt="Instagram Story: I’m helping build the future of real estate." width="1080" height="1920" loading="lazy" decoding="async">
+                  </a>
+                  <figcaption><span><strong>01</strong> / Helping build the future</span><a href="stories/01-helping-build-the-future.png?v=2a350d543f3c" download>Download PNG</a></figcaption>
+                </figure>
+            
+                <figure class="story-item">
+                  <a class="story-art-link" href="stories/02-levelling-up-with-ai.png?v=825c1092cb3b">
+                    <img src="stories/02-levelling-up-with-ai.png?v=825c1092cb3b" alt="Instagram Story: I’m levelling up my business with AI." width="1080" height="1920" loading="lazy" decoding="async">
+                  </a>
+                  <figcaption><span><strong>02</strong> / Levelling up with AI</span><a href="stories/02-levelling-up-with-ai.png?v=825c1092cb3b" download>Download PNG</a></figcaption>
+                </figure>
+            
+                <figure class="story-item">
+                  <a class="story-art-link" href="stories/03-my-business-got-an-ai-team.png?v=82dabf85d25a">
+                    <img src="stories/03-my-business-got-an-ai-team.png?v=82dabf85d25a" alt="Instagram Story: My business just got an AI team." width="1080" height="1920" loading="lazy" decoding="async">
+                  </a>
+                  <figcaption><span><strong>03</strong> / My business got an AI team</span><a href="stories/03-my-business-got-an-ai-team.png?v=82dabf85d25a" download>Download PNG</a></figcaption>
+                </figure>
+            
+                <figure class="story-item">
+                  <a class="story-art-link" href="stories/04-purpose-built-for-real-estate.png?v=20cfa15926b9">
+                    <img src="stories/04-purpose-built-for-real-estate.png?v=20cfa15926b9" alt="Instagram Story: AI, purpose-built for real estate." width="1080" height="1920" loading="lazy" decoding="async">
+                  </a>
+                  <figcaption><span><strong>04</strong> / Purpose-built for real estate</span><a href="stories/04-purpose-built-for-real-estate.png?v=20cfa15926b9" download>Download PNG</a></figcaption>
+                </figure>
+            
+                <figure class="story-item">
+                  <a class="story-art-link" href="stories/05-less-admin-more-agent.png?v=7613239381ed">
+                    <img src="stories/05-less-admin-more-agent.png?v=7613239381ed" alt="Instagram Story: Less admin. More agent." width="1080" height="1920" loading="lazy" decoding="async">
+                  </a>
+                  <figcaption><span><strong>05</strong> / Less admin. More agent.</span><a href="stories/05-less-admin-more-agent.png?v=7613239381ed" download>Download PNG</a></figcaption>
+                </figure>
+            
+                <figure class="story-item">
+                  <a class="story-art-link" href="stories/06-the-work-moves-i-move-up.png?v=05bc2f75d8d3">
+                    <img src="stories/06-the-work-moves-i-move-up.png?v=05bc2f75d8d3" alt="Instagram Story: The work moves. I move up." width="1080" height="1920" loading="lazy" decoding="async">
+                  </a>
+                  <figcaption><span><strong>06</strong> / The work moves. I move up.</span><a href="stories/06-the-work-moves-i-move-up.png?v=05bc2f75d8d3" download>Download PNG</a></figcaption>
+                </figure>
+            
+                <figure class="story-item">
+                  <a class="story-art-link" href="stories/07-powerful-ai-team.png?v=61a73f417254">
+                    <img src="stories/07-powerful-ai-team.png?v=61a73f417254" alt="Instagram Story: A powerful AI team, built for real estate." width="1080" height="1920" loading="lazy" decoding="async">
+                  </a>
+                  <figcaption><span><strong>07</strong> / A powerful AI team</span><a href="stories/07-powerful-ai-team.png?v=61a73f417254" download>Download PNG</a></figcaption>
+                </figure>
+            
+                <figure class="story-item">
+                  <a class="story-art-link" href="stories/08-helping-shape-what-comes-next.png?v=5c3f6118c38f">
+                    <img src="stories/08-helping-shape-what-comes-next.png?v=5c3f6118c38f" alt="Instagram Story: I’m helping shape what comes next." width="1080" height="1920" loading="lazy" decoding="async">
+                  </a>
+                  <figcaption><span><strong>08</strong> / Helping shape what comes next</span><a href="stories/08-helping-shape-what-comes-next.png?v=5c3f6118c38f" download>Download PNG</a></figcaption>
+                </figure>
+            </div>
+            </section>
+    
+  </main>
+</body>
+</html>

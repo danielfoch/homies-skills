@@ -1,0 +1,73 @@
+{
+  "selected_panel": 2,
+  "selected_panel_role": "only immutable face, torso, pinstripe suit, lapels, tie, hands and arms source",
+  "registration_shift_per_phase": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ]
+  ],
+  "shared_scale_per_phase": [
+    0.78,
+    0.78,
+    0.78,
+    0.78
+  ],
+  "left_hand_dx_px": [
+    -16,
+    -8,
+    0,
+    3
+  ],
+  "right_hand_dx_px": [
+    16,
+    8,
+    0,
+    -3
+  ],
+  "frame_sha256_rgba": [
+    "7cad93ceda9246b33db9fdd6b85678b3f1e4f35578c19b0edc2cdd7c1722f9d7",
+    "31dbcfaa060880cfb276e38a0e21fa59b8785b712b5f83815ee14b35491c8f23",
+    "1b0aacc3a052b9612dd3ec21494cb484eb6fe8e268de329d940c38cbaaa2525d",
+    "4d0ba7e0daa5fe18aa46c6643b62e0b58638d5367b52701ed7678f37e4456fd2"
+  ],
+  "static_face_torso_sha256_rgba": [
+    "5521d6029a3f26e78756d16160dee80b669689712c149509c270b9f8a105bc56",
+    "5521d6029a3f26e78756d16160dee80b669689712c149509c270b9f8a105bc56",
+    "5521d6029a3f26e78756d16160dee80b669689712c149509c270b9f8a105bc56",
+    "5521d6029a3f26e78756d16160dee80b669689712c149509c270b9f8a105bc56"
+  ],
+  "minimum_margin_px": 75,
+  "changed_pixels_outside_rigs": 0,
+  "sequence": [
+    0,
+    1,
+    2,
+    3,
+    2,
+    1
+  ],
+  "durations_ms": [
+    210,
+    140,
+    140,
+    210,
+    140,
+    140
+  ],
+  "raw_chroma_sha256": "664f0f5c836b4495aed3b9cd101f72cce7e44808ad2f3206814db4ee9b153cf4",
+  "raw_alpha_sha256": "d6fbf5c872da8d24af9bce8cec1d970e6f4039b37e14548e9a0c91ea7c377a65",
+  "locked_plate_sha256": "c2187c1d718726da27eb24f44efb09cbb475bff098a73f4de0deee88128e8745"
+}

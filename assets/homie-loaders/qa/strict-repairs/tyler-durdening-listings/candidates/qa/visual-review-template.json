@@ -1,0 +1,43 @@
+{
+  "tyler-durdening-listings": {
+    "cells": [
+      {
+        "full_size_inspected": false,
+        "thumbnail_128_inspected": false,
+        "crop_clear": false,
+        "anatomy_clear": false,
+        "prop_continuity_clear": false,
+        "no_unintended_redraw_wiggle": false
+      },
+      {
+        "full_size_inspected": false,
+        "thumbnail_128_inspected": false,
+        "crop_clear": false,
+        "anatomy_clear": false,
+        "prop_continuity_clear": false,
+        "no_unintended_redraw_wiggle": false
+      },
+      {
+        "full_size_inspected": false,
+        "thumbnail_128_inspected": false,
+        "crop_clear": false,
+        "anatomy_clear": false,
+        "prop_continuity_clear": false,
+        "no_unintended_redraw_wiggle": false
+      },
+      {
+        "full_size_inspected": false,
+        "thumbnail_128_inspected": false,
+        "crop_clear": false,
+        "anatomy_clear": false,
+        "prop_continuity_clear": false,
+        "no_unintended_redraw_wiggle": false
+      }
+    ],
+    "signature_action_readable": false,
+    "stationary_elements_stable": false,
+    "loop_motion_natural": false,
+    "action_expectation": "Exactly two fists remain visible in every phase while the left jab retracts to guard and the right jab extends with only attached tapered motion marks; face, torso, pelvis, legs, crop, anchor, and scale remain fixed.",
+    "notes": ""
+  }
+}

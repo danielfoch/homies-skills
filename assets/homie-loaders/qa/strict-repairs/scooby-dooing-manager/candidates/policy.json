@@ -1,0 +1,24 @@
+{
+  "scooby-dooing-manager": {
+    "concept": "Exactly one frightened male Manager Homie holds exactly one frightened large brown spotted dog with a blue collar and blank green diamond tag.",
+    "action_expectation": "The immutable connected Manager-and-dog rig performs a controlled shared side-to-side shake; both identities, all anatomy, the collar/tag, crop, scale, and relative pose remain locked.",
+    "signature_action": true,
+    "min_silhouette_motion_px": 4.0,
+    "min_mask_xor_pct": 2.0,
+    "allow_global_motion": true,
+    "fixed_character_plate": false,
+    "min_margin_px": 60,
+    "max_foreground_area_span_pct": 0.05,
+    "max_bbox_span_pct": 0.1,
+    "max_tiny_components": 0,
+    "max_significant_components_per_cell": 1,
+    "max_significant_component_span": 0,
+    "stationary_regions": [
+      {
+        "name": "empty-transparent-canvas-corner",
+        "box": [0.0, 0.0, 0.12, 0.12],
+        "max_change_pct": 0.0
+      }
+    ]
+  }
+}

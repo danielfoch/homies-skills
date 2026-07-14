@@ -1,0 +1,3432 @@
+{
+  "version": 1,
+  "generatedAt": "2026-07-14",
+  "sourceSite": "https://www.homiesai.com/",
+  "siteBackground": "#FBF9F6",
+  "surfaceBackground": "#F4F1EA",
+  "format": {
+    "width": 256,
+    "height": 256,
+    "displayWidth": 128,
+    "displayWidthMobile": 96,
+    "frameCount": 6,
+    "frameDurationsMs": [
+      210,
+      140,
+      140,
+      210,
+      140,
+      140
+    ],
+    "loop": "infinite",
+    "transparent": true,
+    "edgeMatte": "#FBF9F6"
+  },
+  "homies": [
+    {
+      "id": "manager",
+      "name": "Manager Homie",
+      "roleLabel": "Your front door",
+      "description": "Brief it once. It pulls in the right specialists and brings the finished work back for your review.",
+      "jobs": [
+        "Understands the goal",
+        "Delegates to the right specialists",
+        "Brings back finished work for your review"
+      ],
+      "reference": "references/manager.png",
+      "animations": [
+        {
+          "slug": "front-door-brief",
+          "label": "Receive the brief",
+          "loadingText": "Opening the front door…",
+          "source": "sources/manager/front-door-brief.png",
+          "asset": "gifs/manager/front-door-brief.gif"
+        },
+        {
+          "slug": "decode-goal",
+          "label": "Decode the goal",
+          "loadingText": "Translating your brainwave…",
+          "source": "sources/manager/decode-goal.png",
+          "asset": "gifs/manager/decode-goal.gif"
+        },
+        {
+          "slug": "split-request",
+          "label": "Split the request",
+          "loadingText": "Chopping the big thing into little things…",
+          "source": "sources/manager/split-request.png",
+          "asset": "gifs/manager/split-request.gif"
+        },
+        {
+          "slug": "match-specialists",
+          "label": "Match specialists",
+          "loadingText": "Matchmaking tasks and talent…",
+          "source": "sources/manager/match-specialists.png",
+          "asset": "gifs/manager/match-specialists.gif"
+        },
+        {
+          "slug": "route-switchboard",
+          "label": "Route the work",
+          "loadingText": "Routing the request without sparks…",
+          "source": "sources/manager/route-switchboard.png",
+          "asset": "gifs/manager/route-switchboard.gif"
+        },
+        {
+          "slug": "dispatch-bench",
+          "label": "Dispatch the bench",
+          "loadingText": "Herding the Homies…",
+          "source": "sources/manager/dispatch-bench.png",
+          "asset": "gifs/manager/dispatch-bench.gif"
+        },
+        {
+          "slug": "monitor-progress",
+          "label": "Monitor progress",
+          "loadingText": "Watching the watched pots…",
+          "source": "sources/manager/monitor-progress.png",
+          "asset": "gifs/manager/monitor-progress.gif"
+        },
+        {
+          "slug": "review-deliverables",
+          "label": "Review deliverables",
+          "loadingText": "Inspecting the homework…",
+          "source": "sources/manager/review-deliverables.png",
+          "asset": "gifs/manager/review-deliverables.gif"
+        },
+        {
+          "slug": "assemble-package",
+          "label": "Assemble the package",
+          "loadingText": "Stitching the clever bits together…",
+          "source": "sources/manager/assemble-package.png",
+          "asset": "gifs/manager/assemble-package.gif"
+        },
+        {
+          "slug": "return-results",
+          "label": "Return results",
+          "loadingText": "Returning with receipts…",
+          "source": "sources/manager/return-results.png",
+          "asset": "gifs/manager/return-results.gif"
+        }
+      ]
+    },
+    {
+      "id": "cma",
+      "name": "CMA Homie",
+      "roleLabel": "Pricing and comps",
+      "description": "Pulls comparables and builds sale and lease CMAs, with every assumption shown.",
+      "jobs": [
+        "Sale and lease CMAs",
+        "Comparable analysis",
+        "Pricing recommendations",
+        "Listing presentations",
+        "Investment analysis"
+      ],
+      "reference": "references/cma.png",
+      "animations": [
+        {
+          "slug": "map-magnifier",
+          "label": "Scan the map",
+          "loadingText": "Hunting for comps…",
+          "source": "sources/cma/map-magnifier.png",
+          "asset": "gifs/cma/map-magnifier.gif"
+        },
+        {
+          "slug": "radius-compass",
+          "label": "Draw a comp radius",
+          "loadingText": "Circling the likely suspects…",
+          "source": "sources/cma/radius-compass.png",
+          "asset": "gifs/cma/radius-compass.gif"
+        },
+        {
+          "slug": "comp-card-shuffle",
+          "label": "Shuffle comp cards",
+          "loadingText": "Interrogating the comps…",
+          "source": "sources/cma/comp-card-shuffle.png",
+          "asset": "gifs/cma/comp-card-shuffle.gif"
+        },
+        {
+          "slug": "calculator-tap",
+          "label": "Work the calculator",
+          "loadingText": "Crunching the curb appeal…",
+          "source": "sources/cma/calculator-tap.png",
+          "asset": "gifs/cma/calculator-tap.gif"
+        },
+        {
+          "slug": "value-balance",
+          "label": "Balance value",
+          "loadingText": "Balancing bricks and bucks…",
+          "source": "sources/cma/value-balance.png",
+          "asset": "gifs/cma/value-balance.gif"
+        },
+        {
+          "slug": "sale-lease-split",
+          "label": "Compare sale and lease",
+          "loadingText": "Comparing keys with closing signs…",
+          "source": "sources/cma/sale-lease-split.png",
+          "asset": "gifs/cma/sale-lease-split.gif"
+        },
+        {
+          "slug": "price-dot-plot",
+          "label": "Plot the price trend",
+          "loadingText": "Connecting expensive little dots…",
+          "source": "sources/cma/price-dot-plot.png",
+          "asset": "gifs/cma/price-dot-plot.gif"
+        },
+        {
+          "slug": "adjustment-coins",
+          "label": "Apply adjustments",
+          "loadingText": "Adjusting the apples and granite countertops…",
+          "source": "sources/cma/adjustment-coins.png",
+          "asset": "gifs/cma/adjustment-coins.gif"
+        },
+        {
+          "slug": "investment-stress-test",
+          "label": "Stress-test the investment",
+          "loadingText": "Stress-testing the spreadsheet…",
+          "source": "sources/cma/investment-stress-test.png",
+          "asset": "gifs/cma/investment-stress-test.gif"
+        },
+        {
+          "slug": "cma-deck-reveal",
+          "label": "Reveal the CMA deck",
+          "loadingText": "Presenting the price prophecy…",
+          "source": "sources/cma/cma-deck-reveal.png",
+          "asset": "gifs/cma/cma-deck-reveal.gif"
+        }
+      ]
+    },
+    {
+      "id": "crm",
+      "name": "CRM Homie",
+      "roleLabel": "Follow-up and pipeline",
+      "description": "Keeps every lead warm and your CRM current, and drafts the next touch in your voice.",
+      "jobs": [
+        "Automated follow-up",
+        "Lead scoring",
+        "Re-engagement campaigns",
+        "Conversation summaries",
+        "Birthday and anniversary outreach"
+      ],
+      "reference": "references/crm.png",
+      "animations": [
+        {
+          "slug": "rolodex-riffle",
+          "label": "Riffle the Rolodex",
+          "loadingText": "Rolodexing relentlessly…",
+          "source": "sources/crm/rolodex-riffle.png",
+          "asset": "gifs/crm/rolodex-riffle.gif"
+        },
+        {
+          "slug": "pipeline-slide",
+          "label": "Slide the pipeline",
+          "loadingText": "Scooting leads along…",
+          "source": "sources/crm/pipeline-slide.png",
+          "asset": "gifs/crm/pipeline-slide.gif"
+        },
+        {
+          "slug": "lead-score",
+          "label": "Score leads",
+          "loadingText": "Judging prospects politely…",
+          "source": "sources/crm/lead-score.png",
+          "asset": "gifs/crm/lead-score.gif"
+        },
+        {
+          "slug": "followup-conveyor",
+          "label": "Run the follow-up conveyor",
+          "loadingText": "Automating the gentle nudge…",
+          "source": "sources/crm/followup-conveyor.png",
+          "asset": "gifs/crm/followup-conveyor.gif"
+        },
+        {
+          "slug": "next-touch-typewriter",
+          "label": "Type the next touch",
+          "loadingText": "Typing in your voice…",
+          "source": "sources/crm/next-touch-typewriter.png",
+          "asset": "gifs/crm/next-touch-typewriter.gif"
+        },
+        {
+          "slug": "conversation-condense",
+          "label": "Condense a conversation",
+          "loadingText": "Summarizing the saga…",
+          "source": "sources/crm/conversation-condense.png",
+          "asset": "gifs/crm/conversation-condense.gif"
+        },
+        {
+          "slug": "cold-lead-warmer",
+          "label": "Warm a cold lead",
+          "loadingText": "Warming up the cold ones…",
+          "source": "sources/crm/cold-lead-warmer.png",
+          "asset": "gifs/crm/cold-lead-warmer.gif"
+        },
+        {
+          "slug": "reengagement-windup",
+          "label": "Wind up re-engagement",
+          "loadingText": "Jump-starting the maybes…",
+          "source": "sources/crm/reengagement-windup.png",
+          "asset": "gifs/crm/reengagement-windup.gif"
+        },
+        {
+          "slug": "birthday-mail",
+          "label": "Send birthday mail",
+          "loadingText": "Remembering birthdays suspiciously well…",
+          "source": "sources/crm/birthday-mail.png",
+          "asset": "gifs/crm/birthday-mail.gif"
+        },
+        {
+          "slug": "anniversary-reminder",
+          "label": "Set an anniversary reminder",
+          "loadingText": "Celebrating before the reminder fires…",
+          "source": "sources/crm/anniversary-reminder.png",
+          "asset": "gifs/crm/anniversary-reminder.gif"
+        },
+        {
+          "slug": "hottest-lead-roast",
+          "label": "Find the hottest leads",
+          "loadingText": "Finding the hottest ones…",
+          "altText": "CRM Homie roasting a marshmallow that catches fire.",
+          "source": "sources/crm/hottest-lead-roast.png",
+          "asset": "gifs/crm/hottest-lead-roast.gif"
+        },
+        {
+          "slug": "coldest-lead-freezer",
+          "label": "Find the coldest leads",
+          "loadingText": "Finding the coldest ones…",
+          "altText": "CRM Homie pulling an icicle-covered can from a freezer.",
+          "source": "sources/crm/coldest-lead-freezer.png",
+          "asset": "gifs/crm/coldest-lead-freezer.gif"
+        },
+        {
+          "slug": "crack-cold-one",
+          "label": "Crack a cold one",
+          "loadingText": "Cracking a cold one…",
+          "altText": "CRM Homie opening a frosty can.",
+          "source": "sources/crm/crack-cold-one.png",
+          "asset": "gifs/crm/crack-cold-one.gif"
+        },
+        {
+          "slug": "lead-temperature-check",
+          "label": "Check lead temperature",
+          "loadingText": "Checking lead temperature…",
+          "altText": "CRM Homie testing lead temperature with a thermometer.",
+          "source": "sources/crm/lead-temperature-check.png",
+          "asset": "gifs/crm/lead-temperature-check.gif"
+        },
+        {
+          "slug": "blowtorch-thaw",
+          "label": "Speed-warm cold leads",
+          "loadingText": "Speedwarming up the cold leads…",
+          "altText": "CRM Homie thawing a frozen lead with a blowtorch.",
+          "source": "sources/crm/blowtorch-thaw.png",
+          "asset": "gifs/crm/blowtorch-thaw.gif"
+        },
+        {
+          "slug": "flamethrower-thaw",
+          "label": "Turboheat cold leads",
+          "loadingText": "Turbocharging the heating process…",
+          "altText": "CRM Homie melting frozen leads with a flamethrower.",
+          "source": "sources/crm/flamethrower-thaw.png",
+          "asset": "gifs/crm/flamethrower-thaw.gif"
+        },
+        {
+          "slug": "forget-me-not-bouquet",
+          "label": "Make a forget-me-not bouquet",
+          "loadingText": "Forget-me-notting…",
+          "altText": "CRM Homie arranging a bouquet of blue forget-me-not flowers.",
+          "source": "sources/crm/forget-me-not-bouquet.png",
+          "asset": "gifs/crm/forget-me-not-bouquet.gif"
+        }
+      ]
+    },
+    {
+      "id": "listings",
+      "name": "Listings Homie",
+      "roleLabel": "Listing prep and sites",
+      "description": "Builds property profiles and branded listing pages, ready for your review.",
+      "jobs": [
+        "Listing landing pages",
+        "Property descriptions",
+        "Feature sheets",
+        "Pre-listing checklists",
+        "Open-house registration"
+      ],
+      "reference": "references/listings.png",
+      "animations": [
+        {
+          "slug": "landing-blocks",
+          "label": "Build a landing page",
+          "loadingText": "Stacking pixels into curb appeal…",
+          "source": "sources/listings/landing-blocks.png",
+          "asset": "gifs/listings/landing-blocks.gif"
+        },
+        {
+          "slug": "page-unroll",
+          "label": "Unroll the listing page",
+          "loadingText": "Unrolling the listing front door…",
+          "source": "sources/listings/page-unroll.png",
+          "asset": "gifs/listings/page-unroll.gif"
+        },
+        {
+          "slug": "description-draft",
+          "label": "Draft a description",
+          "loadingText": "Adjectivizing the square footage…",
+          "source": "sources/listings/description-draft.png",
+          "asset": "gifs/listings/description-draft.gif"
+        },
+        {
+          "slug": "prose-prune",
+          "label": "Prune the prose",
+          "loadingText": "De-fluffing the property prose…",
+          "source": "sources/listings/prose-prune.png",
+          "asset": "gifs/listings/prose-prune.gif"
+        },
+        {
+          "slug": "feature-layout",
+          "label": "Lay out a feature sheet",
+          "loadingText": "Feature-sheeting the shiny bits…",
+          "source": "sources/listings/feature-layout.png",
+          "asset": "gifs/listings/feature-layout.gif"
+        },
+        {
+          "slug": "profile-measure",
+          "label": "Measure the property profile",
+          "loadingText": "Measuring twice, listing once…",
+          "source": "sources/listings/profile-measure.png",
+          "asset": "gifs/listings/profile-measure.gif"
+        },
+        {
+          "slug": "checklist-sprint",
+          "label": "Sprint through the checklist",
+          "loadingText": "Checkmarking every last corner…",
+          "source": "sources/listings/checklist-sprint.png",
+          "asset": "gifs/listings/checklist-sprint.gif"
+        },
+        {
+          "slug": "cushion-staging",
+          "label": "Stage the cushions",
+          "loadingText": "Straightening the tiny cushions…",
+          "source": "sources/listings/cushion-staging.png",
+          "asset": "gifs/listings/cushion-staging.gif"
+        },
+        {
+          "slug": "guest-register",
+          "label": "Register open-house guests",
+          "loadingText": "Guest-listing the open house…",
+          "source": "sources/listings/guest-register.png",
+          "asset": "gifs/listings/guest-register.gif"
+        },
+        {
+          "slug": "open-house-sign",
+          "label": "Set the open-house sign",
+          "loadingText": "Sign-spinning the front lawn…",
+          "source": "sources/listings/open-house-sign.png",
+          "asset": "gifs/listings/open-house-sign.gif"
+        },
+        {
+          "slug": "details-dig",
+          "label": "Dig into the details",
+          "loadingText": "Digging into the details…",
+          "altText": "Listings Homie digging into blank white space and uncovering numbered details with a shovel.",
+          "source": "sources/listings/details-dig.png",
+          "asset": "gifs/listings/details-dig.gif"
+        },
+        {
+          "slug": "buyer-profile-binoculars",
+          "label": "Find the right buyer profile",
+          "loadingText": "Looking for the right buyer profile…",
+          "altText": "Listings Homie raising binoculars to search for the right buyer profile.",
+          "source": "sources/listings/buyer-profile-binoculars.png",
+          "asset": "gifs/listings/buyer-profile-binoculars.gif"
+        },
+        {
+          "slug": "cinderblock-foundation",
+          "label": "Lay a solid foundation",
+          "loadingText": "Putting down a solid foundation…",
+          "altText": "Listings Homie lowering a cinderblock into a fixed foundation row.",
+          "source": "sources/listings/cinderblock-foundation.png",
+          "asset": "gifs/listings/cinderblock-foundation.gif"
+        },
+        {
+          "slug": "cornerstone-set",
+          "label": "Set the cornerstone",
+          "loadingText": "Cornerstoning…",
+          "altText": "Listings Homie setting a cornerstone into a low brick foundation.",
+          "source": "sources/listings/cornerstone-set.png",
+          "asset": "gifs/listings/cornerstone-set.gif"
+        }
+      ]
+    },
+    {
+      "id": "marketing",
+      "name": "Marketing Homie",
+      "roleLabel": "Social and ads",
+      "description": "Designs branded posts and carousels in your colours, ready to schedule.",
+      "jobs": [
+        "Just Listed and Just Sold",
+        "Reel and TikTok scripts",
+        "Market-update carousels",
+        "Facebook and Instagram ads",
+        "Luxury brochures"
+      ],
+      "reference": "references/marketing.png",
+      "animations": [
+        {
+          "slug": "listing-badge",
+          "label": "Badge a new listing",
+          "loadingText": "Badging the brand-new listing…",
+          "source": "sources/marketing/listing-badge.png",
+          "asset": "gifs/marketing/listing-badge.gif"
+        },
+        {
+          "slug": "sold-confetti",
+          "label": "Celebrate a sale",
+          "loadingText": "Confetti-ing the happy handoff…",
+          "source": "sources/marketing/sold-confetti.png",
+          "asset": "gifs/marketing/sold-confetti.gif"
+        },
+        {
+          "slug": "reel-storyboard",
+          "label": "Storyboard a reel",
+          "loadingText": "Storyboarding the scroll-stopper…",
+          "source": "sources/marketing/reel-storyboard.png",
+          "asset": "gifs/marketing/reel-storyboard.gif"
+        },
+        {
+          "slug": "portrait-rehearsal",
+          "label": "Rehearse a portrait video",
+          "loadingText": "Rehearsing the hook in portrait mode…",
+          "source": "sources/marketing/portrait-rehearsal.png",
+          "asset": "gifs/marketing/portrait-rehearsal.gif"
+        },
+        {
+          "slug": "market-carousel",
+          "label": "Spin a market carousel",
+          "loadingText": "Carouseling the market tea…",
+          "source": "sources/marketing/market-carousel.png",
+          "asset": "gifs/marketing/market-carousel.gif"
+        },
+        {
+          "slug": "ad-targeting",
+          "label": "Target an ad",
+          "loadingText": "Targeting thumbs, respectfully…",
+          "source": "sources/marketing/ad-targeting.png",
+          "asset": "gifs/marketing/ad-targeting.gif"
+        },
+        {
+          "slug": "hook-test",
+          "label": "Test creative hooks",
+          "loadingText": "Hook-testing the tiny rectangles…",
+          "source": "sources/marketing/hook-test.png",
+          "asset": "gifs/marketing/hook-test.gif"
+        },
+        {
+          "slug": "luxury-fold",
+          "label": "Fold a luxury brochure",
+          "loadingText": "Foil-folding the fancy stuff…",
+          "source": "sources/marketing/luxury-fold.png",
+          "asset": "gifs/marketing/luxury-fold.gif"
+        },
+        {
+          "slug": "palette-match",
+          "label": "Match the brand palette",
+          "loadingText": "Colour-matching the vibes…",
+          "source": "sources/marketing/palette-match.png",
+          "asset": "gifs/marketing/palette-match.gif"
+        },
+        {
+          "slug": "post-queue",
+          "label": "Queue social posts",
+          "loadingText": "Queueing tomorrow’s thumb-stoppers…",
+          "source": "sources/marketing/post-queue.png",
+          "asset": "gifs/marketing/post-queue.gif"
+        },
+        {
+          "slug": "target-hit",
+          "label": "Hit the target",
+          "loadingText": "Hitting the target…",
+          "altText": "Marketing Homie drawing a bow and firing one arrow into a freestanding bullseye target.",
+          "source": "sources/marketing/target-hit.png",
+          "asset": "gifs/marketing/target-hit.gif"
+        },
+        {
+          "slug": "palette-mix",
+          "label": "Mix the paint palette",
+          "loadingText": "Paletting…",
+          "altText": "Marketing Homie mixing colourful paint on an artist palette with one brush.",
+          "source": "sources/marketing/palette-mix.png",
+          "asset": "gifs/marketing/palette-mix.gif"
+        },
+        {
+          "slug": "hook-sharpen",
+          "label": "Sharpen the hooks",
+          "loadingText": "Sharpening the hooks…",
+          "altText": "Marketing Homie sharpening a giant fish hook with a handheld grinder as orange sparks fly.",
+          "source": "sources/marketing/hook-sharpen.png",
+          "asset": "gifs/marketing/hook-sharpen.gif"
+        }
+      ]
+    },
+    {
+      "id": "research",
+      "name": "Research Homie",
+      "roleLabel": "Market and neighbourhood",
+      "description": "Pulls market and neighbourhood context, and sources every claim it makes.",
+      "jobs": [
+        "Neighbourhood and school reports",
+        "Commute analysis",
+        "Market context, every claim sourced",
+        "Home-valuation funnels",
+        "Buyer property comparisons"
+      ],
+      "reference": "references/research.png",
+      "animations": [
+        {
+          "slug": "neighbourhood-loupe",
+          "label": "Magnify the neighbourhood",
+          "loadingText": "Magnifying the neighbourhood…",
+          "source": "sources/research/neighbourhood-loupe.png",
+          "asset": "gifs/research/neighbourhood-loupe.gif"
+        },
+        {
+          "slug": "school-pins",
+          "label": "Pin nearby schools",
+          "loadingText": "Pinning down the school run…",
+          "source": "sources/research/school-pins.png",
+          "asset": "gifs/research/school-pins.gif"
+        },
+        {
+          "slug": "commute-timer",
+          "label": "Time the commute",
+          "loadingText": "Timing the traffic gremlins…",
+          "source": "sources/research/commute-timer.png",
+          "asset": "gifs/research/commute-timer.gif"
+        },
+        {
+          "slug": "source-check",
+          "label": "Check the sources",
+          "loadingText": "Footnoting the fine print…",
+          "source": "sources/research/source-check.png",
+          "asset": "gifs/research/source-check.gif"
+        },
+        {
+          "slug": "fact-web",
+          "label": "Connect the facts",
+          "loadingText": "Cross-examining the market facts…",
+          "source": "sources/research/fact-web.png",
+          "asset": "gifs/research/fact-web.gif"
+        },
+        {
+          "slug": "trend-overlay",
+          "label": "Align trend overlays",
+          "loadingText": "Contextualizing the market mood…",
+          "source": "sources/research/trend-overlay.png",
+          "asset": "gifs/research/trend-overlay.gif"
+        },
+        {
+          "slug": "valuation-funnel",
+          "label": "Funnel valuations",
+          "loadingText": "Funneling homes into reality…",
+          "source": "sources/research/valuation-funnel.png",
+          "asset": "gifs/research/valuation-funnel.gif"
+        },
+        {
+          "slug": "house-balance",
+          "label": "Balance properties",
+          "loadingText": "Weighing apples against floor plans…",
+          "source": "sources/research/house-balance.png",
+          "asset": "gifs/research/house-balance.gif"
+        },
+        {
+          "slug": "buyer-grid",
+          "label": "Build a buyer comparison",
+          "loadingText": "Shortlisting the contenders…",
+          "source": "sources/research/buyer-grid.png",
+          "asset": "gifs/research/buyer-grid.gif"
+        },
+        {
+          "slug": "street-scan",
+          "label": "Scan the street",
+          "loadingText": "Peeking behind the picket fences…",
+          "source": "sources/research/street-scan.png",
+          "asset": "gifs/research/street-scan.gif"
+        },
+        {
+          "slug": "nosy-neighbouring",
+          "label": "Snoop around the neighbourhood",
+          "loadingText": "Nosy neighbouring…",
+          "altText": "Research Homie raises a phone to snoop around while standing beside a for-sale sign.",
+          "source": "sources/research/nosy-neighbouring.png",
+          "asset": "gifs/research/nosy-neighbouring.gif"
+        }
+      ]
+    },
+    {
+      "id": "content",
+      "name": "Content Homie",
+      "roleLabel": "Copy and client messages",
+      "description": "Writes listing copy and client emails that sound like you, not a template.",
+      "jobs": [
+        "Listing copy in your voice",
+        "Client emails and updates",
+        "Marketing plans",
+        "Seller update reports",
+        "Re-engagement copy"
+      ],
+      "reference": "references/content.png",
+      "animations": [
+        {
+          "slug": "listing-copy-keyboard",
+          "label": "Write listing copy",
+          "loadingText": "Wordsmithing the listing…",
+          "source": "sources/content/listing-copy-keyboard.png",
+          "asset": "gifs/content/listing-copy-keyboard.gif"
+        },
+        {
+          "slug": "voice-tuning-fork",
+          "label": "Tune the voice",
+          "loadingText": "Tuning the voice…",
+          "altText": "Content Homie tunes an acoustic guitar by plucking a string and adjusting a tuning peg.",
+          "source": "sources/content/voice-tuning-fork.png",
+          "asset": "gifs/content/voice-tuning-fork.gif"
+        },
+        {
+          "slug": "client-email-send",
+          "label": "Send a client email",
+          "loadingText": "Humanizing the inbox…",
+          "source": "sources/content/client-email-send.png",
+          "asset": "gifs/content/client-email-send.gif"
+        },
+        {
+          "slug": "marketing-plan-cards",
+          "label": "Arrange a marketing plan",
+          "loadingText": "Plotting the marketing plot…",
+          "source": "sources/content/marketing-plan-cards.png",
+          "asset": "gifs/content/marketing-plan-cards.gif"
+        },
+        {
+          "slug": "seller-update-packet",
+          "label": "Compile a seller update",
+          "loadingText": "Seller-updating…",
+          "source": "sources/content/seller-update-packet.png",
+          "asset": "gifs/content/seller-update-packet.gif"
+        },
+        {
+          "slug": "reengagement-dustoff",
+          "label": "Dust off re-engagement copy",
+          "loadingText": "Rewarming cold leads…",
+          "source": "sources/content/reengagement-dustoff.png",
+          "asset": "gifs/content/reengagement-dustoff.gif"
+        },
+        {
+          "slug": "camera-snap",
+          "label": "Take a property photo",
+          "loadingText": "Shutterbugging…",
+          "source": "sources/content/camera-snap.png",
+          "asset": "gifs/content/camera-snap.gif"
+        },
+        {
+          "slug": "video-timeline-trim",
+          "label": "Trim the video timeline",
+          "loadingText": "Trimming the timeline…",
+          "source": "sources/content/video-timeline-trim.png",
+          "asset": "gifs/content/video-timeline-trim.gif"
+        },
+        {
+          "slug": "concept-sketch",
+          "label": "Sketch a content concept",
+          "loadingText": "Doodling the big idea…",
+          "source": "sources/content/concept-sketch.png",
+          "asset": "gifs/content/concept-sketch.gif"
+        },
+        {
+          "slug": "copy-proofread",
+          "label": "Proofread the copy",
+          "loadingText": "Proofreading past perfection…",
+          "source": "sources/content/copy-proofread.png",
+          "asset": "gifs/content/copy-proofread.gif"
+        },
+        {
+          "slug": "old-files-dustoff",
+          "label": "Dust off old files",
+          "loadingText": "Dusting off the old files…",
+          "altText": "Content Homie sweeps an actual feather duster across a fixed stack of old file folders.",
+          "source": "sources/content/old-files-dustoff.png",
+          "asset": "gifs/content/old-files-dustoff.gif"
+        },
+        {
+          "slug": "target-examine",
+          "label": "Examine the targets",
+          "loadingText": "Examining the targets…",
+          "altText": "Content Homie holds up a paper bullseye target and examines its puncture holes.",
+          "source": "sources/content/target-examine.png",
+          "asset": "gifs/content/target-examine.gif"
+        },
+        {
+          "slug": "film-tape-trim",
+          "label": "Trim the film tape",
+          "loadingText": "Carefully trimming…",
+          "altText": "Content Homie carefully trims film tape with scissors beside a large vintage film projector.",
+          "source": "sources/content/film-tape-trim.png",
+          "asset": "gifs/content/film-tape-trim.gif"
+        },
+        {
+          "slug": "laser-pointer-scan",
+          "label": "Get the laser out",
+          "loadingText": "Getting the laser out…",
+          "altText": "Content Homie activates a comically oversized office presentation laser as its red scan beam widens toward the viewer.",
+          "source": "sources/content/laser-pointer-scan.png",
+          "asset": "gifs/content/laser-pointer-scan.gif"
+        }
+      ]
+    },
+    {
+      "id": "offers",
+      "name": "Offers Homie",
+      "roleLabel": "Offers and paperwork",
+      "description": "Drafts purchase and lease offers, fills out the paperwork, and sends it for signature.",
+      "jobs": [
+        "Purchase and lease offers",
+        "Offer paperwork, filled out",
+        "Sent out for e-signature",
+        "Counter-offers and amendments",
+        "Closing-document prep"
+      ],
+      "reference": "references/offers.png",
+      "animations": [
+        {
+          "slug": "purchase-offer-draft",
+          "label": "Draft a purchase offer",
+          "loadingText": "Drafting the dream…",
+          "source": "sources/offers/purchase-offer-draft.png",
+          "asset": "gifs/offers/purchase-offer-draft.gif"
+        },
+        {
+          "slug": "lease-offer-draft",
+          "label": "Draft a lease offer",
+          "loadingText": "Leasing the details…",
+          "source": "sources/offers/lease-offer-draft.png",
+          "asset": "gifs/offers/lease-offer-draft.gif"
+        },
+        {
+          "slug": "paperwork-page-flip",
+          "label": "Flip through paperwork",
+          "loadingText": "Paperwork-cardioing…",
+          "source": "sources/offers/paperwork-page-flip.png",
+          "asset": "gifs/offers/paperwork-page-flip.gif"
+        },
+        {
+          "slug": "typewriter-terms",
+          "label": "Type the terms",
+          "loadingText": "Clacking the fine print…",
+          "source": "sources/offers/typewriter-terms.png",
+          "asset": "gifs/offers/typewriter-terms.gif"
+        },
+        {
+          "slug": "calculator-tap",
+          "label": "Calculate the figures",
+          "loadingText": "Number-crunching responsibly…",
+          "source": "sources/offers/calculator-tap.png",
+          "asset": "gifs/offers/calculator-tap.gif"
+        },
+        {
+          "slug": "checklist-fill",
+          "label": "Fill every box",
+          "loadingText": "Filling every tiny box…",
+          "source": "sources/offers/checklist-fill.png",
+          "asset": "gifs/offers/checklist-fill.gif"
+        },
+        {
+          "slug": "esign-send",
+          "label": "Send for e-signature",
+          "loadingText": "E-signing at light speed…",
+          "source": "sources/offers/esign-send.png",
+          "asset": "gifs/offers/esign-send.gif"
+        },
+        {
+          "slug": "counteroffer-volley",
+          "label": "Volley a counter-offer",
+          "loadingText": "Counter-offering politely…",
+          "source": "sources/offers/counteroffer-volley.png",
+          "asset": "gifs/offers/counteroffer-volley.gif"
+        },
+        {
+          "slug": "amendment-mend",
+          "label": "Mend an amendment",
+          "loadingText": "Amendment-mending…",
+          "source": "sources/offers/amendment-mend.png",
+          "asset": "gifs/offers/amendment-mend.gif"
+        },
+        {
+          "slug": "closing-bundle",
+          "label": "Bundle closing documents",
+          "loadingText": "Bundling the closing…",
+          "source": "sources/offers/closing-bundle.png",
+          "asset": "gifs/offers/closing-bundle.gif"
+        },
+        {
+          "slug": "lowball-juggle",
+          "label": "Juggle the lowballs",
+          "loadingText": "Juggling the lowballs…",
+          "altText": "Offers Homie juggles three matching lowball-red balls along a compact fixed arc.",
+          "source": "sources/offers/lowball-juggle.png",
+          "asset": "gifs/offers/lowball-juggle.gif"
+        },
+        {
+          "slug": "paper-conditioning",
+          "label": "Condition the paperwork",
+          "loadingText": "Conditioning…",
+          "altText": "Offers Homie pumps conditioner onto a fixed blank sheet of offer paperwork.",
+          "source": "sources/offers/paper-conditioning.png",
+          "asset": "gifs/offers/paper-conditioning.gif"
+        },
+        {
+          "slug": "offer-strengthen",
+          "label": "Strengthen the offer",
+          "loadingText": "Strengthening…",
+          "altText": "Offers Homie performs an overhead press with two small matching dumbbells.",
+          "source": "sources/offers/offer-strengthen.png",
+          "asset": "gifs/offers/offer-strengthen.gif"
+        },
+        {
+          "slug": "deposit-safe-check",
+          "label": "Check the deposit",
+          "loadingText": "Checking the deposit…",
+          "altText": "Offers Homie opens a compact safe to inspect bundled cash inside.",
+          "source": "sources/offers/deposit-safe-check.png",
+          "asset": "gifs/offers/deposit-safe-check.gif"
+        },
+        {
+          "slug": "client-protection",
+          "label": "Protect the client",
+          "loadingText": "Protecting the client…",
+          "altText": "Offers Homie holds a shield and short storybook sword in a friendly defensive guard.",
+          "source": "sources/offers/client-protection.png",
+          "asset": "gifs/offers/client-protection.gif"
+        },
+        {
+          "slug": "paper-hanger-organize",
+          "label": "Organize the paperwork",
+          "loadingText": "Organizing…",
+          "altText": "Offers Homie organizes blank offer pages with clip hangers on a fixed clothes rail.",
+          "source": "sources/offers/paper-hanger-organize.png",
+          "asset": "gifs/offers/paper-hanger-organize.gif"
+        }
+      ]
+    },
+    {
+      "id": "reports",
+      "name": "Reports Homie",
+      "roleLabel": "Reports and decks",
+      "description": "Builds reports, dashboards, and presentations you can share with a single link.",
+      "jobs": [
+        "Reports and dashboards",
+        "Client-ready presentations",
+        "Performance reporting",
+        "Meeting summaries",
+        "Shareable live links"
+      ],
+      "reference": "references/reports.png",
+      "animations": [
+        {
+          "slug": "report-page-wrangle",
+          "label": "Wrangle report pages",
+          "loadingText": "Report-wrangling…",
+          "source": "sources/reports/report-page-wrangle.png",
+          "asset": "gifs/reports/report-page-wrangle.gif"
+        },
+        {
+          "slug": "dashboard-tile-grid",
+          "label": "Build a dashboard grid",
+          "loadingText": "Dashboarding intensely…",
+          "source": "sources/reports/dashboard-tile-grid.png",
+          "asset": "gifs/reports/dashboard-tile-grid.gif"
+        },
+        {
+          "slug": "presentation-deck-shuffle",
+          "label": "Shuffle a presentation deck",
+          "loadingText": "Deck-shuffling…",
+          "source": "sources/reports/presentation-deck-shuffle.png",
+          "asset": "gifs/reports/presentation-deck-shuffle.gif"
+        },
+        {
+          "slug": "performance-plot",
+          "label": "Plot performance",
+          "loadingText": "Performance-peeking…",
+          "source": "sources/reports/performance-plot.png",
+          "asset": "gifs/reports/performance-plot.gif"
+        },
+        {
+          "slug": "meeting-summary-funnel",
+          "label": "Distill a meeting summary",
+          "loadingText": "Meeting-distilling…",
+          "source": "sources/reports/meeting-summary-funnel.png",
+          "asset": "gifs/reports/meeting-summary-funnel.gif"
+        },
+        {
+          "slug": "share-link-click",
+          "label": "Create a share link",
+          "loadingText": "Link-conjuring…",
+          "source": "sources/reports/share-link-click.png",
+          "asset": "gifs/reports/share-link-click.gif"
+        },
+        {
+          "slug": "presentation-pointer",
+          "label": "Present with a pointer",
+          "loadingText": "Pointer-wielding…",
+          "source": "sources/reports/presentation-pointer.png",
+          "asset": "gifs/reports/presentation-pointer.gif"
+        },
+        {
+          "slug": "fact-funnel",
+          "label": "Funnel the facts",
+          "loadingText": "Fact-funneling…",
+          "source": "sources/reports/fact-funnel.png",
+          "asset": "gifs/reports/fact-funnel.gif"
+        },
+        {
+          "slug": "chart-whisper",
+          "label": "Align the chart",
+          "loadingText": "Chart-whispering…",
+          "source": "sources/reports/chart-whisper.png",
+          "asset": "gifs/reports/chart-whisper.gif"
+        },
+        {
+          "slug": "client-ready-polish",
+          "label": "Polish the client deck",
+          "loadingText": "Polishing for humans…",
+          "source": "sources/reports/client-ready-polish.png",
+          "asset": "gifs/reports/client-ready-polish.gif"
+        },
+        {
+          "slug": "details-lasso",
+          "label": "Wrangle the details",
+          "loadingText": "Wrangling the details…",
+          "altText": "Reports Homie wears a cowboy hat and swings a lasso in a smooth overhead circle.",
+          "source": "sources/reports/details-lasso.png",
+          "asset": "gifs/reports/details-lasso.gif"
+        },
+        {
+          "slug": "dashboard-snowboard",
+          "label": "Dashboard on a snowboard",
+          "loadingText": "Dashboarding…",
+          "altText": "Reports Homie carves on a snowboard while holding a dashboard monitor.",
+          "source": "sources/reports/dashboard-snowboard.png",
+          "asset": "gifs/reports/dashboard-snowboard.gif"
+        },
+        {
+          "slug": "dashboard-skateboard",
+          "label": "Dashboard on a skateboard",
+          "loadingText": "Dashboarding…",
+          "altText": "Reports Homie skateboards back and forth past a computer monitor.",
+          "source": "sources/reports/dashboard-skateboard.png",
+          "asset": "gifs/reports/dashboard-skateboard.gif"
+        },
+        {
+          "slug": "data-decant",
+          "label": "Decant the data",
+          "loadingText": "Data-decanting…",
+          "altText": "Reports Homie pours a stream of numbers from a pitcher into a data decanter.",
+          "source": "sources/reports/data-decant.png",
+          "asset": "gifs/reports/data-decant.gif"
+        },
+        {
+          "slug": "data-pressure-wash",
+          "label": "Clean the data",
+          "loadingText": "Cleaning the data…",
+          "altText": "Reports Homie pressure-washes grime from a fixed performance chart.",
+          "source": "sources/reports/data-pressure-wash.png",
+          "asset": "gifs/reports/data-pressure-wash.gif"
+        },
+        {
+          "slug": "details-meditation",
+          "label": "Meditate on the details",
+          "loadingText": "Meditating on the details…",
+          "altText": "Reports Homie meditates calmly in a cross-legged pose.",
+          "source": "sources/reports/details-meditation.png",
+          "asset": "gifs/reports/details-meditation.gif"
+        },
+        {
+          "slug": "thread-pull",
+          "label": "Pull the thread",
+          "loadingText": "Thread-pulling…",
+          "altText": "Reports Homie pulls a yarn thread while a hanging sweater briefly unravels.",
+          "source": "sources/reports/thread-pull.png",
+          "asset": "gifs/reports/thread-pull.gif"
+        },
+        {
+          "slug": "chain-break",
+          "label": "Break the chain",
+          "loadingText": "Un-chaining…",
+          "altText": "Reports Homie pulls apart a chain and breaks its center link.",
+          "source": "sources/reports/chain-break.png",
+          "asset": "gifs/reports/chain-break.gif"
+        },
+        {
+          "slug": "data-plug-in",
+          "label": "Plug in the data",
+          "loadingText": "Plugging in the data…",
+          "altText": "Reports Homie connects a bundled data cable to a power bar held in her other hand.",
+          "source": "sources/reports/data-plug-in.png",
+          "asset": "gifs/reports/data-plug-in.gif"
+        },
+        {
+          "slug": "screen-polish",
+          "label": "Polish the report",
+          "loadingText": "Polishing…",
+          "altText": "Reports Homie uses a rotary car buffer to polish a computer screen.",
+          "source": "sources/reports/screen-polish.png",
+          "asset": "gifs/reports/screen-polish.gif"
+        }
+      ]
+    },
+    {
+      "id": "teamwork",
+      "name": "Teamwork Homies",
+      "roleLabel": "Manager-led handoffs",
+      "description": "Manager Homie routes the work, tags in the right specialist, and keeps multi-Homie jobs moving without dropping the baton.",
+      "reference": "references/manager.png",
+      "jobs": [
+        "Manager-to-specialist handoffs",
+        "Tag-ins and baton passes",
+        "Two-Homie collaboration",
+        "Shared finishing moves"
+      ],
+      "animations": [
+        {
+          "slug": "football-handoff-manager-cma",
+          "label": "Hand off to CMA Homie",
+          "loadingText": "Handing off to CMA Homie…",
+          "altText": "Manager Homie hands one football to CMA Homie across four continuous poses.",
+          "source": "sources/teamwork/football-handoff-manager-cma.png",
+          "asset": "gifs/teamwork/football-handoff-manager-cma.gif",
+          "pair": [
+            "manager",
+            "cma"
+          ]
+        },
+        {
+          "slug": "football-handoff-manager-crm",
+          "label": "Hand off to CRM Homie",
+          "loadingText": "Handing off to CRM Homie…",
+          "altText": "Manager Homie hands one football to CRM Homie across four continuous poses.",
+          "source": "sources/teamwork/football-handoff-manager-crm.png",
+          "asset": "gifs/teamwork/football-handoff-manager-crm.gif",
+          "pair": [
+            "manager",
+            "crm"
+          ]
+        },
+        {
+          "slug": "football-handoff-manager-listings",
+          "label": "Hand off to Listings Homie",
+          "loadingText": "Handing off to Listings Homie…",
+          "altText": "Manager Homie hands one football to Listings Homie across four continuous poses.",
+          "source": "sources/teamwork/football-handoff-manager-listings.png",
+          "asset": "gifs/teamwork/football-handoff-manager-listings.gif",
+          "pair": [
+            "manager",
+            "listings"
+          ]
+        },
+        {
+          "slug": "football-handoff-manager-marketing",
+          "label": "Hand off to Marketing Homie",
+          "loadingText": "Handing off to Marketing Homie…",
+          "altText": "Manager Homie hands one football to Marketing Homie across four continuous poses.",
+          "source": "sources/teamwork/football-handoff-manager-marketing.png",
+          "asset": "gifs/teamwork/football-handoff-manager-marketing.gif",
+          "pair": [
+            "manager",
+            "marketing"
+          ]
+        },
+        {
+          "slug": "wrestling-tag-in-manager-research",
+          "label": "Tag in Research Homie",
+          "loadingText": "Tagging in Research Homie…",
+          "altText": "Manager Homie tags Research Homie into action across one simple wrestling rope.",
+          "source": "sources/teamwork/wrestling-tag-in-manager-research.png",
+          "asset": "gifs/teamwork/wrestling-tag-in-manager-research.gif",
+          "pair": [
+            "manager",
+            "research"
+          ]
+        },
+        {
+          "slug": "wrestling-tag-in-manager-content",
+          "label": "Tag in Content Homie",
+          "loadingText": "Tagging in Content Homie…",
+          "altText": "Manager Homie tags Content Homie into action across one simple wrestling rope.",
+          "source": "sources/teamwork/wrestling-tag-in-manager-content.png",
+          "asset": "gifs/teamwork/wrestling-tag-in-manager-content.gif",
+          "pair": [
+            "manager",
+            "content"
+          ]
+        },
+        {
+          "slug": "wrestling-tag-in-manager-offers",
+          "label": "Tag in Offers Homie",
+          "loadingText": "Tagging in Offers Homie…",
+          "altText": "Manager Homie tags Offers Homie into action across one simple wrestling rope.",
+          "source": "sources/teamwork/wrestling-tag-in-manager-offers.png",
+          "asset": "gifs/teamwork/wrestling-tag-in-manager-offers.gif",
+          "pair": [
+            "manager",
+            "offers"
+          ]
+        },
+        {
+          "slug": "wrestling-tag-in-manager-reports",
+          "label": "Tag in Reports Homie",
+          "loadingText": "Tagging in Reports Homie…",
+          "altText": "Manager Homie tags Reports Homie into action across one simple wrestling rope.",
+          "source": "sources/teamwork/wrestling-tag-in-manager-reports.png",
+          "asset": "gifs/teamwork/wrestling-tag-in-manager-reports.gif",
+          "pair": [
+            "manager",
+            "reports"
+          ]
+        },
+        {
+          "slug": "baton-pass-manager-cma",
+          "label": "Pass the baton to CMA Homie",
+          "loadingText": "Passing the baton to CMA Homie…",
+          "altText": "Manager Homie passes one gold relay baton to CMA Homie across four running poses.",
+          "source": "sources/teamwork/baton-pass-manager-cma.png",
+          "asset": "gifs/teamwork/baton-pass-manager-cma.gif",
+          "pair": [
+            "manager",
+            "cma"
+          ]
+        },
+        {
+          "slug": "baton-pass-manager-marketing",
+          "label": "Pass the baton to Marketing Homie",
+          "loadingText": "Passing the baton to Marketing Homie…",
+          "altText": "Manager Homie passes one gold relay baton to Marketing Homie across four running poses.",
+          "source": "sources/teamwork/baton-pass-manager-marketing.png",
+          "asset": "gifs/teamwork/baton-pass-manager-marketing.gif",
+          "pair": [
+            "manager",
+            "marketing"
+          ]
+        },
+        {
+          "slug": "baton-pass-manager-research",
+          "label": "Pass the baton to Research Homie",
+          "loadingText": "Passing the baton to Research Homie…",
+          "altText": "Manager Homie passes one gold relay baton to Research Homie across four running poses.",
+          "source": "sources/teamwork/baton-pass-manager-research.png",
+          "asset": "gifs/teamwork/baton-pass-manager-research.gif",
+          "pair": [
+            "manager",
+            "research"
+          ]
+        },
+        {
+          "slug": "baton-pass-manager-reports",
+          "label": "Pass the baton to Reports Homie",
+          "loadingText": "Passing the baton to Reports Homie…",
+          "altText": "Manager Homie passes one gold relay baton to Reports Homie across four running poses.",
+          "source": "sources/teamwork/baton-pass-manager-reports.png",
+          "asset": "gifs/teamwork/baton-pass-manager-reports.gif",
+          "pair": [
+            "manager",
+            "reports"
+          ]
+        },
+        {
+          "slug": "sign-clothesline-manager-crm",
+          "label": "Clothesline the sign — Manager + CRM",
+          "loadingText": "Clotheslining the sign with CRM…",
+          "altText": "Four-frame sprite of Manager and CRM Homie linking arms and gently tipping a house-icon yard sign.",
+          "source": "sources/teamwork/sign-clothesline-manager-crm.png",
+          "asset": "gifs/teamwork/sign-clothesline-manager-crm.gif",
+          "pair": [
+            "manager",
+            "crm"
+          ]
+        },
+        {
+          "slug": "sign-clothesline-manager-listings",
+          "label": "Clothesline the sign — Manager + Listings",
+          "loadingText": "Clotheslining the sign with Listings…",
+          "altText": "Four-frame sprite of Manager and Listings Homie linking arms and gently tipping a house-icon yard sign.",
+          "source": "sources/teamwork/sign-clothesline-manager-listings.png",
+          "asset": "gifs/teamwork/sign-clothesline-manager-listings.gif",
+          "pair": [
+            "manager",
+            "listings"
+          ]
+        },
+        {
+          "slug": "sign-clothesline-manager-content",
+          "label": "Clothesline the sign — Manager + Content",
+          "loadingText": "Clotheslining the sign with Content…",
+          "altText": "Four-frame sprite of Manager and Content Homie linking arms and gently tipping a house-icon yard sign.",
+          "source": "sources/teamwork/sign-clothesline-manager-content.png",
+          "asset": "gifs/teamwork/sign-clothesline-manager-content.gif",
+          "pair": [
+            "manager",
+            "content"
+          ]
+        },
+        {
+          "slug": "sign-clothesline-manager-offers",
+          "label": "Clothesline the sign — Manager + Offers",
+          "loadingText": "Clotheslining the sign with Offers…",
+          "altText": "Four-frame sprite of Manager and Offers Homie linking arms and gently tipping a house-icon yard sign.",
+          "source": "sources/teamwork/sign-clothesline-manager-offers.png",
+          "asset": "gifs/teamwork/sign-clothesline-manager-offers.gif",
+          "pair": [
+            "manager",
+            "offers"
+          ]
+        },
+        {
+          "slug": "high-five-manager-cma",
+          "label": "High five — Manager + CMA",
+          "loadingText": "High-fiving the CMA Homie…",
+          "altText": "Four-frame sprite of Manager and CMA Homie raising their hands, high-fiving with a sparkle, and settling.",
+          "source": "sources/teamwork/high-five-manager-cma.png",
+          "asset": "gifs/teamwork/high-five-manager-cma.gif",
+          "pair": [
+            "manager",
+            "cma"
+          ]
+        },
+        {
+          "slug": "high-five-manager-crm",
+          "label": "High five — Manager + CRM",
+          "loadingText": "High-fiving the CRM Homie…",
+          "altText": "Four-frame sprite of Manager and CRM Homie raising their hands, high-fiving with a sparkle, and settling.",
+          "source": "sources/teamwork/high-five-manager-crm.png",
+          "asset": "gifs/teamwork/high-five-manager-crm.gif",
+          "pair": [
+            "manager",
+            "crm"
+          ]
+        },
+        {
+          "slug": "high-five-manager-research",
+          "label": "High five — Manager + Research",
+          "loadingText": "High-fiving the Research Homie…",
+          "altText": "Four-frame sprite of Manager and Research Homie raising their hands, high-fiving with a sparkle, and settling.",
+          "source": "sources/teamwork/high-five-manager-research.png",
+          "asset": "gifs/teamwork/high-five-manager-research.gif",
+          "pair": [
+            "manager",
+            "research"
+          ]
+        },
+        {
+          "slug": "high-five-manager-content",
+          "label": "High five — Manager + Content",
+          "loadingText": "High-fiving the Content Homie…",
+          "altText": "Four-frame sprite of Manager and Content Homie raising their hands, high-fiving with a sparkle, and settling.",
+          "source": "sources/teamwork/high-five-manager-content.png",
+          "asset": "gifs/teamwork/high-five-manager-content.gif",
+          "pair": [
+            "manager",
+            "content"
+          ]
+        },
+        {
+          "slug": "bruce-wayning-manager-listings",
+          "label": "Bruce-Wayning — Manager + Listings",
+          "loadingText": "Bruce-Wayning with Listings…",
+          "altText": "Four-frame sprite of Manager entering a glass phone booth as Listings Homie exits, with both visible throughout.",
+          "source": "sources/teamwork/bruce-wayning-manager-listings.png",
+          "asset": "gifs/teamwork/bruce-wayning-manager-listings.gif",
+          "pair": [
+            "manager",
+            "listings"
+          ]
+        },
+        {
+          "slug": "bruce-wayning-manager-marketing",
+          "label": "Bruce-Wayning — Manager + Marketing",
+          "loadingText": "Bruce-Wayning with Marketing…",
+          "altText": "Four-frame sprite of Manager entering a glass phone booth as Marketing Homie exits, with both visible throughout.",
+          "source": "sources/teamwork/bruce-wayning-manager-marketing.png",
+          "asset": "gifs/teamwork/bruce-wayning-manager-marketing.gif",
+          "pair": [
+            "manager",
+            "marketing"
+          ]
+        },
+        {
+          "slug": "bruce-wayning-manager-offers",
+          "label": "Bruce-Wayning — Manager + Offers",
+          "loadingText": "Bruce-Wayning with Offers…",
+          "altText": "Four-frame sprite of Manager entering a glass phone booth as Offers Homie exits, with both visible throughout.",
+          "source": "sources/teamwork/bruce-wayning-manager-offers.png",
+          "asset": "gifs/teamwork/bruce-wayning-manager-offers.gif",
+          "pair": [
+            "manager",
+            "offers"
+          ]
+        },
+        {
+          "slug": "bruce-wayning-manager-reports",
+          "label": "Bruce-Wayning — Manager + Reports",
+          "loadingText": "Bruce-Wayning with Reports…",
+          "altText": "Four-frame sprite of Manager entering a glass phone booth as Reports Homie exits, with both visible throughout.",
+          "source": "sources/teamwork/bruce-wayning-manager-reports.png",
+          "asset": "gifs/teamwork/bruce-wayning-manager-reports.gif",
+          "pair": [
+            "manager",
+            "reports"
+          ]
+        },
+        {
+          "slug": "dream-working-manager-cma",
+          "label": "Dream-working — Manager + CMA",
+          "loadingText": "Dream-working with CMA…",
+          "altText": "Four-frame sprite of Manager and CMA Homie merging separate house and chart thoughts into one shared idea bubble.",
+          "source": "sources/teamwork/dream-working-manager-cma.png",
+          "asset": "gifs/teamwork/dream-working-manager-cma.gif",
+          "pair": [
+            "manager",
+            "cma"
+          ]
+        },
+        {
+          "slug": "dream-working-manager-marketing",
+          "label": "Dream-working — Manager + Marketing",
+          "loadingText": "Dream-working with Marketing…",
+          "altText": "Four-frame sprite of Manager and Marketing Homie merging separate house and chart thoughts into one shared idea bubble.",
+          "source": "sources/teamwork/dream-working-manager-marketing.png",
+          "asset": "gifs/teamwork/dream-working-manager-marketing.gif",
+          "pair": [
+            "manager",
+            "marketing"
+          ]
+        },
+        {
+          "slug": "dream-working-manager-research",
+          "label": "Dream-working — Manager + Research",
+          "loadingText": "Dream-working with Research…",
+          "altText": "Four-frame sprite of Manager and Research Homie merging separate house and chart thoughts into one shared idea bubble.",
+          "source": "sources/teamwork/dream-working-manager-research.png",
+          "asset": "gifs/teamwork/dream-working-manager-research.gif",
+          "pair": [
+            "manager",
+            "research"
+          ]
+        },
+        {
+          "slug": "dream-working-manager-reports",
+          "label": "Dream-working — Manager + Reports",
+          "loadingText": "Dream-working with Reports…",
+          "altText": "Four-frame sprite of Manager and Reports Homie merging separate house and chart thoughts into one shared idea bubble.",
+          "source": "sources/teamwork/dream-working-manager-reports.png",
+          "asset": "gifs/teamwork/dream-working-manager-reports.gif",
+          "pair": [
+            "manager",
+            "reports"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wildcard",
+      "name": "Wildcard Homies",
+      "roleLabel": "Finishing moves and odd jobs",
+      "description": "Playful all-purpose loaders for the last mile, final polish, testing, packaging, amplifying, harmonizing, and everything in between.",
+      "reference": "references/manager.png",
+      "jobs": [
+        "Finishing and packaging",
+        "Testing and weighing",
+        "Creative amplification",
+        "Playful business metaphors"
+      ],
+      "animations": [
+        {
+          "slug": "last-mile-treadmill-offers",
+          "label": "Run the last mile",
+          "loadingText": "Running the last mile…",
+          "altText": "Offers Homie accelerating from a jog to a finishing sprint on a treadmill.",
+          "source": "sources/wildcard/last-mile-treadmill-offers.png",
+          "asset": "gifs/wildcard/last-mile-treadmill-offers.gif",
+          "homie": "offers"
+        },
+        {
+          "slug": "box-packaging-manager",
+          "label": "Package the work",
+          "loadingText": "Packaging…",
+          "altText": "Manager Homie packing folders into a box and sealing it with tape.",
+          "source": "sources/wildcard/box-packaging-manager.png",
+          "asset": "gifs/wildcard/box-packaging-manager.gif",
+          "homie": "manager"
+        },
+        {
+          "slug": "gift-wrap-crm",
+          "label": "Wrap it up",
+          "loadingText": "Wrapping it up…",
+          "altText": "CRM Homie wrapping a gift box and presenting the finished parcel.",
+          "source": "sources/wildcard/gift-wrap-crm.png",
+          "asset": "gifs/wildcard/gift-wrap-crm.gif",
+          "homie": "crm"
+        },
+        {
+          "slug": "gift-bow-reports",
+          "label": "Put a bow on it",
+          "loadingText": "Putting a bow on it…",
+          "altText": "Reports Homie tying and fluffing a red bow on a finished gift.",
+          "source": "sources/wildcard/gift-bow-reports.png",
+          "asset": "gifs/wildcard/gift-bow-reports.gif",
+          "homie": "reports"
+        },
+        {
+          "slug": "envelope-kiss-content",
+          "label": "Seal it with a kiss",
+          "loadingText": "SWAKing…",
+          "altText": "Content Homie sealing a cream envelope with a playful kiss mark.",
+          "source": "sources/wildcard/envelope-kiss-content.png",
+          "asset": "gifs/wildcard/envelope-kiss-content.gif",
+          "homie": "content"
+        },
+        {
+          "slug": "sundae-cherry-reports",
+          "label": "Add the cherry on top",
+          "loadingText": "Putting the cherry on top…",
+          "altText": "Reports Homie carefully placing a cherry on a finished sundae.",
+          "source": "sources/wildcard/sundae-cherry-reports.png",
+          "asset": "gifs/wildcard/sundae-cherry-reports.gif",
+          "homie": "reports"
+        },
+        {
+          "slug": "burrito-wrap-marketing",
+          "label": "Wrap it up",
+          "loadingText": "Wrapping up…",
+          "altText": "Marketing Homie wrapping himself cozily in a tortilla-pattern blanket.",
+          "source": "sources/wildcard/burrito-wrap-marketing.png",
+          "asset": "gifs/wildcard/burrito-wrap-marketing.gif",
+          "homie": "marketing"
+        },
+        {
+          "slug": "competition-grill-marketing",
+          "label": "Grill the competition",
+          "loadingText": "Grilling the competition…",
+          "altText": "Marketing Homie flipping steaks on a charcoal grill and giving a thumbs-up.",
+          "source": "sources/wildcard/competition-grill-marketing.png",
+          "asset": "gifs/wildcard/competition-grill-marketing.gif",
+          "homie": "marketing"
+        },
+        {
+          "slug": "flavour-cook-content",
+          "label": "Add some flavour",
+          "loadingText": "Adding some flavour…",
+          "altText": "Content Homie seasoning, stirring, and tasting a simmering pot.",
+          "source": "sources/wildcard/flavour-cook-content.png",
+          "asset": "gifs/wildcard/flavour-cook-content.gif",
+          "homie": "content"
+        },
+        {
+          "slug": "stand-mixer-content",
+          "label": "Mix it up",
+          "loadingText": "Mixing it up…",
+          "altText": "Content Homie adding ingredients to a stand mixer and checking the batter.",
+          "source": "sources/wildcard/stand-mixer-content.png",
+          "asset": "gifs/wildcard/stand-mixer-content.gif",
+          "homie": "content"
+        },
+        {
+          "slug": "stone-unturned-research",
+          "label": "Leave no stone unturned",
+          "loadingText": "Leaving no stone unturned…",
+          "altText": "Research Homie rolling over a fieldstone and discovering a small key beneath it.",
+          "source": "sources/wildcard/stone-unturned-research.png",
+          "asset": "gifs/wildcard/stone-unturned-research.gif",
+          "homie": "research"
+        },
+        {
+          "slug": "jetpack-manager",
+          "label": "Turn on the jets",
+          "loadingText": "Turning on the jets…",
+          "altText": "Manager Homie igniting a jetpack, hovering, and accelerating upward.",
+          "source": "sources/wildcard/jetpack-manager.png",
+          "asset": "gifs/wildcard/jetpack-manager.gif",
+          "homie": "manager"
+        },
+        {
+          "slug": "dirtbike-listings",
+          "label": "Take it for a rip",
+          "loadingText": "Taking it for a rip…",
+          "altText": "Listings Homie starting, riding, and lifting the front wheel of a dirt bike.",
+          "source": "sources/wildcard/dirtbike-listings.png",
+          "asset": "gifs/wildcard/dirtbike-listings.gif",
+          "homie": "listings"
+        },
+        {
+          "slug": "seadoo-cma",
+          "label": "Test-drive it",
+          "loadingText": "Test-driving…",
+          "altText": "CMA Homie accelerating and carving on a personal watercraft.",
+          "source": "sources/wildcard/seadoo-cma.png",
+          "asset": "gifs/wildcard/seadoo-cma.gif",
+          "homie": "cma"
+        },
+        {
+          "slug": "lab-tests-research",
+          "label": "Run some tests",
+          "loadingText": "Running some tests…",
+          "altText": "Research Homie uses a pipette, test tubes, and clipboard to run a playful lab test.",
+          "homie": "research",
+          "source": "sources/wildcard/lab-tests-research.png",
+          "asset": "gifs/wildcard/lab-tests-research.gif"
+        },
+        {
+          "slug": "sniff-test-listings",
+          "label": "Sniff-test the shirt",
+          "loadingText": "Sniff-testing…",
+          "altText": "Listings Homie raises a clean shirt on a hanger and gives it a careful sniff test.",
+          "homie": "listings",
+          "source": "sources/wildcard/sniff-test-listings.png",
+          "asset": "gifs/wildcard/sniff-test-listings.gif"
+        },
+        {
+          "slug": "options-scale-offers",
+          "label": "Weigh the options",
+          "loadingText": "Weighing the options…",
+          "altText": "Offers Homie balances a house card against a stack of coins on a two-pan scale.",
+          "homie": "offers",
+          "source": "sources/wildcard/options-scale-offers.png",
+          "asset": "gifs/wildcard/options-scale-offers.gif"
+        },
+        {
+          "slug": "seed-planting-crm",
+          "label": "Plant the seeds",
+          "loadingText": "Planting the seeds…",
+          "altText": "CRM Homie plants, waters, and proudly presents a small sprout.",
+          "homie": "crm",
+          "source": "sources/wildcard/seed-planting-crm.png",
+          "asset": "gifs/wildcard/seed-planting-crm.gif"
+        },
+        {
+          "slug": "gold-carrot-harvest-cma",
+          "label": "Harvest the gold",
+          "loadingText": "Harvesting…",
+          "altText": "CMA Homie pulls gold-bar carrots from a small garden box.",
+          "homie": "cma",
+          "source": "sources/wildcard/gold-carrot-harvest-cma.png",
+          "asset": "gifs/wildcard/gold-carrot-harvest-cma.gif"
+        },
+        {
+          "slug": "super-homie-manager",
+          "label": "Suit up as Super Homie",
+          "loadingText": "Super-Homie-ing…",
+          "altText": "Manager Homie reveals an original shield emblem and adds a blue superhero cape.",
+          "homie": "manager",
+          "source": "sources/wildcard/super-homie-manager.png",
+          "asset": "gifs/wildcard/super-homie-manager.gif"
+        },
+        {
+          "slug": "megaphone-amplify-marketing",
+          "label": "Amplify the message",
+          "loadingText": "Amplifying…",
+          "altText": "Marketing Homie raises a megaphone and sends out bold sound waves.",
+          "homie": "marketing",
+          "source": "sources/wildcard/megaphone-amplify-marketing.png",
+          "asset": "gifs/wildcard/megaphone-amplify-marketing.gif"
+        },
+        {
+          "slug": "guitar-amp-content",
+          "label": "Plug into the amp",
+          "loadingText": "Amplifying…",
+          "altText": "Content Homie plugs an electric guitar into an amplifier and strums.",
+          "homie": "content",
+          "source": "sources/wildcard/guitar-amp-content.png",
+          "asset": "gifs/wildcard/guitar-amp-content.gif"
+        },
+        {
+          "slug": "harmonizing-manager-keyboard",
+          "label": "Harmonize on keys",
+          "loadingText": "Harmonizing…",
+          "altText": "Manager Homie plays a chord progression on a compact keyboard.",
+          "homie": "manager",
+          "source": "sources/wildcard/harmonizing-manager-keyboard.png",
+          "asset": "gifs/wildcard/harmonizing-manager-keyboard.gif"
+        },
+        {
+          "slug": "harmonizing-marketing-drums",
+          "label": "Harmonize on drums",
+          "loadingText": "Harmonizing…",
+          "altText": "Marketing Homie plays a snare drum and cymbal.",
+          "homie": "marketing",
+          "source": "sources/wildcard/harmonizing-marketing-drums.png",
+          "asset": "gifs/wildcard/harmonizing-marketing-drums.gif"
+        },
+        {
+          "slug": "harmonizing-research-saxophone",
+          "label": "Harmonize on saxophone",
+          "loadingText": "Harmonizing…",
+          "altText": "Research Homie plays a warm-gold alto saxophone.",
+          "homie": "research",
+          "source": "sources/wildcard/harmonizing-research-saxophone.png",
+          "asset": "gifs/wildcard/harmonizing-research-saxophone.gif"
+        },
+        {
+          "slug": "harmonizing-content-bass",
+          "label": "Harmonize on bass",
+          "loadingText": "Harmonizing…",
+          "altText": "Content Homie plays a blue electric bass guitar.",
+          "homie": "content",
+          "source": "sources/wildcard/harmonizing-content-bass.png",
+          "asset": "gifs/wildcard/harmonizing-content-bass.gif"
+        },
+        {
+          "slug": "full-shovel-dig-listings",
+          "label": "Dig in",
+          "loadingText": "Digging…",
+          "altText": "Listings Homie digs and moves a scoop of soil with a full-size shovel.",
+          "homie": "listings",
+          "source": "sources/wildcard/full-shovel-dig-listings.png",
+          "asset": "gifs/wildcard/full-shovel-dig-listings.gif"
+        },
+        {
+          "slug": "cash-rake-offers",
+          "label": "Rake in the cash",
+          "loadingText": "Cashifying…",
+          "altText": "Offers Homie gathers a loose pile of stylized bills with a garden rake.",
+          "homie": "offers",
+          "source": "sources/wildcard/cash-rake-offers.png",
+          "asset": "gifs/wildcard/cash-rake-offers.gif"
+        },
+        {
+          "slug": "moptimizing-crm",
+          "label": "Moptimize",
+          "loadingText": "Moptimizing…",
+          "altText": "CRM Homie mops back and forth across one fixed floor patch beside one stationary blue bucket.",
+          "homie": "crm",
+          "source": "sources/wildcard/moptimizing-crm.png",
+          "asset": "gifs/wildcard/moptimizing-crm.gif"
+        },
+        {
+          "slug": "paint-remix-marketing",
+          "label": "Mix the palette",
+          "loadingText": "Remixing…",
+          "altText": "Marketing Homie stirs coral and blue paint into a finished plum color.",
+          "homie": "marketing",
+          "source": "sources/wildcard/paint-remix-marketing.png",
+          "asset": "gifs/wildcard/paint-remix-marketing.gif"
+        },
+        {
+          "slug": "dj-remix-content",
+          "label": "Remix the track",
+          "loadingText": "Remixing…",
+          "altText": "Content Homie scratches a DJ platter and moves the crossfader.",
+          "homie": "content",
+          "source": "sources/wildcard/dj-remix-content.png",
+          "asset": "gifs/wildcard/dj-remix-content.gif"
+        },
+        {
+          "slug": "hammer-details-manager",
+          "label": "Hammer out the details",
+          "loadingText": "Hammering out the details…",
+          "altText": "Manager Homie taps a nail into a wood block until it sits flush.",
+          "homie": "manager",
+          "source": "sources/wildcard/hammer-details-manager.png",
+          "asset": "gifs/wildcard/hammer-details-manager.gif"
+        },
+        {
+          "slug": "wood-drill-research",
+          "label": "Drill into the detail",
+          "loadingText": "Drilling down…",
+          "altText": "Research Homie drills one clean hole into a wood plank.",
+          "homie": "research",
+          "source": "sources/wildcard/wood-drill-research.png",
+          "asset": "gifs/wildcard/wood-drill-research.gif"
+        },
+        {
+          "slug": "ground-auger-cma",
+          "label": "Drill beneath the surface",
+          "loadingText": "Drilling down…",
+          "altText": "CMA Homie uses an earth auger to bore a neat hole in the ground.",
+          "homie": "cma",
+          "source": "sources/wildcard/ground-auger-cma.png",
+          "asset": "gifs/wildcard/ground-auger-cma.gif"
+        },
+        {
+          "slug": "lead-funnel-plumbing-crm",
+          "label": "Plumb the lead funnel",
+          "loadingText": "Lead-funnel-plumbing…",
+          "altText": "CRM Homie assembles pipe fittings beneath a lead funnel and sends leads through.",
+          "homie": "crm",
+          "source": "sources/wildcard/lead-funnel-plumbing-crm.png",
+          "asset": "gifs/wildcard/lead-funnel-plumbing-crm.gif"
+        },
+        {
+          "slug": "deslop-reports",
+          "label": "Remove the slop",
+          "loadingText": "De-slopping…",
+          "altText": "Reports Homie removes spoonfuls of slop from a bowl across one fixed-size table into a stable wastebasket.",
+          "homie": "reports",
+          "source": "sources/wildcard/deslop-reports.png",
+          "asset": "gifs/wildcard/deslop-reports.gif"
+        },
+        {
+          "slug": "context-window-shopping-listings",
+          "label": "Window-shop the listings",
+          "loadingText": "Context window shopping…",
+          "altText": "Listings Homie slides a giant window frame across three miniature property listings.",
+          "homie": "listings",
+          "source": "sources/wildcard/context-window-shopping-listings.png",
+          "asset": "gifs/wildcard/context-window-shopping-listings.gif"
+        },
+        {
+          "slug": "prompting-a-move-manager",
+          "label": "Prompt a move",
+          "loadingText": "Prompting a move…",
+          "altText": "Manager Homie repeatedly hoists a giant house-shaped prompt card.",
+          "homie": "manager",
+          "source": "sources/wildcard/prompting-a-move-manager.png",
+          "asset": "gifs/wildcard/prompting-a-move-manager.gif"
+        },
+        {
+          "slug": "model-home-training-research",
+          "label": "Train the model homes",
+          "loadingText": "Model-home training…",
+          "altText": "Research Homie trains miniature model homes to jump through search hoops.",
+          "homie": "research",
+          "source": "sources/wildcard/model-home-training-research.png",
+          "asset": "gifs/wildcard/model-home-training-research.gif"
+        },
+        {
+          "slug": "depolarizing-parka-offers",
+          "label": "De-polarize",
+          "loadingText": "De-polarizing…",
+          "altText": "Offers Homie repeatedly puts on and removes a large fur-trimmed winter parka.",
+          "homie": "offers",
+          "source": "sources/wildcard/depolarizing-parka-offers.png",
+          "asset": "gifs/wildcard/depolarizing-parka-offers.gif"
+        },
+        {
+          "slug": "deed-tecting-research",
+          "label": "Detect the deed",
+          "loadingText": "Deed-tecting…",
+          "altText": "Research Homie dusts a giant deed for fingerprints in detective gear.",
+          "homie": "research",
+          "source": "sources/wildcard/deed-tecting-research.png",
+          "asset": "gifs/wildcard/deed-tecting-research.gif"
+        },
+        {
+          "slug": "zoning-out-research",
+          "label": "Zone out",
+          "loadingText": "Zoning out…",
+          "altText": "Research Homie watches four colored zoning blocks orbit around her head.",
+          "homie": "research",
+          "source": "sources/wildcard/zoning-out-research.png",
+          "asset": "gifs/wildcard/zoning-out-research.gif"
+        },
+        {
+          "slug": "looking-under-asking-research",
+          "label": "Look under asking",
+          "loadingText": "Looking under asking…",
+          "altText": "Research Homie sweeps a flashlight beneath an oversized price-tag sign.",
+          "homie": "research",
+          "source": "sources/wildcard/looking-under-asking-research.png",
+          "asset": "gifs/wildcard/looking-under-asking-research.gif"
+        },
+        {
+          "slug": "forecasting-market-reports",
+          "label": "Forecast the market",
+          "loadingText": "Forecasting the market…",
+          "altText": "Reports Homie moves a pointer across a playful property weather map.",
+          "homie": "reports",
+          "source": "sources/wildcard/forecasting-market-reports.png",
+          "asset": "gifs/wildcard/forecasting-market-reports.gif"
+        },
+        {
+          "slug": "surveying-situation-cma",
+          "label": "Survey the situation",
+          "loadingText": "Surveying the situation…",
+          "altText": "CMA Homie pans a surveyor scope between fixed property stakes.",
+          "homie": "cma",
+          "source": "sources/wildcard/surveying-situation-cma.png",
+          "asset": "gifs/wildcard/surveying-situation-cma.gif"
+        },
+        {
+          "slug": "sifting-listings-listings",
+          "label": "Sift the listings",
+          "loadingText": "Sifting the listings…",
+          "altText": "Listings Homie rocks listing cards and gold sparkles in a prospector pan.",
+          "homie": "listings",
+          "source": "sources/wildcard/sifting-listings-listings.png",
+          "asset": "gifs/wildcard/sifting-listings-listings.gif"
+        },
+        {
+          "slug": "keying-criteria-listings",
+          "label": "Key in the criteria",
+          "loadingText": "Keying in the criteria…",
+          "altText": "Listings Homie types across an oversized keyboard made of house keys.",
+          "homie": "listings",
+          "source": "sources/wildcard/keying-criteria-listings.png",
+          "asset": "gifs/wildcard/keying-criteria-listings.gif"
+        },
+        {
+          "slug": "room-inating-listings",
+          "label": "Room-inate",
+          "loadingText": "Room-inating…",
+          "altText": "Listings Homie thinks while four miniature room icons orbit his head.",
+          "homie": "listings",
+          "source": "sources/wildcard/room-inating-listings.png",
+          "asset": "gifs/wildcard/room-inating-listings.gif"
+        },
+        {
+          "slug": "raising-roof-cma",
+          "label": "Raise the roof",
+          "loadingText": "Raising the roof…",
+          "altText": "CMA Homie lifts and inspects the roof of a miniature house before lowering it again.",
+          "homie": "cma",
+          "source": "sources/wildcard/raising-roof-cma.png",
+          "asset": "gifs/wildcard/raising-roof-cma.gif"
+        },
+        {
+          "slug": "cooking-price-cma",
+          "label": "Cook up a price",
+          "loadingText": "Cooking up a price…",
+          "altText": "CMA Homie continuously stirs property and pricing icons in a large pot.",
+          "homie": "cma",
+          "source": "sources/wildcard/cooking-price-cma.png",
+          "asset": "gifs/wildcard/cooking-price-cma.gif"
+        },
+        {
+          "slug": "price-ceiling-offers",
+          "label": "Find the price ceiling",
+          "loadingText": "Finding the price ceiling…",
+          "altText": "Offers Homie raises and lowers a price-tag shape on a ceiling pulley.",
+          "homie": "offers",
+          "source": "sources/wildcard/price-ceiling-offers.png",
+          "asset": "gifs/wildcard/price-ceiling-offers.gif"
+        },
+        {
+          "slug": "testing-market-cma",
+          "label": "Test the market",
+          "loadingText": "Testing the market…",
+          "altText": "CMA Homie rocks a large test tube containing a house icon and coral bubbles.",
+          "homie": "cma",
+          "source": "sources/wildcard/testing-market-cma.png",
+          "asset": "gifs/wildcard/testing-market-cma.gif"
+        },
+        {
+          "slug": "market-temperature-cma",
+          "label": "Take the market's temperature",
+          "loadingText": "Taking the market’s temperature…",
+          "altText": "CMA Homie watches a giant thermometer rise and fall beside a miniature house.",
+          "homie": "cma",
+          "source": "sources/wildcard/market-temperature-cma.png",
+          "asset": "gifs/wildcard/market-temperature-cma.gif"
+        },
+        {
+          "slug": "ironing-terms-offers",
+          "label": "Iron out the terms",
+          "loadingText": "Ironing out the terms…",
+          "altText": "Offers Homie moves an iron back and forth across a wrinkled contract.",
+          "homie": "offers",
+          "source": "sources/wildcard/ironing-terms-offers.png",
+          "asset": "gifs/wildcard/ironing-terms-offers.gif"
+        },
+        {
+          "slug": "fine-tuning-fine-print-offers",
+          "label": "Fine-tune the fine print",
+          "loadingText": "Fine-tuning the fine print…",
+          "altText": "Offers Homie vibrates a tuning fork beside magnified contract lines.",
+          "homie": "offers",
+          "source": "sources/wildcard/fine-tuning-fine-print-offers.png",
+          "asset": "gifs/wildcard/fine-tuning-fine-print-offers.gif"
+        },
+        {
+          "slug": "signature-chase-offers",
+          "label": "Chase signatures",
+          "loadingText": "Chasing signatures…",
+          "altText": "Offers Homie swings a butterfly net after four drifting signature marks.",
+          "homie": "offers",
+          "source": "sources/wildcard/signature-chase-offers.png",
+          "asset": "gifs/wildcard/signature-chase-offers.gif"
+        },
+        {
+          "slug": "red-flag-scan-reports",
+          "label": "Spot the red flags",
+          "loadingText": "Spotting the red flags…",
+          "altText": "Reports Homie scans a tabletop of documents as three red flags rise and lean.",
+          "homie": "reports",
+          "source": "sources/wildcard/red-flag-scan-reports.png",
+          "asset": "gifs/wildcard/red-flag-scan-reports.gif"
+        },
+        {
+          "slug": "rate-wrangling-cma",
+          "label": "Wrangle the rates",
+          "loadingText": "Rate wrangling…",
+          "altText": "CMA Homie swings a lasso around three bouncing percentage signs.",
+          "homie": "cma",
+          "source": "sources/wildcard/rate-wrangling-cma.png",
+          "asset": "gifs/wildcard/rate-wrangling-cma.gif"
+        },
+        {
+          "slug": "making-connections-crm",
+          "label": "Make connections",
+          "loadingText": "Making connections…",
+          "altText": "CRM Homie moves cable ends between four pulsing network nodes.",
+          "homie": "crm",
+          "source": "sources/wildcard/making-connections-crm.png",
+          "asset": "gifs/wildcard/making-connections-crm.gif"
+        },
+        {
+          "slug": "cleaning-pipeline-crm",
+          "label": "Clean the pipeline",
+          "loadingText": "Cleaning the pipeline…",
+          "altText": "CRM Homie scrubs card-shaped clogs back and forth through a blue pipeline.",
+          "homie": "crm",
+          "source": "sources/wildcard/cleaning-pipeline-crm.png",
+          "asset": "gifs/wildcard/cleaning-pipeline-crm.gif"
+        },
+        {
+          "slug": "tying-loose-ends-manager",
+          "label": "Tie up loose ends",
+          "loadingText": "Tying up loose ends…",
+          "altText": "Manager Homie progressively ties one giant rope into a neat knot.",
+          "homie": "manager",
+          "source": "sources/wildcard/tying-loose-ends-manager.png",
+          "asset": "gifs/wildcard/tying-loose-ends-manager.gif"
+        },
+        {
+          "slug": "operating-on-file-reports",
+          "label": "Operate on the file",
+          "loadingText": "Operating…",
+          "altText": "Reports Homie in teal surgical scrubs, cap, and mask operates carefully on a fixed file folder.",
+          "homie": "reports",
+          "source": "sources/wildcard/operating-on-file-reports.png",
+          "asset": "gifs/wildcard/operating-on-file-reports.gif"
+        },
+        {
+          "slug": "locking-in-offers",
+          "label": "Lock it in",
+          "loadingText": "Locking in…",
+          "altText": "Offers Homie closes and reopens one oversized padlock.",
+          "homie": "offers",
+          "source": "sources/wildcard/locking-in-offers.png",
+          "asset": "gifs/wildcard/locking-in-offers.gif"
+        },
+        {
+          "slug": "lockboxing-offers",
+          "label": "Lockbox the deal",
+          "loadingText": "Lockboxing…",
+          "altText": "Offers Homie in boxing trunks and red gloves jabs a giant combination lockbox shaped like a punching bag.",
+          "homie": "offers",
+          "source": "sources/wildcard/lockboxing-offers.png",
+          "asset": "gifs/wildcard/lockboxing-offers.gif"
+        },
+        {
+          "slug": "running-comps-cma",
+          "label": "Run the comps",
+          "loadingText": "Running the comps…",
+          "altText": "CMA Homie runs on a fixed treadmill through four distinct, continuous leg positions.",
+          "homie": "cma",
+          "source": "sources/wildcard/running-comps-cma.png",
+          "asset": "gifs/wildcard/running-comps-cma.gif"
+        },
+        {
+          "slug": "combing-mls-crm",
+          "label": "Comb the MLS",
+          "loadingText": "Combing the MLS…",
+          "altText": "CRM Homie drags a giant comb through four listing cards.",
+          "homie": "crm",
+          "source": "sources/wildcard/combing-mls-crm.png",
+          "asset": "gifs/wildcard/combing-mls-crm.gif"
+        },
+        {
+          "slug": "counter-offering-offers",
+          "label": "Counter offer",
+          "loadingText": "Counter offering…",
+          "altText": "Offers Homie slides a blank offer folder back and forth across a diner counter.",
+          "homie": "offers",
+          "source": "sources/wildcard/counter-offering-offers.png",
+          "asset": "gifs/wildcard/counter-offering-offers.gif"
+        },
+        {
+          "slug": "farming-sphere-crm",
+          "label": "Farm the sphere",
+          "loadingText": "Farming your sphere…",
+          "altText": "CRM Homie waters three contact cards as referral and appointment icons sprout.",
+          "homie": "crm",
+          "source": "sources/wildcard/farming-sphere-crm.png",
+          "asset": "gifs/wildcard/farming-sphere-crm.gif"
+        },
+        {
+          "slug": "holding-offers-listings",
+          "label": "Hold the offers",
+          "loadingText": "Holding offers…",
+          "altText": "Listings Homie balances a wobbling stack of six offer envelopes.",
+          "homie": "listings",
+          "source": "sources/wildcard/holding-offers-listings.png",
+          "asset": "gifs/wildcard/holding-offers-listings.gif"
+        },
+        {
+          "slug": "breaking-ice-crm",
+          "label": "Break the ice",
+          "loadingText": "Breaking the ice…",
+          "altText": "CRM Homie chips a fixed block of ice with an ice pick.",
+          "homie": "crm",
+          "source": "sources/wildcard/breaking-ice-crm.png",
+          "asset": "gifs/wildcard/breaking-ice-crm.gif"
+        },
+        {
+          "slug": "measuring-appraisal-gap-cma",
+          "label": "Measure the appraisal gap",
+          "loadingText": "Measuring the appraisal gap…",
+          "altText": "CMA Homie stretches a tape measure between offer and appraisal markers.",
+          "homie": "cma",
+          "source": "sources/wildcard/measuring-appraisal-gap-cma.png",
+          "asset": "gifs/wildcard/measuring-appraisal-gap-cma.gif"
+        },
+        {
+          "slug": "dom-inoing-reports",
+          "label": "DOM-ino the listings",
+          "loadingText": "DOM-inoing…",
+          "altText": "Reports Homie sends a reversible wave through six house-card dominoes.",
+          "homie": "reports",
+          "source": "sources/wildcard/dom-inoing-reports.png",
+          "asset": "gifs/wildcard/dom-inoing-reports.gif"
+        },
+        {
+          "slug": "clause-climbing-offers",
+          "label": "Climb the clauses",
+          "loadingText": "Clause climbing…",
+          "altText": "Offers Homie climbs in place on an endlessly scrolling contract-page ladder.",
+          "homie": "offers",
+          "source": "sources/wildcard/clause-climbing-offers.png",
+          "asset": "gifs/wildcard/clause-climbing-offers.gif"
+        },
+        {
+          "slug": "closing-loop-manager",
+          "label": "Close the loop",
+          "loadingText": "Closing the loop…",
+          "altText": "Manager Homie wears a wizard hat and closes an open loop with a wand.",
+          "homie": "manager",
+          "source": "sources/wildcard/closing-loop-manager.png",
+          "asset": "gifs/wildcard/closing-loop-manager.gif"
+        },
+        {
+          "slug": "stress-testing-deal-cma",
+          "label": "Stress-test the deal",
+          "loadingText": "Stress-testing the deal…",
+          "altText": "CMA Homie runs on a treadmill carrying a miniature house beside an oscillating rate dial.",
+          "homie": "cma",
+          "source": "sources/wildcard/stress-testing-deal-cma.png",
+          "asset": "gifs/wildcard/stress-testing-deal-cma.gif"
+        },
+        {
+          "slug": "securitizing-scanner-offers",
+          "label": "Securitize the deal",
+          "loadingText": "Securitizing…",
+          "altText": "Offers Homie steps partway through an airport-style security scanner.",
+          "homie": "offers",
+          "source": "sources/wildcard/securitizing-scanner-offers.png",
+          "asset": "gifs/wildcard/securitizing-scanner-offers.gif"
+        },
+        {
+          "slug": "checking-title-research",
+          "label": "Check title",
+          "loadingText": "Checking title…",
+          "altText": "Research Homie in hockey gear shoulder-checks a giant deed card on a stand.",
+          "homie": "research",
+          "source": "sources/wildcard/checking-title-research.png",
+          "asset": "gifs/wildcard/checking-title-research.gif"
+        },
+        {
+          "slug": "escrow-lating-offers",
+          "label": "Escrow-late",
+          "loadingText": "Escrow-lating…",
+          "altText": "Offers Homie visibly rides upward on one continuous escalator with a crow perched on the shoulder.",
+          "homie": "offers",
+          "source": "sources/wildcard/escrow-lating-offers.png",
+          "asset": "gifs/wildcard/escrow-lating-offers.gif"
+        },
+        {
+          "slug": "down-payment-hike-offers",
+          "label": "Hike the down payment",
+          "loadingText": "1st-down-paymentizing…",
+          "altText": "Offers Homie in a navy football uniform assumes a low three-point stance and hikes a cash-bag football.",
+          "homie": "offers",
+          "source": "sources/wildcard/down-payment-hike-offers.png",
+          "asset": "gifs/wildcard/down-payment-hike-offers.gif"
+        },
+        {
+          "slug": "heavy-lifting-squat-manager",
+          "label": "Do the heavy lifting",
+          "loadingText": "Heavy lifting…",
+          "altText": "Manager Homie performs a controlled squat with a heavily plated barbell.",
+          "homie": "manager",
+          "source": "sources/wildcard/heavy-lifting-squat-manager.png",
+          "asset": "gifs/wildcard/heavy-lifting-squat-manager.gif"
+        },
+        {
+          "slug": "wingwalkering-manager",
+          "label": "Wingwalker the work",
+          "loadingText": "Wingwalkering…",
+          "altText": "Manager Homie in a high-visibility vest performs airport marshalling signals.",
+          "homie": "manager",
+          "source": "sources/wildcard/wingwalkering-manager.png",
+          "asset": "gifs/wildcard/wingwalkering-manager.gif"
+        },
+        {
+          "slug": "putting-out-fires-reports",
+          "label": "Put out fires",
+          "loadingText": "Looking for fires to put out…",
+          "altText": "Reports Homie in firefighter gear sweeps an extinguisher across a small flame.",
+          "homie": "reports",
+          "source": "sources/wildcard/putting-out-fires-reports.png",
+          "asset": "gifs/wildcard/putting-out-fires-reports.gif"
+        },
+        {
+          "slug": "rumbling-research",
+          "label": "Rumble through it",
+          "loadingText": "Rumbling…",
+          "altText": "Research Homie operates a standing jackhammer with intentional tool vibration.",
+          "homie": "research",
+          "source": "sources/wildcard/rumbling-research.png",
+          "asset": "gifs/wildcard/rumbling-research.gif"
+        },
+        {
+          "slug": "lay-of-land-research",
+          "label": "Get the lay of the land",
+          "loadingText": "Getting the lay of the land…",
+          "altText": "Research Homie lowers into a reclined pose across a giant parcel map.",
+          "homie": "research",
+          "source": "sources/wildcard/lay-of-land-research.png",
+          "asset": "gifs/wildcard/lay-of-land-research.gif"
+        },
+        {
+          "slug": "panning-for-gold-crm",
+          "label": "Pan for gold",
+          "loadingText": "Panning for gold…",
+          "altText": "CRM Homie shakes a black prospector pan side to side while gravel and gold flecks roll inside.",
+          "homie": "crm",
+          "source": "sources/wildcard/panning-for-gold-crm.png",
+          "asset": "gifs/wildcard/panning-for-gold-crm.gif"
+        },
+        {
+          "slug": "needling-in-haystack-research",
+          "label": "Needle the haystack",
+          "loadingText": "Needling in the haystack…",
+          "altText": "Research Homie rises from one fixed haystack and lifts a persistent knitting needle.",
+          "homie": "research",
+          "source": "sources/wildcard/needling-in-haystack-research.png",
+          "asset": "gifs/wildcard/needling-in-haystack-research.gif"
+        },
+        {
+          "slug": "diamonding-in-rough-crm",
+          "label": "Diamond the rough",
+          "loadingText": "Diamonding in the rough…",
+          "altText": "CRM Homie kneels behind a fixed rubble pile and raises one gleaming diamond clearly out to the right.",
+          "homie": "crm",
+          "source": "sources/wildcard/diamonding-in-rough-crm.png",
+          "asset": "gifs/wildcard/diamonding-in-rough-crm.gif"
+        },
+        {
+          "slug": "podcasting-marketing",
+          "label": "Podcast",
+          "loadingText": "Podcasting…",
+          "altText": "Marketing Homie speaks into a fixed broadcast microphone while wearing studio headphones.",
+          "homie": "marketing",
+          "source": "sources/wildcard/podcasting-marketing.png",
+          "asset": "gifs/wildcard/podcasting-marketing.gif"
+        },
+        {
+          "slug": "cutting-red-tape-research",
+          "label": "Cut the red tape",
+          "loadingText": "Cutting through red tape…",
+          "altText": "Research Homie closes giant ceremonial scissors through a fixed red ribbon and separates both cut ends.",
+          "source": "sources/wildcard/cutting-red-tape-research.png",
+          "asset": "gifs/wildcard/cutting-red-tape-research.gif",
+          "homie": "research"
+        }
+      ]
+    },
+    {
+      "id": "movie-night",
+      "name": "Movie Night Homies",
+      "roleLabel": "Cinematic Easter eggs",
+      "description": "Affectionate movie-character homages with tiny, reversible gestures for playful AI loading states.",
+      "reference": "references/manager.png",
+      "jobs": [
+        "Iconic costume cameos",
+        "Tiny reversible gestures",
+        "Recognizable small-scale silhouettes",
+        "Logo-free cinematic Easter eggs"
+      ],
+      "animations": [
+        {
+          "slug": "lloyd-doblering-manager",
+          "label": "Hold the boombox",
+          "loadingText": "Lloyd-Doblering…",
+          "altText": "Manager Homie in a long coat holds a boombox overhead with a tiny arm wobble.",
+          "source": "sources/wildcard/lloyd-doblering-manager.png",
+          "asset": "gifs/wildcard/lloyd-doblering-manager.gif",
+          "homie": "manager"
+        },
+        {
+          "slug": "ferris-buellering-marketing",
+          "label": "Take the day off",
+          "loadingText": "Ferris-Buellering…",
+          "altText": "Marketing Homie lounges in an 80s patterned vest and sunglasses with a tiny shoulder bounce.",
+          "source": "sources/wildcard/ferris-buellering-marketing.png",
+          "asset": "gifs/wildcard/ferris-buellering-marketing.gif",
+          "homie": "marketing"
+        },
+        {
+          "slug": "harry-pottering-research",
+          "label": "Flick the wand",
+          "loadingText": "Harry-Pottering…",
+          "altText": "Research Homie in a dark school robe, striped scarf, and round glasses makes a small wand flick.",
+          "source": "sources/wildcard/harry-pottering-research.png",
+          "asset": "gifs/wildcard/harry-pottering-research.gif",
+          "homie": "research"
+        },
+        {
+          "slug": "frodo-bagginsing-crm",
+          "label": "Raise the glowing sword",
+          "loadingText": "Frodo-Bagginsing…",
+          "altText": "CRM Homie as a curly-haired hobbit in a green cloak raises one softly glowing blue sword.",
+          "source": "sources/wildcard/frodo-bagginsing-crm.png",
+          "asset": "gifs/wildcard/frodo-bagginsing-crm.gif",
+          "homie": "crm"
+        },
+        {
+          "slug": "neo-ing-offers",
+          "label": "Dodge the bullets",
+          "loadingText": "Neo-ing…",
+          "altText": "Offers Homie in a long black coat and dark glasses bends nearly horizontal as bullet streaks pass over the arched back.",
+          "source": "sources/wildcard/neo-ing-offers.png",
+          "asset": "gifs/wildcard/neo-ing-offers.gif",
+          "homie": "offers"
+        },
+        {
+          "slug": "indy-jonesing-reports",
+          "label": "Tip the fedora",
+          "loadingText": "Indy-Jonesing…",
+          "altText": "Reports Homie in a brown fedora, jacket, and satchel tips the hat down and back up.",
+          "source": "sources/wildcard/indy-jonesing-reports.png",
+          "asset": "gifs/wildcard/indy-jonesing-reports.gif",
+          "homie": "reports"
+        },
+        {
+          "slug": "jack-sparrowing-marketing",
+          "label": "Do the pirate walk",
+          "loadingText": "Jack-Sparrowing…",
+          "altText": "Marketing Homie in pirate coat, bandana, and beads takes an off-kilter arms-out balancing walk.",
+          "source": "sources/wildcard/jack-sparrowing-marketing.png",
+          "asset": "gifs/wildcard/jack-sparrowing-marketing.gif",
+          "homie": "marketing"
+        },
+        {
+          "slug": "rocky-balboa-ing-cma",
+          "label": "Pump the fists",
+          "loadingText": "Rocky-Balboa-ing…",
+          "altText": "CMA Homie in grey sweats and red boxing gloves alternates two subtle victory fist pumps.",
+          "source": "sources/wildcard/rocky-balboa-ing-cma.png",
+          "asset": "gifs/wildcard/rocky-balboa-ing-cma.gif",
+          "homie": "cma"
+        },
+        {
+          "slug": "mavericking-manager",
+          "label": "Carry the flight helmet",
+          "loadingText": "Mavericking…",
+          "altText": "Manager Homie in an olive naval G-suit and survival harness presents an American-flag flight helmet.",
+          "source": "sources/wildcard/mavericking-manager.png",
+          "asset": "gifs/wildcard/mavericking-manager.gif",
+          "homie": "manager"
+        },
+        {
+          "slug": "james-bonding-manager",
+          "label": "Ready the tux",
+          "loadingText": "James-Bonding…",
+          "altText": "Manager Homie in a black tuxedo calmly adjusts the cuffs and settles into a composed secret-agent pose.",
+          "source": "sources/wildcard/james-bonding-manager.png",
+          "asset": "gifs/wildcard/james-bonding-manager.gif",
+          "homie": "manager"
+        },
+        {
+          "slug": "sherlocking-research",
+          "label": "Raise the magnifier",
+          "loadingText": "Sherlocking…",
+          "altText": "Research Homie in a detective cap and plaid coat raises and lowers a magnifying glass.",
+          "source": "sources/wildcard/sherlocking-research.png",
+          "asset": "gifs/wildcard/sherlocking-research.gif",
+          "homie": "research"
+        },
+        {
+          "slug": "gandalfing-reports",
+          "label": "Tap the staff",
+          "loadingText": "Gandalfing…",
+          "altText": "Reports Homie in a grey wizard robe, pointed hat, and beard lightly taps a staff.",
+          "source": "sources/wildcard/gandalfing-reports.png",
+          "asset": "gifs/wildcard/gandalfing-reports.gif",
+          "homie": "reports"
+        },
+        {
+          "slug": "paddingtoning-manager",
+          "label": "Tip the bucket hat",
+          "loadingText": "Paddingtoning…",
+          "altText": "Manager Homie in a blue duffle coat and red bucket hat politely tips the hat.",
+          "source": "sources/wildcard/paddingtoning-manager.png",
+          "asset": "gifs/wildcard/paddingtoning-manager.gif",
+          "homie": "manager"
+        },
+        {
+          "slug": "peter-panning-listings",
+          "label": "Fly to Neverland",
+          "loadingText": "Peter-Panning…",
+          "altText": "Listings Homie in a green tunic and pointed cap flies horizontally through four clear airborne poses.",
+          "source": "sources/wildcard/peter-panning-listings.png",
+          "asset": "gifs/wildcard/peter-panning-listings.gif",
+          "homie": "listings"
+        },
+        {
+          "slug": "tinkerbelling-content",
+          "label": "Fly with fairy wings",
+          "loadingText": "Tinkerbelling…",
+          "altText": "Content Homie in a green fairy dress flies diagonally while two translucent wings flutter.",
+          "source": "sources/wildcard/tinkerbelling-content.png",
+          "asset": "gifs/wildcard/tinkerbelling-content.gif",
+          "homie": "content"
+        },
+        {
+          "slug": "baymaxing-manager",
+          "label": "Wave slowly",
+          "loadingText": "Baymaxing…",
+          "altText": "Manager Homie in a soft white inflatable robot suit performs a tiny slow wave.",
+          "source": "sources/wildcard/baymaxing-manager.png",
+          "asset": "gifs/wildcard/baymaxing-manager.gif",
+          "homie": "manager"
+        },
+        {
+          "slug": "wall-e-ing-research",
+          "label": "Focus the robot eyes",
+          "loadingText": "WALL-E-ing…",
+          "altText": "Research Homie in a boxy yellow robot costume compresses, expands, and blinks the binocular eyes.",
+          "source": "sources/wildcard/wall-e-ing-research.png",
+          "asset": "gifs/wildcard/wall-e-ing-research.gif",
+          "homie": "research"
+        },
+        {
+          "slug": "marioing-offers",
+          "label": "Make the iconic jump",
+          "loadingText": "Marioing…",
+          "altText": "Offers Homie in a red cap and blue overalls launches into a high raised-fist platform-hero jump.",
+          "source": "sources/wildcard/marioing-offers.png",
+          "asset": "gifs/wildcard/marioing-offers.gif",
+          "homie": "offers"
+        },
+        {
+          "slug": "mario-riding-yoshi-offers",
+          "label": "Ride the green dinosaur",
+          "loadingText": "Marioing with Yoshi…",
+          "altText": "Offers Homie in red cap and blue overalls rides a friendly green dinosaur through a bouncy four-pose loop.",
+          "source": "sources/wildcard/mario-riding-yoshi-offers.png",
+          "asset": "gifs/wildcard/mario-riding-yoshi-offers.gif",
+          "homie": "offers"
+        },
+        {
+          "slug": "marty-mcflying-manager",
+          "label": "Check the clock",
+          "loadingText": "Marty-McFlying…",
+          "altText": "Manager Homie in a red puffer vest checks a watch, looks up, and resets.",
+          "source": "sources/wildcard/marty-mcflying-manager.png",
+          "asset": "gifs/wildcard/marty-mcflying-manager.gif",
+          "homie": "manager"
+        },
+        {
+          "slug": "doc-browning-research",
+          "label": "Drop the goggles",
+          "loadingText": "Doc-Browning…",
+          "altText": "Research Homie with wild white hair and a lab coat flips goggles down and back up.",
+          "source": "sources/wildcard/doc-browning-research.png",
+          "asset": "gifs/wildcard/doc-browning-research.gif",
+          "homie": "research"
+        },
+        {
+          "slug": "ghostbustering-reports",
+          "label": "Lower the goggles",
+          "loadingText": "Ghostbustering…",
+          "altText": "Reports Homie in a tan utility jumpsuit lowers goggles while a compact shoulder light blinks.",
+          "source": "sources/wildcard/ghostbustering-reports.png",
+          "asset": "gifs/wildcard/ghostbustering-reports.gif",
+          "homie": "reports"
+        },
+        {
+          "slug": "gizmo-ing-crm",
+          "label": "Perk the ears",
+          "loadingText": "Gizmo-ing…",
+          "altText": "CRM Homie in a brown-and-white creature costume perks broad ears and blinks.",
+          "source": "sources/wildcard/gizmo-ing-crm.png",
+          "asset": "gifs/wildcard/gizmo-ing-crm.gif",
+          "homie": "crm"
+        },
+        {
+          "slug": "mrs-doubtfiring-content",
+          "label": "Wave politely",
+          "loadingText": "Mrs.-Doubtfiring…",
+          "altText": "Content Homie in a grey wig, floral blouse, cardigan, and glasses waves politely.",
+          "source": "sources/wildcard/mrs-doubtfiring-content.png",
+          "asset": "gifs/wildcard/mrs-doubtfiring-content.gif",
+          "homie": "content"
+        },
+        {
+          "slug": "mask-ing-marketing",
+          "label": "Stretch the eyebrows",
+          "loadingText": "Mask-ing…",
+          "altText": "Marketing Homie in a bright yellow suit and green mask stretches the eyebrows upward and back.",
+          "source": "sources/wildcard/mask-ing-marketing.png",
+          "asset": "gifs/wildcard/mask-ing-marketing.gif",
+          "homie": "marketing"
+        },
+        {
+          "slug": "cher-horowitzing-marketing",
+          "label": "Check the flip phone",
+          "loadingText": "Cher-Horowitzing…",
+          "altText": "A female Homie in yellow-and-black plaid opens and checks a blank flip phone.",
+          "source": "sources/wildcard/cher-horowitzing-marketing.png",
+          "asset": "gifs/wildcard/cher-horowitzing-marketing.gif",
+          "homie": "marketing"
+        },
+        {
+          "slug": "elle-woodsing-reports",
+          "label": "Wave the tiny witness",
+          "loadingText": "Elle-Woodsing…",
+          "altText": "A female Reports Homie in a hot-pink suit and sunglasses holds a handbag and a small chihuahua as its paw waves.",
+          "source": "sources/wildcard/elle-woodsing-reports.png",
+          "asset": "gifs/wildcard/elle-woodsing-reports.gif",
+          "homie": "reports"
+        },
+        {
+          "slug": "edward-scissorhanding-offers",
+          "label": "Snip carefully",
+          "loadingText": "Edward-Scissorhanding…",
+          "altText": "Offers Homie in dark strapped clothing makes one gentle cycle with blunt scissor-like gloves.",
+          "source": "sources/wildcard/edward-scissorhanding-offers.png",
+          "asset": "gifs/wildcard/edward-scissorhanding-offers.gif",
+          "homie": "offers"
+        },
+        {
+          "slug": "iron-manning-reports",
+          "label": "Pulse the armour",
+          "loadingText": "Iron-Manning…",
+          "altText": "Reports Homie in a red-and-gold exosuit pulses the chest and collar lights.",
+          "source": "sources/wildcard/iron-manning-reports.png",
+          "asset": "gifs/wildcard/iron-manning-reports.gif",
+          "homie": "reports"
+        },
+        {
+          "slug": "elsa-ing-reports",
+          "label": "Form the snowflake",
+          "loadingText": "Elsa-ing…",
+          "altText": "Reports Homie in a blue ice gown forms and shrinks a snowflake above one hand.",
+          "source": "sources/wildcard/elsa-ing-reports.png",
+          "asset": "gifs/wildcard/elsa-ing-reports.gif",
+          "homie": "reports"
+        },
+        {
+          "slug": "sonic-ing-crm",
+          "label": "Tap the fast foot",
+          "loadingText": "Sonic-ing…",
+          "altText": "CRM Homie in a blue hedgehog costume taps one red-shoed foot faster and slower.",
+          "source": "sources/wildcard/sonic-ing-crm.png",
+          "asset": "gifs/wildcard/sonic-ing-crm.gif",
+          "homie": "crm"
+        },
+        {
+          "slug": "deadpooling-marketing",
+          "label": "Wave and shrug",
+          "loadingText": "Deadpooling…",
+          "altText": "Marketing Homie in a full red-and-charcoal masked suit gives a tiny wave and innocent shrug.",
+          "source": "sources/wildcard/deadpooling-marketing.png",
+          "asset": "gifs/wildcard/deadpooling-marketing.gif",
+          "homie": "marketing"
+        },
+        {
+          "slug": "grooting-research",
+          "label": "Grow the sprout",
+          "loadingText": "Grooting…",
+          "altText": "Research Homie in a tree-like costume grows and retracts a tiny head sprout.",
+          "source": "sources/wildcard/grooting-research.png",
+          "asset": "gifs/wildcard/grooting-research.gif",
+          "homie": "research"
+        },
+        {
+          "slug": "furiosa-ing-manager",
+          "label": "Flex the mechanical arm",
+          "loadingText": "Furiosa-ing…",
+          "altText": "Manager Homie in tactical clothing flexes a mechanical arm and gives a sharp side glance.",
+          "source": "sources/wildcard/furiosa-ing-manager.png",
+          "asset": "gifs/wildcard/furiosa-ing-manager.gif",
+          "homie": "manager"
+        },
+        {
+          "slug": "m3ganing-listings",
+          "label": "Dance rigidly",
+          "loadingText": "M3GANing…",
+          "altText": "Listings Homie in a beige dress, striped bow, and blond wig performs a rigid side-to-side step.",
+          "source": "sources/wildcard/m3ganing-listings.png",
+          "asset": "gifs/wildcard/m3ganing-listings.gif",
+          "homie": "listings"
+        },
+        {
+          "slug": "paul-atreidesing-cma",
+          "label": "Pulse the blue eyes",
+          "loadingText": "Paul-Atreidesing…",
+          "altText": "CMA Homie in a desert stillsuit pulses intensely blue eyes while the scarf edge shifts.",
+          "source": "sources/wildcard/paul-atreidesing-cma.png",
+          "asset": "gifs/wildcard/paul-atreidesing-cma.gif",
+          "homie": "cma"
+        },
+        {
+          "slug": "elphaba-ing-offers",
+          "label": "Lift the brim",
+          "loadingText": "Elphaba-ing…",
+          "altText": "Offers Homie with green skin, black gown, and tall pointed hat lifts the brim as a glow circles one hand.",
+          "source": "sources/wildcard/elphaba-ing-offers.png",
+          "asset": "gifs/wildcard/elphaba-ing-offers.gif",
+          "homie": "offers"
+        },
+        {
+          "slug": "yoda-ing-cma",
+          "label": "Lift the rock",
+          "loadingText": "Yoda-ing…",
+          "altText": "CMA Homie as a small green, large-eared sage raises one hand while a rock visibly levitates.",
+          "source": "sources/wildcard/yoda-ing-cma.png",
+          "asset": "gifs/wildcard/yoda-ing-cma.gif",
+          "homie": "cma"
+        },
+        {
+          "slug": "darth-vadering-offers",
+          "label": "Use the Force",
+          "loadingText": "Darth-Vadering…",
+          "altText": "Offers Homie in black helmet, armour, chest panel, and cape slowly extends one gloved Force hand.",
+          "source": "sources/wildcard/darth-vadering-offers.png",
+          "asset": "gifs/wildcard/darth-vadering-offers.gif",
+          "homie": "offers"
+        },
+        {
+          "slug": "terminatoring-reports",
+          "label": "Pulse the red eye",
+          "loadingText": "Terminatoring…",
+          "altText": "Reports Homie in black leather and sunglasses turns the head while one red eye pulses.",
+          "source": "sources/wildcard/terminatoring-reports.png",
+          "asset": "gifs/wildcard/terminatoring-reports.gif",
+          "homie": "reports"
+        },
+        {
+          "slug": "batmaning-manager",
+          "label": "Spread the cape",
+          "loadingText": "Batmaning…",
+          "altText": "Manager Homie in a dark cowl and suit spreads one continuous bat-like cape into a broad silhouette.",
+          "source": "sources/wildcard/batmaning-manager.png",
+          "asset": "gifs/wildcard/batmaning-manager.gif",
+          "homie": "manager"
+        },
+        {
+          "slug": "supermanning-marketing",
+          "label": "Take flight",
+          "loadingText": "Supermanning…",
+          "altText": "Marketing Homie in a blue hero suit and red cape flies forward while the cape ripples behind.",
+          "source": "sources/wildcard/supermanning-marketing.png",
+          "asset": "gifs/wildcard/supermanning-marketing.gif",
+          "homie": "marketing"
+        },
+        {
+          "slug": "spider-manning-crm",
+          "label": "Hang by a thread",
+          "loadingText": "Spider-Manning…",
+          "altText": "CRM Homie in a red-and-blue spider suit hangs upside down from one web and swings gently.",
+          "source": "sources/wildcard/spider-manning-crm.png",
+          "asset": "gifs/wildcard/spider-manning-crm.gif",
+          "homie": "crm"
+        },
+        {
+          "slug": "wolverine-ing-research",
+          "label": "Pop the claws",
+          "loadingText": "Wolverine-ing…",
+          "altText": "Research Homie in a yellow-and-blue pointed-mask suit extends and retracts metal claws from both fists.",
+          "source": "sources/wildcard/wolverine-ing-research.png",
+          "asset": "gifs/wildcard/wolverine-ing-research.gif",
+          "homie": "research"
+        },
+        {
+          "slug": "joker-ing-content",
+          "label": "Tilt the grin",
+          "loadingText": "Joker-ing…",
+          "altText": "Content Homie in a purple suit with green hair slowly tilts the head while holding a theatrical grin.",
+          "source": "sources/wildcard/joker-ing-content.png",
+          "asset": "gifs/wildcard/joker-ing-content.gif",
+          "homie": "content"
+        },
+        {
+          "slug": "beetlejuicing-listings",
+          "label": "Shimmy in stripes",
+          "loadingText": "Beetlejuicing…",
+          "altText": "Listings Homie in a black-and-white striped suit and wild hair performs a compact shoulder shimmy.",
+          "source": "sources/wildcard/beetlejuicing-listings.png",
+          "asset": "gifs/wildcard/beetlejuicing-listings.gif",
+          "homie": "listings"
+        },
+        {
+          "slug": "forrest-gumping-crm",
+          "label": "Run everywhere",
+          "loadingText": "Forrest-Gumping…",
+          "altText": "CRM Homie in a red cap, plaid shirt, and short running shorts jogs through distinct leg positions.",
+          "source": "sources/wildcard/forrest-gumping-crm.png",
+          "asset": "gifs/wildcard/forrest-gumping-crm.gif",
+          "homie": "crm"
+        },
+        {
+          "slug": "mary-poppinsing-reports",
+          "label": "Float with the umbrella",
+          "loadingText": "Mary-Poppinsing…",
+          "altText": "Reports Homie in a prim coat, hat, and scarf floats up and down beneath one open umbrella.",
+          "source": "sources/wildcard/mary-poppinsing-reports.png",
+          "asset": "gifs/wildcard/mary-poppinsing-reports.gif",
+          "homie": "reports"
+        },
+        {
+          "slug": "ace-ventura-ing-marketing",
+          "label": "Whip the head around",
+          "loadingText": "Ace-Ventura-ing…",
+          "altText": "Marketing Homie in a loud Hawaiian shirt and exaggerated hair snaps the head left, right, and centre.",
+          "source": "sources/wildcard/ace-ventura-ing-marketing.png",
+          "asset": "gifs/wildcard/ace-ventura-ing-marketing.gif",
+          "homie": "marketing"
+        },
+        {
+          "slug": "shreking-manager",
+          "label": "Twitch the ogre ears",
+          "loadingText": "Shreking…",
+          "altText": "Manager Homie in a white tunic, brown vest, and exactly two green ogre ears sways as the ears twitch.",
+          "source": "sources/wildcard/shreking-manager.png",
+          "asset": "gifs/wildcard/shreking-manager.gif",
+          "homie": "manager"
+        },
+        {
+          "slug": "barbie-ing-listings",
+          "label": "Strike the pink pose",
+          "loadingText": "Barbie-ing…",
+          "altText": "A female Homie in a tailored bright-pink outfit and heart-shaped shades points while her ponytail swishes.",
+          "source": "sources/wildcard/barbie-ing-listings.png",
+          "asset": "gifs/wildcard/barbie-ing-listings.gif",
+          "homie": "listings"
+        },
+        {
+          "slug": "ken-ing-marketing",
+          "label": "Point the thumbs",
+          "loadingText": "Ken-ing…",
+          "altText": "Marketing Homie in a pastel beach outfit points both thumbs toward himself and resets.",
+          "source": "sources/wildcard/ken-ing-marketing.png",
+          "asset": "gifs/wildcard/ken-ing-marketing.gif",
+          "homie": "marketing"
+        },
+        {
+          "slug": "willy-wonka-ing-offers",
+          "label": "Take a theatrical bow",
+          "loadingText": "Willy-Wonka-ing…",
+          "altText": "Offers Homie in a purple coat and top hat removes the hat, bows deeply, and rises.",
+          "source": "sources/wildcard/willy-wonka-ing-offers.png",
+          "asset": "gifs/wildcard/willy-wonka-ing-offers.gif",
+          "homie": "offers"
+        },
+        {
+          "slug": "mr-beaning-research",
+          "label": "Raise the eyebrow",
+          "loadingText": "Mr.-Beaning…",
+          "altText": "Research Homie in a tweed jacket and red tie glances left and right before an eyebrow raise.",
+          "source": "sources/wildcard/mr-beaning-research.png",
+          "asset": "gifs/wildcard/mr-beaning-research.gif",
+          "homie": "research"
+        },
+        {
+          "slug": "austin-powersing-content",
+          "label": "Fire the finger guns",
+          "loadingText": "Austin-Powersing…",
+          "altText": "Content Homie in a bright velvet 1960s suit, frilled shirt, and glasses alternates finger-gun poses.",
+          "source": "sources/wildcard/austin-powersing-content.png",
+          "asset": "gifs/wildcard/austin-powersing-content.gif",
+          "homie": "content"
+        },
+        {
+          "slug": "zoolandering-reports",
+          "label": "Serve the model face",
+          "loadingText": "Zoolandering…",
+          "altText": "Reports Homie in a sleek black runway outfit alternates two exaggerated model poses.",
+          "source": "sources/wildcard/zoolandering-reports.png",
+          "asset": "gifs/wildcard/zoolandering-reports.gif",
+          "homie": "reports"
+        },
+        {
+          "slug": "elf-ing-cma",
+          "label": "Bounce with cheer",
+          "loadingText": "Elf-ing…",
+          "altText": "CMA Homie in a green elf coat, yellow tights, and curled shoes bounces and waves excitedly.",
+          "source": "sources/wildcard/elf-ing-cma.png",
+          "asset": "gifs/wildcard/elf-ing-cma.gif",
+          "homie": "cma"
+        },
+        {
+          "slug": "home-alone-ing-crm",
+          "label": "Gasp and reset",
+          "loadingText": "Home-Alone-ing…",
+          "altText": "CRM Homie in a red knit sweater raises both hands to the cheeks, gasps, and resets.",
+          "source": "sources/wildcard/home-alone-ing-crm.png",
+          "asset": "gifs/wildcard/home-alone-ing-crm.gif",
+          "homie": "crm"
+        },
+        {
+          "slug": "et-ing-research",
+          "label": "Light the fingertip",
+          "loadingText": "E.T.-ing…",
+          "altText": "Research Homie in a wrinkly brown alien costume extends one glowing fingertip and dims it.",
+          "source": "sources/wildcard/et-ing-research.png",
+          "asset": "gifs/wildcard/et-ing-research.gif",
+          "homie": "research"
+        },
+        {
+          "slug": "mission-impossible-ing-manager",
+          "label": "Hang in there",
+          "loadingText": "Mission-Impossible-ing…",
+          "altText": "Manager Homie in black tactical gear hangs from one overhead cable and steadies in mid-air.",
+          "source": "sources/wildcard/mission-impossible-ing-manager.png",
+          "asset": "gifs/wildcard/mission-impossible-ing-manager.gif",
+          "homie": "manager"
+        },
+        {
+          "slug": "groundhog-daying-content",
+          "label": "Check the watch again",
+          "loadingText": "Groundhog-Daying…",
+          "altText": "Content Homie in a winter coat and scarf checks the watch, sighs, and repeats.",
+          "source": "sources/wildcard/groundhog-daying-content.png",
+          "asset": "gifs/wildcard/groundhog-daying-content.gif",
+          "homie": "content"
+        },
+        {
+          "slug": "karate-kidding-offers",
+          "label": "Hold the crane kick",
+          "loadingText": "Karate-Kidding…",
+          "altText": "Offers Homie in a white gi, black belt, and headband balances through a clear crane-kick wobble.",
+          "source": "sources/wildcard/karate-kidding-offers.png",
+          "asset": "gifs/wildcard/karate-kidding-offers.gif",
+          "homie": "offers"
+        },
+        {
+          "slug": "dirty-dancing-listings",
+          "label": "Sway romantically",
+          "loadingText": "Dirty-Dancing…",
+          "altText": "Listings Homie in simple 1980s dancewear moves through a compact romantic sway.",
+          "source": "sources/wildcard/dirty-dancing-listings.png",
+          "asset": "gifs/wildcard/dirty-dancing-listings.gif",
+          "homie": "listings"
+        },
+        {
+          "slug": "pulp-fictioning-manager",
+          "label": "Twist the night away",
+          "loadingText": "Pulp-Fictioning…",
+          "altText": "A male Manager Homie in a black suit, white shirt, and bolo tie performs a bent-knee twist with both forearms.",
+          "source": "sources/wildcard/pulp-fictioning-manager.png",
+          "asset": "gifs/wildcard/pulp-fictioning-manager.gif",
+          "homie": "manager"
+        },
+        {
+          "slug": "michael-burrying-manager",
+          "label": "Drum at the desk",
+          "loadingText": "Michael-Burrying…",
+          "altText": "A male Manager Homie in a faded blue pocket T-shirt and wired earbuds alternates exactly two drumsticks above a fixed desk.",
+          "source": "sources/wildcard/michael-burrying-manager.png",
+          "asset": "gifs/wildcard/michael-burrying-manager.gif",
+          "homie": "manager"
+        },
+        {
+          "slug": "harvey-spectering-manager",
+          "label": "Adjust the closer suit",
+          "loadingText": "Harvey-Spectering…",
+          "altText": "A male Manager Homie in a sharp charcoal suit adjusts one cuff and lapel while holding a case folder.",
+          "source": "sources/wildcard/harvey-spectering-manager.png",
+          "asset": "gifs/wildcard/harvey-spectering-manager.gif",
+          "homie": "manager"
+        },
+        {
+          "slug": "waynes-worlding-content",
+          "label": "Headbang in the basement",
+          "loadingText": "Wayne’s-Worlding…",
+          "altText": "Content Homie in a black tee, ripped jeans, and backward cap rocks his connected head and cap through a compact air-guitar headbang.",
+          "source": "sources/wildcard/waynes-worlding-content.png",
+          "asset": "gifs/wildcard/waynes-worlding-content.gif",
+          "homie": "content"
+        },
+        {
+          "slug": "bill-and-ted-ing-crm",
+          "label": "Air-guitar the future",
+          "loadingText": "Bill-and-Ted-ing…",
+          "altText": "CRM Homie in scruffy 1980s teen clothes changes chords with one connected forearm on an invisible air guitar.",
+          "source": "sources/wildcard/bill-and-ted-ing-crm.png",
+          "asset": "gifs/wildcard/bill-and-ted-ing-crm.gif",
+          "homie": "crm"
+        },
+        {
+          "slug": "robocopping-offers",
+          "label": "Run the servo check",
+          "loadingText": "RoboCopping…",
+          "altText": "Offers Homie in silver cyborg police armour sweeps one connected servo forearm while the red visor scanner travels.",
+          "source": "sources/wildcard/robocopping-offers.png",
+          "asset": "gifs/wildcard/robocopping-offers.gif",
+          "homie": "offers"
+        },
+        {
+          "slug": "rambo-ing-manager",
+          "label": "Tighten the headband",
+          "loadingText": "Rambo-ing…",
+          "altText": "Manager Homie in a tactical vest holds a red headband while both connected cloth tails cinch and reset.",
+          "source": "sources/wildcard/rambo-ing-manager.png",
+          "asset": "gifs/wildcard/rambo-ing-manager.gif",
+          "homie": "manager"
+        },
+        {
+          "slug": "godfathering-reports",
+          "label": "Make the offer",
+          "loadingText": "Godfathering…",
+          "altText": "Reports Homie in a dark three-piece suit steeples the fingers and slowly raises one eyebrow.",
+          "source": "sources/wildcard/godfathering-reports.png",
+          "asset": "gifs/wildcard/godfathering-reports.gif",
+          "homie": "reports"
+        },
+        {
+          "slug": "sky-walkering-manager",
+          "label": "Sweep the lightsaber",
+          "loadingText": "Sky-Walkering…",
+          "altText": "Manager Homie in a black space-knight outfit swings one connected glowing energy sword through a wide arc.",
+          "source": "sources/wildcard/sky-walkering-manager.png",
+          "asset": "gifs/wildcard/sky-walkering-manager.gif",
+          "homie": "manager"
+        },
+        {
+          "slug": "hyah-ing-listings",
+          "label": "Swing the hero sword",
+          "loadingText": "Hyah-ing…",
+          "altText": "Listings Homie in a green fantasy-hero outfit completes one broad, two-handed sword slash.",
+          "source": "sources/wildcard/hyah-ing-listings.png",
+          "asset": "gifs/wildcard/hyah-ing-listings.gif",
+          "homie": "listings"
+        },
+        {
+          "slug": "master-chiefing-reports",
+          "label": "Present the helmet",
+          "loadingText": "Master-Chiefing…",
+          "altText": "Reports Homie in olive supersoldier armour raises and presents one gold-visored helmet.",
+          "source": "sources/wildcard/master-chiefing-reports.png",
+          "asset": "gifs/wildcard/master-chiefing-reports.gif",
+          "homie": "reports"
+        },
+        {
+          "slug": "glengarrying-offers",
+          "label": "Always be closing",
+          "loadingText": "Glengarrying…",
+          "altText": "Offers Homie in a dark sales suit points emphatically at a stable ABC, Always Be Closing chalkboard.",
+          "source": "sources/wildcard/glengarrying-offers.png",
+          "asset": "gifs/wildcard/glengarrying-offers.gif",
+          "homie": "offers"
+        },
+        {
+          "slug": "dumbledoring-research",
+          "label": "Conduct the spell",
+          "loadingText": "Dumbledoring…",
+          "altText": "Research Homie as a wise purple-robed headmaster conducts a broad wand flourish ending in a glow.",
+          "source": "sources/wildcard/dumbledoring-research.png",
+          "asset": "gifs/wildcard/dumbledoring-research.gif",
+          "homie": "research"
+        },
+        {
+          "slug": "buzz-lightyearing-manager",
+          "label": "Deploy the wings",
+          "loadingText": "Buzz-Lightyearing…",
+          "altText": "Manager Homie in an ivory, green, and coral space-ranger suit deploys two backpack wings and raises a fist.",
+          "source": "sources/wildcard/buzz-lightyearing-manager.png",
+          "asset": "gifs/wildcard/buzz-lightyearing-manager.gif",
+          "homie": "manager"
+        },
+        {
+          "slug": "inspector-gadgeting-crm",
+          "label": "Deploy the gadgets",
+          "loadingText": "Inspector-Gadgeting…",
+          "altText": "CRM Homie in a grey detective coat deploys a hat rotor and lifts visibly off the ground.",
+          "source": "sources/wildcard/inspector-gadgeting-crm.png",
+          "asset": "gifs/wildcard/inspector-gadgeting-crm.gif",
+          "homie": "crm"
+        },
+        {
+          "slug": "step-brothering-manager-crm",
+          "label": "Pose for the brother portrait",
+          "loadingText": "Step-Brothering…",
+          "altText": "Manager and CRM Homies in matching blue shirts and contrasting argyle sweater vests hold an awkward stacked-hands family-portrait pose while a camera flash pulses.",
+          "source": "sources/wildcard/step-brothering-manager-crm.png",
+          "asset": "gifs/wildcard/step-brothering-manager-crm.gif",
+          "pair": [
+            "manager",
+            "crm"
+          ]
+        },
+        {
+          "slug": "ricky-bobbying-manager",
+          "label": "Hoist the victory trophy",
+          "loadingText": "Ricky-Bobbying…",
+          "altText": "A male Manager Homie in a cream, blue, and coral Homies stock-car racing suit hoists a giant silver victory trophy while a highlight glints across the cup.",
+          "source": "sources/wildcard/ricky-bobbying-manager.png",
+          "asset": "gifs/wildcard/ricky-bobbying-manager.gif",
+          "homie": "manager"
+        },
+        {
+          "slug": "tarzaning-manager",
+          "label": "Swing through the jungle",
+          "loadingText": "Tarzaning…",
+          "altText": "A male Manager Homie in a brown jungle wrap swings through the air on one continuous overhead vine in a smooth pendulum arc.",
+          "source": "sources/wildcard/tarzaning-manager.png",
+          "asset": "gifs/wildcard/tarzaning-manager.gif",
+          "homie": "manager"
+        },
+        {
+          "slug": "jon-snowing-marketing",
+          "label": "Hold the watch",
+          "loadingText": "Jon-Snowing…",
+          "altText": "A male Marketing Homie in a black fur cloak holds one upright sword while six snowflakes drift and the blade glints.",
+          "source": "sources/wildcard/jon-snowing-marketing.png",
+          "asset": "gifs/wildcard/jon-snowing-marketing.gif",
+          "homie": "marketing"
+        },
+        {
+          "slug": "spoking-content",
+          "label": "Raise the logic",
+          "loadingText": "Spoking…",
+          "altText": "A male Content Homie in a blue space-officer uniform raises one anatomically correct split-finger salute in a restrained loop.",
+          "source": "sources/wildcard/spoking-content.png",
+          "asset": "gifs/wildcard/spoking-content.gif",
+          "homie": "content"
+        },
+        {
+          "slug": "gatsbying-manager",
+          "label": "Raise the toast",
+          "loadingText": "Gatsbying…",
+          "altText": "A male Manager Homie in a black tuxedo lifts one champagne coupe toward the viewer and returns it smoothly.",
+          "source": "sources/wildcard/gatsbying-manager.png",
+          "asset": "gifs/wildcard/gatsbying-manager.gif",
+          "homie": "manager"
+        },
+        {
+          "slug": "scooby-dooing-manager",
+          "label": "Solve the spooky mystery",
+          "loadingText": "Scooby-Dooing…",
+          "altText": "A frightened male Manager Homie holds one large brown mystery dog with a blue collar as their locked rig shakes side to side.",
+          "source": "sources/wildcard/scooby-dooing-manager.png",
+          "asset": "gifs/wildcard/scooby-dooing-manager.gif",
+          "homie": "manager"
+        },
+        {
+          "slug": "walter-whiting-crm",
+          "label": "Brood over the brief",
+          "loadingText": "Walter-Whiting…",
+          "altText": "A male CRM Homie in a yellow hazmat suit, glasses, and neck respirator stares forward while holding one briefcase and small highlights pulse.",
+          "source": "sources/wildcard/walter-whiting-crm.png",
+          "asset": "gifs/wildcard/walter-whiting-crm.gif",
+          "homie": "crm"
+        },
+        {
+          "slug": "buffying-offers",
+          "label": "Stake out the deal",
+          "loadingText": "Buffying…",
+          "altText": "A female Offers Homie in a fitted black outfit raises one wooden stake into a guarded ready pose and resets.",
+          "source": "sources/wildcard/buffying-offers.png",
+          "asset": "gifs/wildcard/buffying-offers.gif",
+          "homie": "offers"
+        },
+        {
+          "slug": "ron-burgunding-cma",
+          "label": "Stay classy",
+          "loadingText": "Ron-Burgunding…",
+          "altText": "A male CMA Homie with a moustache and burgundy suit raises one amber tumbler in a restrained toast.",
+          "source": "sources/wildcard/ron-burgunding-cma.png",
+          "asset": "gifs/wildcard/ron-burgunding-cma.gif",
+          "homie": "cma"
+        },
+        {
+          "slug": "tony-starking-marketing",
+          "label": "Power the palm",
+          "loadingText": "Tony-Starking…",
+          "altText": "A male Marketing Homie in red-and-gold powered armour raises one five-finger gauntlet as its circular palm emitter and chest reactor pulse.",
+          "source": "sources/wildcard/tony-starking-marketing.png",
+          "asset": "gifs/wildcard/tony-starking-marketing.gif",
+          "homie": "marketing"
+        },
+        {
+          "slug": "tyler-durdening-listings",
+          "label": "Shadow-box the brief",
+          "loadingText": "Tyler-Durdening…",
+          "altText": "A male Listings Homie in a red leather jacket and tinted glasses alternates two connected shadow-boxing jabs while his body stays fixed.",
+          "source": "sources/wildcard/tyler-durdening-listings.png",
+          "asset": "gifs/wildcard/tyler-durdening-listings.gif",
+          "homie": "listings"
+        },
+        {
+          "slug": "robin-hooding-manager",
+          "label": "Draw the shot",
+          "loadingText": "Robin-Hooding…",
+          "altText": "A male Manager Homie in a feathered red forest-outlaw outfit visibly draws one continuous bowstring and arrow back toward his cheek.",
+          "source": "sources/wildcard/robin-hooding-manager.png",
+          "asset": "gifs/wildcard/robin-hooding-manager.gif",
+          "homie": "manager"
+        },
+        {
+          "slug": "gary-veeing-crm",
+          "label": "Bring the energy",
+          "loadingText": "Gary-Veeing…",
+          "altText": "A male CRM Homie in a grey beanie and navy T-shirt emphasizes a point with two open hands around shoulder height.",
+          "source": "sources/wildcard/gary-veeing-crm.png",
+          "asset": "gifs/wildcard/gary-veeing-crm.gif",
+          "homie": "crm"
+        },
+        {
+          "slug": "serhanting-manager",
+          "label": "Button up the deal",
+          "loadingText": "Serhanting…",
+          "altText": "A male Manager Homie in a blue pinstripe suit brings two coherent hands together to fasten the centre jacket button and resets.",
+          "source": "sources/wildcard/serhanting-manager.png",
+          "asset": "gifs/wildcard/serhanting-manager.gif",
+          "homie": "manager"
+        }
+      ]
+    },
+    {
+      "id": "pop-dance",
+      "name": "Pop & Dance Homies",
+      "roleLabel": "Music-video moves and party-loop nostalgia",
+      "description": "Recognizable pop-video homages and universally loved dance-floor loops rebuilt as tiny, logo-free loading gestures.",
+      "reference": "references/manager.png",
+      "jobs": [
+        "Music-video micro-moves",
+        "Party-floor classics",
+        "Tiny reversible choreography",
+        "Logo-free pop Easter eggs"
+      ],
+      "animations": [
+        {
+          "slug": "sell-phoning-manager",
+          "label": "Do the Hotline Bling dance",
+          "loadingText": "Sell-phoning…",
+          "altText": "Manager Homie in a bright orange puffer, grey joggers, and tan boots alternates the bent-forward Hotline Bling hand dance.",
+          "source": "sources/wildcard/sell-phoning-manager.png",
+          "asset": "gifs/wildcard/sell-phoning-manager.gif",
+          "homie": "manager"
+        },
+        {
+          "slug": "shake-it-offing-research",
+          "label": "Shake the shoulders",
+          "loadingText": "Shake-It-Offing…",
+          "altText": "Research Homie in a simple pop-star outfit with bangs performs a tiny shoulder shake.",
+          "source": "sources/wildcard/shake-it-offing-research.png",
+          "asset": "gifs/wildcard/shake-it-offing-research.gif",
+          "homie": "research"
+        },
+        {
+          "slug": "single-ladying-offers",
+          "label": "Wag the ring finger",
+          "loadingText": "Single-Ladying…",
+          "altText": "Offers Homie in a black dance leotard and one glove performs a tiny ring-finger wag.",
+          "source": "sources/wildcard/single-ladying-offers.png",
+          "asset": "gifs/wildcard/single-ladying-offers.gif",
+          "homie": "offers"
+        },
+        {
+          "slug": "thrillering-marketing",
+          "label": "Hit the Thriller claw-step",
+          "loadingText": "Thrillering…",
+          "altText": "Marketing Homie in a red zippered pop jacket performs a low, wide Thriller claw-step with bent knees and limp wrists.",
+          "source": "sources/wildcard/thrillering-marketing.png",
+          "asset": "gifs/wildcard/thrillering-marketing.gif",
+          "homie": "marketing"
+        },
+        {
+          "slug": "moonwalking-content",
+          "label": "Glide backward",
+          "loadingText": "Moonwalking…",
+          "altText": "Content Homie in black loafers, white socks, and a black suit performs a tiny backward foot glide.",
+          "source": "sources/wildcard/moonwalking-content.png",
+          "asset": "gifs/wildcard/moonwalking-content.gif",
+          "homie": "content"
+        },
+        {
+          "slug": "bad-romancing-reports",
+          "label": "Make the monster claws",
+          "loadingText": "Bad-Romancing…",
+          "altText": "Reports Homie in a theatrical high-fashion pop outfit performs a small monster-claw hand motion.",
+          "source": "sources/wildcard/bad-romancing-reports.png",
+          "asset": "gifs/wildcard/bad-romancing-reports.gif",
+          "homie": "reports"
+        },
+        {
+          "slug": "poker-facing-listings",
+          "label": "Lower the shades",
+          "loadingText": "Poker-Facing…",
+          "altText": "Listings Homie in bold geometric shades slowly lowers and raises the sunglasses.",
+          "source": "sources/wildcard/poker-facing-listings.png",
+          "asset": "gifs/wildcard/poker-facing-listings.gif",
+          "homie": "listings"
+        },
+        {
+          "slug": "gangnam-styling-cma",
+          "label": "Ride the beat",
+          "loadingText": "Gangnam-Styling…",
+          "altText": "CMA Homie in a blue tuxedo and bow tie performs a tiny horse-riding bounce.",
+          "source": "sources/wildcard/gangnam-styling-cma.png",
+          "asset": "gifs/wildcard/gangnam-styling-cma.gif",
+          "homie": "cma"
+        },
+        {
+          "slug": "bye-bye-bye-ing-listings",
+          "label": "Point in sync",
+          "loadingText": "Bye-Bye-Bye-ing…",
+          "altText": "Listings Homie in frosted-tip boy-band styling performs a small synchronized hand-point move.",
+          "source": "sources/wildcard/bye-bye-bye-ing-listings.png",
+          "asset": "gifs/wildcard/bye-bye-bye-ing-listings.gif",
+          "homie": "listings"
+        },
+        {
+          "slug": "oops-i-did-it-again-ing-offers",
+          "label": "Hit the chest-and-reach pose",
+          "loadingText": "Oops-I-Did-It-Again-ing…",
+          "altText": "Offers Homie in a glossy pure-red spandex catsuit holds one palm across her chest and straightens the opposite arm into a horizontal reach over crossed legs.",
+          "source": "sources/wildcard/oops-i-did-it-again-ing-offers.png",
+          "asset": "gifs/wildcard/oops-i-did-it-again-ing-offers.gif",
+          "homie": "offers"
+        },
+        {
+          "slug": "hit-me-baby-one-more-timing-research",
+          "label": "Flick the hair",
+          "loadingText": "Hit-Me-Baby-One-More-Timing…",
+          "altText": "Research Homie in a school-uniform-inspired pop look performs a tiny hair flick and shrug.",
+          "source": "sources/wildcard/hit-me-baby-one-more-timing-research.png",
+          "asset": "gifs/wildcard/hit-me-baby-one-more-timing-research.gif",
+          "homie": "research"
+        },
+        {
+          "slug": "voguing-reports",
+          "label": "Strike the angles",
+          "loadingText": "Voguing…",
+          "altText": "Reports Homie in a classic high-fashion pop look alternates two angular hand poses.",
+          "source": "sources/wildcard/voguing-reports.png",
+          "asset": "gifs/wildcard/voguing-reports.gif",
+          "homie": "reports"
+        },
+        {
+          "slug": "espresso-ing-content",
+          "label": "Sip and smirk",
+          "loadingText": "Espresso-ing…",
+          "altText": "Content Homie in a modern pop-star look takes a tiny cup sip and smirks.",
+          "source": "sources/wildcard/espresso-ing-content.png",
+          "asset": "gifs/wildcard/espresso-ing-content.gif",
+          "homie": "content"
+        },
+        {
+          "slug": "umbrella-ing-manager",
+          "label": "Hold the umbrella",
+          "loadingText": "Umbrella-ing…",
+          "altText": "Manager Homie physically holds a broad transparent dome umbrella while a highlight travels across its fixed canopy.",
+          "source": "sources/wildcard/umbrella-ing-manager.png",
+          "asset": "gifs/wildcard/umbrella-ing-manager.gif",
+          "homie": "manager"
+        },
+        {
+          "slug": "macarena-ing-manager",
+          "label": "Cross the hands",
+          "loadingText": "Macarena-ing…",
+          "altText": "Manager Homie in bright 90s party clothes alternates two classic hand positions.",
+          "source": "sources/wildcard/macarena-ing-manager.png",
+          "asset": "gifs/wildcard/macarena-ing-manager.gif",
+          "homie": "manager"
+        },
+        {
+          "slug": "ymca-ing-cma",
+          "label": "Spell YMCA",
+          "loadingText": "YMCA-ing…",
+          "altText": "CMA Homie in a mustard retro jacket forms four clean Y, M, C, and A arm silhouettes while the body remains fixed.",
+          "source": "sources/wildcard/ymca-ing-cma.png",
+          "asset": "gifs/wildcard/ymca-ing-cma.gif",
+          "homie": "cma"
+        },
+        {
+          "slug": "cha-cha-sliding-marketing",
+          "label": "Cross through the slide",
+          "loadingText": "Cha-Cha-Sliding…",
+          "altText": "Marketing Homie in a gold jacket, black outfit, long silver chain, and gold boots opens and returns through a crossed-foot slide.",
+          "source": "sources/wildcard/cha-cha-sliding-marketing.png",
+          "asset": "gifs/wildcard/cha-cha-sliding-marketing.gif",
+          "homie": "marketing"
+        },
+        {
+          "slug": "dougie-ing-content",
+          "label": "Brush through the Dougie",
+          "loadingText": "Dougie-ing…",
+          "altText": "Content Homie in a white T-shirt and black joggers holds a chest-brush Dougie pose while one low forearm sweeps cleanly at the hip.",
+          "source": "sources/wildcard/dougie-ing-content.png",
+          "asset": "gifs/wildcard/dougie-ing-content.gif",
+          "homie": "content"
+        },
+        {
+          "slug": "rickrolling-manager",
+          "label": "Point and step",
+          "loadingText": "Rickrolling…",
+          "altText": "Manager Homie in a striped knit shirt and tan trench performs a tiny finger-point step.",
+          "source": "sources/wildcard/rickrolling-manager.png",
+          "asset": "gifs/wildcard/rickrolling-manager.gif",
+          "homie": "manager"
+        },
+        {
+          "slug": "harlem-shaking-listings",
+          "label": "Shake the pink suit",
+          "loadingText": "Harlem-Shaking…",
+          "altText": "Listings Homie in the bright-pink full-body meme suit leans on bent knees while both low fists counter-swing.",
+          "source": "sources/wildcard/harlem-shaking-listings.png",
+          "asset": "gifs/wildcard/harlem-shaking-listings.gif",
+          "homie": "listings"
+        },
+        {
+          "slug": "wednesday-ing-offers",
+          "label": "Dance stiffly",
+          "loadingText": "Wednesday-ing…",
+          "altText": "Offers Homie in a black dress with braided hair performs stiff angular dance hands.",
+          "source": "sources/wildcard/wednesday-ing-offers.png",
+          "asset": "gifs/wildcard/wednesday-ing-offers.gif",
+          "homie": "offers"
+        },
+        {
+          "slug": "napoleon-dynamiting-content",
+          "label": "Side-step awkwardly",
+          "loadingText": "Napoleon-Dynamiting…",
+          "altText": "Content Homie with curly hair, glasses, high-waisted jeans, and moon boots performs an awkward side-step.",
+          "source": "sources/wildcard/napoleon-dynamiting-content.png",
+          "asset": "gifs/wildcard/napoleon-dynamiting-content.gif",
+          "homie": "content"
+        },
+        {
+          "slug": "disco-inferno-ing-reports",
+          "label": "Point to disco",
+          "loadingText": "Disco-Inferno-ing…",
+          "altText": "Reports Homie in a white disco suit alternates one finger upward and outward.",
+          "source": "sources/wildcard/disco-inferno-ing-reports.png",
+          "asset": "gifs/wildcard/disco-inferno-ing-reports.gif",
+          "homie": "reports"
+        },
+        {
+          "slug": "wrecking-ball-riding-research",
+          "label": "Ride the wrecking ball",
+          "loadingText": "Wrecking-Balling…",
+          "altText": "Research Homie sits safely astride a large grey wrecking ball and swings through a tiny arc.",
+          "source": "sources/wildcard/wrecking-ball-riding-research.png",
+          "asset": "gifs/wildcard/wrecking-ball-riding-research.gif",
+          "homie": "research"
+        },
+        {
+          "slug": "popping-my-collar-manager",
+          "label": "Pop the collar",
+          "loadingText": "Popping my collar…",
+          "altText": "Manager Homie lifts the collar of a stylish jacket and lets it settle.",
+          "source": "sources/wildcard/popping-my-collar-manager.png",
+          "asset": "gifs/wildcard/popping-my-collar-manager.gif",
+          "homie": "manager"
+        },
+        {
+          "slug": "dirt-off-your-shoulders-marketing",
+          "label": "Brush off the dirt",
+          "loadingText": "Getting that dirt off your shoulders…",
+          "altText": "Marketing Homie brushes imaginary dirt from one shoulder as a few dust flecks fall.",
+          "source": "sources/wildcard/dirt-off-your-shoulders-marketing.png",
+          "asset": "gifs/wildcard/dirt-off-your-shoulders-marketing.gif",
+          "homie": "marketing"
+        },
+        {
+          "slug": "reformering-offers",
+          "label": "Work the reformer",
+          "loadingText": "Reformering…",
+          "altText": "Offers Homie performs a controlled leg press on a fixed reformer Pilates machine.",
+          "source": "sources/wildcard/reformering-offers.png",
+          "asset": "gifs/wildcard/reformering-offers.gif",
+          "homie": "offers"
+        },
+        {
+          "slug": "jazzing-content",
+          "label": "Raise the jazz hands",
+          "loadingText": "Jazzing…",
+          "altText": "Content Homie in a dark stage outfit performs a bright pair of jazz hands.",
+          "source": "sources/wildcard/jazzing-content.png",
+          "asset": "gifs/wildcard/jazzing-content.gif",
+          "homie": "content"
+        },
+        {
+          "slug": "jazzercising-reports",
+          "label": "Jazzercise it out",
+          "loadingText": "Jazzercising…",
+          "altText": "Reports Homie in a bright 1980s exercise outfit performs a tiny energetic side-step and arm raise.",
+          "source": "sources/wildcard/jazzercising-reports.png",
+          "asset": "gifs/wildcard/jazzercising-reports.gif",
+          "homie": "reports"
+        },
+        {
+          "slug": "smooth-crimining-marketing",
+          "label": "Hit the impossible lean",
+          "loadingText": "Smooth-Crimining…",
+          "altText": "Marketing Homie in an ivory pinstripe suit, blue shirt, white fedora, black armband, and black-and-white loafers deepens into the gravity-defying forward lean and eases back.",
+          "source": "sources/wildcard/smooth-crimining-marketing.png",
+          "asset": "gifs/wildcard/smooth-crimining-marketing.gif",
+          "homie": "marketing"
+        },
+        {
+          "slug": "checking-the-backstreets-marketing",
+          "label": "Check the backstreets",
+          "loadingText": "Checking the Backstreets…",
+          "altText": "A male Marketing Homie in a black wide-brim hat, aviators, bomber jacket, long white shirt, ripped black jeans, and boots performs opposing open-hand boy-band arm hits.",
+          "source": "sources/wildcard/checking-the-backstreets-marketing.png",
+          "asset": "gifs/wildcard/checking-the-backstreets-marketing.gif",
+          "homie": "marketing"
+        },
+        {
+          "slug": "david-blaining-manager",
+          "label": "Make the cards fly",
+          "loadingText": "David-Blaining…",
+          "altText": "A male Manager Homie in an all-black street-magician outfit sends a controlled arc of playing cards through the air.",
+          "source": "sources/wildcard/david-blaining-manager.png",
+          "asset": "gifs/wildcard/david-blaining-manager.gif",
+          "homie": "manager"
+        },
+        {
+          "slug": "cranking-that-marketing",
+          "label": "Hit the Superman",
+          "loadingText": "Cranking That…",
+          "altText": "A male Marketing Homie in an oversized white graffiti jacket, sideways cap, white shades, red shirt, and baggy black-and-gold trousers hits the Superman dance move.",
+          "source": "sources/wildcard/cranking-that-marketing.png",
+          "asset": "gifs/wildcard/cranking-that-marketing.gif",
+          "homie": "marketing"
+        },
+        {
+          "slug": "cranking-the-step-marketing",
+          "label": "Crank through the step",
+          "loadingText": "Cranking…",
+          "altText": "A male Marketing Homie in the white graffiti-jacket dance outfit crosses, bends, and releases through the opening Crank That step.",
+          "source": "sources/wildcard/cranking-the-step-marketing.png",
+          "asset": "gifs/wildcard/cranking-the-step-marketing.gif",
+          "homie": "marketing"
+        },
+        {
+          "slug": "cranking-the-motorbike-marketing",
+          "label": "Rev the dance",
+          "loadingText": "Cranking…",
+          "altText": "A male Marketing Homie in the white graffiti-jacket dance outfit bounces side to side while miming the motorbike-rev section of Crank That.",
+          "source": "sources/wildcard/cranking-the-motorbike-marketing.png",
+          "asset": "gifs/wildcard/cranking-the-motorbike-marketing.gif",
+          "homie": "marketing"
+        }
+      ]
+    }
+  ]
+}

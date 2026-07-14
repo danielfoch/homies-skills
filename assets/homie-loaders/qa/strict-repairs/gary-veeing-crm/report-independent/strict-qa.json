@@ -1,0 +1,378 @@
+{
+  "results": [
+    {
+      "slug": "gary-veeing-crm",
+      "concept": "Canonical male CRM Homie holds both open hands wide around shoulder/head height while two locked arm rigs make a restrained reversible speaker emphasis.",
+      "action_expectation": "At full size and 128px, read two coherent raised open hands around shoulder/head height on the male CRM identity, with stable face, beanie, torso, crop, and scale.",
+      "source": "assets/homie-loaders/qa/strict-repairs/gary-veeing-crm/candidates/gary-veeing-crm.png",
+      "source_sha256": "72abdf6a37492c47cc93172e311a3ec7c37f23cc7dfaa5298c832f5d796413aa",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_mode": "RGB",
+      "grid": [
+        2,
+        2
+      ],
+      "key_geometry": {
+        "outer_edge_non_key_pixels": 0,
+        "gutter_axis_non_key_pixels": 0
+      },
+      "cells": [
+        {
+          "index": 0,
+          "sha256_rgb": "8960d5fc6884cef4fe13a4a78c8b4b221590cac467652cf16487bf547e3eb31c",
+          "foreground_pixels": 70233,
+          "foreground_pct": 17.8651,
+          "bbox": [
+            97,
+            147,
+            486,
+            544
+          ],
+          "margins": [
+            97,
+            141,
+            147,
+            83
+          ],
+          "minimum_margin": 83,
+          "centroid": [
+            287.973,
+            372.87
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 140,
+            "areas": [
+              70233
+            ],
+            "largest_area": 70233
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 1,
+          "sha256_rgb": "3eafbce7aed303c082c48bb81845701ddf7a935be0a8a8f93ac15244acdc4124",
+          "foreground_pixels": 70354,
+          "foreground_pct": 17.8959,
+          "bbox": [
+            97,
+            147,
+            485,
+            544
+          ],
+          "margins": [
+            97,
+            142,
+            147,
+            83
+          ],
+          "minimum_margin": 83,
+          "centroid": [
+            288.1,
+            372.722
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 141,
+            "areas": [
+              70354
+            ],
+            "largest_area": 70354
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 2,
+          "sha256_rgb": "e37525eddc50a80d4655c61cabe455eaf314286ea0c656ef5f7803968e1329d8",
+          "foreground_pixels": 70467,
+          "foreground_pct": 17.9247,
+          "bbox": [
+            98,
+            147,
+            484,
+            544
+          ],
+          "margins": [
+            98,
+            143,
+            147,
+            83
+          ],
+          "minimum_margin": 83,
+          "centroid": [
+            288.373,
+            372.584
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 141,
+            "areas": [
+              70467
+            ],
+            "largest_area": 70467
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 3,
+          "sha256_rgb": "a60f10dd207db3b8ebf9269377c4de8408f2bbfdfe2c64239b17db5915dd1c3a",
+          "foreground_pixels": 70552,
+          "foreground_pct": 17.9463,
+          "bbox": [
+            99,
+            147,
+            484,
+            544
+          ],
+          "margins": [
+            99,
+            143,
+            147,
+            83
+          ],
+          "minimum_margin": 83,
+          "centroid": [
+            288.566,
+            372.458
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 141,
+            "areas": [
+              70552
+            ],
+            "largest_area": 70552
+          },
+          "artifact_flags": []
+        }
+      ],
+      "pair_metrics": [
+        {
+          "mask_xor_pct": 1.5625,
+          "silhouette_motion_p95_px": 2.0,
+          "silhouette_motion_max_px": 3.0,
+          "centroid_shift_px": 0.195,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9844,
+          "registered_residual_pct": 6.6284,
+          "upper_anchor_ncc": 1.0
+        },
+        {
+          "mask_xor_pct": 1.6745,
+          "silhouette_motion_p95_px": 2.236,
+          "silhouette_motion_max_px": 2.828,
+          "centroid_shift_px": 0.306,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9833,
+          "registered_residual_pct": 6.9925,
+          "upper_anchor_ncc": 1.0
+        },
+        {
+          "mask_xor_pct": 1.5326,
+          "silhouette_motion_p95_px": 2.0,
+          "silhouette_motion_max_px": 3.162,
+          "centroid_shift_px": 0.231,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9847,
+          "registered_residual_pct": 6.7104,
+          "upper_anchor_ncc": 1.0
+        }
+      ],
+      "aggregate": {
+        "max_silhouette_motion_p95_px": 2.236,
+        "max_mask_xor_pct": 1.6745,
+        "max_centroid_shift_px": 0.306,
+        "max_registration_shift_px": 0.0,
+        "max_registered_residual_pct": 6.9925,
+        "minimum_upper_anchor_ncc": 1.0,
+        "foreground_area_span_pct": 0.4531,
+        "bbox_width_span_pct": 1.0336,
+        "bbox_height_span_pct": 0.0,
+        "significant_component_count_span": 0
+      },
+      "stationary_regions": [
+        {
+          "name": "locked-male-face",
+          "box_pixels": [
+            245,
+            155,
+            330,
+            270
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.1
+        },
+        {
+          "name": "locked-shirt-core",
+          "box_pixels": [
+            275,
+            320,
+            355,
+            510
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.1
+        }
+      ],
+      "gif": {
+        "path": "assets/homie-loaders/qa/strict-repairs/gary-veeing-crm/candidates/gary-veeing-crm.gif",
+        "exists": true,
+        "sha256": "916e302a614de9edd3b7327b4eccb7f085324acc09185221958ae84d8b43ea47",
+        "bytes": 55880,
+        "size": [
+          256,
+          256
+        ],
+        "frame_count": 6,
+        "unique_phases": 4,
+        "equality_pattern": [
+          0,
+          1,
+          2,
+          3,
+          2,
+          1
+        ],
+        "durations_ms": [
+          210,
+          140,
+          140,
+          210,
+          140,
+          140
+        ],
+        "loop": 0,
+        "has_transparency": true,
+        "corner_alphas": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "alpha_bboxes": [
+          [
+            40,
+            60,
+            198,
+            222
+          ],
+          [
+            40,
+            60,
+            198,
+            222
+          ],
+          [
+            40,
+            60,
+            197,
+            222
+          ],
+          [
+            40,
+            60,
+            197,
+            222
+          ],
+          [
+            40,
+            60,
+            197,
+            222
+          ],
+          [
+            40,
+            60,
+            198,
+            222
+          ]
+        ],
+        "loop_closure_exact": true,
+        "contact": "assets/homie-loaders/qa/strict-repairs/gary-veeing-crm/report-independent/contacts/gary-veeing-crm-gif-128.png"
+      },
+      "visual_evidence": {
+        "source_full_contact": "assets/homie-loaders/qa/strict-repairs/gary-veeing-crm/report-independent/contacts/gary-veeing-crm-source-full.png",
+        "source_128_contact": "assets/homie-loaders/qa/strict-repairs/gary-veeing-crm/report-independent/contacts/gary-veeing-crm-source-128.png"
+      },
+      "manual_review": {
+        "complete": true,
+        "signature_action_readable": true,
+        "stationary_elements_stable": true,
+        "loop_motion_natural": true,
+        "notes": "Independent review of the 1254px source contact, all four full-size cells, all four 128px cells, and the decoded six-frame 128px GIF contact. The subject is unambiguously the male CRM identity: tan male face, grey beanie, stubble, and navy shirt. Both hands are open at shoulder/head height, each with four fingers plus a separate thumb, and remain attached to their original arms through the restrained opposing emphasis motion. Face, beanie, shirt core, crop, and scale remain locked. No sex/role swap, overhead pose, fused/extra digit, detached fragment, redraw drift, crop fault, or green debris is visible."
+      },
+      "failures": [],
+      "warnings": [],
+      "passed": true
+    }
+  ]
+}

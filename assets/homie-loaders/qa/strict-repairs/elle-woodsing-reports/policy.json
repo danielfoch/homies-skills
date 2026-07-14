@@ -1,0 +1,28 @@
+{
+  "elle-woodsing-reports": {
+    "concept": "A clearly female Homie in a hot-pink suit and sunglasses holds a coordinated handbag and a small sweater-wearing chihuahua.",
+    "action_expectation": "The chihuahua's connected outer forepaw makes a compact friendly wave while the woman, sunglasses, ponytail, hot-pink suit, handbag, holding arm, dog body, legs and feet remain fixed.",
+    "signature_action": true,
+    "min_silhouette_motion_px": 3.0,
+    "min_mask_xor_pct": 0.3,
+    "allow_global_motion": false,
+    "max_global_drift_px": 0.5,
+    "fixed_character_plate": true,
+    "max_registered_residual_pct": 5.0,
+    "min_upper_anchor_ncc": 0.98,
+    "min_margin_px": 60,
+    "max_bbox_span_pct": 4.0,
+    "stationary_regions": [
+      {
+        "name": "female-homie-face-ponytail-suit-handbag-left-core",
+        "box": [0.0, 0.0, 0.58, 1.0],
+        "max_change_pct": 0.0
+      },
+      {
+        "name": "fixed-lower-body-handbag-dog-body-legs-feet",
+        "box": [0.0, 0.38, 1.0, 1.0],
+        "max_change_pct": 0.0
+      }
+    ]
+  }
+}

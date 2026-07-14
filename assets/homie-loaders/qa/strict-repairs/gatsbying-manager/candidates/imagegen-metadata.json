@@ -1,0 +1,8 @@
+{
+  "mode": "built-in image_gen",
+  "canonical_identity_reference": "assets/homie-loaders/sources/manager/decode-goal.png",
+  "wardrobe_pose_reference": "/var/folders/kz/c40hnqf51b78kdv_h64qjj0h0000gn/T/codex-clipboard-b64f7135-4e22-43ae-b302-7290f0b10d4b.png",
+  "accepted_prompt": "imagegen-prompt.txt",
+  "accepted_chroma_output": "raw-chroma.png",
+  "targeted_edit_prompts": []
+}

@@ -1,0 +1,43 @@
+{
+  "walter-whiting-crm": {
+    "cells": [
+      {
+        "full_size_inspected": false,
+        "thumbnail_128_inspected": false,
+        "crop_clear": false,
+        "anatomy_clear": false,
+        "prop_continuity_clear": false,
+        "no_unintended_redraw_wiggle": false
+      },
+      {
+        "full_size_inspected": false,
+        "thumbnail_128_inspected": false,
+        "crop_clear": false,
+        "anatomy_clear": false,
+        "prop_continuity_clear": false,
+        "no_unintended_redraw_wiggle": false
+      },
+      {
+        "full_size_inspected": false,
+        "thumbnail_128_inspected": false,
+        "crop_clear": false,
+        "anatomy_clear": false,
+        "prop_continuity_clear": false,
+        "no_unintended_redraw_wiggle": false
+      },
+      {
+        "full_size_inspected": false,
+        "thumbnail_128_inspected": false,
+        "crop_clear": false,
+        "anatomy_clear": false,
+        "prop_continuity_clear": false,
+        "no_unintended_redraw_wiggle": false
+      }
+    ],
+    "signature_action_readable": false,
+    "stationary_elements_stable": false,
+    "loop_motion_natural": false,
+    "action_expectation": "The CRM identity, face, body, hands, hazmat suit, respirator geometry, and single briefcase remain pixel-locked while only a glasses glint and respirator-filter highlight pulse locally.",
+    "notes": ""
+  }
+}
