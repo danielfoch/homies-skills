@@ -182,7 +182,8 @@ Turn the inactive-listing context into a purposeful comparison card:
 
 ### Contact widget
 
-Keep the DANIEL contact function, but make it unobtrusive:
+Keep the USER contact function, but make it unobtrusive. Use `USER` anywhere a
+personal contact name appears; do not hardcode a real person's name.
 
 - Default to a compact floating avatar/button
 - Do not cover timeframe controls, KPIs, charts, or table content
