@@ -1,0 +1,257 @@
+{
+  "wildcard/lab-tests-research": {
+    "frames": [
+      {},
+      {
+        "dx": -2
+      },
+      {
+        "dx": -1,
+        "scale": 0.97
+      },
+      {
+        "dx": -1,
+        "scale": 0.99
+      }
+    ]
+  },
+  "wildcard/sniff-test-listings": {
+    "frames": [
+      {},
+      {
+        "dx": 4,
+        "dy": -2
+      },
+      {
+        "dx": -5,
+        "dy": -5,
+        "scale": 0.97
+      },
+      {
+        "dx": 18,
+        "dy": -1,
+        "scale": 0.99
+      }
+    ]
+  },
+  "wildcard/options-scale-offers": {
+    "frames": [
+      {},
+      {
+        "dx": 5
+      },
+      {
+        "dx": -1
+      },
+      {
+        "dx": 5,
+        "dy": 1,
+        "scale": 1.01
+      }
+    ]
+  },
+  "wildcard/seed-planting-crm": {
+    "frames": [
+      {},
+      {
+        "dx": 9
+      },
+      {
+        "dy": 2
+      },
+      {
+        "dx": 13,
+        "dy": 2
+      }
+    ]
+  },
+  "wildcard/gold-carrot-harvest-cma": {
+    "frames": [
+      {},
+      {
+        "dx": -6,
+        "dy": -2,
+        "scale": 1.02
+      },
+      {
+        "dx": -5,
+        "dy": 3,
+        "scale": 1.02
+      },
+      {
+        "dx": 4,
+        "dy": 4,
+        "scale": 1.05
+      }
+    ]
+  },
+  "wildcard/super-homie-manager": {
+    "frames": [
+      {},
+      {
+        "dx": 5,
+        "dy": -1,
+        "scale": 0.98
+      },
+      {
+        "dx": 2,
+        "dy": -2,
+        "scale": 0.98
+      },
+      {
+        "dx": 4,
+        "dy": -3,
+        "scale": 0.97
+      }
+    ]
+  },
+  "wildcard/megaphone-amplify-marketing": {
+    "frames": [
+      {},
+      {
+        "dx": 28
+      },
+      {
+        "dy": 3
+      },
+      {
+        "dx": 28,
+        "dy": 3
+      }
+    ]
+  },
+  "wildcard/guitar-amp-content": {
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/harmonizing-manager-keyboard": {
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/harmonizing-marketing-drums": {
+    "frames": [
+      {},
+      {
+        "dx": 2
+      },
+      {
+        "dx": 1,
+        "dy": 2,
+        "scale": 1.01
+      },
+      {
+        "dx": 2,
+        "dy": 1
+      }
+    ]
+  },
+  "wildcard/harmonizing-research-saxophone": {
+    "frames": [
+      {},
+      {
+        "dx": 9
+      },
+      {
+        "dx": 2
+      },
+      {
+        "dx": 11
+      }
+    ]
+  },
+  "wildcard/harmonizing-content-bass": {
+    "frames": [
+      {},
+      {
+        "dx": 2,
+        "dy": 1,
+        "scale": 1.01
+      },
+      {
+        "dy": 1
+      },
+      {
+        "dx": 2,
+        "dy": 2,
+        "scale": 1.01
+      }
+    ]
+  },
+  "wildcard/full-shovel-dig-listings": {
+    "frames": [
+      {},
+      {
+        "dx": 20,
+        "dy": -2
+      },
+      {
+        "dx": -4,
+        "dy": 6
+      },
+      {
+        "dx": 56,
+        "dy": 6
+      }
+    ]
+  },
+  "wildcard/cash-rake-offers": {
+    "frames": [
+      {},
+      {
+        "dx": -5
+      },
+      {
+        "dx": -6
+      },
+      {
+        "dx": -17,
+        "dy": 1
+      }
+    ]
+  },
+  "wildcard/moptimizing-crm": {
+    "frames": [
+      {},
+      {
+        "dx": 11
+      },
+      {
+        "dx": 15,
+        "dy": 3,
+        "scale": 1.02
+      },
+      {
+        "dx": 18,
+        "dy": 1
+      }
+    ]
+  },
+  "wildcard/paint-remix-marketing": {
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/dj-remix-content": {
+    "frames": [
+      {},
+      {
+        "dx": 1
+      },
+      {},
+      {
+        "dx": 1
+      }
+    ]
+  }
+}

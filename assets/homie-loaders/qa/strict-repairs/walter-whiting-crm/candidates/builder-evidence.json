@@ -1,0 +1,136 @@
+{
+  "slug": "walter-whiting-crm",
+  "builder": "/Users/danielfoch/Documents/Homies/assets/homie-loaders/scripts/build_candidate_walter_whiting_crm.py",
+  "builder_sha256": "27f79d0537ce9476012216a36ad980a49980ebd814dc2593ddbd16e0206d2268",
+  "immutable_alpha": {
+    "path": "/Users/danielfoch/Documents/Homies/assets/homie-loaders/qa/strict-repairs/raw/walter-whiting-crm-alpha.png",
+    "sha256": "994483ad6390e70ac43a862a9213a5d5b24ead56aa2b3e3bf643c900003e3230",
+    "size": [
+      1189,
+      1323
+    ]
+  },
+  "accepted_chroma": {
+    "path": "/Users/danielfoch/Documents/Homies/assets/homie-loaders/qa/strict-repairs/walter-whiting-crm/candidates/raw/walter-whiting-crm-chroma.png",
+    "sha256": "0acddc575a1789fba5cdc629bdcf117762676da416a440731e26c88ffddb4836"
+  },
+  "locked_plate": {
+    "path": "/Users/danielfoch/Documents/Homies/assets/homie-loaders/qa/strict-repairs/walter-whiting-crm/candidates/frames/walter-whiting-crm/locked-crm-hazmat-respirator-and-briefcase.png",
+    "sha256": "07165a8f1cc02b6b3a30adc167060984bb2ad6bf5233f68932b9e9c3a431f1cb"
+  },
+  "allowed_local_highlight_mask": {
+    "path": "/Users/danielfoch/Documents/Homies/assets/homie-loaders/qa/strict-repairs/walter-whiting-crm/candidates/frames/walter-whiting-crm/allowed-glasses-and-respirator-highlight-mask.png",
+    "sha256": "77e58273770baec6116cb4e843b7a2a9b70830fd2d3d03cd7c1d824695ad0173",
+    "glasses_box": [
+      292,
+      94,
+      352,
+      123
+    ],
+    "respirator_box": [
+      292,
+      145,
+      354,
+      192
+    ]
+  },
+  "motion": {
+    "kind": "static locked plate with local glasses glint and respirator-filter pulse",
+    "glasses_glint_x_px": [
+      299,
+      309,
+      320,
+      331
+    ],
+    "filter_radii_px": [
+      2,
+      3,
+      5,
+      3
+    ]
+  },
+  "authored_cells": [
+    {
+      "path": "/Users/danielfoch/Documents/Homies/assets/homie-loaders/qa/strict-repairs/walter-whiting-crm/candidates/frames/walter-whiting-crm/cell-0.png",
+      "sha256": "ba15dd1bfb551199c3ac61d59507a92d321e1df8e799f5025fc9bfbf80096621"
+    },
+    {
+      "path": "/Users/danielfoch/Documents/Homies/assets/homie-loaders/qa/strict-repairs/walter-whiting-crm/candidates/frames/walter-whiting-crm/cell-1.png",
+      "sha256": "0189f806450b5e1ef92626b6b7db6ddc982a5f0144191e0376b433faffa51a93"
+    },
+    {
+      "path": "/Users/danielfoch/Documents/Homies/assets/homie-loaders/qa/strict-repairs/walter-whiting-crm/candidates/frames/walter-whiting-crm/cell-2.png",
+      "sha256": "47ffa0cd1f71740473b176f55d885aa95601b54880eb2a8b8d4aa353cfabf3fd"
+    },
+    {
+      "path": "/Users/danielfoch/Documents/Homies/assets/homie-loaders/qa/strict-repairs/walter-whiting-crm/candidates/frames/walter-whiting-crm/cell-3.png",
+      "sha256": "2f9b21f347fb8d188e215a706ea491878202c58dda1660818fa742ed2ea02d26"
+    }
+  ],
+  "source": {
+    "path": "/Users/danielfoch/Documents/Homies/assets/homie-loaders/qa/strict-repairs/walter-whiting-crm/candidates/sources/wildcard/walter-whiting-crm.png",
+    "sha256": "3c30d08ce62138368d0ec71a261b0e573de85c0520acc0a26db47ad680939944"
+  },
+  "gif": {
+    "path": "/Users/danielfoch/Documents/Homies/assets/homie-loaders/qa/strict-repairs/walter-whiting-crm/candidates/gifs/wildcard/walter-whiting-crm.gif",
+    "sha256": "d1086c933c49a0e2e9ee1959fd3fcf768b042e97f5637318d27d5d58dd5f959d",
+    "sequence": [
+      0,
+      1,
+      2,
+      3,
+      2,
+      1
+    ],
+    "durations_ms": [
+      210,
+      140,
+      140,
+      210,
+      140,
+      140
+    ]
+  },
+  "assertions": {
+    "frame_pixel_hashes": [
+      "910783afdf126d48667984c70a3dcd789314506d2d8a752374ebb4c0c741eeb4",
+      "d1c52bf63b766a29c8091de33a5555a75a533b666b7700f9e7d12e79f8c73a5f",
+      "706d67d3888f3773cf104e3928e0081e057b14b104a272ec951735358702e450",
+      "867f8531a66844af4b894a6bf9f321b53be35f65636b2762719f365618e8c9b2"
+    ],
+    "foreground_areas": [
+      52689,
+      52689,
+      52689,
+      52689
+    ],
+    "foreground_area_span": 0.0,
+    "bboxes": [
+      [
+        221,
+        74,
+        405,
+        552
+      ],
+      [
+        221,
+        74,
+        405,
+        552
+      ],
+      [
+        221,
+        74,
+        405,
+        552
+      ],
+      [
+        221,
+        74,
+        405,
+        552
+      ]
+    ],
+    "motion_ratio": 0.011672265558275921
+  }
+}

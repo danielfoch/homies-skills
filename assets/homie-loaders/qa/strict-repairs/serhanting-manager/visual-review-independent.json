@@ -1,0 +1,66 @@
+{
+  "serhanting-manager": {
+    "cells": [
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      }
+    ],
+    "signature_action_readable": true,
+    "stationary_elements_stable": true,
+    "loop_motion_natural": true,
+    "action_expectation": "At full size and 128px, read hands fastening and releasing the centre button; face, torso, lapels, tie, pinstripes, crop, and scale stay fixed.",
+    "notes": "Independent review of the 1254px source contact, all four full-size cells, all four 128px cells, and the decoded six-frame 128px GIF contact. At 128px the two hands visibly progress from separated at the jacket fronts, through approach, to contact at the same centre button, with the click phase reinforcing fastening before the reversible reset. The male Manager identity, medium-blue pinstripe jacket, pink tie, lapels, face, torso, crop, and scale remain locked; the pinstripes remain legible at 128px. No hand fusion outside the contact phase, stray ray, redraw drift, crop fault, or green debris is visible.",
+    "independent_audit": {
+      "verdict": "PASS",
+      "identity_reference": "assets/homie-loaders/sources/manager/decode-goal.png",
+      "identity_reference_sha256": "889dad569156d8f1376931db7a540d1f24c9c33dc158e18edea68744c4cd6878",
+      "source_sha256_rebuilt": "1ae6833056cc64ebf1025a07ff86144373070d5c12bb23c9ebf7b5ea2b786fe3",
+      "gif_sha256_rebuilt": "ec406f690b731c8388d3a60783791948069ce85442b83f5d04cc890b9d74ee3f",
+      "isolated_rebuild_byte_exact": true,
+      "rebuilt_artifacts_compared": [
+        "raw-alpha.png",
+        "locked-plate.png",
+        "alpha-normalized.png",
+        "serhanting-manager.png",
+        "serhanting-manager.gif",
+        "build-evidence.json"
+      ],
+      "frame_rgba_hashes_match_build_evidence": true,
+      "direct_changed_pixels_outside_allowed_rigs_vs_locked_plate": [0, 0, 0, 0],
+      "changed_pixels_at_128_vs_phase_0": [0, 583, 595, 654],
+      "static_face_torso_hashes_unique": 1,
+      "alpha_area_span_pct": 0.0,
+      "minimum_margin_px": 75,
+      "mandatory_repair_notes": []
+    }
+  }
+}

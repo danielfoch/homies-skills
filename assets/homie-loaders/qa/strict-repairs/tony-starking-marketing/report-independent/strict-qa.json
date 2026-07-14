@@ -1,0 +1,362 @@
+{
+  "results": [
+    {
+      "slug": "tony-starking-marketing",
+      "concept": "Canonical Marketing Homie in a red/gold powered suit with palm and chest energy pulse",
+      "action_expectation": "The raised armored open palm and chest reactor pulse in four authored intensities while face, anatomy, suit, crop, anchor, and scale remain fixed.",
+      "source": "assets/homie-loaders/qa/strict-repairs/tony-starking-marketing/candidates/sources/wildcard/tony-starking-marketing.png",
+      "source_sha256": "0f7331eb81717dc6920d26fb4b8ec25cefec356980be5777b48cade22dd7aea9",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_mode": "RGB",
+      "grid": [
+        2,
+        2
+      ],
+      "key_geometry": {
+        "outer_edge_non_key_pixels": 0,
+        "gutter_axis_non_key_pixels": 0
+      },
+      "cells": [
+        {
+          "index": 0,
+          "sha256_rgb": "7564749a7bd321e0f851ec24bd126a73dcefe725b34379ac61308a8e134f2a71",
+          "foreground_pixels": 47716,
+          "foreground_pct": 12.1375,
+          "bbox": [
+            210,
+            70,
+            416,
+            557
+          ],
+          "margins": [
+            210,
+            211,
+            70,
+            70
+          ],
+          "minimum_margin": 70,
+          "centroid": [
+            331.27,
+            294.089
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 95,
+            "areas": [
+              47716
+            ],
+            "largest_area": 47716
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 1,
+          "sha256_rgb": "6d1fc189d09a2301a4f9f4c60b125b14160f775a89fab04fa6d1214a8aa213ae",
+          "foreground_pixels": 47716,
+          "foreground_pct": 12.1375,
+          "bbox": [
+            210,
+            70,
+            416,
+            557
+          ],
+          "margins": [
+            210,
+            211,
+            70,
+            70
+          ],
+          "minimum_margin": 70,
+          "centroid": [
+            331.27,
+            294.089
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 95,
+            "areas": [
+              47716
+            ],
+            "largest_area": 47716
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 2,
+          "sha256_rgb": "abdd3839dae83b9ae1df172c41580971c00ec80e8c39d9c1828975e6e226e83d",
+          "foreground_pixels": 47722,
+          "foreground_pct": 12.139,
+          "bbox": [
+            210,
+            70,
+            416,
+            557
+          ],
+          "margins": [
+            210,
+            211,
+            70,
+            70
+          ],
+          "minimum_margin": 70,
+          "centroid": [
+            331.257,
+            294.074
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 95,
+            "areas": [
+              47722
+            ],
+            "largest_area": 47722
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 3,
+          "sha256_rgb": "5c9959a1721e5c5112ede34249803358a3034b01f8cf0e6f12adc35044e13a99",
+          "foreground_pixels": 47769,
+          "foreground_pct": 12.151,
+          "bbox": [
+            210,
+            70,
+            416,
+            557
+          ],
+          "margins": [
+            210,
+            211,
+            70,
+            70
+          ],
+          "minimum_margin": 70,
+          "centroid": [
+            331.146,
+            293.956
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 96,
+            "areas": [
+              47769
+            ],
+            "largest_area": 47769
+          },
+          "artifact_flags": []
+        }
+      ],
+      "pair_metrics": [
+        {
+          "mask_xor_pct": 0.0,
+          "silhouette_motion_p95_px": 0.0,
+          "silhouette_motion_max_px": 0.0,
+          "centroid_shift_px": 0.0,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 1.0,
+          "registered_residual_pct": 1.6808,
+          "upper_anchor_ncc": 0.9939
+        },
+        {
+          "mask_xor_pct": 0.0126,
+          "silhouette_motion_p95_px": 1.0,
+          "silhouette_motion_max_px": 1.0,
+          "centroid_shift_px": 0.02,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9999,
+          "registered_residual_pct": 2.2107,
+          "upper_anchor_ncc": 0.9895
+        },
+        {
+          "mask_xor_pct": 0.0984,
+          "silhouette_motion_p95_px": 2.236,
+          "silhouette_motion_max_px": 2.828,
+          "centroid_shift_px": 0.162,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.999,
+          "registered_residual_pct": 2.7068,
+          "upper_anchor_ncc": 0.9893
+        }
+      ],
+      "aggregate": {
+        "max_silhouette_motion_p95_px": 2.236,
+        "max_mask_xor_pct": 0.0984,
+        "max_centroid_shift_px": 0.162,
+        "max_registration_shift_px": 0.0,
+        "max_registered_residual_pct": 2.7068,
+        "minimum_upper_anchor_ncc": 0.9893,
+        "foreground_area_span_pct": 0.1111,
+        "bbox_width_span_pct": 0.0,
+        "bbox_height_span_pct": 0.0,
+        "significant_component_count_span": 0
+      },
+      "stationary_regions": [
+        {
+          "name": "locked lower body and boots",
+          "box_pixels": [
+            226,
+            245,
+            414,
+            571
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.0
+        }
+      ],
+      "gif": {
+        "path": "assets/homie-loaders/qa/strict-repairs/tony-starking-marketing/candidates/gifs/wildcard/tony-starking-marketing.gif",
+        "exists": true,
+        "sha256": "5abb05d4b2a993c127f2585b91eea0f8ffdff9bbe7c5bb8ae837b9b4c1c9b17a",
+        "bytes": 50555,
+        "size": [
+          256,
+          256
+        ],
+        "frame_count": 6,
+        "unique_phases": 4,
+        "equality_pattern": [
+          0,
+          1,
+          2,
+          3,
+          2,
+          1
+        ],
+        "durations_ms": [
+          210,
+          140,
+          140,
+          210,
+          140,
+          140
+        ],
+        "loop": 0,
+        "has_transparency": true,
+        "corner_alphas": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "alpha_bboxes": [
+          [
+            86,
+            29,
+            170,
+            227
+          ],
+          [
+            86,
+            29,
+            170,
+            227
+          ],
+          [
+            86,
+            29,
+            170,
+            227
+          ],
+          [
+            86,
+            29,
+            170,
+            227
+          ],
+          [
+            86,
+            29,
+            170,
+            227
+          ],
+          [
+            86,
+            29,
+            170,
+            227
+          ]
+        ],
+        "loop_closure_exact": true,
+        "contact": "assets/homie-loaders/qa/strict-repairs/tony-starking-marketing/report-independent/contacts/tony-starking-marketing-gif-128.png"
+      },
+      "visual_evidence": {
+        "source_full_contact": "assets/homie-loaders/qa/strict-repairs/tony-starking-marketing/report-independent/contacts/tony-starking-marketing-source-full.png",
+        "source_128_contact": "assets/homie-loaders/qa/strict-repairs/tony-starking-marketing/report-independent/contacts/tony-starking-marketing-source-128.png"
+      },
+      "manual_review": {
+        "complete": true,
+        "signature_action_readable": true,
+        "stationary_elements_stable": true,
+        "loop_motion_natural": true,
+        "notes": "Independent inspection of every full-size cell, every 128px cell, and all six decoded GIF phases confirms one canonical adult male Marketing Homie in one continuous red-and-gold powered suit, with one raised five-finger armored palm and one chest reactor. Both emitter pulses remain legible at 128px while face, beard, anatomy, suit seams, boots, crop, anchor, and scale stay fixed. No redraw wiggle, extra prop, text, debris, or whole-frame scale jump is present."
+      },
+      "failures": [],
+      "warnings": [],
+      "passed": true
+    }
+  ]
+}

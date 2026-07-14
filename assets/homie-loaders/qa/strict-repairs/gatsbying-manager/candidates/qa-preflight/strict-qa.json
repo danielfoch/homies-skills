@@ -1,0 +1,376 @@
+{
+  "results": [
+    {
+      "slug": "gatsbying-manager",
+      "concept": "Canonical Manager Homie holds one continuous champagne toast while a single locked arm-and-glass rig makes a restrained reversible lift.",
+      "action_expectation": "At full size and 128px, read one coherent coupe toast with one stable glass, hand, face, tuxedo, crop, and scale.",
+      "source": "assets/homie-loaders/qa/strict-repairs/gatsbying-manager/candidates/gatsbying-manager.png",
+      "source_sha256": "a354e8b829adcb45bde98864eeb108f21a97cd3dc953361627a3a1b69098b30b",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_mode": "RGB",
+      "grid": [
+        2,
+        2
+      ],
+      "key_geometry": {
+        "outer_edge_non_key_pixels": 0,
+        "gutter_axis_non_key_pixels": 0
+      },
+      "cells": [
+        {
+          "index": 0,
+          "sha256_rgb": "8cfd811999b2cf9de2c7e666f96217fe1d631567ac4d7a2600b32ad617c5695e",
+          "foreground_pixels": 84611,
+          "foreground_pct": 21.5225,
+          "bbox": [
+            122,
+            86,
+            423,
+            539
+          ],
+          "margins": [
+            122,
+            204,
+            86,
+            88
+          ],
+          "minimum_margin": 86,
+          "centroid": [
+            281.966,
+            342.682
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 169,
+            "areas": [
+              84611
+            ],
+            "largest_area": 84611
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 1,
+          "sha256_rgb": "5554997bd43354c7a97ca66050a49ada5fb4deaaaa31c8a80f84fabb726f3c30",
+          "foreground_pixels": 84676,
+          "foreground_pct": 21.539,
+          "bbox": [
+            125,
+            86,
+            423,
+            539
+          ],
+          "margins": [
+            125,
+            204,
+            86,
+            88
+          ],
+          "minimum_margin": 86,
+          "centroid": [
+            281.996,
+            342.636
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 169,
+            "areas": [
+              84676
+            ],
+            "largest_area": 84676
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 2,
+          "sha256_rgb": "01a1d9d5043245a2b1865801b19db9432eacbe277d726d0f27b87f47e7e90558",
+          "foreground_pixels": 84805,
+          "foreground_pct": 21.5718,
+          "bbox": [
+            126,
+            86,
+            423,
+            539
+          ],
+          "margins": [
+            126,
+            204,
+            86,
+            88
+          ],
+          "minimum_margin": 86,
+          "centroid": [
+            281.965,
+            342.445
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 170,
+            "areas": [
+              84805
+            ],
+            "largest_area": 84805
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 3,
+          "sha256_rgb": "f3d5428ebcf9c257ad0c338c6ca1957116ee8b345f3d4d570b7ffc1983b90472",
+          "foreground_pixels": 84951,
+          "foreground_pct": 21.6089,
+          "bbox": [
+            126,
+            86,
+            423,
+            539
+          ],
+          "margins": [
+            126,
+            204,
+            86,
+            88
+          ],
+          "minimum_margin": 86,
+          "centroid": [
+            281.902,
+            342.29
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 170,
+            "areas": [
+              84951
+            ],
+            "largest_area": 84951
+          },
+          "artifact_flags": []
+        }
+      ],
+      "pair_metrics": [
+        {
+          "mask_xor_pct": 1.0845,
+          "silhouette_motion_p95_px": 3.162,
+          "silhouette_motion_max_px": 4.123,
+          "centroid_shift_px": 0.056,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9892,
+          "registered_residual_pct": 5.0831,
+          "upper_anchor_ncc": 0.966
+        },
+        {
+          "mask_xor_pct": 1.0646,
+          "silhouette_motion_p95_px": 3.162,
+          "silhouette_motion_max_px": 4.123,
+          "centroid_shift_px": 0.193,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9894,
+          "registered_residual_pct": 5.2292,
+          "upper_anchor_ncc": 0.9657
+        },
+        {
+          "mask_xor_pct": 1.0268,
+          "silhouette_motion_p95_px": 3.162,
+          "silhouette_motion_max_px": 4.243,
+          "centroid_shift_px": 0.168,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9897,
+          "registered_residual_pct": 5.2276,
+          "upper_anchor_ncc": 0.9649
+        }
+      ],
+      "aggregate": {
+        "max_silhouette_motion_p95_px": 3.162,
+        "max_mask_xor_pct": 1.0845,
+        "max_centroid_shift_px": 0.193,
+        "max_registration_shift_px": 0.0,
+        "max_registered_residual_pct": 5.2292,
+        "minimum_upper_anchor_ncc": 0.9649,
+        "foreground_area_span_pct": 0.4012,
+        "bbox_width_span_pct": 1.3445,
+        "bbox_height_span_pct": 0.0,
+        "significant_component_count_span": 0
+      },
+      "stationary_regions": [
+        {
+          "name": "locked-face",
+          "box_pixels": [
+            260,
+            92,
+            325,
+            215
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.1
+        },
+        {
+          "name": "locked-tuxedo-core",
+          "box_pixels": [
+            270,
+            255,
+            355,
+            500
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.1
+        }
+      ],
+      "gif": {
+        "path": "assets/homie-loaders/qa/strict-repairs/gatsbying-manager/candidates/gatsbying-manager.gif",
+        "exists": true,
+        "sha256": "085f3f58c889dcd46acdf963307e7c5310ccc6bb4ac67fa6758ea223e9776f86",
+        "bytes": 63594,
+        "size": [
+          256,
+          256
+        ],
+        "frame_count": 6,
+        "unique_phases": 4,
+        "equality_pattern": [
+          0,
+          1,
+          2,
+          3,
+          2,
+          1
+        ],
+        "durations_ms": [
+          210,
+          140,
+          140,
+          210,
+          140,
+          140
+        ],
+        "loop": 0,
+        "has_transparency": true,
+        "corner_alphas": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "alpha_bboxes": [
+          [
+            50,
+            35,
+            173,
+            220
+          ],
+          [
+            51,
+            35,
+            173,
+            220
+          ],
+          [
+            52,
+            35,
+            173,
+            220
+          ],
+          [
+            53,
+            35,
+            173,
+            220
+          ],
+          [
+            52,
+            35,
+            173,
+            220
+          ],
+          [
+            51,
+            35,
+            173,
+            220
+          ]
+        ],
+        "loop_closure_exact": true,
+        "contact": "assets/homie-loaders/qa/strict-repairs/gatsbying-manager/candidates/qa-preflight/contacts/gatsbying-manager-gif-128.png"
+      },
+      "visual_evidence": {
+        "source_full_contact": "assets/homie-loaders/qa/strict-repairs/gatsbying-manager/candidates/qa-preflight/contacts/gatsbying-manager-source-full.png",
+        "source_128_contact": "assets/homie-loaders/qa/strict-repairs/gatsbying-manager/candidates/qa-preflight/contacts/gatsbying-manager-source-128.png"
+      },
+      "manual_review": {
+        "complete": false
+      },
+      "failures": [
+        "VISUAL_REVIEW_REQUIRED"
+      ],
+      "warnings": [],
+      "passed": false
+    }
+  ]
+}

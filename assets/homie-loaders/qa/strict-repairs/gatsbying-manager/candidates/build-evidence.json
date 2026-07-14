@@ -1,0 +1,67 @@
+{
+  "selected_panel": 3,
+  "selected_panel_role": "only immutable face, torso, tuxedo, arm, hand and glass source",
+  "registration_shift_per_phase": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ]
+  ],
+  "shared_scale_per_phase": [
+    0.78,
+    0.78,
+    0.78,
+    0.78
+  ],
+  "angles_degrees": [
+    -3.0,
+    -1.0,
+    1.0,
+    3.0
+  ],
+  "frame_sha256_rgba": [
+    "d12b70481fe2fb0a10bb0866075dca8c178a1bafdc1d45728c485e64c279d6ba",
+    "8ffa4fb6d55725875beefdb042145c5030eb0eb4ea4c8a711c86c3ebb7ac9091",
+    "7c58053712b6c353d494b043815651053051765989107be118078f9503c70f0a",
+    "7dd214ffb7ec6ddc9f617fdb29737c77f942426a2576ebeeafa85310f61bfc30"
+  ],
+  "static_face_torso_sha256_rgba": [
+    "97acf42a040394ea64696d1ce796d1020b5f061338dbf952ce4289a4bb311358",
+    "97acf42a040394ea64696d1ce796d1020b5f061338dbf952ce4289a4bb311358",
+    "97acf42a040394ea64696d1ce796d1020b5f061338dbf952ce4289a4bb311358",
+    "97acf42a040394ea64696d1ce796d1020b5f061338dbf952ce4289a4bb311358"
+  ],
+  "minimum_margin_px": 86,
+  "changed_pixels_outside_rig": 0,
+  "sequence": [
+    0,
+    1,
+    2,
+    3,
+    2,
+    1
+  ],
+  "durations_ms": [
+    210,
+    140,
+    140,
+    210,
+    140,
+    140
+  ],
+  "raw_chroma_sha256": "df1d0cc14aa84b2fae2e9946ecbdd7b750e3751fed24da445540a87fbb879ea9",
+  "raw_alpha_sha256": "c33d55265d59e037361e836f46e5af1cc6bad81423f644d330053e3bbe06cdbf",
+  "locked_plate_sha256": "3666617a7d7b9d774cd41cb12abaadaa370150640e141d028ce1ed47afff21a9"
+}

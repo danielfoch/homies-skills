@@ -1,0 +1,54 @@
+{
+  "cha-cha-sliding-marketing": {
+    "cells": [
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true}
+    ],
+    "signature_action_readable": true,
+    "stationary_elements_stable": true,
+    "loop_motion_natural": true,
+    "action_expectation": "Crossed-foot gold-jacket Cha Cha Slide step.",
+    "notes": "Reviewed all four 627px cells, four 128px cells and six-frame GIF contact. One locked gold-jacket character; only connected boots move; no scale, crop, duplicate-body or face drift."
+  },
+  "harlem-shaking-listings": {
+    "cells": [
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true}
+    ],
+    "signature_action_readable": true,
+    "stationary_elements_stable": true,
+    "loop_motion_natural": true,
+    "action_expectation": "Original-meme pink-suit leaned Harlem Shake with counter-swinging low fists.",
+    "notes": "Reviewed all four 627px cells, four 128px cells and six-frame GIF contact. Pink suit/face/legs are one immutable plate; both connected arms counter-swing without a second character, ghost hands or scale pumping."
+  },
+  "umbrella-ing-manager": {
+    "cells": [
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true}
+    ],
+    "signature_action_readable": true,
+    "stationary_elements_stable": true,
+    "loop_motion_natural": true,
+    "action_expectation": "Manager physically grips one broad transparent umbrella while a canopy glint passes.",
+    "notes": "Reviewed all four 627px cells, four 128px cells and six-frame GIF contact. Hooked handle is visibly in the hand and connected through shaft/ribs to one complete canopy; body, umbrella size and anchor are unchanged."
+  },
+  "dougie-ing-content": {
+    "cells": [
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true}
+    ],
+    "signature_action_readable": true,
+    "stationary_elements_stable": true,
+    "loop_motion_natural": true,
+    "action_expectation": "Mid-Dougie chest brush with white tee/black pants and one clean low-hand sweep.",
+    "notes": "Rejected the first hands-at-head rig and regenerated a cleaner mid-Dougie locked plate. Reviewed all four 627px cells, four 128px cells and six-frame GIF contact: face, shirt, chest-brush arm, legs and camera are exact; only the skin-isolated low distal forearm sweeps around its elbow with no sleeve cuts or leftover fragments."
+  }
+}

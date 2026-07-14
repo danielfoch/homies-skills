@@ -1,0 +1,54 @@
+{
+  "cha-cha-sliding-marketing": {
+    "cells": [
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true}
+    ],
+    "signature_action_readable": true,
+    "stationary_elements_stable": true,
+    "loop_motion_natural": true,
+    "action_expectation": "Gold jacket, black outfit, long silver chain and crossed-foot cha-cha step read immediately; head, torso and jacket remain locked while only the connected boots slide.",
+    "notes": "Independent inspection of all four full cells and the six decoded 128px GIF frames: exact gold-cover wardrobe and crossed-foot pose, one fixed body, two connected boots, no head crop, overlap, scaling, debris, or palette shimmer."
+  },
+  "harlem-shaking-listings": {
+    "cells": [
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true}
+    ],
+    "signature_action_readable": true,
+    "stationary_elements_stable": true,
+    "loop_motion_natural": true,
+    "action_expectation": "The pink suit, leaned stance and alternating fists match the original meme without a second body, scale pumping or redrawn face.",
+    "notes": "Independent inspection confirms the bright-pink full-body meme suit and low-fist shake; exactly one glasses-wearing Listings Homie persists and only the two connected arms counter-swing."
+  },
+  "umbrella-ing-manager": {
+    "cells": [
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true}
+    ],
+    "signature_action_readable": true,
+    "stationary_elements_stable": true,
+    "loop_motion_natural": true,
+    "action_expectation": "One open transparent umbrella is visibly connected from hooked handle in hand through shaft and ribs to canopy; Manager body and umbrella geometry remain fixed.",
+    "notes": "Independent inspection confirms an actual held transparent umbrella with complete dome, ribs, shaft, hooked handle, and natural gripping hand; the canopy glint moves without prop or body drift."
+  },
+  "dougie-ing-content": {
+    "cells": [
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true}
+    ],
+    "signature_action_readable": true,
+    "stationary_elements_stable": true,
+    "loop_motion_natural": true,
+    "action_expectation": "White tee, black pants, fixed chest-brush forearm and clean low-hand elbow sweep read as the Dougie; face, shirt, shoulders and legs remain locked.",
+    "notes": "Independent review rejected the first hands-at-head candidate. The accepted v3 has one clean chest-brush pose and one natural low forearm sweep with no face overlap, jagged sleeve cut, duplicate limb, or redraw drift."
+  }
+}

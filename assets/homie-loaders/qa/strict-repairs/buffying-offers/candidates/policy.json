@@ -1,0 +1,22 @@
+{
+  "buffying-offers": {
+    "concept": "Exactly one female Offers Homie in a simple black outfit holds exactly one wooden stake in a ready hunter stance.",
+    "action_expectation": "The immutable female Offers identity, anatomy, empty second hand, black outfit, and single wooden stake remain one rigid rig through a boot-anchored guarded lean.",
+    "signature_action": false,
+    "allow_global_motion": true,
+    "fixed_character_plate": false,
+    "min_margin_px": 60,
+    "max_foreground_area_span_pct": 1.0,
+    "max_bbox_span_pct": 6.0,
+    "max_tiny_components": 0,
+    "max_significant_components_per_cell": 1,
+    "max_significant_component_span": 0,
+    "stationary_regions": [
+      {
+        "name": "empty-transparent-canvas-corner",
+        "box": [0.0, 0.0, 0.12, 0.12],
+        "max_change_pct": 0.0
+      }
+    ]
+  }
+}

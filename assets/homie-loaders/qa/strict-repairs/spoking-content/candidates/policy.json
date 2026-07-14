@@ -1,0 +1,23 @@
+{
+  "spoking-content": {
+    "concept": "Canonical Content Homie holds one anatomically correct five-finger split salute while one locked arm rig makes a restrained reversible motion.",
+    "action_expectation": "At full size and 128px, read a clear 2+2 finger grouping with thumb out; the same hand, face, torso, uniform, crop, and scale persist through the loop.",
+    "signature_action": true,
+    "min_margin_px": 60,
+    "min_silhouette_motion_px": 1.0,
+    "min_mask_xor_pct": 0.1,
+    "allow_global_motion": false,
+    "max_global_drift_px": 3.0,
+    "fixed_character_plate": true,
+    "max_registered_residual_pct": 12.0,
+    "min_upper_anchor_ncc": 0.7,
+    "max_foreground_area_span_pct": 5.0,
+    "max_bbox_span_pct": 5.0,
+    "max_significant_components_per_cell": 5,
+    "max_tiny_components": 20,
+    "stationary_regions": [
+      {"name": "locked-face", "box": [275, 90, 390, 260], "max_change_pct": 0.1},
+      {"name": "locked-torso", "box": [285, 290, 450, 485], "max_change_pct": 0.1}
+    ]
+  }
+}

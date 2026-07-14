@@ -1,0 +1,362 @@
+{
+  "results": [
+    {
+      "slug": "smooth-crimining-marketing",
+      "concept": "Marketing Homie in an ivory-white pinstripe suit and fedora performs a gravity-defying Smooth Criminal-inspired lean.",
+      "action_expectation": "One SHA-locked canonical Marketing Homie plate deepens through four ankle-anchored lean phases; both shoes, socks, ankle cuffs and sole contact pixels remain exactly fixed while the connected body above the ankles moves as one continuous figure.",
+      "source": "sources/wildcard/smooth-crimining-marketing.png",
+      "source_sha256": "6691c4b5889cd14c6ad1bbfcf7d3074387f55d4ac3dd9a24b088ad244b4fac32",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_mode": "RGB",
+      "grid": [
+        2,
+        2
+      ],
+      "key_geometry": {
+        "outer_edge_non_key_pixels": 0,
+        "gutter_axis_non_key_pixels": 0
+      },
+      "cells": [
+        {
+          "index": 0,
+          "sha256_rgb": "39a81796b23b35ecf37e57249f5cd35bf400b66bc58b42e07922a50d6021e47e",
+          "foreground_pixels": 49971,
+          "foreground_pct": 12.7111,
+          "bbox": [
+            151,
+            65,
+            428,
+            562
+          ],
+          "margins": [
+            151,
+            199,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            299.024,
+            302.85
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 100,
+            "areas": [
+              49971
+            ],
+            "largest_area": 49971
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 1,
+          "sha256_rgb": "c6dacbb4a2b0cfc45ac5840d4e241cea526e60c14afdb4fe197b12ddbdd04556",
+          "foreground_pixels": 49979,
+          "foreground_pct": 12.7131,
+          "bbox": [
+            151,
+            65,
+            444,
+            562
+          ],
+          "margins": [
+            151,
+            183,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            307.482,
+            302.806
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 100,
+            "areas": [
+              49979
+            ],
+            "largest_area": 49979
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 2,
+          "sha256_rgb": "3e1f7c7fff4e746472281ab53c87b5e59593a979256597d6afe966d06905a158",
+          "foreground_pixels": 49992,
+          "foreground_pct": 12.7164,
+          "bbox": [
+            151,
+            65,
+            460,
+            562
+          ],
+          "margins": [
+            151,
+            167,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            315.931,
+            302.815
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 100,
+            "areas": [
+              49992
+            ],
+            "largest_area": 49992
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 3,
+          "sha256_rgb": "bbc3e2cf9046c0637c39a66a5db9d1c2fa7b87d400506fd646d74cdb2afc210d",
+          "foreground_pixels": 49983,
+          "foreground_pct": 12.7141,
+          "bbox": [
+            151,
+            65,
+            476,
+            562
+          ],
+          "margins": [
+            151,
+            151,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            324.355,
+            302.848
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 100,
+            "areas": [
+              49983
+            ],
+            "largest_area": 49983
+          },
+          "artifact_flags": []
+        }
+      ],
+      "pair_metrics": [
+        {
+          "mask_xor_pct": 17.1356,
+          "silhouette_motion_p95_px": 11.402,
+          "silhouette_motion_max_px": 17.029,
+          "centroid_shift_px": 8.458,
+          "registration_shift": [
+            -8,
+            0
+          ],
+          "registration_shift_px": 8.0,
+          "registration_iou": 0.8944,
+          "registered_residual_pct": 53.0344,
+          "upper_anchor_ncc": 0.6947
+        },
+        {
+          "mask_xor_pct": 17.1507,
+          "silhouette_motion_p95_px": 11.402,
+          "silhouette_motion_max_px": 17.117,
+          "centroid_shift_px": 8.45,
+          "registration_shift": [
+            -8,
+            0
+          ],
+          "registration_shift_px": 8.0,
+          "registration_iou": 0.8941,
+          "registered_residual_pct": 53.383,
+          "upper_anchor_ncc": 0.6943
+        },
+        {
+          "mask_xor_pct": 17.1468,
+          "silhouette_motion_p95_px": 11.402,
+          "silhouette_motion_max_px": 17.117,
+          "centroid_shift_px": 8.423,
+          "registration_shift": [
+            -8,
+            0
+          ],
+          "registration_shift_px": 8.0,
+          "registration_iou": 0.8946,
+          "registered_residual_pct": 53.4158,
+          "upper_anchor_ncc": 0.6958
+        }
+      ],
+      "aggregate": {
+        "max_silhouette_motion_p95_px": 11.402,
+        "max_mask_xor_pct": 17.1507,
+        "max_centroid_shift_px": 8.458,
+        "max_registration_shift_px": 8.0,
+        "max_registered_residual_pct": 53.4158,
+        "minimum_upper_anchor_ncc": 0.6943,
+        "foreground_area_span_pct": 0.042,
+        "bbox_width_span_pct": 15.9468,
+        "bbox_height_span_pct": 0.0,
+        "significant_component_count_span": 0
+      },
+      "stationary_regions": [
+        {
+          "name": "pixel-locked-shoes-soles-and-contact",
+          "box_pixels": [
+            0,
+            520,
+            627,
+            571
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.0
+        }
+      ],
+      "gif": {
+        "path": "gifs/wildcard/smooth-crimining-marketing.gif",
+        "exists": true,
+        "sha256": "e32192594d7722e18151d1c8e7e91c05e8196a82b7f55de45be25d82b9ef2c38",
+        "bytes": 47410,
+        "size": [
+          256,
+          256
+        ],
+        "frame_count": 6,
+        "unique_phases": 4,
+        "equality_pattern": [
+          0,
+          1,
+          2,
+          3,
+          2,
+          1
+        ],
+        "durations_ms": [
+          210,
+          140,
+          140,
+          210,
+          140,
+          140
+        ],
+        "loop": 0,
+        "has_transparency": true,
+        "corner_alphas": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "alpha_bboxes": [
+          [
+            62,
+            27,
+            175,
+            229
+          ],
+          [
+            62,
+            27,
+            181,
+            229
+          ],
+          [
+            62,
+            27,
+            188,
+            229
+          ],
+          [
+            62,
+            27,
+            194,
+            229
+          ],
+          [
+            62,
+            27,
+            188,
+            229
+          ],
+          [
+            62,
+            27,
+            181,
+            229
+          ]
+        ],
+        "loop_closure_exact": true,
+        "contact": "qa/strict-repairs/smooth-crimining-marketing/report-production/contacts/smooth-crimining-marketing-gif-128.png"
+      },
+      "visual_evidence": {
+        "source_full_contact": "qa/strict-repairs/smooth-crimining-marketing/report-production/contacts/smooth-crimining-marketing-source-full.png",
+        "source_128_contact": "qa/strict-repairs/smooth-crimining-marketing/report-production/contacts/smooth-crimining-marketing-source-128.png"
+      },
+      "manual_review": {
+        "complete": true,
+        "signature_action_readable": true,
+        "stationary_elements_stable": true,
+        "loop_motion_natural": true,
+        "notes": "Inspected all four 627px cells, the 128px contact sheet and the exact reversible decoded GIF sequence. The iconic lean reads immediately; the same Marketing Homie face, hat, armband, suit pinstripes, arms and anatomy persist throughout. The connected body deepens into the lean without independent redraws, both shoes and sole-contact pixels remain exact, margins stay clear, and no debris, crop, palette shimmer or loop snap is visible."
+      },
+      "failures": [],
+      "warnings": [],
+      "passed": true
+    }
+  ]
+}

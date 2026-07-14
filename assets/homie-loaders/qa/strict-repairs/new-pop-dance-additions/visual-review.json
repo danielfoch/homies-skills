@@ -1,0 +1,54 @@
+{
+  "david-blaining-manager": {
+    "cells": [
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true}
+    ],
+    "signature_action_readable": true,
+    "stationary_elements_stable": true,
+    "loop_motion_natural": true,
+    "action_expectation": "The same complete Manager body, deck, hands and five inner cards stay locked while the detached outer card travels outward and upward through a controlled arc.",
+    "notes": "Inspected all four 627px cells and 128px/GIF output. Exactly one canonical male Manager persists with two complete arms, two hands, two legs and two shoes. The six-card arc is clear, the outer card follows a smooth deliberate path, and the body, deck and remaining cards do not redraw or scale."
+  },
+  "cranking-that-marketing": {
+    "cells": [
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true}
+    ],
+    "signature_action_readable": true,
+    "stationary_elements_stable": true,
+    "loop_motion_natural": true,
+    "action_expectation": "Both complete sleeve-arm-hand units sweep in opposite directions around fixed shoulders while the face, cap, wraparound shades, jacket core, red shirt, planted leg and raised rear leg remain locked.",
+    "notes": "Inspected all full-size cells plus 128px/GIF output. The wide wing sweep, one-foot balance and raised rear leg clearly read as the Superman Crank That step. Both hands remain complete, shoulder joins stay continuous, and the face, wardrobe core and legs are locked without camera drift."
+  },
+  "cranking-the-step-marketing": {
+    "cells": [
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true}
+    ],
+    "signature_action_readable": true,
+    "stationary_elements_stable": true,
+    "loop_motion_natural": true,
+    "action_expectation": "Two complete bent sleeve-arm-fist units pump around fixed shoulder joins while the cap, wraparound shades, face, jacket core, crossed legs and both shoes remain locked.",
+    "notes": "Inspected all full-size cells plus 128px/GIF output. The crossed-foot lifted-leg pose matches the tutorial's compact first steps and the alternating fist pump gives it a clean dance loop. Limbs stay anatomically complete and there is no duplicate body, scale pumping or crop shift."
+  },
+  "cranking-the-motorbike-marketing": {
+    "cells": [
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true}
+    ],
+    "signature_action_readable": true,
+    "stationary_elements_stable": true,
+    "loop_motion_natural": true,
+    "action_expectation": "Both complete forearm-fist units counter-rotate around fixed elbows like revving handlebars while the head, jacket core, upper sleeves, bent knees, baggy pants and shoes remain locked.",
+    "notes": "Inspected all full-size cells plus 128px/GIF output. The low bent-knee stance and two forward fists read as the tutorial's motorbike-rev bounce. Both forearm-hand units stay connected at the elbows, with no duplicate hands, body scaling, redraw debris or frame crop change."
+  }
+}

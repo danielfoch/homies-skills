@@ -1,0 +1,398 @@
+{
+  "results": [
+    {
+      "slug": "robin-hooding-manager",
+      "concept": "Canonical Manager Homie as a muted red-and-olive forest outlaw at full draw",
+      "action_expectation": "Across four authored phases, the nock and its one connected arrow retreat 15px toward the cheek while both string ends stay fixed to the immutable bow tips; the arrowhead travels with the shaft and the shared burgundy, olive, and tan character plate remains fixed.",
+      "source": "assets/homie-loaders/qa/strict-repairs/robin-hooding-manager/candidates/sources/wildcard/robin-hooding-manager.png",
+      "source_sha256": "45b28eac67576766fcf254d6affb1d2ec5180f29bc235091da73094f2d37c171",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_mode": "RGB",
+      "grid": [
+        2,
+        2
+      ],
+      "key_geometry": {
+        "outer_edge_non_key_pixels": 0,
+        "gutter_axis_non_key_pixels": 0
+      },
+      "cells": [
+        {
+          "index": 0,
+          "sha256_rgb": "46526fada2beca48e9e7f13a2a28f64c50264ff0a48e41a577b42728293fca3b",
+          "foreground_pixels": 36951,
+          "foreground_pct": 9.3992,
+          "bbox": [
+            166,
+            70,
+            463,
+            557
+          ],
+          "margins": [
+            166,
+            164,
+            70,
+            70
+          ],
+          "minimum_margin": 70,
+          "centroid": [
+            279.249,
+            300.763
+          ],
+          "components": {
+            "count": 2,
+            "significant_count": 1,
+            "tiny_count": 1,
+            "small_count": 1,
+            "significant_floor": 74,
+            "areas": [
+              36949,
+              2
+            ],
+            "largest_area": 36949
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 1,
+          "sha256_rgb": "33702031b309382a6f046b3cb38d43bca0188ecf59b0de5430f87ce09df8cd10",
+          "foreground_pixels": 36899,
+          "foreground_pct": 9.386,
+          "bbox": [
+            166,
+            70,
+            458,
+            557
+          ],
+          "margins": [
+            166,
+            169,
+            70,
+            70
+          ],
+          "minimum_margin": 70,
+          "centroid": [
+            279.072,
+            300.899
+          ],
+          "components": {
+            "count": 2,
+            "significant_count": 1,
+            "tiny_count": 1,
+            "small_count": 1,
+            "significant_floor": 74,
+            "areas": [
+              36897,
+              2
+            ],
+            "largest_area": 36897
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 2,
+          "sha256_rgb": "bcd76034194904bb3e3ff1f00bc8fe8f0b83081b27f9bb547d63252a444166f2",
+          "foreground_pixels": 36863,
+          "foreground_pct": 9.3768,
+          "bbox": [
+            166,
+            70,
+            453,
+            557
+          ],
+          "margins": [
+            166,
+            174,
+            70,
+            70
+          ],
+          "minimum_margin": 70,
+          "centroid": [
+            278.914,
+            301.032
+          ],
+          "components": {
+            "count": 2,
+            "significant_count": 1,
+            "tiny_count": 1,
+            "small_count": 1,
+            "significant_floor": 74,
+            "areas": [
+              36861,
+              2
+            ],
+            "largest_area": 36861
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 3,
+          "sha256_rgb": "cde09a9156508245c5f4bab49d9a586ffd60aa612f27154019b8643a5ba9b06b",
+          "foreground_pixels": 36784,
+          "foreground_pct": 9.3567,
+          "bbox": [
+            166,
+            70,
+            448,
+            557
+          ],
+          "margins": [
+            166,
+            179,
+            70,
+            70
+          ],
+          "minimum_margin": 70,
+          "centroid": [
+            278.715,
+            301.295
+          ],
+          "components": {
+            "count": 2,
+            "significant_count": 1,
+            "tiny_count": 1,
+            "small_count": 1,
+            "significant_floor": 74,
+            "areas": [
+              36782,
+              2
+            ],
+            "largest_area": 36782
+          },
+          "artifact_flags": []
+        }
+      ],
+      "pair_metrics": [
+        {
+          "mask_xor_pct": 1.9842,
+          "silhouette_motion_p95_px": 2.828,
+          "silhouette_motion_max_px": 5.0,
+          "centroid_shift_px": 0.223,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9802,
+          "registered_residual_pct": 5.4592,
+          "upper_anchor_ncc": 0.894
+        },
+        {
+          "mask_xor_pct": 1.795,
+          "silhouette_motion_p95_px": 2.828,
+          "silhouette_motion_max_px": 5.0,
+          "centroid_shift_px": 0.207,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9821,
+          "registered_residual_pct": 5.5032,
+          "upper_anchor_ncc": 0.8811
+        },
+        {
+          "mask_xor_pct": 1.7364,
+          "silhouette_motion_p95_px": 2.236,
+          "silhouette_motion_max_px": 5.0,
+          "centroid_shift_px": 0.329,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9826,
+          "registered_residual_pct": 5.7368,
+          "upper_anchor_ncc": 0.8743
+        }
+      ],
+      "aggregate": {
+        "max_silhouette_motion_p95_px": 2.828,
+        "max_mask_xor_pct": 1.9842,
+        "max_centroid_shift_px": 0.329,
+        "max_registration_shift_px": 0.0,
+        "max_registered_residual_pct": 5.7368,
+        "minimum_upper_anchor_ncc": 0.8743,
+        "foreground_area_span_pct": 0.4528,
+        "bbox_width_span_pct": 5.1813,
+        "bbox_height_span_pct": 0.0,
+        "significant_component_count_span": 0
+      },
+      "stationary_regions": [
+        {
+          "name": "locked face core",
+          "box_pixels": [
+            230,
+            125,
+            265,
+            165
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.0
+        },
+        {
+          "name": "locked bow hand and upper forearm",
+          "box_pixels": [
+            384,
+            150,
+            436,
+            184
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.0
+        },
+        {
+          "name": "locked lower body and boots",
+          "box_pixels": [
+            176,
+            357,
+            351,
+            577
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.0
+        }
+      ],
+      "gif": {
+        "path": "assets/homie-loaders/qa/strict-repairs/robin-hooding-manager/candidates/gifs/wildcard/robin-hooding-manager.gif",
+        "exists": true,
+        "sha256": "33d8044924f5f549a8856ad5671871f92fc4dc5932ed98549e899defae50ac13",
+        "bytes": 41264,
+        "size": [
+          256,
+          256
+        ],
+        "frame_count": 6,
+        "unique_phases": 4,
+        "equality_pattern": [
+          0,
+          1,
+          2,
+          3,
+          2,
+          1
+        ],
+        "durations_ms": [
+          210,
+          140,
+          140,
+          210,
+          140,
+          140
+        ],
+        "loop": 0,
+        "has_transparency": true,
+        "corner_alphas": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "alpha_bboxes": [
+          [
+            68,
+            29,
+            189,
+            227
+          ],
+          [
+            68,
+            29,
+            186,
+            227
+          ],
+          [
+            68,
+            29,
+            184,
+            227
+          ],
+          [
+            68,
+            29,
+            182,
+            227
+          ],
+          [
+            68,
+            29,
+            184,
+            227
+          ],
+          [
+            68,
+            29,
+            186,
+            227
+          ]
+        ],
+        "loop_closure_exact": true,
+        "contact": "assets/homie-loaders/qa/strict-repairs/robin-hooding-manager/report-independent/contacts/robin-hooding-manager-gif-128.png"
+      },
+      "visual_evidence": {
+        "source_full_contact": "assets/homie-loaders/qa/strict-repairs/robin-hooding-manager/report-independent/contacts/robin-hooding-manager-source-full.png",
+        "source_128_contact": "assets/homie-loaders/qa/strict-repairs/robin-hooding-manager/report-independent/contacts/robin-hooding-manager-source-128.png"
+      },
+      "manual_review": {
+        "complete": true,
+        "signature_action_readable": true,
+        "stationary_elements_stable": true,
+        "loop_motion_natural": true,
+        "notes": "PASS after an independent re-audit of the corrected candidate. I inspected the full 1254px source contact, all four original 627px cells, every 128px cell, the string-erased matte base, and all six decoded GIF phases. The same canonical male Manager and frame-shared burgundy, olive, and tan outfit persist throughout. The generated old string is absent from the erased base, including zero residual alpha pixels along its open-space path. Every final phase has exactly one continuous V-shaped string meeting at one nock, one connected arrow shaft with one fletching assembly and one arrowhead, and no doubled string or old-tip trace. The string endpoints remain fixed at the same top and bottom bow-tip coordinates while the nock and arrowhead translate together 15px toward the cheek; this is approximately 3.06 delivery pixels and is visibly progressive in the 128px cells. Bow geometry, bow hand, face, body, outfit, lower body, crop, anchor, and scale remain fixed. Direct comparison finds zero changes outside the saved single string/arrow rig mask. No geometry drift, crop fault, green debris, redraw, disconnected prop, or duplicate arrow is visible."
+      },
+      "failures": [],
+      "warnings": [],
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "checking-the-backstreets-marketing": {
+    "cells": [
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true}
+    ],
+    "signature_action_readable": true,
+    "stationary_elements_stable": true,
+    "loop_motion_natural": true,
+    "action_expectation": "Two complete connected sleeve-forearm-hand units counter-sweep around fixed shoulders while the wide-brim hat, aviators, face, beard, jacket core, long white shirt, hips, ripped jeans, legs and planted boots remain pixel-identical.",
+    "notes": "Inspected all four 627px cells, the 128px source contact and decoded GIF contact. The wide bent-knee stance and opposing open-hand arm hits read as 1990s synchronized boy-band choreography. The same male Marketing face, wide-brim hat, aviators, bomber, long white shirt, knee rips, legs and boots remain fixed. Both connected arms retain exactly one natural hand, margins are clear, and no shoulder seam, duplicate anatomy, debris, palette shimmer, crop or loop snap is visible."
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "disco-inferno-ing-reports": {
+    "cells": [
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true}
+    ],
+    "signature_action_readable": true,
+    "stationary_elements_stable": true,
+    "loop_motion_natural": true,
+    "action_expectation": "The connected pointing arm pumps up and down while the Reports Homie's entire body stays fixed-size and fixed-position.",
+    "notes": "One canonical Reports Homie plate. The complete raised arm stays attached at one shoulder and moves in a smooth arc. Face, hair, suit, planted arm, torso, legs and shoes are pixel-identical; no body scaling, duplicate anatomy, crop, debris or palette shimmer."
+  },
+  "rickrolling-manager": {
+    "cells": [
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true}
+    ],
+    "signature_action_readable": true,
+    "stationary_elements_stable": true,
+    "loop_motion_natural": true,
+    "action_expectation": "The single Manager Homie makes a compact finger-point step with no overlapping duplicate character.",
+    "notes": "One canonical Manager plate in a tan coat and striped top. Exactly one connected pointing arm moves; the head, coat, pocket hand, legs and shoes remain exact. No second character, overlapping silhouette, redraw, crop, debris or shimmer."
+  },
+  "ymca-ing-cma": {
+    "cells": [
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true}
+    ],
+    "signature_action_readable": true,
+    "stationary_elements_stable": true,
+    "loop_motion_natural": true,
+    "action_expectation": "The CMA Homie forms Y, M, C and A in four readable phases with exactly one connected pair of arms.",
+    "notes": "The Y is wide, M bends beside the head, C opens clearly to one side, and A peaks overhead. The same face, jacket core, shirt, hips, trousers and shoes remain exact. No old goalpost pixels, duplicate arms, scaling, crop, debris or palette shimmer."
+  },
+  "wednesday-ing-offers": {
+    "cells": [
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true}
+    ],
+    "signature_action_readable": true,
+    "stationary_elements_stable": true,
+    "loop_motion_natural": true,
+    "action_expectation": "The Offers Homie makes one restrained connected hand-dance motion with no persistent ghost hand.",
+    "notes": "One canonical Offers Homie plate. Exactly two hands remain in every frame: the raised connected forearm moves, while the crossed arm and the full body remain exact. No sustained ghost hand, duplicate fingers, redraw, crop, debris or shimmer."
+  }
+}

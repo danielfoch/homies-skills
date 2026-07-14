@@ -1,0 +1,23 @@
+{
+  "serhanting-manager": {
+    "concept": "Canonical Manager Homie holds one coherent jacket-buttoning pose while two locked hand rigs squeeze and reset around the same button.",
+    "action_expectation": "At full size and 128px, read hands fastening and releasing the centre button; face, torso, lapels, tie, pinstripes, crop, and scale stay fixed.",
+    "signature_action": true,
+    "min_margin_px": 60,
+    "min_silhouette_motion_px": 0.0,
+    "min_mask_xor_pct": 0.0,
+    "allow_global_motion": false,
+    "max_global_drift_px": 3.0,
+    "fixed_character_plate": true,
+    "max_registered_residual_pct": 10.0,
+    "min_upper_anchor_ncc": 0.9,
+    "max_foreground_area_span_pct": 5.0,
+    "max_bbox_span_pct": 5.0,
+    "max_significant_components_per_cell": 5,
+    "max_tiny_components": 20,
+    "stationary_regions": [
+      {"name": "locked-face", "box": [275, 80, 380, 210], "max_change_pct": 0.1},
+      {"name": "locked-tie-lapels", "box": [300, 225, 355, 345], "max_change_pct": 0.1}
+    ]
+  }
+}

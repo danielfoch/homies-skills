@@ -1,0 +1,43 @@
+{
+  "ricky-bobbying-manager": {
+    "cells": [
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      }
+    ],
+    "signature_action_readable": true,
+    "stationary_elements_stable": true,
+    "loop_motion_natural": true,
+    "action_expectation": "One locked male Manager holds the oversized victory trophy aloft while only a small highlight crosses the cup.",
+    "notes": "Independent inspection confirms one canonical male Manager, one continuous silver trophy, exactly two connected arms and hands, sponsor-free cream/blue/coral H-crest racing livery, a deliberate checkered-rail crop, and no debris, duplicate anatomy, frame crop, redraw wiggle, camera movement or palette-wide shimmer."
+  }
+}

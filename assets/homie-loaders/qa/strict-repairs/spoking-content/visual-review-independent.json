@@ -1,0 +1,66 @@
+{
+  "spoking-content": {
+    "cells": [
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      }
+    ],
+    "signature_action_readable": true,
+    "stationary_elements_stable": true,
+    "loop_motion_natural": true,
+    "action_expectation": "At full size and 128px, read a clear 2+2 finger grouping with thumb out; the same hand, face, torso, uniform, crop, and scale persist through the loop.",
+    "notes": "Independent review of the 1254px source contact, all four full-size cells, all four 128px cells, and the decoded six-frame 128px GIF contact. The right hand has four upright fingers visibly grouped 2+2 with a separate thumb in every phase. The same Asian male Content identity, blue uniform, face, torso, crop, and scale remain locked; only the authored right arm/salute rig moves. No extra digit, fused digit, detached fragment, crop fault, or green debris is visible.",
+    "independent_audit": {
+      "verdict": "PASS",
+      "identity_reference": "assets/homie-loaders/sources/content/concept-sketch.png",
+      "identity_reference_sha256": "51dcf6e9e2c1767300839ff8dfcb240e92cd83d68b64b02f17802d66dadb3e09",
+      "source_sha256_rebuilt": "36d0c2ab59419c30dacdb4b1705bdfce997a61f989235a7935dcae77e1157833",
+      "gif_sha256_rebuilt": "b9b88ac4ee647344eea4a9e811d2a6bda4fbfed3e7223df0bed74995acef3b47",
+      "isolated_rebuild_byte_exact": true,
+      "rebuilt_artifacts_compared": [
+        "raw-alpha.png",
+        "locked-plate.png",
+        "alpha-normalized.png",
+        "spoking-content.png",
+        "spoking-content.gif",
+        "build-evidence.json"
+      ],
+      "frame_rgba_hashes_match_build_evidence": true,
+      "direct_changed_pixels_outside_allowed_rig_vs_locked_plate": [0, 0, 0, 0],
+      "changed_pixels_at_128_vs_phase_0": [0, 1076, 1120, 1130],
+      "static_face_torso_hashes_unique": 1,
+      "alpha_area_span_pct": 0.2884,
+      "minimum_margin_px": 86,
+      "mandatory_repair_notes": []
+    }
+  }
+}

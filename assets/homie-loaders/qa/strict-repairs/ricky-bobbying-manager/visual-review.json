@@ -1,0 +1,43 @@
+{
+  "ricky-bobbying-manager": {
+    "cells": [
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      }
+    ],
+    "signature_action_readable": true,
+    "stationary_elements_stable": true,
+    "loop_motion_natural": true,
+    "action_expectation": "Manager's locked trophy-hoisting victory pose stays fixed while a reversible shine travels across the silver cup.",
+    "notes": "Root full-size and 128px inspection confirms one canonical male Manager, exactly two clean connected hands, one trophy, a cream/blue/coral Homies racing suit with no real sponsor branding, an intentional finish-rail crop, and no redraw wiggle, debris, duplicate anatomy or palette-wide shimmer."
+  }
+}

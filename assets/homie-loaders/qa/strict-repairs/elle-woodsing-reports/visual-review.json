@@ -1,0 +1,15 @@
+{
+  "elle-woodsing-reports": {
+    "cells": [
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true}
+    ],
+    "signature_action_readable": true,
+    "stationary_elements_stable": true,
+    "loop_motion_natural": true,
+    "action_expectation": "A clearly female blonde Homie in hot pink holds one handbag and one small chihuahua while the dog's connected outer forepaw waves.",
+    "notes": "Full-size, 128px, and magnified paw contacts inspected. The character unmistakably reads as an adult woman with a feminine face/body, blonde high ponytail, hot-pink sunglasses, tailored pink blazer and pencil skirt, pink heels, coordinated handbag, and exactly one tan chihuahua in a purple-and-pink sweater. One canonical plate is reused exactly. Only the dog's connected outer forepaw rotates around its wrist; the woman, bag, holding hand, dog head/body, suit, legs, and feet are pixel-identical. No seams, ghosts, debris, crop, extra anatomy, palette shimmer, or whole-body jiggle."
+  }
+}

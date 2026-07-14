@@ -1,0 +1,24 @@
+{
+  "tarzaning-manager": {
+    "concept": "A male Manager Homie in a classic brown jungle wrap swings through the air on one continuous vine.",
+    "action_expectation": "One immutable Manager-and-vine rig travels through a clear pendulum arc around one pixel-fixed overhead knot; the face, body, hands, wrap, feet, and vine geometry never redraw between phases.",
+    "signature_action": true,
+    "min_silhouette_motion_px": 30.0,
+    "min_mask_xor_pct": 55.0,
+    "allow_global_motion": true,
+    "fixed_character_plate": false,
+    "min_margin_px": 60,
+    "max_foreground_area_span_pct": 0.2,
+    "max_bbox_span_pct": 55.0,
+    "max_tiny_components": 0,
+    "max_significant_components_per_cell": 1,
+    "max_significant_component_span": 0,
+    "stationary_regions": [
+      {
+        "name": "pixel-fixed-vine-pivot-core",
+        "box": [241, 66, 249, 74],
+        "max_change_pct": 0.0
+      }
+    ]
+  }
+}

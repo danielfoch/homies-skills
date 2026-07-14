@@ -1,0 +1,166 @@
+{
+  "disco-inferno-ing-reports": {
+    "cells": [
+      {
+        "full_size_inspected": false,
+        "thumbnail_128_inspected": false,
+        "crop_clear": false,
+        "anatomy_clear": false,
+        "prop_continuity_clear": false,
+        "no_unintended_redraw_wiggle": false
+      },
+      {
+        "full_size_inspected": false,
+        "thumbnail_128_inspected": false,
+        "crop_clear": false,
+        "anatomy_clear": false,
+        "prop_continuity_clear": false,
+        "no_unintended_redraw_wiggle": false
+      },
+      {
+        "full_size_inspected": false,
+        "thumbnail_128_inspected": false,
+        "crop_clear": false,
+        "anatomy_clear": false,
+        "prop_continuity_clear": false,
+        "no_unintended_redraw_wiggle": false
+      },
+      {
+        "full_size_inspected": false,
+        "thumbnail_128_inspected": false,
+        "crop_clear": false,
+        "anatomy_clear": false,
+        "prop_continuity_clear": false,
+        "no_unintended_redraw_wiggle": false
+      }
+    ],
+    "signature_action_readable": false,
+    "stationary_elements_stable": false,
+    "loop_motion_natural": false,
+    "action_expectation": "Only the complete connected raised arm rotates around one fixed shoulder; face, hair, suit, planted arm, torso, hips, legs and shoes remain fixed without body scaling.",
+    "notes": ""
+  },
+  "rickrolling-manager": {
+    "cells": [
+      {
+        "full_size_inspected": false,
+        "thumbnail_128_inspected": false,
+        "crop_clear": false,
+        "anatomy_clear": false,
+        "prop_continuity_clear": false,
+        "no_unintended_redraw_wiggle": false
+      },
+      {
+        "full_size_inspected": false,
+        "thumbnail_128_inspected": false,
+        "crop_clear": false,
+        "anatomy_clear": false,
+        "prop_continuity_clear": false,
+        "no_unintended_redraw_wiggle": false
+      },
+      {
+        "full_size_inspected": false,
+        "thumbnail_128_inspected": false,
+        "crop_clear": false,
+        "anatomy_clear": false,
+        "prop_continuity_clear": false,
+        "no_unintended_redraw_wiggle": false
+      },
+      {
+        "full_size_inspected": false,
+        "thumbnail_128_inspected": false,
+        "crop_clear": false,
+        "anatomy_clear": false,
+        "prop_continuity_clear": false,
+        "no_unintended_redraw_wiggle": false
+      }
+    ],
+    "signature_action_readable": false,
+    "stationary_elements_stable": false,
+    "loop_motion_natural": false,
+    "action_expectation": "Exactly one connected pointing arm pivots around its fixed shoulder while the single head, coat, pocket hand, torso, legs and shoes remain fixed.",
+    "notes": ""
+  },
+  "ymca-ing-cma": {
+    "cells": [
+      {
+        "full_size_inspected": false,
+        "thumbnail_128_inspected": false,
+        "crop_clear": false,
+        "anatomy_clear": false,
+        "prop_continuity_clear": false,
+        "no_unintended_redraw_wiggle": false
+      },
+      {
+        "full_size_inspected": false,
+        "thumbnail_128_inspected": false,
+        "crop_clear": false,
+        "anatomy_clear": false,
+        "prop_continuity_clear": false,
+        "no_unintended_redraw_wiggle": false
+      },
+      {
+        "full_size_inspected": false,
+        "thumbnail_128_inspected": false,
+        "crop_clear": false,
+        "anatomy_clear": false,
+        "prop_continuity_clear": false,
+        "no_unintended_redraw_wiggle": false
+      },
+      {
+        "full_size_inspected": false,
+        "thumbnail_128_inspected": false,
+        "crop_clear": false,
+        "anatomy_clear": false,
+        "prop_continuity_clear": false,
+        "no_unintended_redraw_wiggle": false
+      }
+    ],
+    "signature_action_readable": false,
+    "stationary_elements_stable": false,
+    "loop_motion_natural": false,
+    "action_expectation": "The two complete articulated arms form Y, bent M, open C and overhead A in order; face, jacket core, shirt, hips, flared trousers and shoes remain fixed with no duplicate limbs or scale pumping.",
+    "notes": ""
+  },
+  "wednesday-ing-offers": {
+    "cells": [
+      {
+        "full_size_inspected": false,
+        "thumbnail_128_inspected": false,
+        "crop_clear": false,
+        "anatomy_clear": false,
+        "prop_continuity_clear": false,
+        "no_unintended_redraw_wiggle": false
+      },
+      {
+        "full_size_inspected": false,
+        "thumbnail_128_inspected": false,
+        "crop_clear": false,
+        "anatomy_clear": false,
+        "prop_continuity_clear": false,
+        "no_unintended_redraw_wiggle": false
+      },
+      {
+        "full_size_inspected": false,
+        "thumbnail_128_inspected": false,
+        "crop_clear": false,
+        "anatomy_clear": false,
+        "prop_continuity_clear": false,
+        "no_unintended_redraw_wiggle": false
+      },
+      {
+        "full_size_inspected": false,
+        "thumbnail_128_inspected": false,
+        "crop_clear": false,
+        "anatomy_clear": false,
+        "prop_continuity_clear": false,
+        "no_unintended_redraw_wiggle": false
+      }
+    ],
+    "signature_action_readable": false,
+    "stationary_elements_stable": false,
+    "loop_motion_natural": false,
+    "action_expectation": "One connected raised forearm and hand pivots around a fixed elbow; the other connected arm, face, braids, collar, dress, legs and shoes remain fixed, with exactly two hands in every frame.",
+    "notes": ""
+  }
+}

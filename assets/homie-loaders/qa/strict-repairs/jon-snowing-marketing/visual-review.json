@@ -1,0 +1,43 @@
+{
+  "jon-snowing-marketing": {
+    "cells": [
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      }
+    ],
+    "signature_action_readable": true,
+    "stationary_elements_stable": true,
+    "loop_motion_natural": true,
+    "action_expectation": "The locked black-fur Marketing Homie holds one continuous vertical sword while six snowflakes drift diagonally and a small icy glint travels down and back up the blade.",
+    "notes": "Root inspection of all four source cells, 128px cells, and the six displayed GIF phases confirms one canonical male Homie, exactly two connected arms and hands, one uninterrupted sword, stable cloak/armor/face anatomy, six intentional snowflake components in every phase, a readable reversible snow-and-glint loop, and no redraw wiggle, crop, scale jump, stray debris, duplicate anatomy, or palette shimmer."
+  }
+}

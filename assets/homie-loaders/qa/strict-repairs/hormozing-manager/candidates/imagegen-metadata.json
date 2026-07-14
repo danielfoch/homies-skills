@@ -1,0 +1,29 @@
+{
+  "mode": "built-in image_gen",
+  "generated_source": "/Users/danielfoch/.codex/generated_images/019f4eac-b421-7870-a540-8cec54f414c7/exec-47c05400-3dad-4530-8ae7-860e031858eb.png",
+  "accepted_prompt": "imagegen-prompt.txt",
+  "accepted_chroma_output": "raw-chroma.png",
+  "accepted_chroma_sha256": "a80c23284d9a2fe9147b765b6ee5be486a408a68694713c2b52a1ecd47692fd2",
+  "accepted_alpha_output": "raw-alpha.png",
+  "accepted_alpha_sha256": "cf51ec239bff8407868cb4f735911fa75747ce77ee5e306b99ad24d4028ddb0a",
+  "canonical_identity_reference": "/Users/danielfoch/Documents/Homies/assets/homie-loaders/references/manager.png",
+  "canonical_identity_reference_sha256": "9bdcf4363fb403917761987da581f4cbfe746f1fe564ad64480c582877d8fc55",
+  "secondary_style_reference": "/Users/danielfoch/Documents/Homies/assets/homie-loaders/sources/wildcard/gary-veeing-crm.png",
+  "secondary_style_reference_sha256": "72abdf6a37492c47cc93172e311a3ec7c37f23cc7dfaa5298c832f5d796413aa",
+  "chroma_removal": {
+    "script": "/Users/danielfoch/.codex/skills/.system/imagegen/scripts/remove_chroma_key.py",
+    "arguments": [
+      "--auto-key",
+      "border",
+      "--soft-matte",
+      "--transparent-threshold",
+      "12",
+      "--opaque-threshold",
+      "220",
+      "--despill"
+    ],
+    "detected_key": "#03f904"
+  },
+  "selected_panel": 0,
+  "targeted_edit_prompts": []
+}

@@ -1,0 +1,345 @@
+{
+  "results": [
+    {
+      "slug": "tony-starking-marketing",
+      "concept": "",
+      "action_expectation": "",
+      "source": "qa/strict-repairs/tony-starking-marketing/candidates/sources/wildcard/tony-starking-marketing.png",
+      "source_sha256": "22af8e0cd8e3b63f0c04586e0887ffa213d1a87b12cc51fefd1810a2fda5d79c",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_mode": "RGB",
+      "grid": [
+        2,
+        2
+      ],
+      "key_geometry": {
+        "outer_edge_non_key_pixels": 0,
+        "gutter_axis_non_key_pixels": 0
+      },
+      "cells": [
+        {
+          "index": 0,
+          "sha256_rgb": "e0ed0bcc515a79fa56a89ff68cbbe50c3c3f7a5b67a7505a324cabbabff5c795",
+          "foreground_pixels": 47719,
+          "foreground_pct": 12.1383,
+          "bbox": [
+            210,
+            70,
+            416,
+            557
+          ],
+          "margins": [
+            210,
+            211,
+            70,
+            70
+          ],
+          "minimum_margin": 70,
+          "centroid": [
+            331.264,
+            294.081
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 95,
+            "areas": [
+              47719
+            ],
+            "largest_area": 47719
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 1,
+          "sha256_rgb": "dff69b22f20e6b6dcdbc6ecbbf13df2ada4eefa89fc262e61283dc1787efef1e",
+          "foreground_pixels": 47744,
+          "foreground_pct": 12.1446,
+          "bbox": [
+            210,
+            70,
+            416,
+            557
+          ],
+          "margins": [
+            210,
+            211,
+            70,
+            70
+          ],
+          "minimum_margin": 70,
+          "centroid": [
+            331.215,
+            294.011
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 95,
+            "areas": [
+              47744
+            ],
+            "largest_area": 47744
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 2,
+          "sha256_rgb": "75acc33804e939abf7539140c9739f8735d6dc970c428ebe49d30bb1569f2245",
+          "foreground_pixels": 47766,
+          "foreground_pct": 12.1502,
+          "bbox": [
+            210,
+            70,
+            416,
+            557
+          ],
+          "margins": [
+            210,
+            211,
+            70,
+            70
+          ],
+          "minimum_margin": 70,
+          "centroid": [
+            331.172,
+            293.948
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 96,
+            "areas": [
+              47766
+            ],
+            "largest_area": 47766
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 3,
+          "sha256_rgb": "07027212f313a1c972e1ccb5f977d5bbbea005e60eb3dcc4ebbc8e48971527dc",
+          "foreground_pixels": 47808,
+          "foreground_pct": 12.1609,
+          "bbox": [
+            210,
+            70,
+            416,
+            557
+          ],
+          "margins": [
+            210,
+            211,
+            70,
+            70
+          ],
+          "minimum_margin": 70,
+          "centroid": [
+            331.083,
+            293.829
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 96,
+            "areas": [
+              47808
+            ],
+            "largest_area": 47808
+          },
+          "artifact_flags": []
+        }
+      ],
+      "pair_metrics": [
+        {
+          "mask_xor_pct": 0.0524,
+          "silhouette_motion_p95_px": 2.189,
+          "silhouette_motion_max_px": 2.828,
+          "centroid_shift_px": 0.085,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9995,
+          "registered_residual_pct": 2.2788,
+          "upper_anchor_ncc": 0.9932
+        },
+        {
+          "mask_xor_pct": 0.0461,
+          "silhouette_motion_p95_px": 2.236,
+          "silhouette_motion_max_px": 2.236,
+          "centroid_shift_px": 0.077,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9995,
+          "registered_residual_pct": 2.8975,
+          "upper_anchor_ncc": 0.9879
+        },
+        {
+          "mask_xor_pct": 0.0879,
+          "silhouette_motion_p95_px": 2.236,
+          "silhouette_motion_max_px": 2.828,
+          "centroid_shift_px": 0.149,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9991,
+          "registered_residual_pct": 3.3593,
+          "upper_anchor_ncc": 0.9883
+        }
+      ],
+      "aggregate": {
+        "max_silhouette_motion_p95_px": 2.236,
+        "max_mask_xor_pct": 0.0879,
+        "max_centroid_shift_px": 0.149,
+        "max_registration_shift_px": 0.0,
+        "max_registered_residual_pct": 3.3593,
+        "minimum_upper_anchor_ncc": 0.9879,
+        "foreground_area_span_pct": 0.1864,
+        "bbox_width_span_pct": 0.0,
+        "bbox_height_span_pct": 0.0,
+        "significant_component_count_span": 0
+      },
+      "stationary_regions": [],
+      "gif": {
+        "path": "qa/strict-repairs/tony-starking-marketing/candidates/gifs/wildcard/tony-starking-marketing.gif",
+        "exists": true,
+        "sha256": "7ef0077f5eac3611168c7a6cfa71ff171d42d334c1edfe7530c1fe362905819b",
+        "bytes": 49894,
+        "size": [
+          256,
+          256
+        ],
+        "frame_count": 6,
+        "unique_phases": 4,
+        "equality_pattern": [
+          0,
+          1,
+          2,
+          3,
+          2,
+          1
+        ],
+        "durations_ms": [
+          210,
+          140,
+          140,
+          210,
+          140,
+          140
+        ],
+        "loop": 0,
+        "has_transparency": true,
+        "corner_alphas": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "alpha_bboxes": [
+          [
+            86,
+            29,
+            170,
+            227
+          ],
+          [
+            86,
+            29,
+            170,
+            227
+          ],
+          [
+            86,
+            29,
+            170,
+            227
+          ],
+          [
+            86,
+            29,
+            170,
+            227
+          ],
+          [
+            86,
+            29,
+            170,
+            227
+          ],
+          [
+            86,
+            29,
+            170,
+            227
+          ]
+        ],
+        "loop_closure_exact": true,
+        "contact": "qa/strict-repairs/tony-starking-marketing/report-preflight/contacts/tony-starking-marketing-gif-128.png"
+      },
+      "visual_evidence": {
+        "source_full_contact": "qa/strict-repairs/tony-starking-marketing/report-preflight/contacts/tony-starking-marketing-source-full.png",
+        "source_128_contact": "qa/strict-repairs/tony-starking-marketing/report-preflight/contacts/tony-starking-marketing-source-128.png"
+      },
+      "manual_review": {
+        "complete": false
+      },
+      "failures": [
+        "VISUAL_REVIEW_REQUIRED"
+      ],
+      "warnings": [
+        "STATIONARY_REGIONS_NOT_ANNOTATED"
+      ],
+      "passed": false
+    }
+  ]
+}

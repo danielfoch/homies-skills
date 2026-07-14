@@ -1,0 +1,66 @@
+{
+  "gary-veeing-crm": {
+    "cells": [
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      }
+    ],
+    "signature_action_readable": true,
+    "stationary_elements_stable": true,
+    "loop_motion_natural": true,
+    "action_expectation": "At full size and 128px, read two coherent raised open hands around shoulder/head height on the male CRM identity, with stable face, beanie, torso, crop, and scale.",
+    "notes": "Independent review of the 1254px source contact, all four full-size cells, all four 128px cells, and the decoded six-frame 128px GIF contact. The subject is unambiguously the male CRM identity: tan male face, grey beanie, stubble, and navy shirt. Both hands are open at shoulder/head height, each with four fingers plus a separate thumb, and remain attached to their original arms through the restrained opposing emphasis motion. Face, beanie, shirt core, crop, and scale remain locked. No sex/role swap, overhead pose, fused/extra digit, detached fragment, redraw drift, crop fault, or green debris is visible.",
+    "independent_audit": {
+      "verdict": "PASS",
+      "identity_reference": "assets/homie-loaders/sources/crm/lead-score.png",
+      "identity_reference_sha256": "4aa80f3e66a6d63f723fa1861bdeddcea3e57264fd76e192fcea9b7a94a69e26",
+      "source_sha256_rebuilt": "72abdf6a37492c47cc93172e311a3ec7c37f23cc7dfaa5298c832f5d796413aa",
+      "gif_sha256_rebuilt": "916e302a614de9edd3b7327b4eccb7f085324acc09185221958ae84d8b43ea47",
+      "isolated_rebuild_byte_exact": true,
+      "rebuilt_artifacts_compared": [
+        "raw-alpha.png",
+        "locked-plate.png",
+        "alpha-normalized.png",
+        "gary-veeing-crm.png",
+        "gary-veeing-crm.gif",
+        "build-evidence.json"
+      ],
+      "frame_rgba_hashes_match_build_evidence": true,
+      "direct_changed_pixels_outside_allowed_rigs_vs_locked_plate": [0, 0, 0, 0],
+      "changed_pixels_at_128_vs_phase_0": [0, 963, 1049, 1069],
+      "static_face_torso_hashes_unique": 1,
+      "alpha_area_span_pct": 0.4684,
+      "minimum_margin_px": 82,
+      "mandatory_repair_notes": []
+    }
+  }
+}

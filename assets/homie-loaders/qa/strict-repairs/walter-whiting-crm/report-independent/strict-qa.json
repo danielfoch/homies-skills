@@ -1,0 +1,378 @@
+{
+  "results": [
+    {
+      "slug": "walter-whiting-crm",
+      "concept": "One canonical dark-skinned bald male CRM Homie broods in a yellow hazmat suit with glasses, a respirator at his neck, and exactly one briefcase.",
+      "action_expectation": "The CRM identity, face, body, hands, hazmat suit, respirator geometry, and single briefcase remain pixel-locked while only a glasses glint and respirator-filter highlight pulse locally.",
+      "source": "assets/homie-loaders/qa/strict-repairs/walter-whiting-crm/candidates/sources/wildcard/walter-whiting-crm.png",
+      "source_sha256": "3c30d08ce62138368d0ec71a261b0e573de85c0520acc0a26db47ad680939944",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_mode": "RGB",
+      "grid": [
+        2,
+        2
+      ],
+      "key_geometry": {
+        "outer_edge_non_key_pixels": 0,
+        "gutter_axis_non_key_pixels": 0
+      },
+      "cells": [
+        {
+          "index": 0,
+          "sha256_rgb": "4f5a8c24c39c49c86127e39744d2566ef5d639ee57b0e47f4c62d4209584d90c",
+          "foreground_pixels": 52381,
+          "foreground_pct": 13.3241,
+          "bbox": [
+            221,
+            74,
+            405,
+            552
+          ],
+          "margins": [
+            221,
+            222,
+            74,
+            75
+          ],
+          "minimum_margin": 74,
+          "centroid": [
+            317.309,
+            311.69
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 105,
+            "areas": [
+              52381
+            ],
+            "largest_area": 52381
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 1,
+          "sha256_rgb": "e8ae46aa8f968e48f64a2343e1384059a0d0c07f51fc132c28e121e74ca99173",
+          "foreground_pixels": 52381,
+          "foreground_pct": 13.3241,
+          "bbox": [
+            221,
+            74,
+            405,
+            552
+          ],
+          "margins": [
+            221,
+            222,
+            74,
+            75
+          ],
+          "minimum_margin": 74,
+          "centroid": [
+            317.309,
+            311.69
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 105,
+            "areas": [
+              52381
+            ],
+            "largest_area": 52381
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 2,
+          "sha256_rgb": "91498738508a19974fa8543f9a10ce8e192424ae5e779162b4d0d65c28662d65",
+          "foreground_pixels": 52381,
+          "foreground_pct": 13.3241,
+          "bbox": [
+            221,
+            74,
+            405,
+            552
+          ],
+          "margins": [
+            221,
+            222,
+            74,
+            75
+          ],
+          "minimum_margin": 74,
+          "centroid": [
+            317.309,
+            311.69
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 105,
+            "areas": [
+              52381
+            ],
+            "largest_area": 52381
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 3,
+          "sha256_rgb": "f90ac13b2cb4e5bcffd0c59bf1a05512f13c88f4fc1ced5cd7dd248636769a49",
+          "foreground_pixels": 52381,
+          "foreground_pct": 13.3241,
+          "bbox": [
+            221,
+            74,
+            405,
+            552
+          ],
+          "margins": [
+            221,
+            222,
+            74,
+            75
+          ],
+          "minimum_margin": 74,
+          "centroid": [
+            317.309,
+            311.69
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 105,
+            "areas": [
+              52381
+            ],
+            "largest_area": 52381
+          },
+          "artifact_flags": []
+        }
+      ],
+      "pair_metrics": [
+        {
+          "mask_xor_pct": 0.0,
+          "silhouette_motion_p95_px": 0.0,
+          "silhouette_motion_max_px": 0.0,
+          "centroid_shift_px": 0.0,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 1.0,
+          "registered_residual_pct": 0.2921,
+          "upper_anchor_ncc": 0.9844
+        },
+        {
+          "mask_xor_pct": 0.0,
+          "silhouette_motion_p95_px": 0.0,
+          "silhouette_motion_max_px": 0.0,
+          "centroid_shift_px": 0.0,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 1.0,
+          "registered_residual_pct": 0.5174,
+          "upper_anchor_ncc": 0.9653
+        },
+        {
+          "mask_xor_pct": 0.0,
+          "silhouette_motion_p95_px": 0.0,
+          "silhouette_motion_max_px": 0.0,
+          "centroid_shift_px": 0.0,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 1.0,
+          "registered_residual_pct": 0.5135,
+          "upper_anchor_ncc": 0.9654
+        }
+      ],
+      "aggregate": {
+        "max_silhouette_motion_p95_px": 0.0,
+        "max_mask_xor_pct": 0.0,
+        "max_centroid_shift_px": 0.0,
+        "max_registration_shift_px": 0.0,
+        "max_registered_residual_pct": 0.5174,
+        "minimum_upper_anchor_ncc": 0.9653,
+        "foreground_area_span_pct": 0.0,
+        "bbox_width_span_pct": 0.0,
+        "bbox_height_span_pct": 0.0,
+        "significant_component_count_span": 0
+      },
+      "stationary_regions": [
+        {
+          "name": "empty-transparent-canvas-corner",
+          "box_pixels": [
+            0,
+            0,
+            75,
+            75
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.0
+        },
+        {
+          "name": "locked-body-hands-suit-and-briefcase",
+          "box_pixels": [
+            113,
+            194,
+            514,
+            577
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.0
+        }
+      ],
+      "gif": {
+        "path": "assets/homie-loaders/qa/strict-repairs/walter-whiting-crm/candidates/gifs/wildcard/walter-whiting-crm.gif",
+        "exists": true,
+        "sha256": "d1086c933c49a0e2e9ee1959fd3fcf768b042e97f5637318d27d5d58dd5f959d",
+        "bytes": 49006,
+        "size": [
+          256,
+          256
+        ],
+        "frame_count": 6,
+        "unique_phases": 4,
+        "equality_pattern": [
+          0,
+          1,
+          2,
+          3,
+          2,
+          1
+        ],
+        "durations_ms": [
+          210,
+          140,
+          140,
+          210,
+          140,
+          140
+        ],
+        "loop": 0,
+        "has_transparency": true,
+        "corner_alphas": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "alpha_bboxes": [
+          [
+            90,
+            30,
+            165,
+            225
+          ],
+          [
+            90,
+            30,
+            165,
+            225
+          ],
+          [
+            90,
+            30,
+            165,
+            225
+          ],
+          [
+            90,
+            30,
+            165,
+            225
+          ],
+          [
+            90,
+            30,
+            165,
+            225
+          ],
+          [
+            90,
+            30,
+            165,
+            225
+          ]
+        ],
+        "loop_closure_exact": true,
+        "contact": "assets/homie-loaders/qa/strict-repairs/walter-whiting-crm/report-independent/contacts/walter-whiting-crm-gif-128.png"
+      },
+      "visual_evidence": {
+        "source_full_contact": "assets/homie-loaders/qa/strict-repairs/walter-whiting-crm/report-independent/contacts/walter-whiting-crm-source-full.png",
+        "source_128_contact": "assets/homie-loaders/qa/strict-repairs/walter-whiting-crm/report-independent/contacts/walter-whiting-crm-source-128.png"
+      },
+      "manual_review": {
+        "complete": true,
+        "signature_action_readable": true,
+        "stationary_elements_stable": true,
+        "loop_motion_natural": true,
+        "notes": "PASS after an independent re-audit of the corrected source. I inspected the full 1254px source contact, all four original 627px cells, every 128px cell, and all six decoded GIF phases rather than relying on the prior review. The subject is the intended brown-skinned bald male CRM identity with connected adult anatomy, one pair of clear eyeglasses, one gray respirator assembly resting at the neck, and exactly one dark hard-sided briefcase. The briefcase remains vertical and rigidly attached to the same hand; there is no cardboard-like whole-character tilt. Face, body, hands, yellow suit, shoes, briefcase, silhouette, crop, scale, and anchor remain pixel-locked. Only the glasses glint and respirator-filter highlight change inside the prescribed local mask. No duplicate prop, disconnected anatomy, crop fault, detached component, green debris/spill, text, or glyph is visible."
+      },
+      "failures": [],
+      "warnings": [],
+      "passed": true
+    }
+  ]
+}

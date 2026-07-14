@@ -1,0 +1,345 @@
+{
+  "results": [
+    {
+      "slug": "tyler-durdening-listings",
+      "concept": "",
+      "action_expectation": "",
+      "source": "qa/strict-repairs/tyler-durdening-listings/candidates/sources/wildcard/tyler-durdening-listings.png",
+      "source_sha256": "9836f259a5451015fe8abcd0ad5493a7715681b877f544eb0f45d1d8ae508972",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_mode": "RGB",
+      "grid": [
+        2,
+        2
+      ],
+      "key_geometry": {
+        "outer_edge_non_key_pixels": 0,
+        "gutter_axis_non_key_pixels": 0
+      },
+      "cells": [
+        {
+          "index": 0,
+          "sha256_rgb": "1470a35afbf3a4b46a51fed27abe13e542dd576cad0717a81f90a987d7d32f1b",
+          "foreground_pixels": 44589,
+          "foreground_pct": 11.3421,
+          "bbox": [
+            191,
+            70,
+            413,
+            557
+          ],
+          "margins": [
+            191,
+            214,
+            70,
+            70
+          ],
+          "minimum_margin": 70,
+          "centroid": [
+            309.129,
+            286.748
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 89,
+            "areas": [
+              44589
+            ],
+            "largest_area": 44589
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 1,
+          "sha256_rgb": "4129c1ac6dc254d529d24ec4e08cf9ff9700a860ff2f64de26133ecc6e1c89f8",
+          "foreground_pixels": 44540,
+          "foreground_pct": 11.3296,
+          "bbox": [
+            205,
+            70,
+            413,
+            557
+          ],
+          "margins": [
+            205,
+            214,
+            70,
+            70
+          ],
+          "minimum_margin": 70,
+          "centroid": [
+            309.689,
+            286.835
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 89,
+            "areas": [
+              44540
+            ],
+            "largest_area": 44540
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 2,
+          "sha256_rgb": "cca9b15d6966900602bb5cefc0a5c90135dbedc14b0ce242f1d569fef23058f9",
+          "foreground_pixels": 44487,
+          "foreground_pct": 11.3161,
+          "bbox": [
+            212,
+            70,
+            413,
+            557
+          ],
+          "margins": [
+            212,
+            214,
+            70,
+            70
+          ],
+          "minimum_margin": 70,
+          "centroid": [
+            310.223,
+            287.048
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 89,
+            "areas": [
+              44487
+            ],
+            "largest_area": 44487
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 3,
+          "sha256_rgb": "d1688dfe710b568f50459b141c408dd94106c60c4dadd249356ba0b5ef062496",
+          "foreground_pixels": 44582,
+          "foreground_pct": 11.3403,
+          "bbox": [
+            212,
+            70,
+            426,
+            557
+          ],
+          "margins": [
+            212,
+            201,
+            70,
+            70
+          ],
+          "minimum_margin": 70,
+          "centroid": [
+            311.33,
+            286.651
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 89,
+            "areas": [
+              44582
+            ],
+            "largest_area": 44582
+          },
+          "artifact_flags": []
+        }
+      ],
+      "pair_metrics": [
+        {
+          "mask_xor_pct": 3.9138,
+          "silhouette_motion_p95_px": 12.665,
+          "silhouette_motion_max_px": 18.0,
+          "centroid_shift_px": 0.567,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9609,
+          "registered_residual_pct": 6.0413,
+          "upper_anchor_ncc": 1.0
+        },
+        {
+          "mask_xor_pct": 3.8621,
+          "silhouette_motion_p95_px": 12.042,
+          "silhouette_motion_max_px": 17.088,
+          "centroid_shift_px": 0.575,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9614,
+          "registered_residual_pct": 5.9352,
+          "upper_anchor_ncc": 1.0
+        },
+        {
+          "mask_xor_pct": 5.6323,
+          "silhouette_motion_p95_px": 26.173,
+          "silhouette_motion_max_px": 35.735,
+          "centroid_shift_px": 1.176,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9437,
+          "registered_residual_pct": 7.0442,
+          "upper_anchor_ncc": 1.0
+        }
+      ],
+      "aggregate": {
+        "max_silhouette_motion_p95_px": 26.173,
+        "max_mask_xor_pct": 5.6323,
+        "max_centroid_shift_px": 1.176,
+        "max_registration_shift_px": 0.0,
+        "max_registered_residual_pct": 7.0442,
+        "minimum_upper_anchor_ncc": 1.0,
+        "foreground_area_span_pct": 0.2289,
+        "bbox_width_span_pct": 9.9526,
+        "bbox_height_span_pct": 0.0,
+        "significant_component_count_span": 0
+      },
+      "stationary_regions": [],
+      "gif": {
+        "path": "qa/strict-repairs/tyler-durdening-listings/candidates/gifs/wildcard/tyler-durdening-listings.gif",
+        "exists": true,
+        "sha256": "0ca307b3eba4c8bccc9d7f6a5504201b5c8d0aed6ab964c8018db29d394320c3",
+        "bytes": 45679,
+        "size": [
+          256,
+          256
+        ],
+        "frame_count": 6,
+        "unique_phases": 4,
+        "equality_pattern": [
+          0,
+          1,
+          2,
+          3,
+          2,
+          1
+        ],
+        "durations_ms": [
+          210,
+          140,
+          140,
+          210,
+          140,
+          140
+        ],
+        "loop": 0,
+        "has_transparency": true,
+        "corner_alphas": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "alpha_bboxes": [
+          [
+            78,
+            29,
+            169,
+            228
+          ],
+          [
+            84,
+            29,
+            169,
+            228
+          ],
+          [
+            87,
+            29,
+            169,
+            228
+          ],
+          [
+            87,
+            29,
+            174,
+            228
+          ],
+          [
+            87,
+            29,
+            169,
+            228
+          ],
+          [
+            84,
+            29,
+            169,
+            228
+          ]
+        ],
+        "loop_closure_exact": true,
+        "contact": "qa/strict-repairs/tyler-durdening-listings/report-preflight/contacts/tyler-durdening-listings-gif-128.png"
+      },
+      "visual_evidence": {
+        "source_full_contact": "qa/strict-repairs/tyler-durdening-listings/report-preflight/contacts/tyler-durdening-listings-source-full.png",
+        "source_128_contact": "qa/strict-repairs/tyler-durdening-listings/report-preflight/contacts/tyler-durdening-listings-source-128.png"
+      },
+      "manual_review": {
+        "complete": false
+      },
+      "failures": [
+        "VISUAL_REVIEW_REQUIRED"
+      ],
+      "warnings": [
+        "STATIONARY_REGIONS_NOT_ANNOTATED"
+      ],
+      "passed": false
+    }
+  ]
+}

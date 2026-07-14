@@ -1,0 +1,115 @@
+{
+  "david-blaining-manager": {
+    "concept": "A male canonical Manager Homie in an all-black street-magician outfit makes a visible arc of playing cards fly between his deck and open hand.",
+    "action_expectation": "The same complete Manager body, deck, hands and five inner cards stay locked while the detached outer card travels outward and upward through a controlled arc.",
+    "signature_action": true,
+    "min_silhouette_motion_px": 4.0,
+    "min_mask_xor_pct": 0.3,
+    "allow_global_motion": false,
+    "max_global_drift_px": 0.5,
+    "fixed_character_plate": true,
+    "max_registered_residual_pct": 8.0,
+    "min_upper_anchor_ncc": 0.98,
+    "min_margin_px": 60,
+    "max_significant_components_per_cell": 3,
+    "max_foreground_area_span_pct": 3.0,
+    "max_bbox_span_pct": 6.0,
+    "max_significant_component_span": 0,
+    "stationary_regions": [
+      {
+        "name": "fixed-manager-face-torso-deck-and-inner-card-arc",
+        "box": [0.36, 0.04, 0.50, 0.62],
+        "max_change_pct": 0.0
+      },
+      {
+        "name": "fixed-manager-legs-and-shoes",
+        "box": [0.28, 0.51, 0.64, 0.96],
+        "max_change_pct": 0.0
+      }
+    ]
+  },
+  "cranking-that-marketing": {
+    "concept": "The male canonical Marketing Homie wears the supplied white graffiti jacket and black/yellow Crank That wardrobe while holding the recognizable Superman balance pose.",
+    "action_expectation": "Both complete sleeve-arm-hand units sweep in opposite directions around fixed shoulders while the face, cap, wraparound shades, jacket core, red shirt, planted leg and raised rear leg remain locked.",
+    "signature_action": true,
+    "min_silhouette_motion_px": 5.0,
+    "min_mask_xor_pct": 1.5,
+    "allow_global_motion": false,
+    "max_global_drift_px": 1.0,
+    "fixed_character_plate": true,
+    "max_registered_residual_pct": 35.0,
+    "min_upper_anchor_ncc": 0.82,
+    "min_margin_px": 60,
+    "max_foreground_area_span_pct": 5.0,
+    "max_bbox_span_pct": 6.0,
+    "max_significant_component_span": 0,
+    "stationary_regions": [
+      {
+        "name": "fixed-marketing-cap-shades-and-face",
+        "box": [0.40, 0.05, 0.54, 0.27],
+        "max_change_pct": 0.5
+      },
+      {
+        "name": "fixed-planted-and-raised-legs",
+        "box": [0.34, 0.57, 0.73, 0.96],
+        "max_change_pct": 0.0
+      }
+    ]
+  },
+  "cranking-the-step-marketing": {
+    "concept": "The male canonical Marketing Homie wears the supplied Crank That wardrobe in the crossed-foot small-hop step.",
+    "action_expectation": "Two complete bent sleeve-arm-fist units pump around fixed shoulder joins while the cap, wraparound shades, face, jacket core, crossed legs and both shoes remain locked.",
+    "signature_action": true,
+    "min_silhouette_motion_px": 4.0,
+    "min_mask_xor_pct": 0.4,
+    "allow_global_motion": false,
+    "max_global_drift_px": 0.5,
+    "fixed_character_plate": true,
+    "max_registered_residual_pct": 24.0,
+    "min_upper_anchor_ncc": 0.86,
+    "min_margin_px": 60,
+    "max_foreground_area_span_pct": 5.0,
+    "max_bbox_span_pct": 5.0,
+    "max_significant_component_span": 0,
+    "stationary_regions": [
+      {
+        "name": "fixed-cap-shades-and-face",
+        "box": [0.42, 0.04, 0.58, 0.28],
+        "max_change_pct": 0.5
+      },
+      {
+        "name": "fixed-crossed-leg-step",
+        "box": [0.25, 0.56, 0.68, 0.96],
+        "max_change_pct": 0.0
+      }
+    ]
+  },
+  "cranking-the-motorbike-marketing": {
+    "concept": "The male canonical Marketing Homie wears the supplied Crank That wardrobe in the low motorcycle-rev dance step.",
+    "action_expectation": "Both complete forearm-fist units counter-rotate around fixed elbows like revving handlebars while the head, jacket core, upper sleeves, bent knees, baggy pants and shoes remain locked.",
+    "signature_action": true,
+    "min_silhouette_motion_px": 4.0,
+    "min_mask_xor_pct": 0.3,
+    "allow_global_motion": false,
+    "max_global_drift_px": 0.5,
+    "fixed_character_plate": true,
+    "max_registered_residual_pct": 22.0,
+    "min_upper_anchor_ncc": 0.88,
+    "min_margin_px": 60,
+    "max_foreground_area_span_pct": 5.0,
+    "max_bbox_span_pct": 5.0,
+    "max_significant_component_span": 0,
+    "stationary_regions": [
+      {
+        "name": "fixed-cap-shades-and-face",
+        "box": [0.42, 0.04, 0.57, 0.28],
+        "max_change_pct": 0.0
+      },
+      {
+        "name": "fixed-bent-knee-stance",
+        "box": [0.20, 0.57, 0.77, 0.96],
+        "max_change_pct": 0.0
+      }
+    ]
+  }
+}

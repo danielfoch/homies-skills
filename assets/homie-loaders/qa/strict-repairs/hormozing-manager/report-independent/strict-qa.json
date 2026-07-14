@@ -1,0 +1,394 @@
+{
+  "results": [
+    {
+      "slug": "hormozing-manager",
+      "concept": "A locked male Manager Homie styled as a brand-free Hormozi homage points to one navy $100M business book while three value bars stack and a tiny gold glint lands.",
+      "action_expectation": "At full size and 128px, the fixed pointing pose and exact $100M title remain readable while three value bars visibly stack inside the same book; face, cap, glasses, nasal strip, beard, body, both arms and hands, book geometry, crop, scale, and silhouette remain byte-locked.",
+      "source": "sources/wildcard/hormozing-manager.png",
+      "source_sha256": "0732f5c23f4c24e8f9423fc85733f89d33d09d00d3f2b0725c4e78a1e4d8da17",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_mode": "RGB",
+      "grid": [
+        2,
+        2
+      ],
+      "key_geometry": {
+        "outer_edge_non_key_pixels": 0,
+        "gutter_axis_non_key_pixels": 0
+      },
+      "cells": [
+        {
+          "index": 0,
+          "sha256_rgb": "8e6df92cc4b91907ba1a503fee5798ccd3166052078d227d504f9e99bc888045",
+          "foreground_pixels": 102072,
+          "foreground_pct": 25.964,
+          "bbox": [
+            113,
+            84,
+            499,
+            543
+          ],
+          "margins": [
+            113,
+            128,
+            84,
+            84
+          ],
+          "minimum_margin": 84,
+          "centroid": [
+            314.375,
+            348.392
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 204,
+            "areas": [
+              102072
+            ],
+            "largest_area": 102072
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 1,
+          "sha256_rgb": "8ea2fed027880d0baff80d28f3bbb2468f12cb97e3971b32b3bc1019185bba2d",
+          "foreground_pixels": 102072,
+          "foreground_pct": 25.964,
+          "bbox": [
+            113,
+            84,
+            499,
+            543
+          ],
+          "margins": [
+            113,
+            128,
+            84,
+            84
+          ],
+          "minimum_margin": 84,
+          "centroid": [
+            314.375,
+            348.392
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 204,
+            "areas": [
+              102072
+            ],
+            "largest_area": 102072
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 2,
+          "sha256_rgb": "510620544a634b608a15ce39ff5b315d1241102c23a3bbbd8ac47f571b38d0f5",
+          "foreground_pixels": 102072,
+          "foreground_pct": 25.964,
+          "bbox": [
+            113,
+            84,
+            499,
+            543
+          ],
+          "margins": [
+            113,
+            128,
+            84,
+            84
+          ],
+          "minimum_margin": 84,
+          "centroid": [
+            314.375,
+            348.392
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 204,
+            "areas": [
+              102072
+            ],
+            "largest_area": 102072
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 3,
+          "sha256_rgb": "d43c2c8d65e50cff2bd7f02d520550d7680bb8016d30a79995a44312c8ee9d10",
+          "foreground_pixels": 102072,
+          "foreground_pct": 25.964,
+          "bbox": [
+            113,
+            84,
+            499,
+            543
+          ],
+          "margins": [
+            113,
+            128,
+            84,
+            84
+          ],
+          "minimum_margin": 84,
+          "centroid": [
+            314.375,
+            348.392
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 204,
+            "areas": [
+              102072
+            ],
+            "largest_area": 102072
+          },
+          "artifact_flags": []
+        }
+      ],
+      "pair_metrics": [
+        {
+          "mask_xor_pct": 0.0,
+          "silhouette_motion_p95_px": 0.0,
+          "silhouette_motion_max_px": 0.0,
+          "centroid_shift_px": 0.0,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 1.0,
+          "registered_residual_pct": 1.16,
+          "upper_anchor_ncc": 1.0
+        },
+        {
+          "mask_xor_pct": 0.0,
+          "silhouette_motion_p95_px": 0.0,
+          "silhouette_motion_max_px": 0.0,
+          "centroid_shift_px": 0.0,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 1.0,
+          "registered_residual_pct": 1.158,
+          "upper_anchor_ncc": 1.0
+        },
+        {
+          "mask_xor_pct": 0.0,
+          "silhouette_motion_p95_px": 0.0,
+          "silhouette_motion_max_px": 0.0,
+          "centroid_shift_px": 0.0,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 1.0,
+          "registered_residual_pct": 1.1825,
+          "upper_anchor_ncc": 1.0
+        }
+      ],
+      "aggregate": {
+        "max_silhouette_motion_p95_px": 0.0,
+        "max_mask_xor_pct": 0.0,
+        "max_centroid_shift_px": 0.0,
+        "max_registration_shift_px": 0.0,
+        "max_registered_residual_pct": 1.1825,
+        "minimum_upper_anchor_ncc": 1.0,
+        "foreground_area_span_pct": 0.0,
+        "bbox_width_span_pct": 0.0,
+        "bbox_height_span_pct": 0.0,
+        "significant_component_count_span": 0
+      },
+      "stationary_regions": [
+        {
+          "name": "locked-cap-face-glasses-strip-and-beard",
+          "box_pixels": [
+            150,
+            75,
+            376,
+            238
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.0
+        },
+        {
+          "name": "locked-pointing-hand-and-upper-torso",
+          "box_pixels": [
+            63,
+            263,
+            276,
+            382
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.0
+        },
+        {
+          "name": "locked-lower-torso-book-grip-and-watch",
+          "box_pixels": [
+            113,
+            439,
+            489,
+            552
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.0
+        }
+      ],
+      "gif": {
+        "path": "gifs/wildcard/hormozing-manager.gif",
+        "exists": true,
+        "sha256": "373a6ff9a0d1479af6090b9f9417800ca15a5f11252e7ec2515fe7c24db33a3a",
+        "bytes": 76371,
+        "size": [
+          256,
+          256
+        ],
+        "frame_count": 6,
+        "unique_phases": 4,
+        "equality_pattern": [
+          0,
+          1,
+          2,
+          3,
+          2,
+          1
+        ],
+        "durations_ms": [
+          210,
+          140,
+          140,
+          210,
+          140,
+          140
+        ],
+        "loop": 0,
+        "has_transparency": true,
+        "corner_alphas": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "alpha_bboxes": [
+          [
+            46,
+            34,
+            204,
+            222
+          ],
+          [
+            46,
+            34,
+            204,
+            222
+          ],
+          [
+            46,
+            34,
+            204,
+            222
+          ],
+          [
+            46,
+            34,
+            204,
+            222
+          ],
+          [
+            46,
+            34,
+            204,
+            222
+          ],
+          [
+            46,
+            34,
+            204,
+            222
+          ]
+        ],
+        "loop_closure_exact": true,
+        "contact": "qa/strict-repairs/hormozing-manager/report-independent/contacts/hormozing-manager-gif-128.png"
+      },
+      "visual_evidence": {
+        "source_full_contact": "qa/strict-repairs/hormozing-manager/report-independent/contacts/hormozing-manager-source-full.png",
+        "source_128_contact": "qa/strict-repairs/hormozing-manager/report-independent/contacts/hormozing-manager-source-128.png"
+      },
+      "manual_review": {
+        "complete": true,
+        "signature_action_readable": true,
+        "stationary_elements_stable": true,
+        "loop_motion_natural": true,
+        "notes": "Independent review inspected the full 1254px production source, each of its four 627px cells, the four-cell 128px contact, every decoded 256px GIF frame, and the six-frame 128px GIF contact. Every phase contains exactly one male character, one head, one backward royal-blue cap, one pair of clear glasses, one white nasal strip, one beard, one white sleeveless shirt, two connected arms, two attached hands, and one unchanged navy book. The exact $100M title remains static and readable at 128px. The three bars stack only inside the locked book, and the final gold glint remains book-clipped. No wiggle, scale pulse, crop fault, green debris, extra limb, duplicate character, text change, prop morph, palette spill, registration drift, or continuity issue is visible."
+      },
+      "failures": [],
+      "warnings": [],
+      "passed": true
+    }
+  ]
+}

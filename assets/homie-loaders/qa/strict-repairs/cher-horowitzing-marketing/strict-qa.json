@@ -1,0 +1,378 @@
+{
+  "results": [
+    {
+      "slug": "cher-horowitzing-marketing",
+      "concept": "A clearly female Homie in the iconic yellow-plaid 1990s fashion look checks a blank flip phone.",
+      "action_expectation": "The connected upper lid of one blank flip phone opens as its empty display wakes; the woman's face, hair, body, plaid outfit, hands, lower phone, legs and feet remain fixed.",
+      "source": "/tmp/cher-horowitz-female-v3/sources/wildcard/cher-horowitzing-marketing.png",
+      "source_sha256": "37a5dec275eeb52b8ff154332ac6745a14f9da681f7998dbf36692222c34add7",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_mode": "RGB",
+      "grid": [
+        2,
+        2
+      ],
+      "key_geometry": {
+        "outer_edge_non_key_pixels": 0,
+        "gutter_axis_non_key_pixels": 0
+      },
+      "cells": [
+        {
+          "index": 0,
+          "sha256_rgb": "34c94b3f944b2bdf146a5f45b999d2c321a33935d804d245ddb0f731b2f6a36a",
+          "foreground_pixels": 41145,
+          "foreground_pct": 10.466,
+          "bbox": [
+            222,
+            65,
+            405,
+            562
+          ],
+          "margins": [
+            222,
+            222,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            313.454,
+            278.863
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 82,
+            "areas": [
+              41145
+            ],
+            "largest_area": 41145
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 1,
+          "sha256_rgb": "ce3a237b98f6410b4354583e85406a206cebe294b87cdbf13c99862dd6760a21",
+          "foreground_pixels": 41247,
+          "foreground_pct": 10.492,
+          "bbox": [
+            222,
+            65,
+            405,
+            562
+          ],
+          "margins": [
+            222,
+            222,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            313.257,
+            278.446
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 82,
+            "areas": [
+              41247
+            ],
+            "largest_area": 41247
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 2,
+          "sha256_rgb": "3e11bfaf802d74c723ccfbcccca959310a4812004c57a3daa330f31c13938dd5",
+          "foreground_pixels": 41354,
+          "foreground_pct": 10.5192,
+          "bbox": [
+            222,
+            65,
+            405,
+            562
+          ],
+          "margins": [
+            222,
+            222,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            313.052,
+            277.999
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 83,
+            "areas": [
+              41354
+            ],
+            "largest_area": 41354
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 3,
+          "sha256_rgb": "c5c9143c722c9cb0071d10bfc772bb1988ecb8a84e340e73defb8888151deed3",
+          "foreground_pixels": 41454,
+          "foreground_pct": 10.5446,
+          "bbox": [
+            222,
+            65,
+            405,
+            562
+          ],
+          "margins": [
+            222,
+            222,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            312.86,
+            277.568
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 83,
+            "areas": [
+              41454
+            ],
+            "largest_area": 41454
+          },
+          "artifact_flags": []
+        }
+      ],
+      "pair_metrics": [
+        {
+          "mask_xor_pct": 0.2957,
+          "silhouette_motion_p95_px": 5.0,
+          "silhouette_motion_max_px": 6.0,
+          "centroid_shift_px": 0.461,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.997,
+          "registered_residual_pct": 1.0544,
+          "upper_anchor_ncc": 1.0
+        },
+        {
+          "mask_xor_pct": 0.307,
+          "silhouette_motion_p95_px": 5.069,
+          "silhouette_motion_max_px": 6.0,
+          "centroid_shift_px": 0.492,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9969,
+          "registered_residual_pct": 1.2475,
+          "upper_anchor_ncc": 1.0
+        },
+        {
+          "mask_xor_pct": 0.2894,
+          "silhouette_motion_p95_px": 5.0,
+          "silhouette_motion_max_px": 5.831,
+          "centroid_shift_px": 0.473,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9971,
+          "registered_residual_pct": 1.4326,
+          "upper_anchor_ncc": 1.0
+        }
+      ],
+      "aggregate": {
+        "max_silhouette_motion_p95_px": 5.069,
+        "max_mask_xor_pct": 0.307,
+        "max_centroid_shift_px": 0.492,
+        "max_registration_shift_px": 0.0,
+        "max_registered_residual_pct": 1.4326,
+        "minimum_upper_anchor_ncc": 1.0,
+        "foreground_area_span_pct": 0.7482,
+        "bbox_width_span_pct": 0.0,
+        "bbox_height_span_pct": 0.0,
+        "significant_component_count_span": 0
+      },
+      "stationary_regions": [
+        {
+          "name": "female-face-hair-torso-plaid-hip-hand-right-side",
+          "box_pixels": [
+            282,
+            0,
+            627,
+            627
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.0
+        },
+        {
+          "name": "fixed-body-legs-feet",
+          "box_pixels": [
+            0,
+            188,
+            627,
+            627
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.0
+        }
+      ],
+      "gif": {
+        "path": "/tmp/cher-horowitz-female-v3/gifs/wildcard/cher-horowitzing-marketing.gif",
+        "exists": true,
+        "sha256": "36bc53cca6ecb6bc20fda32cd427bc6b45bf6ccf495f9c0ebc7514051eb2344f",
+        "bytes": 41492,
+        "size": [
+          256,
+          256
+        ],
+        "frame_count": 6,
+        "unique_phases": 4,
+        "equality_pattern": [
+          0,
+          1,
+          2,
+          3,
+          2,
+          1
+        ],
+        "durations_ms": [
+          210,
+          140,
+          140,
+          210,
+          140,
+          140
+        ],
+        "loop": 0,
+        "has_transparency": true,
+        "corner_alphas": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "alpha_bboxes": [
+          [
+            91,
+            27,
+            165,
+            229
+          ],
+          [
+            91,
+            27,
+            165,
+            229
+          ],
+          [
+            91,
+            27,
+            165,
+            229
+          ],
+          [
+            91,
+            27,
+            165,
+            229
+          ],
+          [
+            91,
+            27,
+            165,
+            229
+          ],
+          [
+            91,
+            27,
+            165,
+            229
+          ]
+        ],
+        "loop_closure_exact": true,
+        "contact": "/tmp/cher-horowitz-female-v3/strict-policy/contacts/cher-horowitzing-marketing-gif-128.png"
+      },
+      "visual_evidence": {
+        "source_full_contact": "/tmp/cher-horowitz-female-v3/strict-policy/contacts/cher-horowitzing-marketing-source-full.png",
+        "source_128_contact": "/tmp/cher-horowitz-female-v3/strict-policy/contacts/cher-horowitzing-marketing-source-128.png"
+      },
+      "manual_review": {
+        "complete": true,
+        "signature_action_readable": true,
+        "stationary_elements_stable": true,
+        "loop_motion_natural": true,
+        "notes": "Full-size, 128px, and magnified phone contacts inspected. The character is unmistakably an adult woman with a feminine face and body, shoulder-length blonde hair, no facial hair, yellow-and-black plaid blazer and skirt, white knee socks, and black loafers. One canonical plate is reused exactly. The face, hair, torso, plaid pattern, hands, lower phone, legs and feet are pixel-identical; only the connected upper lid and its blank screen change. No seams, ghosts, debris, crop, extra anatomy, palette shimmer, or whole-body jiggle."
+      },
+      "failures": [],
+      "warnings": [],
+      "passed": true
+    }
+  ]
+}

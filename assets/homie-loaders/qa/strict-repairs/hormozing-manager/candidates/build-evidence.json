@@ -1,0 +1,124 @@
+{
+  "selected_panel": 0,
+  "selected_panel_role": "only immutable character, wardrobe, anatomy, pointing pose, book, and crop source",
+  "registration_shift_per_phase": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ]
+  ],
+  "shared_scale_per_phase": [
+    0.82,
+    0.82,
+    0.82,
+    0.82
+  ],
+  "authored_value_slabs_per_phase": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "frame_sha256_rgba": [
+    "860c756ffe329088106520284b56f737dd9c4b1f8281f76c37bd4e0a2b335b4d",
+    "d6ed5ee998f3ae36eb45039f3509058559bfd1ac511795fd737aaf244dee3677",
+    "5e099f17ac76ae26929c09159434d6e9aabf71aedb2ac4479254d9edb06b67b6",
+    "f3e08056a68dc7c870a9f564d538ad55c0ff624f7b2e9e8988d582a23ce5a213"
+  ],
+  "static_outside_effect_sha256_rgba": [
+    "52cf1735366e8ad525d1462821e878c274e03d289d88f547f4b3051c99ee5d70",
+    "52cf1735366e8ad525d1462821e878c274e03d289d88f547f4b3051c99ee5d70",
+    "52cf1735366e8ad525d1462821e878c274e03d289d88f547f4b3051c99ee5d70",
+    "52cf1735366e8ad525d1462821e878c274e03d289d88f547f4b3051c99ee5d70"
+  ],
+  "title_glyph_sha256_rgba": [
+    "4aaa17f235a6b31bd8a12e61435eeb7cb0ca67da6d08ac04dee6d007e2b0f076",
+    "4aaa17f235a6b31bd8a12e61435eeb7cb0ca67da6d08ac04dee6d007e2b0f076",
+    "4aaa17f235a6b31bd8a12e61435eeb7cb0ca67da6d08ac04dee6d007e2b0f076",
+    "4aaa17f235a6b31bd8a12e61435eeb7cb0ca67da6d08ac04dee6d007e2b0f076"
+  ],
+  "minimum_margin_px": 84,
+  "foreground_area_span_px": 0,
+  "bbox_per_phase": [
+    [
+      113,
+      84,
+      499,
+      543
+    ],
+    [
+      113,
+      84,
+      499,
+      543
+    ],
+    [
+      113,
+      84,
+      499,
+      543
+    ],
+    [
+      113,
+      84,
+      499,
+      543
+    ]
+  ],
+  "significant_components_per_phase": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "changed_pixels": 4358,
+  "changed_pixel_ratio": 0.042575,
+  "changed_pixels_outside_allowed_mask": 0,
+  "thumbnail_128_adjacent_changed_pixels": [
+    93,
+    91,
+    92
+  ],
+  "glint_pixels_per_phase": [
+    0,
+    0,
+    0,
+    64
+  ],
+  "sequence": [
+    0,
+    1,
+    2,
+    3,
+    2,
+    1
+  ],
+  "durations_ms": [
+    210,
+    140,
+    140,
+    210,
+    140,
+    140
+  ],
+  "raw_chroma_sha256": "a80c23284d9a2fe9147b765b6ee5be486a408a68694713c2b52a1ecd47692fd2",
+  "raw_alpha_sha256": "cf51ec239bff8407868cb4f735911fa75747ce77ee5e306b99ad24d4028ddb0a",
+  "locked_plate_sha256": "700d960ab1393403d35fdef534257a3a36ddea0f94b7395464e66659ed558c15",
+  "locked_titled_plate_sha256": "c35b0eea54d9b09ed49e51d406ca26b2a5394ff2364f7e08d4c1620f1a8391b7",
+  "title_glyph_mask_sha256": "c069c59ed90c0af5ba32e82a80652ace11559b3882ff7e2aef96fafdb32b7cf7",
+  "allowed_mask_sha256": "665c7d101f4539f4f3d94df4d0d26630c96a8ca277ff0542cfb24f6addf7e924",
+  "source_sha256": "0732f5c23f4c24e8f9423fc85733f89d33d09d00d3f2b0725c4e78a1e4d8da17",
+  "gif_sha256": "373a6ff9a0d1479af6090b9f9417800ca15a5f11252e7ec2515fe7c24db33a3a"
+}

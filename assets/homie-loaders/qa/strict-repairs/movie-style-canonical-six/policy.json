@@ -1,0 +1,107 @@
+{
+  "rambo-ing-manager": {
+    "concept": "The canonical male Manager Homie tightens a red commando headband in an ink-and-watercolour tactical costume.",
+    "action_expectation": "The two connected red cloth tails cinch and counter-swing around fixed hand contacts while the Manager face, hands, arms, torso, legs and feet remain fixed.",
+    "signature_action": true,
+    "min_silhouette_motion_px": 3.0,
+    "min_mask_xor_pct": 0.45,
+    "allow_global_motion": false,
+    "max_global_drift_px": 0.5,
+    "fixed_character_plate": true,
+    "max_registered_residual_pct": 4.0,
+    "min_upper_anchor_ncc": 0.98,
+    "min_margin_px": 60,
+    "max_bbox_span_pct": 4.0,
+    "stationary_regions": [
+      {"name": "fixed-manager-lower-body", "box": [0.0, 0.38, 1.0, 1.0], "max_change_pct": 0.0}
+    ]
+  },
+  "godfathering-reports": {
+    "concept": "The canonical female Reports Homie adopts a composed formal crime-boss steeple pose in a black three-piece suit.",
+    "action_expectation": "One authored eyebrow lifts in a deliberate calculating loop while the Reports face, hair, steepled hands, suit, legs and feet remain fixed.",
+    "signature_action": false,
+    "allow_global_motion": false,
+    "max_global_drift_px": 0.5,
+    "fixed_character_plate": true,
+    "max_registered_residual_pct": 1.0,
+    "min_upper_anchor_ncc": 0.98,
+    "min_margin_px": 60,
+    "max_bbox_span_pct": 12.0,
+    "stationary_regions": [
+      {"name": "fixed-reports-body-below-brow", "box": [0.0, 0.2, 1.0, 1.0], "max_change_pct": 0.0},
+      {"name": "fixed-reports-left-face-hair", "box": [0.2, 0.03, 0.48, 0.22], "max_change_pct": 0.0}
+    ]
+  },
+  "pulp-fictioning-reports": {
+    "concept": "The canonical female Reports Homie wears a black bob and black-and-white twist-dance suit.",
+    "action_expectation": "The two connected distal forearms counter-rotate around fixed elbows over one bent-knee dance plate; the Reports face, bob, torso, pelvis, legs and shoes remain fixed.",
+    "signature_action": true,
+    "min_silhouette_motion_px": 4.0,
+    "min_mask_xor_pct": 1.0,
+    "allow_global_motion": false,
+    "max_global_drift_px": 0.5,
+    "fixed_character_plate": true,
+    "max_registered_residual_pct": 10.0,
+    "min_upper_anchor_ncc": 0.93,
+    "min_margin_px": 60,
+    "max_bbox_span_pct": 1.0,
+    "stationary_regions": [
+      {"name": "fixed-reports-dance-lower-body", "box": [0.0, 0.47, 1.0, 1.0], "max_change_pct": 0.0},
+      {"name": "fixed-reports-bob-face-and-torso", "box": [0.46, 0.05, 0.54, 0.38], "max_change_pct": 0.0}
+    ]
+  },
+  "waynes-worlding-content": {
+    "concept": "The canonical male Content Homie headbangs in a backward cap, black tee and ripped jeans while holding an air-guitar stance.",
+    "action_expectation": "One rigid Content head-and-cap layer rocks around a fixed neck pivot; shirt, hands, hips, legs and feet remain pixel-stable.",
+    "signature_action": true,
+    "min_silhouette_motion_px": 3.0,
+    "min_mask_xor_pct": 0.7,
+    "allow_global_motion": false,
+    "max_global_drift_px": 0.5,
+    "fixed_character_plate": true,
+    "max_registered_residual_pct": 8.0,
+    "min_upper_anchor_ncc": 0.82,
+    "min_margin_px": 60,
+    "max_bbox_span_pct": 4.0,
+    "stationary_regions": [
+      {"name": "fixed-content-body-below-neck", "box": [0.0, 0.31, 1.0, 1.0], "max_change_pct": 0.0},
+      {"name": "fixed-content-air-guitar-arm", "box": [0.58, 0.18, 1.0, 0.5], "max_change_pct": 0.0}
+    ]
+  },
+  "bill-and-ted-ing-crm": {
+    "concept": "The canonical bald male CRM Homie air-guitars in a denim vest, burgundy tee, plaid waist shirt and mismatched high-tops.",
+    "action_expectation": "Only the connected fretting forearm rotates around one fixed elbow; CRM face, bald head, torso, other hand, hips, legs and shoes remain fixed.",
+    "signature_action": true,
+    "min_silhouette_motion_px": 4.0,
+    "min_mask_xor_pct": 0.9,
+    "allow_global_motion": false,
+    "max_global_drift_px": 0.5,
+    "fixed_character_plate": true,
+    "max_registered_residual_pct": 5.0,
+    "min_upper_anchor_ncc": 0.98,
+    "min_margin_px": 60,
+    "max_bbox_span_pct": 5.0,
+    "stationary_regions": [
+      {"name": "fixed-crm-face-torso-left-core", "box": [0.0, 0.02, 0.5, 0.72], "max_change_pct": 0.0},
+      {"name": "fixed-crm-lower-body", "box": [0.0, 0.5, 1.0, 1.0], "max_change_pct": 0.0}
+    ]
+  },
+  "robocopping-offers": {
+    "concept": "The canonical female Offers Homie wears a hand-inked silver cyborg-police costume with her face and signature bun visible.",
+    "action_expectation": "The raised arm makes one mechanical servo sweep and the red visor scanner pulses; Offers face, bun, armour core, other arm, legs and boots remain fixed.",
+    "signature_action": true,
+    "min_silhouette_motion_px": 5.0,
+    "min_mask_xor_pct": 1.5,
+    "allow_global_motion": false,
+    "max_global_drift_px": 0.5,
+    "fixed_character_plate": true,
+    "max_registered_residual_pct": 10.0,
+    "min_upper_anchor_ncc": 0.98,
+    "min_margin_px": 60,
+    "max_bbox_span_pct": 6.0,
+    "stationary_regions": [
+      {"name": "fixed-offers-armour-core-right-side", "box": [0.55, 0.22, 1.0, 1.0], "max_change_pct": 0.0},
+      {"name": "fixed-offers-lower-body", "box": [0.0, 0.5, 1.0, 1.0], "max_change_pct": 0.0}
+    ]
+  }
+}

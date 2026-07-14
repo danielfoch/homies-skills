@@ -1,0 +1,8 @@
+Use case: precise-object-edit
+Asset type: isolated illustrated character plate
+Primary request: Re-illustrate the same fictional adult male Homies character from Image 1 in exactly the same friendly editorial line-and-watercolor style. Preserve his face, short dark hair, full beard, body proportions, and warm confident expression. Replace the hoodie and cargo pants with an original red-and-ochre padded technology-demo suit made of simple cloth-and-plastic panels, with no recognizable franchise design. Repose him so his complete body faces three-quarter forward, one ordinary bare hand is held open in a friendly wave toward the viewer, and the other arm hangs naturally. The open hand is simply a hand with no device and no light.
+Scene/backdrop: perfectly flat solid #00ff00 chroma-key field, uniform edge to edge.
+Composition/framing: one complete head-to-toe figure centered on a square canvas, ample padding around hair, hands, elbows, and shoes; face unobstructed.
+Style/medium: keep the canonical Homies fine ink outline and gentle watercolor shading; flat editorial character art, not photorealistic and not 3D.
+Constraints: one fictional character, ordinary anatomy, two arms, two hands, two legs; face visible; original generic suit with no symbols; no text, letters, numbers, logos, marks, watermarks, props, effects, particles, scenery, shadow, reflection, or floor plane. No #00ff00 in the subject.
+Avoid: any real person or celebrity resemblance, any recognizable superhero or movie costume, combat, weapons, glowing devices, circular chest elements, extra fingers or limbs, fused anatomy, debris, crop.

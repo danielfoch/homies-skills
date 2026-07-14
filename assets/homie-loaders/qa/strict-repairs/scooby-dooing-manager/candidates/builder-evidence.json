@@ -1,0 +1,143 @@
+{
+  "slug": "scooby-dooing-manager",
+  "builder": "/Users/danielfoch/Documents/Homies/assets/homie-loaders/scripts/build_candidate_scooby_dooing_manager.py",
+  "builder_sha256": "9f95b098682896e044889bfe4cb6967361f460606584435f7445d3fb4075fd5a",
+  "immutable_alpha": {
+    "path": "/Users/danielfoch/Documents/Homies/assets/homie-loaders/qa/strict-repairs/raw/scooby-dooing-manager-alpha.png",
+    "sha256": "c29f3a2e02ca6f01405df62535cc3d41f8503d28bf10aaeb386b585c74555d55",
+    "size": [
+      1010,
+      1558
+    ]
+  },
+  "accepted_chroma": {
+    "path": "/Users/danielfoch/Documents/Homies/assets/homie-loaders/qa/strict-repairs/scooby-dooing-manager/candidates/raw/scooby-dooing-manager-chroma.png",
+    "sha256": "f1974fd98e5240af0a8527bbf3548209885fc304a4884dbf65325115dfdfb2dc"
+  },
+  "locked_plate": {
+    "path": "/Users/danielfoch/Documents/Homies/assets/homie-loaders/qa/strict-repairs/scooby-dooing-manager/candidates/frames/scooby-dooing-manager/locked-manager-and-dog.png",
+    "sha256": "a2a910d43bfafa361405273d59c7f6fc5bc95946c97a72b355aaeb8fe0f7fe02"
+  },
+  "motion": {
+    "kind": "whole-rig integer shared shake",
+    "offsets_px": [
+      [
+        -9,
+        0
+      ],
+      [
+        -3,
+        -2
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        9,
+        0
+      ]
+    ]
+  },
+  "authored_cells": [
+    {
+      "path": "/Users/danielfoch/Documents/Homies/assets/homie-loaders/qa/strict-repairs/scooby-dooing-manager/candidates/frames/scooby-dooing-manager/cell-0.png",
+      "sha256": "1b6c209bfd8e8ad43899e7aa88936f0ec07b7edcb7671bb690bfddb0b8744e89"
+    },
+    {
+      "path": "/Users/danielfoch/Documents/Homies/assets/homie-loaders/qa/strict-repairs/scooby-dooing-manager/candidates/frames/scooby-dooing-manager/cell-1.png",
+      "sha256": "a4d3a6ba4dbc2fd11af409116fe3add7a00a0ea1773ccd5fe8dfeb82f7bafc9e"
+    },
+    {
+      "path": "/Users/danielfoch/Documents/Homies/assets/homie-loaders/qa/strict-repairs/scooby-dooing-manager/candidates/frames/scooby-dooing-manager/cell-2.png",
+      "sha256": "a6c32affa0f5a7ee3be3e9ca72a639d9e6f7a14880d27600a767fccac3f861e8"
+    },
+    {
+      "path": "/Users/danielfoch/Documents/Homies/assets/homie-loaders/qa/strict-repairs/scooby-dooing-manager/candidates/frames/scooby-dooing-manager/cell-3.png",
+      "sha256": "bc8db19e5933bdf069b28a6528cab94806ea7e57a8ba9c57178c5d38ebd0e1ed"
+    }
+  ],
+  "source": {
+    "path": "/Users/danielfoch/Documents/Homies/assets/homie-loaders/qa/strict-repairs/scooby-dooing-manager/candidates/sources/wildcard/scooby-dooing-manager.png",
+    "sha256": "61dc3d62762f91cd870c2593e87b5d4b93aca1b54c91f46062d807edc183b4be"
+  },
+  "gif": {
+    "path": "/Users/danielfoch/Documents/Homies/assets/homie-loaders/qa/strict-repairs/scooby-dooing-manager/candidates/gifs/wildcard/scooby-dooing-manager.gif",
+    "sha256": "cf5003e386102c932bd60feba93bc9f82df6224ac421fffbed0abd5431187f07",
+    "sequence": [
+      0,
+      1,
+      2,
+      3,
+      2,
+      1
+    ],
+    "durations_ms": [
+      210,
+      140,
+      140,
+      210,
+      140,
+      140
+    ]
+  },
+  "assertions": {
+    "frame_pixel_hashes": [
+      "fa6999715d579839d871f12c5908a619382e87826893972e91176d2b01bc6725",
+      "1687bcabedea5c7e4a921e5971cf57e9b11cd7ef603bfea85074d44742a01198",
+      "5988193adb637dd9ae125ec4bf1ea996cbf3faf21c8e906b192f85e477667471",
+      "761d036b6165478f6a0f7a7d6a7571a53974a6f5d61a4323f640590efd324b11"
+    ],
+    "foreground_areas": [
+      57625,
+      57625,
+      57625,
+      57625
+    ],
+    "bboxes": [
+      [
+        211,
+        74,
+        398,
+        552
+      ],
+      [
+        217,
+        72,
+        404,
+        550
+      ],
+      [
+        223,
+        76,
+        410,
+        554
+      ],
+      [
+        229,
+        74,
+        416,
+        552
+      ]
+    ],
+    "centroids": [
+      [
+        309.1156268980477,
+        287.10221258134493
+      ],
+      [
+        315.1156268980477,
+        285.10221258134493
+      ],
+      [
+        321.1156268980477,
+        289.10221258134493
+      ],
+      [
+        327.1156268980477,
+        287.10221258134493
+      ]
+    ],
+    "motion_ratio": 1.0
+  }
+}

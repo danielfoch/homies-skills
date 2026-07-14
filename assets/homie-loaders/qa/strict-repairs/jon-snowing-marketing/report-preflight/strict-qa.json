@@ -1,0 +1,369 @@
+{
+  "results": [
+    {
+      "slug": "jon-snowing-marketing",
+      "concept": "",
+      "action_expectation": "",
+      "source": "qa/strict-repairs/jon-snowing-marketing/candidates/sources/wildcard/jon-snowing-marketing.png",
+      "source_sha256": "8ae889775a0a659fb27142e8c04e45df21293ad26cf12cfc8f4b5d241f92f966",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_mode": "RGB",
+      "grid": [
+        2,
+        2
+      ],
+      "key_geometry": {
+        "outer_edge_non_key_pixels": 0,
+        "gutter_axis_non_key_pixels": 0
+      },
+      "cells": [
+        {
+          "index": 0,
+          "sha256_rgb": "76de325f9b7966513483fc4e45fdfd14cf798886ac50fbd55bfed279762c0828",
+          "foreground_pixels": 86237,
+          "foreground_pct": 21.9361,
+          "bbox": [
+            65,
+            71,
+            534,
+            555
+          ],
+          "margins": [
+            65,
+            93,
+            71,
+            72
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            314.695,
+            334.477
+          ],
+          "components": {
+            "count": 7,
+            "significant_count": 7,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 172,
+            "areas": [
+              84742,
+              319,
+              290,
+              234,
+              234,
+              209,
+              209
+            ],
+            "largest_area": 84742
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 1,
+          "sha256_rgb": "516b801aa3de5309bf0a59368d89051feacb6fab5948349c0927c7347a2fa1ed",
+          "foreground_pixels": 86237,
+          "foreground_pct": 21.9361,
+          "bbox": [
+            73,
+            71,
+            542,
+            555
+          ],
+          "margins": [
+            73,
+            85,
+            71,
+            72
+          ],
+          "minimum_margin": 71,
+          "centroid": [
+            314.833,
+            334.546
+          ],
+          "components": {
+            "count": 7,
+            "significant_count": 7,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 172,
+            "areas": [
+              84742,
+              319,
+              290,
+              234,
+              234,
+              209,
+              209
+            ],
+            "largest_area": 84742
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 2,
+          "sha256_rgb": "130cb1052b5784181ab79ecc0c0624602bcd0c084e0ba5b6c89764f0693c5dec",
+          "foreground_pixels": 86237,
+          "foreground_pct": 21.9361,
+          "bbox": [
+            81,
+            71,
+            550,
+            555
+          ],
+          "margins": [
+            81,
+            77,
+            71,
+            72
+          ],
+          "minimum_margin": 71,
+          "centroid": [
+            314.972,
+            334.616
+          ],
+          "components": {
+            "count": 7,
+            "significant_count": 7,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 172,
+            "areas": [
+              84742,
+              319,
+              290,
+              234,
+              234,
+              209,
+              209
+            ],
+            "largest_area": 84742
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 3,
+          "sha256_rgb": "dfe766b102649c805eb0cdec377389d678ba5c27c0fc8f5c904ce9146b0cdd43",
+          "foreground_pixels": 86237,
+          "foreground_pct": 21.9361,
+          "bbox": [
+            89,
+            71,
+            558,
+            555
+          ],
+          "margins": [
+            89,
+            69,
+            71,
+            72
+          ],
+          "minimum_margin": 69,
+          "centroid": [
+            315.111,
+            334.685
+          ],
+          "components": {
+            "count": 7,
+            "significant_count": 7,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 172,
+            "areas": [
+              84742,
+              319,
+              290,
+              234,
+              234,
+              209,
+              209
+            ],
+            "largest_area": 84742
+          },
+          "artifact_flags": []
+        }
+      ],
+      "pair_metrics": [
+        {
+          "mask_xor_pct": 2.1157,
+          "silhouette_motion_p95_px": 8.062,
+          "silhouette_motion_max_px": 8.944,
+          "centroid_shift_px": 0.155,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9788,
+          "registered_residual_pct": 3.0324,
+          "upper_anchor_ncc": 1.0
+        },
+        {
+          "mask_xor_pct": 2.1157,
+          "silhouette_motion_p95_px": 8.062,
+          "silhouette_motion_max_px": 8.944,
+          "centroid_shift_px": 0.155,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9788,
+          "registered_residual_pct": 3.0347,
+          "upper_anchor_ncc": 1.0
+        },
+        {
+          "mask_xor_pct": 2.1157,
+          "silhouette_motion_p95_px": 8.062,
+          "silhouette_motion_max_px": 8.944,
+          "centroid_shift_px": 0.155,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9788,
+          "registered_residual_pct": 3.0209,
+          "upper_anchor_ncc": 1.0
+        }
+      ],
+      "aggregate": {
+        "max_silhouette_motion_p95_px": 8.062,
+        "max_mask_xor_pct": 2.1157,
+        "max_centroid_shift_px": 0.155,
+        "max_registration_shift_px": 0.0,
+        "max_registered_residual_pct": 3.0347,
+        "minimum_upper_anchor_ncc": 1.0,
+        "foreground_area_span_pct": 0.0,
+        "bbox_width_span_pct": 0.0,
+        "bbox_height_span_pct": 0.0,
+        "significant_component_count_span": 0
+      },
+      "stationary_regions": [],
+      "gif": {
+        "path": "qa/strict-repairs/jon-snowing-marketing/candidates/gifs/wildcard/jon-snowing-marketing.gif",
+        "exists": true,
+        "sha256": "081883e2ec709593c38ed98cb16cd84536173ca24e8964f39031c680cd4d95fb",
+        "bytes": 87591,
+        "size": [
+          256,
+          256
+        ],
+        "frame_count": 6,
+        "unique_phases": 4,
+        "equality_pattern": [
+          0,
+          1,
+          2,
+          3,
+          2,
+          1
+        ],
+        "durations_ms": [
+          210,
+          140,
+          140,
+          210,
+          140,
+          140
+        ],
+        "loop": 0,
+        "has_transparency": true,
+        "corner_alphas": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "alpha_bboxes": [
+          [
+            26,
+            29,
+            218,
+            226
+          ],
+          [
+            30,
+            29,
+            221,
+            226
+          ],
+          [
+            33,
+            29,
+            224,
+            226
+          ],
+          [
+            36,
+            29,
+            228,
+            226
+          ],
+          [
+            33,
+            29,
+            224,
+            226
+          ],
+          [
+            30,
+            29,
+            221,
+            226
+          ]
+        ],
+        "loop_closure_exact": true,
+        "contact": "qa/strict-repairs/jon-snowing-marketing/report-preflight/contacts/jon-snowing-marketing-gif-128.png"
+      },
+      "visual_evidence": {
+        "source_full_contact": "qa/strict-repairs/jon-snowing-marketing/report-preflight/contacts/jon-snowing-marketing-source-full.png",
+        "source_128_contact": "qa/strict-repairs/jon-snowing-marketing/report-preflight/contacts/jon-snowing-marketing-source-128.png"
+      },
+      "manual_review": {
+        "complete": false
+      },
+      "failures": [
+        "VISUAL_REVIEW_REQUIRED"
+      ],
+      "warnings": [
+        "STATIONARY_REGIONS_NOT_ANNOTATED"
+      ],
+      "passed": false
+    }
+  ]
+}

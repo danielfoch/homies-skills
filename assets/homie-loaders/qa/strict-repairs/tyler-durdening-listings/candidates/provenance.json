@@ -1,0 +1,69 @@
+{
+  "slug": "tyler-durdening-listings",
+  "mode": "built-in image_gen",
+  "accepted_generation_prompt": "generation-prompt.txt",
+  "accepted_generation_prompt_sha256": "fba92546c7e82c13f08b7e2c68ab07920b0b0dd892476d10fd0dbff3d5468066",
+  "accepted_edit_prompt": null,
+  "generation_reference": {
+    "path": "assets/homie-loaders/references/listings.png",
+    "role": "canonical identity and Homies style",
+    "sha256": "15ffada285d822e22f3a8dd448b30bd94b79b2337a82a3a6a161a1833eafac0b"
+  },
+  "observed_action_reference": {
+    "path": "/var/folders/kz/c40hnqf51b78kdv_h64qjj0h0000gn/T/codex-clipboard-7496cc57-60bf-4a0b-98f4-bc7aebd865ed.png",
+    "role": "wardrobe/action guidance only; not sent in accepted generation",
+    "sha256": "e4b16b5bffc5e512b0d23f5511b141b02a56d5d9587b4950f9821ae71a479342"
+  },
+  "chroma_key": "#00ff00",
+  "chroma_path": "raw/tyler-durdening-listings-chroma.png",
+  "chroma_sha256": "04381eba353057933e42a79a94564ae6d2e16656df23c921a20fdd5c71e56a61",
+  "alpha_path": "../../raw/tyler-durdening-listings-alpha.png",
+  "alpha_sha256": "ba9e1e5fa3b1d65c9cbc7c9ecb404b493a95779a09cc7f5e49dd699233c360a5",
+  "alpha_command": "python3 $CODEX_HOME/skills/.system/imagegen/scripts/remove_chroma_key.py --input <chroma> --out <alpha> --auto-key border --soft-matte --transparent-threshold 12 --opaque-threshold 220 --despill",
+  "deterministic_animation": {
+    "builder_path": "assets/homie-loaders/scripts/build_tyler_durdening_listings_candidate.py",
+    "builder_sha256": "7a25bcd688442a36195c5f543600a0537832b1282a90778dc64c8cf0c35a75f1",
+    "contract": "One immutable generated Listings plate is reused in all cells. The original two guard fists are removed once, then exactly two attached fist/forearm rigs author left-jab, half-retraction, two-fist guard, and right-jab phases. No pixel outside the saved two-forearm mask may differ from the immutable plate.",
+    "immutable_plate_path": "assets/homie-loaders/qa/strict-repairs/tyler-durdening-listings/candidates/frames/tyler-durdening-listings/immutable-generated-listings-plate.png",
+    "immutable_plate_sha256": "225982b64e9cd75596da90afc44c1ff63d8943d499d1010707af4ae4b6d67553",
+    "allowed_motion_mask_path": "assets/homie-loaders/qa/strict-repairs/tyler-durdening-listings/candidates/frames/tyler-durdening-listings/allowed-left-and-right-forearm-mask.png",
+    "allowed_motion_mask_sha256": "5926423a903f1db3d410487a9ebf53415670d47001d1283be2902130ab9995d7",
+    "outside_mask_mismatch_pixels_per_phase": [0, 0, 0, 0],
+    "authored_phase_order": [0, 1, 2, 3],
+    "gif_phase_order": [0, 1, 2, 3, 2, 1],
+    "gif_durations_ms": [210, 140, 140, 210, 140, 140],
+    "builder_assertions": {
+      "foreground_area_span_ratio": 0.0277,
+      "maximum_centroid_shift_px": 4.202,
+      "changed_pixel_motion_ratio": 0.1372,
+      "exactly_two_fists_each_phase": true,
+      "motion_marks_attached_and_tapered": true
+    },
+    "consecutive_identical_rebuilds": 2
+  },
+  "outputs": {
+    "source_path": "assets/homie-loaders/qa/strict-repairs/tyler-durdening-listings/candidates/sources/wildcard/tyler-durdening-listings.png",
+    "source_sha256": "3f04d49bfeca9aa98c3aae199fbb98b8752e7c92b061fba4e451835e6df945b2",
+    "source_size": [1254, 1254],
+    "source_mode": "RGB",
+    "gif_path": "assets/homie-loaders/qa/strict-repairs/tyler-durdening-listings/candidates/gifs/wildcard/tyler-durdening-listings.gif",
+    "gif_sha256": "abfba32629dab614567f5c07444e85c75770f29528e566bd67c7ee7e521a6bf1",
+    "gif_size": [256, 256],
+    "gif_frames": 6,
+    "gif_unique_phases": 4,
+    "gif_has_transparency": true
+  },
+  "strict_qa": {
+    "status": "PASS",
+    "policy_path": "assets/homie-loaders/qa/strict-repairs/tyler-durdening-listings/candidates/policy.json",
+    "policy_sha256": "8df7dda72821335dddfe2ef0cfe661c0af71770d87f2848d833edef87769889d",
+    "visual_review_path": "assets/homie-loaders/qa/strict-repairs/tyler-durdening-listings/candidates/visual-review.json",
+    "visual_review_sha256": "2297d48ba6d00304b3f45f4d4c4a26f5473f2ebee794b6282c3bd8e761e6aeb9",
+    "report_json_path": "assets/homie-loaders/qa/strict-repairs/tyler-durdening-listings/candidates/qa/strict-qa.json",
+    "report_json_sha256": "48e4d6032d5076e69fd2753d3ea13849153c4de1d8805f3bfb5542309622060b",
+    "report_markdown_path": "assets/homie-loaders/qa/strict-repairs/tyler-durdening-listings/candidates/qa/strict-qa.md",
+    "report_markdown_sha256": "6895df488f540927fa4ffe4dac1221ca97ed8c139a4d44a8a77423fc802c7b46",
+    "failures": [],
+    "warnings": []
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "hormozing-manager": {
+    "cells": [
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      }
+    ],
+    "signature_action_readable": true,
+    "stationary_elements_stable": true,
+    "loop_motion_natural": true,
+    "action_expectation": "At full size and 128px, the fixed pointing pose and exact $100M title remain readable while three value bars visibly stack inside the same book; face, cap, glasses, nasal strip, beard, body, both arms and hands, book geometry, crop, scale, and silhouette remain byte-locked.",
+    "notes": "Independent review inspected the full 1254px production source, each of its four 627px cells, the four-cell 128px contact, every decoded 256px GIF frame, and the six-frame 128px GIF contact. Every phase contains exactly one male character, one head, one backward royal-blue cap, one pair of clear glasses, one white nasal strip, one beard, one white sleeveless shirt, two connected arms, two attached hands, and one unchanged navy book. The exact $100M title remains static and readable at 128px. The three bars stack only inside the locked book, and the final gold glint remains book-clipped. No wiggle, scale pulse, crop fault, green debris, extra limb, duplicate character, text change, prop morph, palette spill, registration drift, or continuity issue is visible.",
+    "independent_audit": {
+      "production_source_sha256": "0732f5c23f4c24e8f9423fc85733f89d33d09d00d3f2b0725c4e78a1e4d8da17",
+      "production_gif_sha256": "373a6ff9a0d1479af6090b9f9417800ca15a5f11252e7ec2515fe7c24db33a3a",
+      "candidate_build_evidence_sha256": "9f9db056199f3ad8002a7d404ff11ee97c8145be54609f9dbd273fb745a64145",
+      "isolated_rebuild_root": "/private/tmp/hormozing-rebuild.Hy0U0Y",
+      "production_source_matches_candidate_and_rebuild_byte_for_byte": true,
+      "production_gif_matches_candidate_and_rebuild_byte_for_byte": true,
+      "build_evidence_matches_isolated_rebuild_byte_for_byte": true,
+      "masks_match_isolated_rebuild_byte_for_byte": true,
+      "source_size": [1254, 1254],
+      "cell_size": [627, 627],
+      "gif_size": [256, 256],
+      "gif_frames": 6,
+      "gif_unique_phases": 4,
+      "gif_phase_sequence": [0, 1, 2, 3, 2, 1],
+      "gif_durations_ms": [210, 140, 140, 210, 140, 140],
+      "gif_transparent_corners": true,
+      "gif_alpha_silhouette_locked": true,
+      "source_silhouette_locked": true,
+      "outside_allowed_effect_mask_changed_pixels": 0,
+      "title_glyph_changed_pixels": 0,
+      "changed_pixels_by_phase_vs_phase_0": [0, 1395, 2806, 4358],
+      "minimum_margin_px": 84,
+      "significant_components_per_phase": [1, 1, 1, 1],
+      "warnings": [],
+      "failures": []
+    }
+  }
+}

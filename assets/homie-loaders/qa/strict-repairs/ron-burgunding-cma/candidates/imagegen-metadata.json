@@ -1,0 +1,8 @@
+{
+  "mode": "built-in image_gen",
+  "canonical_identity_reference": "assets/homie-loaders/sources/cma/cma-deck-reveal.png",
+  "wardrobe_pose_reference": "/var/folders/kz/c40hnqf51b78kdv_h64qjj0h0000gn/T/codex-clipboard-06edf20e-270d-48a4-9f14-74dc66465892.png",
+  "accepted_prompt": "imagegen-prompt.txt",
+  "accepted_chroma_output": "raw-chroma.png",
+  "targeted_edit_prompts": []
+}

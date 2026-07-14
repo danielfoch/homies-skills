@@ -1,0 +1,30 @@
+{
+  "wildcard/david-blaining-manager": {
+    "grid": [2, 2],
+    "inset_ratio": 0,
+    "frames": [{}, {}, {}, {}],
+    "sequence": [0, 1, 2, 3, 2, 1],
+    "durations_ms": [210, 140, 140, 210, 140, 140]
+  },
+  "wildcard/cranking-that-marketing": {
+    "grid": [2, 2],
+    "inset_ratio": 0,
+    "frames": [{}, {}, {}, {}],
+    "sequence": [0, 1, 2, 3, 2, 1],
+    "durations_ms": [210, 140, 140, 210, 140, 140]
+  },
+  "wildcard/cranking-the-step-marketing": {
+    "grid": [2, 2],
+    "inset_ratio": 0,
+    "frames": [{}, {}, {}, {}],
+    "sequence": [0, 1, 2, 3, 2, 1],
+    "durations_ms": [210, 140, 140, 210, 140, 140]
+  },
+  "wildcard/cranking-the-motorbike-marketing": {
+    "grid": [2, 2],
+    "inset_ratio": 0,
+    "frames": [{}, {}, {}, {}],
+    "sequence": [0, 1, 2, 3, 2, 1],
+    "durations_ms": [210, 140, 140, 210, 140, 140]
+  }
+}

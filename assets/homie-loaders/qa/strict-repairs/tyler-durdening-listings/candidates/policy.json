@@ -1,0 +1,37 @@
+{
+  "tyler-durdening-listings": {
+    "concept": "Canonical Listings Homie in red leather performs controlled shadow boxing",
+    "action_expectation": "Exactly two fists remain visible in every phase while the left jab retracts to guard and the right jab extends with only attached tapered motion marks; face, torso, pelvis, legs, crop, anchor, and scale remain fixed.",
+    "signature_action": true,
+    "min_silhouette_motion_px": 3.01,
+    "min_mask_xor_pct": 0.75,
+    "fixed_character_plate": true,
+    "allow_global_motion": false,
+    "max_global_drift_px": 3.0,
+    "max_registered_residual_pct": 30.0,
+    "min_upper_anchor_ncc": 0.72,
+    "min_margin_px": 60,
+    "max_tiny_components": 4,
+    "max_significant_components_per_cell": 1,
+    "max_foreground_area_span_pct": 5.0,
+    "max_bbox_span_pct": 12.0,
+    "max_significant_component_span": 0,
+    "stationary_regions": [
+      {
+        "name": "locked face",
+        "box": [0.44, 0.11, 0.56, 0.23],
+        "max_change_pct": 0.0
+      },
+      {
+        "name": "locked torso core",
+        "box": [0.44, 0.35, 0.56, 0.45],
+        "max_change_pct": 0.0
+      },
+      {
+        "name": "locked pelvis legs and shoes",
+        "box": [0.38, 0.45, 0.63, 0.91],
+        "max_change_pct": 0.0
+      }
+    ]
+  }
+}

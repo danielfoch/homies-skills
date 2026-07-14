@@ -1,0 +1,362 @@
+{
+  "results": [
+    {
+      "slug": "oops-i-did-it-again-ing-offers",
+      "concept": "Perform the supplied chest-palm and horizontal-arm Oops dance pose in a pure glossy red spandex catsuit.",
+      "action_expectation": "The chest palm and crossed stance remain fixed while the opposite connected forearm progressively straightens into a shoulder-height horizontal reach.",
+      "source": "/tmp/oops-chest-reach-v4/sources/wildcard/oops-i-did-it-again-ing-offers.png",
+      "source_sha256": "bf7f632f6f869210f99e33dedf9805182a44765fd1b201af57bd8da4a29b799b",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_mode": "RGB",
+      "grid": [
+        2,
+        2
+      ],
+      "key_geometry": {
+        "outer_edge_non_key_pixels": 0,
+        "gutter_axis_non_key_pixels": 0
+      },
+      "cells": [
+        {
+          "index": 0,
+          "sha256_rgb": "ad74e623d27c3afadb1c351df31e5ac2b89a68253d8e74706f70510b8d6794cc",
+          "foreground_pixels": 35751,
+          "foreground_pct": 9.094,
+          "bbox": [
+            154,
+            65,
+            473,
+            562
+          ],
+          "margins": [
+            154,
+            154,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            245.806,
+            277.795
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 72,
+            "areas": [
+              35751
+            ],
+            "largest_area": 35751
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 1,
+          "sha256_rgb": "19829d3fd273a49e1d2ff19988aade5b6d1977ea1b320a25f972f504cb7a9efe",
+          "foreground_pixels": 35752,
+          "foreground_pct": 9.0942,
+          "bbox": [
+            154,
+            65,
+            473,
+            562
+          ],
+          "margins": [
+            154,
+            154,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            245.81,
+            277.551
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 72,
+            "areas": [
+              35752
+            ],
+            "largest_area": 35752
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 2,
+          "sha256_rgb": "1d753d5b1edc738464adcadf2f462acdb1a74f12286a6e256503a873defc0a6c",
+          "foreground_pixels": 35746,
+          "foreground_pct": 9.0927,
+          "bbox": [
+            154,
+            65,
+            473,
+            562
+          ],
+          "margins": [
+            154,
+            154,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            245.789,
+            277.348
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 71,
+            "areas": [
+              35746
+            ],
+            "largest_area": 35746
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 3,
+          "sha256_rgb": "f709bafe0aaff8dbbbb4a2c7bd1db2d4cb41a3112940249f901ae35d4f1e340a",
+          "foreground_pixels": 35750,
+          "foreground_pct": 9.0937,
+          "bbox": [
+            154,
+            65,
+            473,
+            562
+          ],
+          "margins": [
+            154,
+            154,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            245.811,
+            277.108
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 72,
+            "areas": [
+              35750
+            ],
+            "largest_area": 35750
+          },
+          "artifact_flags": []
+        }
+      ],
+      "pair_metrics": [
+        {
+          "mask_xor_pct": 2.7939,
+          "silhouette_motion_p95_px": 6.325,
+          "silhouette_motion_max_px": 8.0,
+          "centroid_shift_px": 0.244,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9721,
+          "registered_residual_pct": 5.3009,
+          "upper_anchor_ncc": 0.9853
+        },
+        {
+          "mask_xor_pct": 2.5953,
+          "silhouette_motion_p95_px": 6.0,
+          "silhouette_motion_max_px": 7.28,
+          "centroid_shift_px": 0.204,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.974,
+          "registered_residual_pct": 5.1189,
+          "upper_anchor_ncc": 0.9861
+        },
+        {
+          "mask_xor_pct": 2.6281,
+          "silhouette_motion_p95_px": 6.0,
+          "silhouette_motion_max_px": 7.28,
+          "centroid_shift_px": 0.241,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9737,
+          "registered_residual_pct": 5.1402,
+          "upper_anchor_ncc": 0.9862
+        }
+      ],
+      "aggregate": {
+        "max_silhouette_motion_p95_px": 6.325,
+        "max_mask_xor_pct": 2.7939,
+        "max_centroid_shift_px": 0.244,
+        "max_registration_shift_px": 0.0,
+        "max_registered_residual_pct": 5.3009,
+        "minimum_upper_anchor_ncc": 0.9853,
+        "foreground_area_span_pct": 0.0168,
+        "bbox_width_span_pct": 0.0,
+        "bbox_height_span_pct": 0.0,
+        "significant_component_count_span": 0
+      },
+      "stationary_regions": [
+        {
+          "name": "canonical-head-torso-chest-hand-hips-crossed-legs-feet",
+          "box_pixels": [
+            0,
+            0,
+            314,
+            627
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.0
+        }
+      ],
+      "gif": {
+        "path": "/tmp/oops-chest-reach-v4/gifs/wildcard/oops-i-did-it-again-ing-offers.gif",
+        "exists": true,
+        "sha256": "268893b78d9de5affae5392311f915433e14333400c725cde6d6eaef15350e6d",
+        "bytes": 37064,
+        "size": [
+          256,
+          256
+        ],
+        "frame_count": 6,
+        "unique_phases": 4,
+        "equality_pattern": [
+          0,
+          1,
+          2,
+          3,
+          2,
+          1
+        ],
+        "durations_ms": [
+          210,
+          140,
+          140,
+          210,
+          140,
+          140
+        ],
+        "loop": 0,
+        "has_transparency": true,
+        "corner_alphas": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "alpha_bboxes": [
+          [
+            63,
+            27,
+            193,
+            229
+          ],
+          [
+            63,
+            27,
+            193,
+            229
+          ],
+          [
+            63,
+            27,
+            193,
+            229
+          ],
+          [
+            63,
+            27,
+            193,
+            229
+          ],
+          [
+            63,
+            27,
+            193,
+            229
+          ],
+          [
+            63,
+            27,
+            193,
+            229
+          ]
+        ],
+        "loop_closure_exact": true,
+        "contact": "/tmp/oops-chest-reach-v4/strict-policy/contacts/oops-i-did-it-again-ing-offers-gif-128.png"
+      },
+      "visual_evidence": {
+        "source_full_contact": "/tmp/oops-chest-reach-v4/strict-policy/contacts/oops-i-did-it-again-ing-offers-source-full.png",
+        "source_128_contact": "/tmp/oops-chest-reach-v4/strict-policy/contacts/oops-i-did-it-again-ing-offers-source-128.png"
+      },
+      "manual_review": {
+        "complete": true,
+        "signature_action_readable": true,
+        "stationary_elements_stable": true,
+        "loop_motion_natural": true,
+        "notes": "Full-size and 128px contacts inspected. One canonical body plate is reused exactly. Bun, face, torso, chest hand, pelvis, crossed legs and both feet have zero changed decoded-GIF pixels outside the reaching arm. One shared GIF palette removes colour flicker. Only the connected reaching forearm changes through an elbow-anchored continuous shear. Four cells have one connected foreground component, no crop, seams, ghosts, debris or extra anatomy."
+      },
+      "failures": [],
+      "warnings": [],
+      "passed": true
+    }
+  ]
+}

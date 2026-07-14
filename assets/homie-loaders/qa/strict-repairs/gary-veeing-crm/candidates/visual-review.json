@@ -1,0 +1,15 @@
+{
+  "gary-veeing-crm": {
+    "cells": [
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true},
+      {"full_size_inspected": true, "thumbnail_128_inspected": true, "crop_clear": true, "anatomy_clear": true, "prop_continuity_clear": true, "no_unintended_redraw_wiggle": true}
+    ],
+    "signature_action_readable": true,
+    "stationary_elements_stable": true,
+    "loop_motion_natural": true,
+    "action_expectation": "The canonical male CRM Homie holds two open hands wide around shoulder/head height in a restrained reversible speaker emphasis.",
+    "notes": "Inspected refreshed full, 128px, and GIF contacts after switching to the reference-faithful shoulder-height locked panel. Both five-finger hands remain coherent, the male CRM identity and navy-shirt silhouette stay fixed, and the restrained reversible speaker emphasis remains readable without crop or redraw wiggle."
+  }
+}

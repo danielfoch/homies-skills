@@ -8,6 +8,18 @@ agentic workflows.
 - `architect-builder-repo-loop`: Claude acts as architect and judge, Codex acts
   as builder, the repo stores state, and reviewer gates block unverified work.
 
+## Homies Loading Gallery
+
+The complete Homies AI loading-animation project lives in
+`assets/homie-loaders/`. It includes the 371 transparent runtime GIFs, source
+sprite sheets, character references, animation scripts, manifests, QA evidence,
+gallery site, gamification prototype, and release-bundle tooling.
+
+- Live gallery: https://homies-loading-gallery.vercel.app
+- Gamification prototype: https://homies-loading-gallery.vercel.app/gamification/
+- Team release bundles: https://drive.google.com/drive/folders/19x9h9uso4AAFRUsz_PSOzw4mufi6JfKp
+- Local project notes: [`assets/homie-loaders/README.md`](assets/homie-loaders/README.md)
+
 ## Activation Policy
 
 The architect/builder loop is built now, but Claude/Fable architect usage starts

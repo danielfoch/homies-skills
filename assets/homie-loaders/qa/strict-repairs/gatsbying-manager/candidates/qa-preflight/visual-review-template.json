@@ -1,0 +1,43 @@
+{
+  "gatsbying-manager": {
+    "cells": [
+      {
+        "full_size_inspected": false,
+        "thumbnail_128_inspected": false,
+        "crop_clear": false,
+        "anatomy_clear": false,
+        "prop_continuity_clear": false,
+        "no_unintended_redraw_wiggle": false
+      },
+      {
+        "full_size_inspected": false,
+        "thumbnail_128_inspected": false,
+        "crop_clear": false,
+        "anatomy_clear": false,
+        "prop_continuity_clear": false,
+        "no_unintended_redraw_wiggle": false
+      },
+      {
+        "full_size_inspected": false,
+        "thumbnail_128_inspected": false,
+        "crop_clear": false,
+        "anatomy_clear": false,
+        "prop_continuity_clear": false,
+        "no_unintended_redraw_wiggle": false
+      },
+      {
+        "full_size_inspected": false,
+        "thumbnail_128_inspected": false,
+        "crop_clear": false,
+        "anatomy_clear": false,
+        "prop_continuity_clear": false,
+        "no_unintended_redraw_wiggle": false
+      }
+    ],
+    "signature_action_readable": false,
+    "stationary_elements_stable": false,
+    "loop_motion_natural": false,
+    "action_expectation": "At full size and 128px, read one coherent coupe toast with one stable glass, hand, face, tuxedo, crop, and scale.",
+    "notes": ""
+  }
+}

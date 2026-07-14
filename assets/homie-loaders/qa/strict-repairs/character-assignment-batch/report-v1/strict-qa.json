@@ -1,0 +1,1507 @@
+{
+  "results": [
+    {
+      "slug": "barbie-ing-listings",
+      "concept": "A clearly female canonical Homie poses in a bright pink tailored Barbie-inspired outfit.",
+      "action_expectation": "The connected pointing forearm pivots around one fixed elbow while the connected ponytail tail counter-swishes; face, sunglasses, hair cap, torso, planted hand, skirt, legs and heels remain fixed.",
+      "source": "/tmp/character-assignment-batch-v2/sources/wildcard/barbie-ing-listings.png",
+      "source_sha256": "27be9e24c2035f5ab067f9b8cf1ad9f1a1e5d04bdfb3a146a3a83ba59d55cc03",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_mode": "RGB",
+      "grid": [
+        2,
+        2
+      ],
+      "key_geometry": {
+        "outer_edge_non_key_pixels": 0,
+        "gutter_axis_non_key_pixels": 0
+      },
+      "cells": [
+        {
+          "index": 0,
+          "sha256_rgb": "03f2e4595590da7e15b5dc8b7d66b02c50d7613e84c8b59c4dd607cd00283124",
+          "foreground_pixels": 43728,
+          "foreground_pct": 11.1231,
+          "bbox": [
+            175,
+            65,
+            458,
+            562
+          ],
+          "margins": [
+            175,
+            169,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            271.588,
+            272.771
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 87,
+            "areas": [
+              43728
+            ],
+            "largest_area": 43728
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 1,
+          "sha256_rgb": "fc5d5ad1dc5e0b9258acce526f8d5fe8c2aa5f49173ad173f5953422e924bd1d",
+          "foreground_pixels": 43392,
+          "foreground_pct": 11.0376,
+          "bbox": [
+            174,
+            65,
+            455,
+            562
+          ],
+          "margins": [
+            174,
+            172,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            270.702,
+            273.354
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 87,
+            "areas": [
+              43392
+            ],
+            "largest_area": 43392
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 2,
+          "sha256_rgb": "717b21cc1526a1d93f58c5b19cbdd319c26d8261077279284026d8f43ff90032",
+          "foreground_pixels": 42905,
+          "foreground_pct": 10.9137,
+          "bbox": [
+            168,
+            65,
+            450,
+            562
+          ],
+          "margins": [
+            168,
+            177,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            269.372,
+            274.205
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 86,
+            "areas": [
+              42905
+            ],
+            "largest_area": 42905
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 3,
+          "sha256_rgb": "a7e94d8777eef98afe3d0fe8ecf5221c90bd2de28061b52f4cee0226e10bf07d",
+          "foreground_pixels": 43088,
+          "foreground_pct": 10.9603,
+          "bbox": [
+            171,
+            65,
+            453,
+            562
+          ],
+          "margins": [
+            171,
+            174,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            269.849,
+            273.961
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 86,
+            "areas": [
+              43088
+            ],
+            "largest_area": 43088
+          },
+          "artifact_flags": []
+        }
+      ],
+      "pair_metrics": [
+        {
+          "mask_xor_pct": 2.2203,
+          "silhouette_motion_p95_px": 5.0,
+          "silhouette_motion_max_px": 7.211,
+          "centroid_shift_px": 1.061,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9778,
+          "registered_residual_pct": 8.1319,
+          "upper_anchor_ncc": 0.9871
+        },
+        {
+          "mask_xor_pct": 3.3789,
+          "silhouette_motion_p95_px": 7.28,
+          "silhouette_motion_max_px": 10.77,
+          "centroid_shift_px": 1.578,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9662,
+          "registered_residual_pct": 10.0182,
+          "upper_anchor_ncc": 0.9814
+        },
+        {
+          "mask_xor_pct": 2.3286,
+          "silhouette_motion_p95_px": 5.0,
+          "silhouette_motion_max_px": 7.071,
+          "centroid_shift_px": 0.535,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9767,
+          "registered_residual_pct": 8.4868,
+          "upper_anchor_ncc": 0.9865
+        }
+      ],
+      "aggregate": {
+        "max_silhouette_motion_p95_px": 7.28,
+        "max_mask_xor_pct": 3.3789,
+        "max_centroid_shift_px": 1.578,
+        "max_registration_shift_px": 0.0,
+        "max_registered_residual_pct": 10.0182,
+        "minimum_upper_anchor_ncc": 0.9814,
+        "foreground_area_span_pct": 1.9033,
+        "bbox_width_span_pct": 0.7092,
+        "bbox_height_span_pct": 0.0,
+        "significant_component_count_span": 0
+      },
+      "stationary_regions": [
+        {
+          "name": "fixed-female-face-and-torso",
+          "box_pixels": [
+            176,
+            50,
+            364,
+            357
+          ],
+          "change_pct_vs_cell0": [
+            4.3004,
+            5.6743,
+            5.0107
+          ],
+          "max_change_pct": 5.6743,
+          "max_allowed_change_pct": 0.0
+        },
+        {
+          "name": "fixed-skirt-legs-heels",
+          "box_pixels": [
+            107,
+            332,
+            451,
+            614
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.0
+        }
+      ],
+      "gif": {
+        "path": "/tmp/character-assignment-batch-v2/gifs/wildcard/barbie-ing-listings.gif",
+        "exists": true,
+        "sha256": "f6dffd1150fb297521a2161caa11ffbcba307627ec2a68a663990a8cc356e033",
+        "bytes": 41132,
+        "size": [
+          256,
+          256
+        ],
+        "frame_count": 6,
+        "unique_phases": 4,
+        "equality_pattern": [
+          0,
+          1,
+          2,
+          3,
+          2,
+          1
+        ],
+        "durations_ms": [
+          210,
+          140,
+          140,
+          210,
+          140,
+          140
+        ],
+        "loop": 0,
+        "has_transparency": true,
+        "corner_alphas": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "alpha_bboxes": [
+          [
+            72,
+            27,
+            183,
+            229
+          ],
+          [
+            72,
+            27,
+            186,
+            229
+          ],
+          [
+            69,
+            27,
+            183,
+            229
+          ],
+          [
+            71,
+            27,
+            185,
+            229
+          ],
+          [
+            69,
+            27,
+            183,
+            229
+          ],
+          [
+            72,
+            27,
+            186,
+            229
+          ]
+        ],
+        "loop_closure_exact": true,
+        "contact": "qa/strict-repairs/character-assignment-batch/report-v1/contacts/barbie-ing-listings-gif-128.png"
+      },
+      "visual_evidence": {
+        "source_full_contact": "qa/strict-repairs/character-assignment-batch/report-v1/contacts/barbie-ing-listings-source-full.png",
+        "source_128_contact": "qa/strict-repairs/character-assignment-batch/report-v1/contacts/barbie-ing-listings-source-128.png"
+      },
+      "manual_review": {
+        "complete": true,
+        "signature_action_readable": true,
+        "stationary_elements_stable": true,
+        "loop_motion_natural": true,
+        "notes": "Single canonical female plate. Face, sunglasses, hair cap, torso, planted hand, skirt, legs and heels remain exact; only the pointing forearm and connected ponytail tail move. No redraw, extra anatomy, debris, crop or palette shimmer."
+      },
+      "failures": [
+        "FIXED_PLATE_REDRAW_RESIDUAL",
+        "STATIONARY_REGION_DRIFT:fixed-female-face-and-torso"
+      ],
+      "warnings": [],
+      "passed": false
+    },
+    {
+      "slug": "pulp-fictioning-manager",
+      "concept": "A clearly male canonical Manager Homie performs the iconic black-suit bent-knee twist.",
+      "action_expectation": "Both connected distal forearms counter-rotate around fixed elbows while the male face, swept shoulder-length hair, bolo tie, torso, hips, legs and shoes remain fixed.",
+      "source": "/tmp/character-assignment-batch-v2/sources/wildcard/pulp-fictioning-manager.png",
+      "source_sha256": "80c6e4dc21012fd9c07aa967f93247722a55e3f7eda70f20d9e737e3b900631e",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_mode": "RGB",
+      "grid": [
+        2,
+        2
+      ],
+      "key_geometry": {
+        "outer_edge_non_key_pixels": 0,
+        "gutter_axis_non_key_pixels": 0
+      },
+      "cells": [
+        {
+          "index": 0,
+          "sha256_rgb": "4e92a92faab3ef255c060b88ba6b851fc670f11c3da9abf354c262059556e924",
+          "foreground_pixels": 59785,
+          "foreground_pct": 15.2075,
+          "bbox": [
+            130,
+            65,
+            485,
+            562
+          ],
+          "margins": [
+            130,
+            142,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            327.218,
+            296.887
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 120,
+            "areas": [
+              59785
+            ],
+            "largest_area": 59785
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 1,
+          "sha256_rgb": "ecd1c422d358f7d320c561834a326c7e81eb500adbf13ba4a2e4e9d994f03b1c",
+          "foreground_pixels": 59448,
+          "foreground_pct": 15.1218,
+          "bbox": [
+            137,
+            65,
+            486,
+            562
+          ],
+          "margins": [
+            137,
+            141,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            327.869,
+            297.38
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 119,
+            "areas": [
+              59448
+            ],
+            "largest_area": 59448
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 2,
+          "sha256_rgb": "60f04bf73e15f83fdfb18d9a9305f05b4913c7d7b3d80533dddbb2e8f9c78e4f",
+          "foreground_pixels": 59092,
+          "foreground_pct": 15.0312,
+          "bbox": [
+            146,
+            65,
+            497,
+            562
+          ],
+          "margins": [
+            146,
+            130,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            329.277,
+            297.678
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 118,
+            "areas": [
+              59092
+            ],
+            "largest_area": 59092
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 3,
+          "sha256_rgb": "231273c54a42bec8d1b2d75cf1baa57350cc2bd76de5d5f84bd34defd829fb28",
+          "foreground_pixels": 59182,
+          "foreground_pct": 15.0541,
+          "bbox": [
+            143,
+            65,
+            491,
+            562
+          ],
+          "margins": [
+            143,
+            136,
+            65,
+            65
+          ],
+          "minimum_margin": 65,
+          "centroid": [
+            328.877,
+            297.519
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 118,
+            "areas": [
+              59182
+            ],
+            "largest_area": 59182
+          },
+          "artifact_flags": []
+        }
+      ],
+      "pair_metrics": [
+        {
+          "mask_xor_pct": 2.4374,
+          "silhouette_motion_p95_px": 7.071,
+          "silhouette_motion_max_px": 9.22,
+          "centroid_shift_px": 0.817,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9756,
+          "registered_residual_pct": 5.1862,
+          "upper_anchor_ncc": 1.0
+        },
+        {
+          "mask_xor_pct": 3.4065,
+          "silhouette_motion_p95_px": 9.487,
+          "silhouette_motion_max_px": 13.0,
+          "centroid_shift_px": 1.439,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9659,
+          "registered_residual_pct": 6.7499,
+          "upper_anchor_ncc": 1.0
+        },
+        {
+          "mask_xor_pct": 2.0883,
+          "silhouette_motion_p95_px": 5.385,
+          "silhouette_motion_max_px": 7.616,
+          "centroid_shift_px": 0.43,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9791,
+          "registered_residual_pct": 5.3446,
+          "upper_anchor_ncc": 1.0
+        }
+      ],
+      "aggregate": {
+        "max_silhouette_motion_p95_px": 9.487,
+        "max_mask_xor_pct": 3.4065,
+        "max_centroid_shift_px": 1.439,
+        "max_registration_shift_px": 0.0,
+        "max_registered_residual_pct": 6.7499,
+        "minimum_upper_anchor_ncc": 1.0,
+        "foreground_area_span_pct": 1.1683,
+        "bbox_width_span_pct": 2.0,
+        "bbox_height_span_pct": 0.0,
+        "significant_component_count_span": 0
+      },
+      "stationary_regions": [
+        {
+          "name": "fixed-male-head-tie-torso",
+          "box_pixels": [
+            232,
+            31,
+            395,
+            295
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.0
+        },
+        {
+          "name": "fixed-bent-knee-lower-body",
+          "box_pixels": [
+            94,
+            307,
+            533,
+            614
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.0
+        }
+      ],
+      "gif": {
+        "path": "/tmp/character-assignment-batch-v2/gifs/wildcard/pulp-fictioning-manager.gif",
+        "exists": true,
+        "sha256": "3a2e7a99398b46afa841d3b35ceec0eb88303efb693fc559f2cd0a0f2ec14b13",
+        "bytes": 53064,
+        "size": [
+          256,
+          256
+        ],
+        "frame_count": 6,
+        "unique_phases": 4,
+        "equality_pattern": [
+          0,
+          1,
+          2,
+          3,
+          2,
+          1
+        ],
+        "durations_ms": [
+          210,
+          140,
+          140,
+          210,
+          140,
+          140
+        ],
+        "loop": 0,
+        "has_transparency": true,
+        "corner_alphas": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "alpha_bboxes": [
+          [
+            53,
+            26,
+            198,
+            230
+          ],
+          [
+            56,
+            26,
+            199,
+            230
+          ],
+          [
+            60,
+            26,
+            203,
+            230
+          ],
+          [
+            58,
+            26,
+            200,
+            230
+          ],
+          [
+            60,
+            26,
+            203,
+            230
+          ],
+          [
+            56,
+            26,
+            199,
+            230
+          ]
+        ],
+        "loop_closure_exact": true,
+        "contact": "qa/strict-repairs/character-assignment-batch/report-v1/contacts/pulp-fictioning-manager-gif-128.png"
+      },
+      "visual_evidence": {
+        "source_full_contact": "qa/strict-repairs/character-assignment-batch/report-v1/contacts/pulp-fictioning-manager-source-full.png",
+        "source_128_contact": "qa/strict-repairs/character-assignment-batch/report-v1/contacts/pulp-fictioning-manager-source-128.png"
+      },
+      "manual_review": {
+        "complete": true,
+        "signature_action_readable": true,
+        "stationary_elements_stable": true,
+        "loop_motion_natural": true,
+        "notes": "Male face, shoulder-length swept hair, bolo tie, torso, pelvis, legs and shoes stay fixed. Fixed elbow disks prevent holes or duplicate limbs. No female identity, morph, camera motion, debris, crop or shimmer."
+      },
+      "failures": [],
+      "warnings": [],
+      "passed": true
+    },
+    {
+      "slug": "michael-burrying-manager",
+      "concept": "A clearly male canonical Manager Homie in a faded blue pocket tee desk-drums with wired earbuds.",
+      "action_expectation": "Exactly two connected forearm-hand-drumstick units alternate tabletop-directed strokes around fixed elbows while the male head, earbud wires, shirt core, chair, paper stack and desk remain fixed.",
+      "source": "/tmp/character-assignment-batch-v2/sources/wildcard/michael-burrying-manager.png",
+      "source_sha256": "f5b70897597d1527c1f94267a783290e6c4b6cbc879b05f51f5fe1ef3ac41f18",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_mode": "RGB",
+      "grid": [
+        2,
+        2
+      ],
+      "key_geometry": {
+        "outer_edge_non_key_pixels": 0,
+        "gutter_axis_non_key_pixels": 0
+      },
+      "cells": [
+        {
+          "index": 0,
+          "sha256_rgb": "5d77e5992d1ca942fd8e7c265e850c2299c62f88ad0d860d9263ee7ad0b0a8be",
+          "foreground_pixels": 76612,
+          "foreground_pct": 19.4878,
+          "bbox": [
+            60,
+            237,
+            567,
+            567
+          ],
+          "margins": [
+            60,
+            60,
+            237,
+            60
+          ],
+          "minimum_margin": 60,
+          "centroid": [
+            310.953,
+            456.148
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 153,
+            "areas": [
+              76612
+            ],
+            "largest_area": 76612
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 1,
+          "sha256_rgb": "aa7b6bc85ea66648b4c10d30432de1f7a5d6f487f98535bb54ec522cbea9c50f",
+          "foreground_pixels": 76702,
+          "foreground_pct": 19.5106,
+          "bbox": [
+            60,
+            237,
+            567,
+            567
+          ],
+          "margins": [
+            60,
+            60,
+            237,
+            60
+          ],
+          "minimum_margin": 60,
+          "centroid": [
+            310.806,
+            455.903
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 153,
+            "areas": [
+              76702
+            ],
+            "largest_area": 76702
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 2,
+          "sha256_rgb": "e09a370a1caed5732005a4e8650773246f03c693b0ee58d2731f55f383d763b5",
+          "foreground_pixels": 76802,
+          "foreground_pct": 19.5361,
+          "bbox": [
+            60,
+            237,
+            567,
+            567
+          ],
+          "margins": [
+            60,
+            60,
+            237,
+            60
+          ],
+          "minimum_margin": 60,
+          "centroid": [
+            311.3,
+            455.8
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 154,
+            "areas": [
+              76802
+            ],
+            "largest_area": 76802
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 3,
+          "sha256_rgb": "d3ac0e60dfa8321032da71258a08e5569bdbbbe66b206cc021c8cdf4a1f12aca",
+          "foreground_pixels": 76792,
+          "foreground_pct": 19.5335,
+          "bbox": [
+            60,
+            237,
+            567,
+            567
+          ],
+          "margins": [
+            60,
+            60,
+            237,
+            60
+          ],
+          "minimum_margin": 60,
+          "centroid": [
+            311.088,
+            455.756
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 154,
+            "areas": [
+              76792
+            ],
+            "largest_area": 76792
+          },
+          "artifact_flags": []
+        }
+      ],
+      "pair_metrics": [
+        {
+          "mask_xor_pct": 1.9404,
+          "silhouette_motion_p95_px": 9.849,
+          "silhouette_motion_max_px": 13.892,
+          "centroid_shift_px": 0.286,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9806,
+          "registered_residual_pct": 7.746,
+          "upper_anchor_ncc": 0.9389
+        },
+        {
+          "mask_xor_pct": 2.3206,
+          "silhouette_motion_p95_px": 8.246,
+          "silhouette_motion_max_px": 13.038,
+          "centroid_shift_px": 0.505,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9768,
+          "registered_residual_pct": 8.4285,
+          "upper_anchor_ncc": 0.9497
+        },
+        {
+          "mask_xor_pct": 1.3297,
+          "silhouette_motion_p95_px": 6.325,
+          "silhouette_motion_max_px": 10.05,
+          "centroid_shift_px": 0.217,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9867,
+          "registered_residual_pct": 6.5812,
+          "upper_anchor_ncc": 0.9605
+        }
+      ],
+      "aggregate": {
+        "max_silhouette_motion_p95_px": 9.849,
+        "max_mask_xor_pct": 2.3206,
+        "max_centroid_shift_px": 0.505,
+        "max_registration_shift_px": 0.0,
+        "max_registered_residual_pct": 8.4285,
+        "minimum_upper_anchor_ncc": 0.9389,
+        "foreground_area_span_pct": 0.2476,
+        "bbox_width_span_pct": 0.0,
+        "bbox_height_span_pct": 0.0,
+        "significant_component_count_span": 0
+      },
+      "stationary_regions": [
+        {
+          "name": "fixed-manager-head",
+          "box_pixels": [
+            251,
+            44,
+            376,
+            194
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.0
+        },
+        {
+          "name": "fixed-desk-fascia",
+          "box_pixels": [
+            31,
+            533,
+            596,
+            608
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.0
+        }
+      ],
+      "gif": {
+        "path": "/tmp/character-assignment-batch-v2/gifs/wildcard/michael-burrying-manager.gif",
+        "exists": true,
+        "sha256": "73f692939de5a090264df1d5d65f8c7b9b660398f6e0bbc78b814e52110b496d",
+        "bytes": 54188,
+        "size": [
+          256,
+          256
+        ],
+        "frame_count": 6,
+        "unique_phases": 4,
+        "equality_pattern": [
+          0,
+          1,
+          2,
+          3,
+          2,
+          1
+        ],
+        "durations_ms": [
+          210,
+          140,
+          140,
+          210,
+          140,
+          140
+        ],
+        "loop": 0,
+        "has_transparency": true,
+        "corner_alphas": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "alpha_bboxes": [
+          [
+            24,
+            97,
+            232,
+            232
+          ],
+          [
+            24,
+            97,
+            232,
+            232
+          ],
+          [
+            24,
+            97,
+            232,
+            232
+          ],
+          [
+            24,
+            97,
+            232,
+            232
+          ],
+          [
+            24,
+            97,
+            232,
+            232
+          ],
+          [
+            24,
+            97,
+            232,
+            232
+          ]
+        ],
+        "loop_closure_exact": true,
+        "contact": "qa/strict-repairs/character-assignment-batch/report-v1/contacts/michael-burrying-manager-gif-128.png"
+      },
+      "visual_evidence": {
+        "source_full_contact": "qa/strict-repairs/character-assignment-batch/report-v1/contacts/michael-burrying-manager-source-full.png",
+        "source_128_contact": "qa/strict-repairs/character-assignment-batch/report-v1/contacts/michael-burrying-manager-source-128.png"
+      },
+      "manual_review": {
+        "complete": true,
+        "signature_action_readable": true,
+        "stationary_elements_stable": true,
+        "loop_motion_natural": true,
+        "notes": "Manager face, hair, shirt core, earbuds, chair, papers and desk are one immutable plate. Exactly two hands and two sticks remain continuous. No duplicated props, desk drift, floating notes, debris, crop or shimmer."
+      },
+      "failures": [],
+      "warnings": [],
+      "passed": true
+    },
+    {
+      "slug": "harvey-spectering-manager",
+      "concept": "A clearly male canonical Manager Homie adopts a sharp closer-lawyer pose in a charcoal suit.",
+      "action_expectation": "One connected cuff-and-lapel forearm makes a compact confident adjustment around a fixed elbow while the male face, hair, tie, suit core, folder, other arm, legs and shoes remain fixed.",
+      "source": "/tmp/character-assignment-batch-v2/sources/wildcard/harvey-spectering-manager.png",
+      "source_sha256": "cc6ce1599d8c0a801b6418e8c3a55f9d5093efdd310eddd8e3cafc4aea557334",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_mode": "RGB",
+      "grid": [
+        2,
+        2
+      ],
+      "key_geometry": {
+        "outer_edge_non_key_pixels": 0,
+        "gutter_axis_non_key_pixels": 0
+      },
+      "cells": [
+        {
+          "index": 0,
+          "sha256_rgb": "86e67238007099f39c61adba0d43c04dae0e29c76d56a4e6d1798899675a1a1e",
+          "foreground_pixels": 41502,
+          "foreground_pct": 10.5568,
+          "bbox": [
+            228,
+            64,
+            397,
+            563
+          ],
+          "margins": [
+            228,
+            230,
+            64,
+            64
+          ],
+          "minimum_margin": 64,
+          "centroid": [
+            304.745,
+            296.1
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 83,
+            "areas": [
+              41502
+            ],
+            "largest_area": 41502
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 1,
+          "sha256_rgb": "c79bef25809e8d9092f60ca091a470b634c8e77a802cbab16623dacb0911a790",
+          "foreground_pixels": 41528,
+          "foreground_pct": 10.5635,
+          "bbox": [
+            228,
+            64,
+            397,
+            563
+          ],
+          "margins": [
+            228,
+            230,
+            64,
+            64
+          ],
+          "minimum_margin": 64,
+          "centroid": [
+            304.775,
+            296.05
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 83,
+            "areas": [
+              41528
+            ],
+            "largest_area": 41528
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 2,
+          "sha256_rgb": "c3501a49860199d8fbba35b13ea9f2f9423994818bc889a85b1d03b72f3c5028",
+          "foreground_pixels": 41584,
+          "foreground_pct": 10.5777,
+          "bbox": [
+            228,
+            64,
+            396,
+            563
+          ],
+          "margins": [
+            228,
+            231,
+            64,
+            64
+          ],
+          "minimum_margin": 64,
+          "centroid": [
+            304.842,
+            295.947
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 83,
+            "areas": [
+              41584
+            ],
+            "largest_area": 41584
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 3,
+          "sha256_rgb": "7fc744efdc630e0c8283b9e91623e750be7d8053bf04b46ecf455578b56c3026",
+          "foreground_pixels": 41547,
+          "foreground_pct": 10.5683,
+          "bbox": [
+            228,
+            64,
+            396,
+            563
+          ],
+          "margins": [
+            228,
+            231,
+            64,
+            64
+          ],
+          "minimum_margin": 64,
+          "centroid": [
+            304.796,
+            296.015
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 83,
+            "areas": [
+              41547
+            ],
+            "largest_area": 41547
+          },
+          "artifact_flags": []
+        }
+      ],
+      "pair_metrics": [
+        {
+          "mask_xor_pct": 0.1204,
+          "silhouette_motion_p95_px": 1.736,
+          "silhouette_motion_max_px": 2.236,
+          "centroid_shift_px": 0.059,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.9988,
+          "registered_residual_pct": 3.2162,
+          "upper_anchor_ncc": 0.9581
+        },
+        {
+          "mask_xor_pct": 0.2019,
+          "silhouette_motion_p95_px": 2.828,
+          "silhouette_motion_max_px": 3.606,
+          "centroid_shift_px": 0.123,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.998,
+          "registered_residual_pct": 4.0218,
+          "upper_anchor_ncc": 0.9238
+        },
+        {
+          "mask_xor_pct": 0.1034,
+          "silhouette_motion_p95_px": 2.212,
+          "silhouette_motion_max_px": 2.236,
+          "centroid_shift_px": 0.083,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 0.999,
+          "registered_residual_pct": 3.1741,
+          "upper_anchor_ncc": 0.9529
+        }
+      ],
+      "aggregate": {
+        "max_silhouette_motion_p95_px": 2.828,
+        "max_mask_xor_pct": 0.2019,
+        "max_centroid_shift_px": 0.123,
+        "max_registration_shift_px": 0.0,
+        "max_registered_residual_pct": 4.0218,
+        "minimum_upper_anchor_ncc": 0.9238,
+        "foreground_area_span_pct": 0.1974,
+        "bbox_width_span_pct": 0.5935,
+        "bbox_height_span_pct": 0.0,
+        "significant_component_count_span": 0
+      },
+      "stationary_regions": [
+        {
+          "name": "fixed-manager-head-and-tie",
+          "box_pixels": [
+            188,
+            19,
+            408,
+            194
+          ],
+          "change_pct_vs_cell0": [
+            2.174,
+            3.1896,
+            2.6545
+          ],
+          "max_change_pct": 3.1896,
+          "max_allowed_change_pct": 0.0
+        },
+        {
+          "name": "fixed-folder-and-lower-body",
+          "box_pixels": [
+            50,
+            276,
+            552,
+            614
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.0
+        }
+      ],
+      "gif": {
+        "path": "/tmp/character-assignment-batch-v2/gifs/wildcard/harvey-spectering-manager.gif",
+        "exists": true,
+        "sha256": "c1ab3209371af0ca0b486b493a9c03e0019a88480c1826cd2155118e55656e4a",
+        "bytes": 41196,
+        "size": [
+          256,
+          256
+        ],
+        "frame_count": 6,
+        "unique_phases": 4,
+        "equality_pattern": [
+          0,
+          1,
+          2,
+          3,
+          2,
+          1
+        ],
+        "durations_ms": [
+          210,
+          140,
+          140,
+          210,
+          140,
+          140
+        ],
+        "loop": 0,
+        "has_transparency": true,
+        "corner_alphas": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "alpha_bboxes": [
+          [
+            93,
+            26,
+            162,
+            230
+          ],
+          [
+            93,
+            26,
+            162,
+            230
+          ],
+          [
+            93,
+            26,
+            162,
+            230
+          ],
+          [
+            93,
+            26,
+            162,
+            230
+          ],
+          [
+            93,
+            26,
+            162,
+            230
+          ],
+          [
+            93,
+            26,
+            162,
+            230
+          ]
+        ],
+        "loop_closure_exact": true,
+        "contact": "qa/strict-repairs/character-assignment-batch/report-v1/contacts/harvey-spectering-manager-gif-128.png"
+      },
+      "visual_evidence": {
+        "source_full_contact": "qa/strict-repairs/character-assignment-batch/report-v1/contacts/harvey-spectering-manager-source-full.png",
+        "source_128_contact": "qa/strict-repairs/character-assignment-batch/report-v1/contacts/harvey-spectering-manager-source-128.png"
+      },
+      "manual_review": {
+        "complete": true,
+        "signature_action_readable": true,
+        "stationary_elements_stable": true,
+        "loop_motion_natural": true,
+        "notes": "Single male Manager plate in a charcoal suit. Face, hair, tie, suit core, folder, other arm, legs and shoes remain exact. No redraw, extra fingers, folder motion, debris, crop or shimmer."
+      },
+      "failures": [
+        "SIGNATURE_ACTION_MASK_CHANGE_TOO_SMALL",
+        "UPPER_BODY_IDENTITY_DRIFT",
+        "STATIONARY_REGION_DRIFT:fixed-manager-head-and-tie"
+      ],
+      "warnings": [],
+      "passed": false
+    }
+  ]
+}

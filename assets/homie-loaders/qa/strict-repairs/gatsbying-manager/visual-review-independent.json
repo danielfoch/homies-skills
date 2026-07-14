@@ -1,0 +1,66 @@
+{
+  "gatsbying-manager": {
+    "cells": [
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      }
+    ],
+    "signature_action_readable": true,
+    "stationary_elements_stable": true,
+    "loop_motion_natural": true,
+    "action_expectation": "At full size and 128px, read one coherent coupe toast with one stable glass, hand, face, tuxedo, crop, and scale.",
+    "notes": "Independent review of the 1254px source contact, all four full-size cells, all four 128px cells, and the decoded six-frame 128px GIF contact. One champagne coupe remains continuously attached to the same anatomically coherent hand while the single arm/glass rig makes a restrained reversible toast. The male Manager face, tuxedo, bow tie, torso, crop, and scale are locked. No duplicate prop, grip break, detached fragment, redraw drift, crop fault, or green debris is visible.",
+    "independent_audit": {
+      "verdict": "PASS",
+      "identity_reference": "assets/homie-loaders/sources/manager/decode-goal.png",
+      "identity_reference_sha256": "889dad569156d8f1376931db7a540d1f24c9c33dc158e18edea68744c4cd6878",
+      "source_sha256_rebuilt": "a354e8b829adcb45bde98864eeb108f21a97cd3dc953361627a3a1b69098b30b",
+      "gif_sha256_rebuilt": "085f3f58c889dcd46acdf963307e7c5310ccc6bb4ac67fa6758ea223e9776f86",
+      "isolated_rebuild_byte_exact": true,
+      "rebuilt_artifacts_compared": [
+        "raw-alpha.png",
+        "locked-plate.png",
+        "alpha-normalized.png",
+        "gatsbying-manager.png",
+        "gatsbying-manager.gif",
+        "build-evidence.json"
+      ],
+      "frame_rgba_hashes_match_build_evidence": true,
+      "direct_changed_pixels_outside_allowed_rig_vs_locked_plate": [0, 0, 0, 0],
+      "changed_pixels_at_128_vs_phase_0": [0, 724, 763, 799],
+      "static_face_torso_hashes_unique": 1,
+      "alpha_area_span_pct": 0.4894,
+      "minimum_margin_px": 86,
+      "mandatory_repair_notes": []
+    }
+  }
+}

@@ -1,0 +1,6462 @@
+{
+  "_meta": {
+    "units": "pixels on the 256x256 output canvas",
+    "transform_order": "scale around canvas centre, then translate",
+    "manager_anchor": "face and upper torso; props remain free to move",
+    "cma_anchor": "hairline and upper torso; stable scene baselines where applicable",
+    "crm_anchor": "scalp and upper torso; persistent desks and machines share the registration target",
+    "listings_anchor": "hairline and glasses; stable easels, sofas, scanners, signs, and foundation baselines where applicable",
+    "marketing_anchor": "scalp and beard; stable boards, ring lights, cards, queues, targets, palettes, and hooks where applicable",
+    "research_anchor": "curl silhouette and face; stable maps, boards, timers, balances, street baselines, signs, and landmarks where applicable",
+    "content_anchor": "hairline, face, and white collar; stable desks, cards, packets, cameras, projectors, targets, file stacks, and scanning props where applicable",
+    "offers_anchor": "bun, face, and upper torso; stable tables, typewriters, calculators, packets, safes, rails, and document baselines where applicable",
+    "reports_anchor": "hairline, face, and upper torso; stable dashboards, charts, screens, easels, pedestals, rails, and sports props where applicable"
+  },
+  "manager/front-door-brief": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 8,
+        "dy": -2
+      },
+      {
+        "dx": -4,
+        "dy": 6
+      },
+      {
+        "dx": 6,
+        "dy": 6
+      }
+    ]
+  },
+  "manager/decode-goal": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 26,
+        "dy": 2
+      },
+      {
+        "dx": 0,
+        "dy": -2
+      },
+      {
+        "dx": 22,
+        "dy": 4
+      }
+    ]
+  },
+  "manager/split-request": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 6,
+        "dy": 0
+      },
+      {
+        "dx": 2,
+        "dy": -2
+      },
+      {
+        "dx": 12,
+        "dy": -1
+      }
+    ]
+  },
+  "manager/match-specialists": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 4,
+        "dy": 0
+      },
+      {
+        "dx": -4,
+        "dy": 4
+      },
+      {
+        "dx": 8,
+        "dy": 0
+      }
+    ]
+  },
+  "manager/route-switchboard": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": -5,
+        "dy": 0
+      },
+      {
+        "dx": 1,
+        "dy": 2
+      },
+      {
+        "dx": -5,
+        "dy": 2
+      }
+    ]
+  },
+  "manager/dispatch-bench": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": -1,
+        "dy": 2
+      },
+      {
+        "dx": 0,
+        "dy": 2
+      }
+    ]
+  },
+  "manager/monitor-progress": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": -2,
+        "scale_y": 1.0
+      },
+      {
+        "dx": 6,
+        "dy": -9,
+        "scale_y": 1.057
+      },
+      {
+        "dx": -7,
+        "dy": -4,
+        "scale_y": 1.048
+      },
+      {
+        "dx": 8,
+        "dy": 4,
+        "scale_y": 0.953
+      }
+    ]
+  },
+  "manager/review-deliverables": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": -1,
+        "dy": 0
+      },
+      {
+        "dx": 6,
+        "dy": -1
+      },
+      {
+        "dx": 2,
+        "dy": 2
+      }
+    ]
+  },
+  "manager/assemble-package": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 4,
+        "dy": -1
+      },
+      {
+        "dx": 0,
+        "dy": 6
+      },
+      {
+        "dx": 2,
+        "dy": 5
+      }
+    ]
+  },
+  "manager/return-results": {
+    "frames": [
+      {
+        "dx": -12,
+        "dy": 0,
+        "scale": 0.92
+      },
+      {
+        "dx": 24,
+        "dy": -1,
+        "scale": 0.92
+      },
+      {
+        "dx": -13,
+        "dy": 4,
+        "scale": 0.92
+      },
+      {
+        "dx": 16,
+        "dy": -10,
+        "scale": 0.92
+      }
+    ]
+  },
+  "cma/map-magnifier": {
+    "frames": [
+      {
+        "dx": -4,
+        "dy": -4
+      },
+      {
+        "dx": 1,
+        "dy": -5
+      },
+      {
+        "dx": -1,
+        "dy": 2
+      },
+      {
+        "dx": 3,
+        "dy": 1
+      }
+    ]
+  },
+  "cma/radius-compass": {
+    "frames": [
+      {
+        "dx": -8,
+        "dy": -5
+      },
+      {
+        "dx": 1,
+        "dy": -5
+      },
+      {
+        "dx": 2,
+        "dy": 2
+      },
+      {
+        "dx": 6,
+        "dy": 3
+      }
+    ]
+  },
+  "cma/comp-card-shuffle": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": -1
+      },
+      {
+        "dx": -2,
+        "dy": 0
+      },
+      {
+        "dx": -3,
+        "dy": -2
+      },
+      {
+        "dx": 8,
+        "dy": -1
+      }
+    ]
+  },
+  "cma/calculator-tap": {
+    "frames": [
+      {
+        "dx": -2,
+        "dy": 0
+      },
+      {
+        "dx": 2,
+        "dy": -3
+      },
+      {
+        "dx": -1,
+        "dy": 0
+      },
+      {
+        "dx": 4,
+        "dy": 0
+      }
+    ]
+  },
+  "cma/value-balance": {
+    "frames": [
+      {
+        "dx": -6,
+        "dy": -3
+      },
+      {
+        "dx": 1,
+        "dy": -3
+      },
+      {
+        "dx": -2,
+        "dy": -1
+      },
+      {
+        "dx": 11,
+        "dy": 0
+      }
+    ]
+  },
+  "cma/adjustment-coins": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0,
+        "scale_y": 1.0
+      },
+      {
+        "dx": 0,
+        "dy": -1,
+        "scale_y": 0.998
+      },
+      {
+        "dx": 0,
+        "dy": 5,
+        "scale_y": 1.047
+      },
+      {
+        "dx": 0,
+        "dy": 6,
+        "scale_y": 1.041
+      }
+    ]
+  },
+  "crm/rolodex-riffle": {
+    "frames": [
+      {
+        "dx": -8,
+        "dy": 0
+      },
+      {
+        "dx": 7,
+        "dy": -1,
+        "scale_y": 1.011
+      },
+      {
+        "dx": -8,
+        "dy": 6,
+        "scale_y": 1.055
+      },
+      {
+        "dx": 10,
+        "dy": 6,
+        "scale_y": 1.021
+      }
+    ]
+  },
+  "crm/pipeline-slide": {
+    "frames": [
+      {
+        "dx": -3,
+        "dy": -1
+      },
+      {
+        "dx": 6,
+        "dy": -1
+      },
+      {
+        "dx": -5,
+        "dy": 2
+      },
+      {
+        "dx": 4,
+        "dy": 2
+      }
+    ]
+  },
+  "crm/lead-score": {
+    "frames": [
+      {
+        "dx": -10,
+        "dy": -1,
+        "scale_y": 0.993
+      },
+      {
+        "dx": 6,
+        "dy": -2,
+        "scale_y": 1.011
+      },
+      {
+        "dx": -1,
+        "dy": 10,
+        "scale_y": 1.075
+      },
+      {
+        "dx": 4,
+        "dy": 0,
+        "scale_y": 0.986
+      }
+    ]
+  },
+  "crm/followup-conveyor": {
+    "frames": [
+      {
+        "dx": -3,
+        "dy": 0
+      },
+      {
+        "dx": 5,
+        "dy": -1
+      },
+      {
+        "dx": -5,
+        "dy": 9,
+        "scale_y": 1.06
+      },
+      {
+        "dx": 3,
+        "dy": 9,
+        "scale_y": 1.06
+      }
+    ]
+  },
+  "crm/next-touch-typewriter": {
+    "frames": [
+      {
+        "dx": -7,
+        "dy": -1
+      },
+      {
+        "dx": 10,
+        "dy": -3
+      },
+      {
+        "dx": -6,
+        "dy": 8,
+        "scale_y": 1.055
+      },
+      {
+        "dx": 7,
+        "dy": 8,
+        "scale_y": 1.055
+      }
+    ]
+  },
+  "crm/conversation-condense": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 17,
+        "dy": -2
+      },
+      {
+        "dx": 0,
+        "dy": -1
+      },
+      {
+        "dx": 14,
+        "dy": 0
+      }
+    ]
+  },
+  "crm/cold-lead-warmer": {
+    "inset_ratio": 0,
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 16,
+        "dy": -5
+      },
+      {
+        "dx": -12,
+        "dy": 7
+      },
+      {
+        "dx": 6,
+        "dy": 6
+      }
+    ]
+  },
+  "crm/reengagement-windup": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 16,
+        "dy": -1
+      },
+      {
+        "dx": 0,
+        "dy": 1
+      },
+      {
+        "dx": -17,
+        "dy": 2
+      }
+    ]
+  },
+  "crm/birthday-mail": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 12,
+        "dy": 0
+      },
+      {
+        "dx": 0,
+        "dy": 7
+      },
+      {
+        "dx": 13,
+        "dy": 7
+      }
+    ],
+    "overlays": [
+      {
+        "source": 0,
+        "target": 3,
+        "polygon": [
+          [
+            64,
+            164
+          ],
+          [
+            192,
+            164
+          ],
+          [
+            202,
+            181
+          ],
+          [
+            201,
+            186
+          ],
+          [
+            56,
+            186
+          ],
+          [
+            55,
+            180
+          ]
+        ]
+      }
+    ]
+  },
+  "crm/anniversary-reminder": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 16,
+        "dy": -10
+      },
+      {
+        "dx": -2,
+        "dy": -1
+      },
+      {
+        "dx": -11,
+        "dy": 10
+      }
+    ]
+  },
+  "listings/landing-blocks": {
+    "inset_ratio": 0,
+    "crop_offsets": [
+      {},
+      {},
+      {
+        "dy": -16
+      },
+      {}
+    ],
+    "frames": [
+      {
+        "dx": -26,
+        "dy": -2,
+        "scale": 0.96
+      },
+      {
+        "dx": -19,
+        "dy": -3,
+        "scale": 0.96
+      },
+      {
+        "dx": 3,
+        "dy": 0,
+        "scale": 0.96
+      },
+      {
+        "dx": 34,
+        "dy": 6,
+        "scale": 0.96
+      }
+    ],
+    "clears": [
+      {
+        "target": 0,
+        "polygon": [
+          [
+            0,
+            232
+          ],
+          [
+            255,
+            232
+          ],
+          [
+            255,
+            255
+          ],
+          [
+            0,
+            255
+          ]
+        ]
+      }
+    ]
+  },
+  "listings/page-unroll": {
+    "inset_ratio": 0,
+    "frames": [
+      {
+        "dx": -3,
+        "dy": 1
+      },
+      {
+        "dx": 8,
+        "dy": -1
+      },
+      {
+        "dx": -7,
+        "dy": 4
+      },
+      {
+        "dx": 7,
+        "dy": 5
+      }
+    ]
+  },
+  "listings/description-draft": {
+    "inset_ratio": 0,
+    "frames": [
+      {
+        "dx": -4,
+        "dy": 1,
+        "scale": 0.94
+      },
+      {
+        "dx": 11,
+        "dy": 0,
+        "scale": 0.94
+      },
+      {
+        "dx": -9,
+        "dy": -4,
+        "scale": 0.94
+      },
+      {
+        "dx": 7,
+        "dy": 3,
+        "scale": 0.94
+      }
+    ]
+  },
+  "listings/prose-prune": {
+    "inset_ratio": 0,
+    "frames": [
+      {
+        "dx": -7,
+        "dy": 0,
+        "scale": 0.95
+      },
+      {
+        "dx": 11,
+        "dy": 0,
+        "scale": 0.95
+      },
+      {
+        "dx": -8,
+        "dy": 2,
+        "scale": 0.95
+      },
+      {
+        "dx": 14,
+        "dy": 3,
+        "scale": 0.95
+      }
+    ]
+  },
+  "listings/feature-layout": {
+    "inset_ratio": 0,
+    "frames": [
+      {
+        "dx": -1,
+        "dy": -6,
+        "scale_x": 0.95,
+        "scale_y": 0.9
+      },
+      {
+        "dx": -4,
+        "dy": 3,
+        "scale_x": 0.98,
+        "scale_y": 0.9
+      },
+      {
+        "dx": 18,
+        "dy": 6,
+        "scale_x": 0.86,
+        "scale_y": 0.9
+      },
+      {
+        "dx": 19,
+        "dy": 6,
+        "scale_x": 0.85,
+        "scale_y": 0.9
+      }
+    ]
+  },
+  "listings/profile-measure": {
+    "inset_ratio": 0,
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 20,
+        "dy": -1
+      },
+      {
+        "dx": 8,
+        "dy": 16
+      },
+      {
+        "dx": 18,
+        "dy": 18
+      }
+    ],
+    "overlays": [
+      {
+        "source": 0,
+        "target": 2,
+        "polygon": [
+          [
+            188,
+            242
+          ],
+          [
+            230,
+            242
+          ],
+          [
+            230,
+            255
+          ],
+          [
+            188,
+            255
+          ]
+        ],
+        "dx": 8,
+        "dy": -240
+      },
+      {
+        "source": 1,
+        "target": 3,
+        "polygon": [
+          [
+            145,
+            248
+          ],
+          [
+            162,
+            248
+          ],
+          [
+            162,
+            255
+          ],
+          [
+            145,
+            255
+          ]
+        ],
+        "dx": -2,
+        "dy": -237
+      }
+    ],
+    "clears": [
+      {
+        "target": 0,
+        "polygon": [
+          [
+            188,
+            242
+          ],
+          [
+            232,
+            242
+          ],
+          [
+            232,
+            255
+          ],
+          [
+            188,
+            255
+          ]
+        ]
+      },
+      {
+        "target": 1,
+        "polygon": [
+          [
+            143,
+            247
+          ],
+          [
+            164,
+            247
+          ],
+          [
+            164,
+            255
+          ],
+          [
+            143,
+            255
+          ]
+        ]
+      }
+    ]
+  },
+  "listings/checklist-sprint": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 8,
+        "dy": -1
+      }
+    ]
+  },
+  "listings/cushion-staging": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 10,
+        "dy": 0
+      },
+      {
+        "dx": 1,
+        "dy": 12
+      },
+      {
+        "dx": 5,
+        "dy": 16
+      }
+    ]
+  },
+  "listings/guest-register": {
+    "replacements": [
+      {
+        "source": 0,
+        "target": 1,
+        "polygon": [
+          [
+            102,
+            164
+          ],
+          [
+            190,
+            164
+          ],
+          [
+            190,
+            235
+          ],
+          [
+            102,
+            235
+          ]
+        ],
+        "restores": [
+          {
+            "polygon": [
+              [
+                115,
+                145
+              ],
+              [
+                153,
+                145
+              ],
+              [
+                160,
+                177
+              ],
+              [
+                169,
+                188
+              ],
+              [
+                168,
+                224
+              ],
+              [
+                122,
+                224
+              ],
+              [
+                115,
+                193
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "source": 0,
+        "target": 3,
+        "polygon": [
+          [
+            102,
+            164
+          ],
+          [
+            190,
+            164
+          ],
+          [
+            190,
+            235
+          ],
+          [
+            102,
+            235
+          ]
+        ],
+        "restores": [
+          {
+            "polygon": [
+              [
+                113,
+                184
+              ],
+              [
+                165,
+                184
+              ],
+              [
+                165,
+                225
+              ],
+              [
+                113,
+                225
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listings/open-house-sign": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 13,
+        "dy": 5,
+        "scale_y": 1.01
+      },
+      {
+        "dx": -14,
+        "dy": 8,
+        "scale": 1.07
+      },
+      {
+        "dx": 4,
+        "dy": 4
+      }
+    ]
+  },
+  "listings/details-dig": {
+    "frames": [
+      {
+        "dx": -4,
+        "dy": 1
+      },
+      {
+        "dx": 3,
+        "dy": -2
+      },
+      {
+        "dx": 3,
+        "dy": 1
+      },
+      {
+        "dx": -1,
+        "dy": 2
+      }
+    ]
+  },
+  "listings/buyer-profile-binoculars": {
+    "frames": [
+      {
+        "dx": -4,
+        "dy": 0
+      },
+      {
+        "dx": 0,
+        "dy": 2
+      },
+      {
+        "dx": 3,
+        "dy": 0
+      },
+      {
+        "dx": 1,
+        "dy": 0
+      }
+    ]
+  },
+  "listings/cinderblock-foundation": {
+    "frames": [
+      {
+        "dx": -8,
+        "dy": 3
+      },
+      {
+        "dx": 9,
+        "dy": 0
+      },
+      {
+        "dx": -8,
+        "dy": -1
+      },
+      {
+        "dx": 8,
+        "dy": -1
+      }
+    ]
+  },
+  "listings/cornerstone-set": {
+    "frames": [
+      {
+        "dx": -6,
+        "dy": 6
+      },
+      {
+        "dx": 5,
+        "dy": -3
+      },
+      {
+        "dx": -6,
+        "dy": 0
+      },
+      {
+        "dx": 7,
+        "dy": 0
+      }
+    ]
+  },
+  "marketing/listing-badge": {
+    "inset_ratio": 0,
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 19,
+        "dy": 0
+      },
+      {
+        "dx": -6,
+        "dy": 0
+      },
+      {
+        "dx": 16,
+        "dy": 4
+      }
+    ]
+  },
+  "marketing/sold-confetti": {
+    "inset_ratio": 0,
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 14,
+        "dy": 0
+      },
+      {
+        "dx": -2,
+        "dy": 2
+      },
+      {
+        "dx": 17,
+        "dy": -1
+      }
+    ]
+  },
+  "marketing/reel-storyboard": {
+    "inset_ratio": 0,
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": -2,
+        "dy": 4
+      },
+      {
+        "dx": 0,
+        "dy": 4
+      }
+    ],
+    "replacements": [
+      {
+        "source": 0,
+        "target": 0,
+        "polygon": [
+          [
+            70,
+            145
+          ],
+          [
+            213,
+            145
+          ],
+          [
+            224,
+            230
+          ],
+          [
+            60,
+            230
+          ]
+        ],
+        "dx": -18,
+        "exclude_polygons": [
+          [
+            [
+              40,
+              120
+            ],
+            [
+              87,
+              120
+            ],
+            [
+              99,
+              145
+            ],
+            [
+              96,
+              166
+            ],
+            [
+              58,
+              168
+            ],
+            [
+              39,
+              151
+            ]
+          ]
+        ],
+        "restores": [
+          {
+            "polygon": [
+              [
+                40,
+                120
+              ],
+              [
+                87,
+                120
+              ],
+              [
+                99,
+                145
+              ],
+              [
+                96,
+                166
+              ],
+              [
+                58,
+                168
+              ],
+              [
+                39,
+                151
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "clears": [
+      {
+        "target": 2,
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            255,
+            0
+          ],
+          [
+            255,
+            10
+          ],
+          [
+            0,
+            10
+          ]
+        ]
+      },
+      {
+        "target": 3,
+        "polygon": [
+          [
+            0,
+            0
+          ],
+          [
+            255,
+            0
+          ],
+          [
+            255,
+            10
+          ],
+          [
+            0,
+            10
+          ]
+        ]
+      }
+    ]
+  },
+  "marketing/portrait-rehearsal": {
+    "inset_ratio": 0,
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 15,
+        "dy": -3
+      },
+      {
+        "dx": -1,
+        "dy": 9
+      },
+      {
+        "dx": 18,
+        "dy": 8
+      }
+    ]
+  },
+  "marketing/market-carousel": {
+    "inset_ratio": 0,
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 19,
+        "dy": -1
+      },
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 0,
+        "dy": 1
+      }
+    ]
+  },
+  "marketing/ad-targeting": {
+    "frames": [
+      {
+        "dx": 1,
+        "dy": -1
+      },
+      {
+        "dx": 2,
+        "dy": -1
+      },
+      {
+        "dx": -8,
+        "dy": 2
+      },
+      {
+        "dx": 9,
+        "dy": 2
+      }
+    ]
+  },
+  "marketing/luxury-fold": {
+    "frames": [
+      {
+        "dx": -2,
+        "dy": 0
+      },
+      {
+        "dx": 3,
+        "dy": -1
+      },
+      {
+        "dx": -7,
+        "dy": 0
+      },
+      {
+        "dx": 8,
+        "dy": 2
+      }
+    ]
+  },
+  "marketing/palette-match": {
+    "frames": [
+      {
+        "dx": -13,
+        "dy": -1
+      },
+      {
+        "dx": 2,
+        "dy": -1
+      },
+      {
+        "dx": -5,
+        "dy": 2
+      },
+      {
+        "dx": 19,
+        "dy": 3
+      }
+    ]
+  },
+  "marketing/post-queue": {
+    "frames": [
+      {
+        "dx": -5,
+        "dy": -1
+      },
+      {
+        "dx": 12,
+        "dy": 0
+      },
+      {
+        "dx": -2,
+        "dy": 4
+      },
+      {
+        "dx": 1,
+        "dy": 2
+      }
+    ]
+  },
+  "marketing/target-hit": {
+    "frames": [
+      {
+        "dx": -2,
+        "dy": 0
+      },
+      {
+        "dx": 1,
+        "dy": 0
+      },
+      {
+        "dx": -2,
+        "dy": -1
+      },
+      {
+        "dx": 2,
+        "dy": 0
+      }
+    ]
+  },
+  "marketing/palette-mix": {
+    "frames": [
+      {
+        "dx": -1,
+        "dy": 0
+      },
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": -1,
+        "dy": 0
+      },
+      {
+        "dx": 3,
+        "dy": 1
+      }
+    ]
+  },
+  "marketing/hook-sharpen": {
+    "frames": [
+      {
+        "dx": -5,
+        "dy": -1
+      },
+      {
+        "dx": 3,
+        "dy": -1
+      },
+      {
+        "dx": -3,
+        "dy": 2
+      },
+      {
+        "dx": 4,
+        "dy": 1
+      }
+    ]
+  },
+  "research/neighbourhood-loupe": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 12,
+        "dy": -2
+      },
+      {
+        "dx": -3,
+        "dy": 0
+      },
+      {
+        "dx": 9,
+        "dy": -2
+      }
+    ]
+  },
+  "research/school-pins": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 17,
+        "dy": 0
+      },
+      {
+        "dx": -7,
+        "dy": 2
+      },
+      {
+        "dx": 16,
+        "dy": 2
+      }
+    ]
+  },
+  "research/commute-timer": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 6,
+        "dy": 0
+      },
+      {
+        "dx": 1,
+        "dy": 2
+      },
+      {
+        "dx": 6,
+        "dy": 2
+      }
+    ]
+  },
+  "research/source-check": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 16,
+        "dy": -1
+      },
+      {
+        "dx": 2,
+        "dy": 2
+      },
+      {
+        "dx": 19,
+        "dy": 0
+      }
+    ]
+  },
+  "research/fact-web": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 6,
+        "dy": 0
+      },
+      {
+        "dx": 0,
+        "dy": 2
+      },
+      {
+        "dx": 3,
+        "dy": 2
+      }
+    ]
+  },
+  "research/trend-overlay": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0,
+        "scale": 0.94
+      },
+      {
+        "dx": 18,
+        "dy": 0,
+        "scale": 0.94
+      },
+      {
+        "dx": 1,
+        "dy": 3,
+        "scale": 0.94
+      },
+      {
+        "dx": 15,
+        "dy": 2,
+        "scale": 0.94
+      }
+    ]
+  },
+  "research/valuation-funnel": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0,
+        "scale": 0.85
+      },
+      {
+        "dx": 14,
+        "dy": 0,
+        "scale": 0.85
+      },
+      {
+        "dx": -1,
+        "dy": -1,
+        "scale": 0.85
+      },
+      {
+        "dx": 19,
+        "dy": -21,
+        "scale": 0.85
+      }
+    ]
+  },
+  "research/house-balance": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 29,
+        "dy": 1
+      },
+      {
+        "dx": -1,
+        "dy": 3,
+        "scale_y": 1.015
+      },
+      {
+        "dx": 10,
+        "dy": 3,
+        "scale_y": 1.014
+      }
+    ]
+  },
+  "research/buyer-grid": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0,
+        "scale": 0.96
+      },
+      {
+        "dx": 5,
+        "dy": 0,
+        "scale": 0.96
+      },
+      {
+        "dx": -1,
+        "dy": 0,
+        "scale": 0.96
+      },
+      {
+        "dx": 14,
+        "dy": 1,
+        "scale": 0.96
+      }
+    ]
+  },
+  "research/street-scan": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 7,
+        "dy": 0
+      },
+      {
+        "dx": 1,
+        "dy": 8,
+        "scale_y": 1.042
+      },
+      {
+        "dx": 7,
+        "dy": 8,
+        "scale_y": 1.048
+      }
+    ],
+    "overlays": [
+      {
+        "source": 1,
+        "target": 3,
+        "polygon": [
+          [
+            171,
+            171
+          ],
+          [
+            198,
+            171
+          ],
+          [
+            198,
+            193
+          ],
+          [
+            248,
+            193
+          ],
+          [
+            248,
+            243
+          ],
+          [
+            157,
+            243
+          ],
+          [
+            157,
+            193
+          ],
+          [
+            171,
+            193
+          ]
+        ]
+      }
+    ]
+  },
+  "research/nosy-neighbouring": {
+    "frames": [
+      {
+        "dx": -1,
+        "dy": -1
+      },
+      {
+        "dx": 0,
+        "dy": -2
+      },
+      {
+        "dx": -4,
+        "dy": 1
+      },
+      {
+        "dx": 4,
+        "dy": 2
+      }
+    ]
+  },
+  "content/listing-copy-keyboard": {
+    "frames": [
+      {
+        "dx": -16,
+        "dy": 1
+      },
+      {
+        "dx": 21,
+        "dy": -7
+      },
+      {
+        "dx": 6,
+        "dy": -8
+      },
+      {
+        "dx": 15,
+        "dy": 9
+      }
+    ]
+  },
+  "content/client-email-send": {
+    "frames": [
+      {
+        "dx": -20,
+        "dy": 1
+      },
+      {
+        "dx": 2,
+        "dy": 0
+      },
+      {
+        "dx": 2,
+        "dy": 0
+      },
+      {
+        "dx": 16,
+        "dy": -1
+      }
+    ]
+  },
+  "content/marketing-plan-cards": {
+    "frames": [
+      {
+        "dx": -12,
+        "dy": -7
+      },
+      {
+        "dx": 6,
+        "dy": -8
+      },
+      {
+        "dx": -8,
+        "dy": 10
+      },
+      {
+        "dx": 9,
+        "dy": 7
+      }
+    ],
+    "replacements": [
+      {
+        "source": 0,
+        "target": 0,
+        "polygon": [
+          [
+            17,
+            38
+          ],
+          [
+            114,
+            38
+          ],
+          [
+            114,
+            122
+          ],
+          [
+            17,
+            122
+          ]
+        ],
+        "dx": 4,
+        "dy": 7
+      },
+      {
+        "source": 1,
+        "target": 1,
+        "polygon": [
+          [
+            21,
+            37
+          ],
+          [
+            121,
+            37
+          ],
+          [
+            121,
+            121
+          ],
+          [
+            21,
+            121
+          ]
+        ],
+        "dx": 0,
+        "dy": 8,
+        "exclude_polygons": [
+          [
+            [
+              74,
+              54
+            ],
+            [
+              118,
+              54
+            ],
+            [
+              139,
+              79
+            ],
+            [
+              136,
+              117
+            ],
+            [
+              120,
+              132
+            ],
+            [
+              80,
+              121
+            ],
+            [
+              72,
+              94
+            ]
+          ]
+        ],
+        "restores": [
+          {
+            "polygon": [
+              [
+                74,
+                54
+              ],
+              [
+                118,
+                54
+              ],
+              [
+                139,
+                79
+              ],
+              [
+                136,
+                117
+              ],
+              [
+                120,
+                132
+              ],
+              [
+                80,
+                121
+              ],
+              [
+                72,
+                94
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "source": 2,
+        "target": 2,
+        "polygon": [
+          [
+            21,
+            42
+          ],
+          [
+            118,
+            42
+          ],
+          [
+            118,
+            142
+          ],
+          [
+            21,
+            142
+          ]
+        ],
+        "dx": 0,
+        "dy": -10,
+        "exclude_polygons": [
+          [
+            [
+              15,
+              108
+            ],
+            [
+              35,
+              97
+            ],
+            [
+              59,
+              99
+            ],
+            [
+              82,
+              109
+            ],
+            [
+              108,
+              115
+            ],
+            [
+              132,
+              121
+            ],
+            [
+              150,
+              105
+            ],
+            [
+              162,
+              109
+            ],
+            [
+              158,
+              142
+            ],
+            [
+              135,
+              153
+            ],
+            [
+              107,
+              141
+            ],
+            [
+              80,
+              134
+            ],
+            [
+              54,
+              130
+            ],
+            [
+              31,
+              136
+            ],
+            [
+              15,
+              128
+            ]
+          ]
+        ],
+        "restores": [
+          {
+            "polygon": [
+              [
+                15,
+                108
+              ],
+              [
+                35,
+                97
+              ],
+              [
+                59,
+                99
+              ],
+              [
+                82,
+                109
+              ],
+              [
+                108,
+                115
+              ],
+              [
+                132,
+                121
+              ],
+              [
+                150,
+                105
+              ],
+              [
+                162,
+                109
+              ],
+              [
+                158,
+                142
+              ],
+              [
+                135,
+                153
+              ],
+              [
+                107,
+                141
+              ],
+              [
+                80,
+                134
+              ],
+              [
+                54,
+                130
+              ],
+              [
+                31,
+                136
+              ],
+              [
+                15,
+                128
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "source": 3,
+        "target": 3,
+        "polygon": [
+          [
+            24,
+            39
+          ],
+          [
+            123,
+            39
+          ],
+          [
+            123,
+            141
+          ],
+          [
+            24,
+            141
+          ]
+        ],
+        "dx": -3,
+        "dy": -7,
+        "exclude_polygons": [
+          [
+            [
+              79,
+              87
+            ],
+            [
+              127,
+              81
+            ],
+            [
+              151,
+              106
+            ],
+            [
+              151,
+              148
+            ],
+            [
+              119,
+              158
+            ],
+            [
+              83,
+              141
+            ]
+          ]
+        ],
+        "restores": [
+          {
+            "polygon": [
+              [
+                79,
+                87
+              ],
+              [
+                127,
+                81
+              ],
+              [
+                151,
+                106
+              ],
+              [
+                151,
+                148
+              ],
+              [
+                119,
+                158
+              ],
+              [
+                83,
+                141
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "clears": [
+      {
+        "target": 3,
+        "polygon": [
+          [
+            7,
+            115
+          ],
+          [
+            18,
+            115
+          ],
+          [
+            18,
+            136
+          ],
+          [
+            7,
+            136
+          ]
+        ]
+      },
+      {
+        "target": 3,
+        "polygon": [
+          [
+            41,
+            184
+          ],
+          [
+            70,
+            184
+          ],
+          [
+            70,
+            220
+          ],
+          [
+            41,
+            220
+          ]
+        ]
+      },
+      {
+        "target": 3,
+        "polygon": [
+          [
+            72,
+            184
+          ],
+          [
+            99,
+            184
+          ],
+          [
+            99,
+            221
+          ],
+          [
+            72,
+            221
+          ]
+        ]
+      }
+    ]
+  },
+  "content/seller-update-packet": {
+    "frames": [
+      {
+        "dx": -16,
+        "dy": -3
+      },
+      {
+        "dx": 21,
+        "dy": -6
+      },
+      {
+        "dx": -22,
+        "dy": 3
+      },
+      {
+        "dx": 13,
+        "dy": 7
+      }
+    ]
+  },
+  "content/reengagement-dustoff": {
+    "frames": [
+      {
+        "dx": -12,
+        "dy": -2
+      },
+      {
+        "dx": -5,
+        "dy": -3
+      },
+      {
+        "dx": 3,
+        "dy": 1
+      },
+      {
+        "dx": 13,
+        "dy": 3
+      }
+    ]
+  },
+  "content/camera-snap": {
+    "inset_ratio": 0,
+    "frames": [
+      {
+        "dx": -8,
+        "dy": -2
+      },
+      {
+        "dx": 20,
+        "dy": -16
+      },
+      {
+        "dx": -3,
+        "dy": -10
+      },
+      {
+        "dx": 13,
+        "dy": -2
+      }
+    ]
+  },
+  "content/video-timeline-trim": {
+    "inset_ratio": 0,
+    "frames": [
+      {
+        "dx": -7,
+        "dy": -4
+      },
+      {
+        "dx": 4,
+        "dy": -4
+      },
+      {
+        "dx": -7,
+        "dy": 0
+      },
+      {
+        "dx": 4,
+        "dy": 2
+      }
+    ]
+  },
+  "content/concept-sketch": {
+    "inset_ratio": 0,
+    "frames": [
+      {
+        "dx": 0,
+        "dy": -6
+      },
+      {
+        "dx": 3,
+        "dy": -8
+      },
+      {
+        "dx": -14,
+        "dy": -1
+      },
+      {
+        "dx": 22,
+        "dy": 3
+      }
+    ]
+  },
+  "content/copy-proofread": {
+    "inset_ratio": 0,
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 22,
+        "dy": -2
+      },
+      {
+        "dx": -3,
+        "dy": 3
+      },
+      {
+        "dx": 15,
+        "dy": 5
+      }
+    ]
+  },
+  "content/voice-tuning-fork": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 1,
+        "dy": 2
+      }
+    ]
+  },
+  "content/old-files-dustoff": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 0,
+        "dy": 0
+      }
+    ]
+  },
+  "content/target-examine": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 0,
+        "dy": 9
+      },
+      {
+        "dx": 0,
+        "dy": 9
+      }
+    ]
+  },
+  "content/film-tape-trim": {
+    "frames": [
+      {
+        "dx": -1,
+        "dy": 0
+      },
+      {
+        "dx": 1,
+        "dy": 1
+      },
+      {
+        "dx": 1,
+        "dy": 1
+      },
+      {
+        "dx": 1,
+        "dy": 1
+      }
+    ]
+  },
+  "content/laser-pointer-scan": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 2,
+        "dy": 1
+      },
+      {
+        "dx": 1,
+        "dy": 0
+      }
+    ]
+  },
+  "offers/purchase-offer-draft": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 8,
+        "dy": -1
+      },
+      {
+        "dx": 0,
+        "dy": 4
+      },
+      {
+        "dx": 8,
+        "dy": 3
+      }
+    ]
+  },
+  "offers/paperwork-page-flip": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 7,
+        "dy": -2
+      },
+      {
+        "dx": -3,
+        "dy": 0
+      },
+      {
+        "dx": 8,
+        "dy": 0
+      }
+    ]
+  },
+  "offers/typewriter-terms": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 23,
+        "dy": -3,
+        "scale_y": 1.035
+      },
+      {
+        "dx": -5,
+        "dy": 5,
+        "scale_y": 1.008
+      },
+      {
+        "dx": 15,
+        "dy": 5,
+        "scale_y": 1.008
+      }
+    ]
+  },
+  "offers/checklist-fill": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 11,
+        "dy": -3
+      },
+      {
+        "dx": -2,
+        "dy": 4
+      },
+      {
+        "dx": 15,
+        "dy": 4
+      }
+    ]
+  },
+  "offers/esign-send": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 13,
+        "dy": 0
+      },
+      {
+        "dx": 1,
+        "dy": 1
+      },
+      {
+        "dx": 14,
+        "dy": 1
+      }
+    ]
+  },
+  "offers/counteroffer-volley": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 29,
+        "dy": 0
+      },
+      {
+        "dx": 3,
+        "dy": 1
+      },
+      {
+        "dx": 30,
+        "dy": 1
+      }
+    ]
+  },
+  "offers/closing-bundle": {
+    "inset_ratio": 0,
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 10,
+        "dy": 1
+      },
+      {
+        "dx": -4,
+        "dy": 8
+      },
+      {
+        "dx": 8,
+        "dy": 8,
+        "scale_x": 0.97,
+        "scale_y": 0.98
+      }
+    ]
+  },
+  "offers/lease-offer-draft": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 17,
+        "dy": 0
+      },
+      {
+        "dx": 0,
+        "dy": 28
+      },
+      {
+        "dx": 18,
+        "dy": 28
+      }
+    ]
+  },
+  "offers/calculator-tap": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 18,
+        "dy": 0
+      },
+      {
+        "dx": 0,
+        "dy": 4
+      },
+      {
+        "dx": 18,
+        "dy": 4
+      }
+    ]
+  },
+  "offers/amendment-mend": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 0,
+        "dy": 0
+      }
+    ]
+  },
+  "offers/lowball-juggle": {
+    "inset_ratio": 0,
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 9,
+        "dy": 0
+      },
+      {
+        "dx": 0,
+        "dy": 15
+      },
+      {
+        "dx": 9,
+        "dy": 15
+      }
+    ]
+  },
+  "offers/paper-conditioning": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 0,
+        "dy": 0
+      }
+    ]
+  },
+  "offers/offer-strengthen": {
+    "inset_ratio": 0,
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 12,
+        "scale": 0.9
+      },
+      {
+        "dx": 1,
+        "dy": 12,
+        "scale": 0.9
+      },
+      {
+        "dx": 0,
+        "dy": 10,
+        "scale": 0.9
+      },
+      {
+        "dx": 1,
+        "dy": 12,
+        "scale": 0.9
+      }
+    ]
+  },
+  "offers/deposit-safe-check": {
+    "inset_ratio": 0,
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 3,
+        "dy": 0
+      },
+      {
+        "dx": 0,
+        "dy": 3
+      },
+      {
+        "dx": 3,
+        "dy": 3
+      }
+    ]
+  },
+  "offers/client-protection": {
+    "inset_ratio": 0,
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 5,
+        "dy": 0
+      },
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 5,
+        "dy": 0
+      }
+    ]
+  },
+  "offers/paper-hanger-organize": {
+    "inset_ratio": 0,
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 0,
+        "dy": 0
+      }
+    ]
+  },
+  "reports/report-page-wrangle": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 10,
+        "dy": -2
+      },
+      {
+        "dx": -2,
+        "dy": 2
+      },
+      {
+        "dx": 20,
+        "dy": 3
+      }
+    ]
+  },
+  "reports/dashboard-tile-grid": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": -11,
+        "dy": -2
+      },
+      {
+        "dx": -35,
+        "dy": 2
+      },
+      {
+        "dx": -13,
+        "dy": 2
+      }
+    ]
+  },
+  "reports/presentation-deck-shuffle": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": -1,
+        "dy": 3
+      },
+      {
+        "dx": 0,
+        "dy": 3
+      }
+    ]
+  },
+  "reports/performance-plot": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 3,
+        "dy": 0
+      },
+      {
+        "dx": -1,
+        "dy": 4
+      },
+      {
+        "dx": 3,
+        "dy": 6
+      }
+    ]
+  },
+  "reports/meeting-summary-funnel": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 7,
+        "dy": 0
+      },
+      {
+        "dx": 9,
+        "dy": 3
+      },
+      {
+        "dx": 21,
+        "dy": 3
+      }
+    ]
+  },
+  "reports/share-link-click": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 13,
+        "dy": -1
+      },
+      {
+        "dx": 0,
+        "dy": 3
+      },
+      {
+        "dx": 13,
+        "dy": 3
+      }
+    ]
+  },
+  "reports/presentation-pointer": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0,
+        "scale": 0.97
+      },
+      {
+        "dx": 12,
+        "dy": 0,
+        "scale": 0.97
+      },
+      {
+        "dx": -3,
+        "dy": 2,
+        "scale": 0.97
+      },
+      {
+        "dx": 12,
+        "dy": 3,
+        "scale": 0.97
+      }
+    ]
+  },
+  "reports/fact-funnel": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0,
+        "scale": 0.95
+      },
+      {
+        "dx": 10,
+        "dy": 0,
+        "scale": 0.95
+      },
+      {
+        "dx": 4,
+        "dy": 2,
+        "scale": 0.95
+      },
+      {
+        "dx": 40,
+        "dy": 3,
+        "scale": 0.95
+      }
+    ]
+  },
+  "reports/chart-whisper": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 10,
+        "dy": -1
+      },
+      {
+        "dx": 1,
+        "dy": 5
+      },
+      {
+        "dx": 10,
+        "dy": 4
+      }
+    ]
+  },
+  "reports/client-ready-polish": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 4,
+        "dy": 0
+      },
+      {
+        "dx": -1,
+        "dy": 5
+      },
+      {
+        "dx": 9,
+        "dy": 4
+      }
+    ]
+  },
+  "reports/data-pressure-wash": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 0,
+        "dy": 0
+      }
+    ]
+  },
+  "reports/details-meditation": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 3,
+        "dy": 0
+      },
+      {
+        "dx": 1,
+        "dy": 2
+      },
+      {
+        "dx": 4,
+        "dy": 2
+      }
+    ]
+  },
+  "reports/chain-break": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": -4,
+        "dy": 0
+      },
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": -4,
+        "dy": 0
+      }
+    ]
+  },
+  "reports/data-plug-in": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 5,
+        "dy": 0
+      },
+      {
+        "dx": 3,
+        "dy": 0
+      },
+      {
+        "dx": 5,
+        "dy": 0
+      }
+    ]
+  },
+  "reports/screen-polish": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 3,
+        "dy": 1
+      },
+      {
+        "dx": 1,
+        "dy": 1
+      },
+      {
+        "dx": 3,
+        "dy": 1
+      }
+    ]
+  },
+  "reports/details-lasso": {
+    "grid": [
+      3,
+      2
+    ],
+    "crop_offsets": [
+      {},
+      {},
+      {},
+      {
+        "dy": -20
+      },
+      {},
+      {}
+    ],
+    "frames": [
+      {
+        "dx": -40,
+        "dy": 14
+      },
+      {
+        "dx": -25,
+        "dy": 12
+      },
+      {
+        "dx": -10,
+        "dy": 11,
+        "scale_x": 0.905
+      },
+      {
+        "dx": -54,
+        "dy": 2
+      },
+      {
+        "dx": 11,
+        "dy": 19,
+        "scale_x": 0.93
+      },
+      {
+        "dx": -13,
+        "dy": 18
+      }
+    ],
+    "sequence": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "durations_ms": [
+      210,
+      140,
+      140,
+      210,
+      140,
+      140
+    ]
+  },
+  "reports/dashboard-snowboard": {
+    "grid": [
+      2,
+      3
+    ],
+    "frames": [
+      {
+        "dx": -7,
+        "dy": -7,
+        "scale": 1.03
+      },
+      {
+        "dx": 24,
+        "dy": -7,
+        "scale": 0.96
+      },
+      {
+        "dx": -5,
+        "dy": 1,
+        "scale": 0.98
+      },
+      {
+        "dx": 17,
+        "dy": 0,
+        "scale": 1.03
+      },
+      {
+        "dx": 7,
+        "dy": 8
+      },
+      {
+        "dx": 31,
+        "dy": 6,
+        "scale": 0.94
+      }
+    ],
+    "sequence": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "durations_ms": [
+      210,
+      140,
+      140,
+      210,
+      140,
+      140
+    ]
+  },
+  "reports/dashboard-skateboard": {
+    "grid": [
+      2,
+      3
+    ],
+    "crop_offsets": [
+      {},
+      {},
+      {
+        "dy": -10
+      },
+      {},
+      {
+        "dy": -22
+      },
+      {
+        "dy": -19
+      }
+    ],
+    "frames": [
+      {
+        "dx": -2,
+        "dy": 0
+      },
+      {
+        "dx": 2,
+        "dy": 0
+      },
+      {
+        "dx": -2,
+        "dy": 4
+      },
+      {
+        "dx": 2,
+        "dy": 8
+      },
+      {
+        "dx": -2,
+        "dy": 5
+      },
+      {
+        "dx": 2,
+        "dy": 6
+      }
+    ],
+    "clears": [
+      {
+        "target": 3,
+        "polygon": [
+          [
+            72,
+            213
+          ],
+          [
+            94,
+            213
+          ],
+          [
+            94,
+            224
+          ],
+          [
+            72,
+            224
+          ]
+        ]
+      }
+    ],
+    "sequence": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "durations_ms": [
+      210,
+      140,
+      140,
+      210,
+      140,
+      140
+    ]
+  },
+  "reports/data-decant": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 12,
+        "dy": 0
+      },
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 12,
+        "dy": 0
+      }
+    ],
+    "replacements": [
+      {
+        "source": 0,
+        "target": 0,
+        "polygon": [
+          [
+            155,
+            103
+          ],
+          [
+            215,
+            103
+          ],
+          [
+            232,
+            185
+          ],
+          [
+            237,
+            255
+          ],
+          [
+            136,
+            255
+          ],
+          [
+            140,
+            188
+          ]
+        ],
+        "dx": 8
+      },
+      {
+        "source": 1,
+        "target": 1,
+        "polygon": [
+          [
+            170,
+            103
+          ],
+          [
+            230,
+            103
+          ],
+          [
+            246,
+            185
+          ],
+          [
+            249,
+            255
+          ],
+          [
+            150,
+            255
+          ],
+          [
+            154,
+            188
+          ]
+        ],
+        "dx": -6
+      },
+      {
+        "source": 2,
+        "target": 2,
+        "polygon": [
+          [
+            170,
+            103
+          ],
+          [
+            232,
+            103
+          ],
+          [
+            248,
+            185
+          ],
+          [
+            251,
+            255
+          ],
+          [
+            150,
+            255
+          ],
+          [
+            154,
+            188
+          ]
+        ],
+        "dx": -7
+      }
+    ]
+  },
+  "reports/thread-pull": {
+    "grid": [
+      2,
+      3
+    ],
+    "inset_ratio": 0.004,
+    "frames": [
+      {
+        "dx": -3,
+        "dy": 0
+      },
+      {
+        "dx": 4,
+        "dy": 0
+      },
+      {
+        "dx": -3,
+        "dy": 0
+      },
+      {
+        "dx": 4,
+        "dy": 0
+      },
+      {
+        "dx": -3,
+        "dy": 0
+      },
+      {
+        "dx": 4,
+        "dy": 0
+      }
+    ],
+    "sequence": [
+      0,
+      1,
+      2,
+      3,
+      2,
+      1
+    ],
+    "durations_ms": [
+      210,
+      140,
+      140,
+      210,
+      140,
+      140
+    ]
+  },
+  "wildcard/lab-tests-research": {
+    "frames": [
+      {},
+      {
+        "dx": -2
+      },
+      {
+        "dx": -1,
+        "scale": 0.97
+      },
+      {
+        "dx": -1,
+        "scale": 0.99
+      }
+    ]
+  },
+  "wildcard/sniff-test-listings": {
+    "frames": [
+      {},
+      {
+        "dx": 4,
+        "dy": -2
+      },
+      {
+        "dx": -5,
+        "dy": -5,
+        "scale": 0.97
+      },
+      {
+        "dx": 18,
+        "dy": -1,
+        "scale": 0.99
+      }
+    ]
+  },
+  "wildcard/options-scale-offers": {
+    "frames": [
+      {},
+      {
+        "dx": 5
+      },
+      {
+        "dx": -1
+      },
+      {
+        "dx": 5,
+        "dy": 1,
+        "scale": 1.01
+      }
+    ]
+  },
+  "wildcard/seed-planting-crm": {
+    "frames": [
+      {},
+      {
+        "dx": 9
+      },
+      {
+        "dy": 2
+      },
+      {
+        "dx": 13,
+        "dy": 2
+      }
+    ]
+  },
+  "wildcard/gold-carrot-harvest-cma": {
+    "frames": [
+      {},
+      {
+        "dx": -6,
+        "dy": -2,
+        "scale": 1.02
+      },
+      {
+        "dx": -5,
+        "dy": 3,
+        "scale": 1.02
+      },
+      {
+        "dx": 4,
+        "dy": 4,
+        "scale": 1.05
+      }
+    ]
+  },
+  "wildcard/super-homie-manager": {
+    "frames": [
+      {},
+      {
+        "dx": 5,
+        "dy": -1,
+        "scale": 0.98
+      },
+      {
+        "dx": 2,
+        "dy": -2,
+        "scale": 0.98
+      },
+      {
+        "dx": 4,
+        "dy": -3,
+        "scale": 0.97
+      }
+    ]
+  },
+  "wildcard/megaphone-amplify-marketing": {
+    "frames": [
+      {},
+      {
+        "dx": 28
+      },
+      {
+        "dy": 3
+      },
+      {
+        "dx": 28,
+        "dy": 3
+      }
+    ]
+  },
+  "wildcard/guitar-amp-content": {
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/harmonizing-manager-keyboard": {
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/harmonizing-marketing-drums": {
+    "frames": [
+      {},
+      {
+        "dx": 2
+      },
+      {
+        "dx": 1,
+        "dy": 2,
+        "scale": 1.01
+      },
+      {
+        "dx": 2,
+        "dy": 1
+      }
+    ]
+  },
+  "wildcard/harmonizing-research-saxophone": {
+    "frames": [
+      {},
+      {
+        "dx": 9
+      },
+      {
+        "dx": 2
+      },
+      {
+        "dx": 11
+      }
+    ]
+  },
+  "wildcard/harmonizing-content-bass": {
+    "frames": [
+      {},
+      {
+        "dx": 2,
+        "dy": 1,
+        "scale": 1.01
+      },
+      {
+        "dy": 1
+      },
+      {
+        "dx": 2,
+        "dy": 2,
+        "scale": 1.01
+      }
+    ]
+  },
+  "wildcard/full-shovel-dig-listings": {
+    "crop_offsets": [
+      {},
+      {},
+      {
+        "dy": -18
+      },
+      {
+        "dy": -18
+      }
+    ],
+    "frames": [
+      {},
+      {
+        "dx": 20,
+        "dy": -2
+      },
+      {
+        "dx": -4,
+        "dy": 6
+      },
+      {
+        "dx": 56,
+        "dy": 6
+      }
+    ]
+  },
+  "wildcard/cash-rake-offers": {
+    "frames": [
+      {},
+      {
+        "dx": -5
+      },
+      {
+        "dx": -6
+      },
+      {
+        "dx": -17,
+        "dy": 1
+      }
+    ]
+  },
+  "wildcard/moptimizing-crm": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/paint-remix-marketing": {
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/dj-remix-content": {
+    "frames": [
+      {},
+      {
+        "dx": 1
+      },
+      {},
+      {
+        "dx": 1
+      }
+    ]
+  },
+  "teamwork/football-handoff-manager-cma": {
+    "frames": [
+      {},
+      {
+        "dy": -1
+      },
+      {
+        "dy": -1
+      },
+      {
+        "dy": 1
+      }
+    ]
+  },
+  "teamwork/football-handoff-manager-crm": {
+    "frames": [
+      {
+        "dy": 1
+      },
+      {
+        "dy": 1
+      },
+      {
+        "scale": 0.99
+      },
+      {
+        "dy": -1,
+        "scale": 0.99
+      }
+    ]
+  },
+  "teamwork/football-handoff-manager-listings": {
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "teamwork/football-handoff-manager-marketing": {
+    "frames": [
+      {},
+      {
+        "dy": -1
+      },
+      {},
+      {}
+    ]
+  },
+  "teamwork/wrestling-tag-in-manager-research": {
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "teamwork/wrestling-tag-in-manager-content": {
+    "frames": [
+      {},
+      {},
+      {
+        "dy": 3
+      },
+      {
+        "dy": -2
+      }
+    ]
+  },
+  "teamwork/wrestling-tag-in-manager-offers": {
+    "frames": [
+      {},
+      {
+        "dy": 1
+      },
+      {
+        "dy": -2
+      },
+      {}
+    ]
+  },
+  "teamwork/wrestling-tag-in-manager-reports": {
+    "frames": [
+      {},
+      {
+        "dy": -1
+      },
+      {
+        "dy": 1
+      },
+      {}
+    ]
+  },
+  "teamwork/baton-pass-manager-cma": {
+    "frames": [
+      {
+        "dy": -1
+      },
+      {
+        "dy": -1
+      },
+      {
+        "dy": 2
+      },
+      {
+        "dy": 4
+      }
+    ]
+  },
+  "teamwork/baton-pass-manager-marketing": {
+    "frames": [
+      {
+        "dy": -2
+      },
+      {
+        "dy": -3
+      },
+      {
+        "dy": 4
+      },
+      {
+        "dy": 3
+      }
+    ]
+  },
+  "teamwork/baton-pass-manager-research": {
+    "frames": [
+      {
+        "dy": -1
+      },
+      {
+        "dy": -1
+      },
+      {
+        "dy": 2
+      },
+      {
+        "dy": 4
+      }
+    ]
+  },
+  "teamwork/baton-pass-manager-reports": {
+    "frames": [
+      {
+        "dy": -1
+      },
+      {
+        "dy": -2
+      },
+      {
+        "dy": 1
+      },
+      {
+        "dy": 3,
+        "scale": 1.015
+      }
+    ]
+  },
+  "wildcard/last-mile-treadmill-offers": {
+    "frames": [
+      {
+        "dx": -13,
+        "dy": -3
+      },
+      {
+        "dx": 11,
+        "dy": -3
+      },
+      {
+        "dx": -10,
+        "dy": 10
+      },
+      {
+        "dx": 8,
+        "dy": 8
+      }
+    ]
+  },
+  "wildcard/box-packaging-manager": {
+    "frames": [
+      {
+        "dx": -11,
+        "dy": -1
+      },
+      {
+        "dx": 9,
+        "dy": -3
+      },
+      {
+        "dx": -10,
+        "dy": 2
+      },
+      {
+        "dx": 15,
+        "dy": 3
+      }
+    ]
+  },
+  "wildcard/gift-bow-reports": {
+    "frames": [
+      {
+        "dx": -1,
+        "dy": -2
+      },
+      {
+        "dy": -3
+      },
+      {
+        "dx": -1,
+        "dy": 4,
+        "scale": 1.02
+      },
+      {
+        "dx": 2,
+        "dy": 5,
+        "scale": 1.02
+      }
+    ]
+  },
+  "wildcard/envelope-kiss-content": {
+    "frames": [
+      {
+        "dx": -13,
+        "dy": -2
+      },
+      {
+        "dx": 12,
+        "dy": -2
+      },
+      {
+        "dx": -11,
+        "dy": 2
+      },
+      {
+        "dx": 13,
+        "dy": 2
+      }
+    ]
+  },
+  "wildcard/sundae-cherry-reports": {
+    "frames": [
+      {
+        "dy": -3
+      },
+      {
+        "dy": -4
+      },
+      {
+        "dy": 4,
+        "scale": 1.02
+      },
+      {
+        "dy": 4,
+        "scale": 1.02
+      }
+    ]
+  },
+  "wildcard/burrito-wrap-marketing": {
+    "frames": [
+      {
+        "dx": -16,
+        "scale": 0.98
+      },
+      {
+        "dx": 12,
+        "dy": -2,
+        "scale": 0.98
+      },
+      {
+        "dx": -10,
+        "dy": 5,
+        "scale": 1.04
+      },
+      {
+        "dx": 12,
+        "dy": 3,
+        "scale": 1.02
+      }
+    ]
+  },
+  "wildcard/competition-grill-marketing": {
+    "crop_offsets": [
+      {},
+      {},
+      {
+        "dy": -18
+      },
+      {
+        "dy": -24
+      }
+    ],
+    "frames": [
+      {
+        "dx": -13,
+        "dy": -2
+      },
+      {
+        "dx": 9,
+        "dy": -2
+      },
+      {
+        "dx": -13,
+        "dy": 2
+      },
+      {
+        "dx": 15,
+        "dy": 4
+      }
+    ]
+  },
+  "wildcard/flavour-cook-content": {
+    "frames": [
+      {
+        "dx": -7
+      },
+      {
+        "dx": 4
+      },
+      {
+        "dx": -5
+      },
+      {
+        "dx": 7
+      }
+    ]
+  },
+  "wildcard/stone-unturned-research": {
+    "frames": [
+      {
+        "dx": -46,
+        "dy": 1
+      },
+      {
+        "dx": 42,
+        "dy": -1
+      },
+      {
+        "dx": 44,
+        "dy": 24
+      },
+      {
+        "dx": 54,
+        "dy": 25
+      }
+    ]
+  },
+  "wildcard/dirtbike-listings": {
+    "frames": [
+      {
+        "dx": -11,
+        "dy": -2
+      },
+      {
+        "dx": 5,
+        "dy": 3
+      },
+      {
+        "dx": -14,
+        "dy": 13
+      },
+      {
+        "dx": 13,
+        "dy": 7
+      }
+    ]
+  },
+  "wildcard/seadoo-cma": {
+    "frames": [
+      {
+        "dx": -18,
+        "dy": -5
+      },
+      {
+        "dx": 2,
+        "dy": -5
+      },
+      {
+        "dx": -4,
+        "dy": 27
+      },
+      {
+        "dx": -2,
+        "dy": 22
+      }
+    ]
+  },
+  "teamwork/sign-clothesline-manager-crm": {
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "teamwork/sign-clothesline-manager-listings": {
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "teamwork/sign-clothesline-manager-content": {
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "teamwork/sign-clothesline-manager-offers": {
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "teamwork/high-five-manager-cma": {
+    "frames": [
+      {
+        "dx": -3,
+        "dy": 4,
+        "scale": 1.008
+      },
+      {
+        "dx": 3,
+        "dy": 3,
+        "scale": 1.016
+      },
+      {
+        "dx": -2,
+        "dy": 6,
+        "scale": 1.018
+      },
+      {
+        "dx": 4,
+        "dy": 5,
+        "scale": 1.016
+      }
+    ]
+  },
+  "teamwork/high-five-manager-crm": {
+    "inset_ratio": 0,
+    "frames": [
+      {
+        "dx": -2,
+        "dy": 0,
+        "scale": 0.949
+      },
+      {
+        "dx": 4,
+        "dy": 0,
+        "scale": 0.947
+      },
+      {
+        "dx": 1,
+        "dy": -1,
+        "scale": 0.94
+      },
+      {
+        "dx": 8,
+        "dy": -2,
+        "scale": 0.942
+      }
+    ]
+  },
+  "teamwork/high-five-manager-research": {
+    "inset_ratio": 0,
+    "frames": [
+      {
+        "dx": -5,
+        "dy": 1,
+        "scale": 0.958
+      },
+      {
+        "dx": 3,
+        "dy": 1,
+        "scale": 0.968
+      },
+      {
+        "dx": -5,
+        "dy": 3,
+        "scale": 0.961
+      },
+      {
+        "dx": 2,
+        "dy": 1,
+        "scale": 0.961
+      }
+    ]
+  },
+  "teamwork/high-five-manager-content": {
+    "frames": [
+      {
+        "dx": -3,
+        "dy": 0,
+        "scale": 0.949
+      },
+      {
+        "dx": 3,
+        "dy": 0,
+        "scale": 0.949
+      },
+      {
+        "dx": -2,
+        "dy": -1,
+        "scale": 0.942
+      },
+      {
+        "dx": 3,
+        "dy": -1,
+        "scale": 0.94
+      }
+    ]
+  },
+  "teamwork/bruce-wayning-manager-listings": {
+    "inset_ratio": 0,
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 11,
+        "dy": -1,
+        "scale_y": 1.009
+      },
+      {
+        "dx": 11,
+        "dy": 2,
+        "scale_y": 1.005
+      },
+      {
+        "dx": 8,
+        "dy": 0,
+        "scale_y": 1.005
+      }
+    ]
+  },
+  "teamwork/bruce-wayning-manager-offers": {
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 15,
+        "dy": 0
+      },
+      {
+        "dx": 28,
+        "dy": 2,
+        "scale_y": 0.995
+      },
+      {
+        "dx": 30,
+        "dy": 2,
+        "scale_y": 0.995
+      }
+    ]
+  },
+  "teamwork/dream-working-manager-cma": {
+    "inset_ratio": 0,
+    "frames": [
+      {
+        "dx": 4,
+        "dy": 7,
+        "scale": 0.901
+      },
+      {
+        "dx": 11,
+        "dy": 1,
+        "scale": 0.917
+      },
+      {
+        "dx": 5,
+        "dy": -4,
+        "scale": 0.909
+      },
+      {
+        "dx": 12,
+        "dy": -5,
+        "scale": 0.92
+      }
+    ]
+  },
+  "teamwork/dream-working-manager-marketing": {
+    "inset_ratio": 0,
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 10,
+        "scale": 0.94
+      },
+      {
+        "dx": 0,
+        "dy": 10,
+        "scale": 0.94
+      },
+      {
+        "dx": 0,
+        "dy": 10,
+        "scale": 0.94
+      },
+      {
+        "dx": 0,
+        "dy": 4,
+        "scale": 0.938
+      }
+    ]
+  },
+  "teamwork/dream-working-manager-research": {
+    "inset_ratio": 0,
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 8,
+        "scale": 0.917
+      },
+      {
+        "dx": 11,
+        "dy": 4,
+        "scale": 0.971
+      },
+      {
+        "dx": -2,
+        "dy": 4,
+        "scale": 0.977
+      },
+      {
+        "dx": 12,
+        "dy": 4,
+        "scale": 0.971
+      }
+    ]
+  },
+  "teamwork/dream-working-manager-reports": {
+    "inset_ratio": 0,
+    "frames": [
+      {
+        "dx": 3,
+        "dy": 6,
+        "scale": 0.965
+      },
+      {
+        "dx": 4,
+        "dy": 4,
+        "scale": 0.984
+      },
+      {
+        "dx": 5,
+        "dy": 3,
+        "scale": 0.98
+      },
+      {
+        "dx": 10,
+        "dy": 3,
+        "scale": 0.977
+      }
+    ]
+  },
+  "wildcard/gift-wrap-crm": {
+    "frames": [
+      {
+        "dx": -4,
+        "dy": -3
+      },
+      {
+        "dx": 4,
+        "dy": -3
+      },
+      {
+        "dx": -4,
+        "dy": 5
+      },
+      {
+        "dx": 5,
+        "dy": 3
+      }
+    ]
+  },
+  "wildcard/stand-mixer-content": {
+    "frames": [
+      {
+        "dx": -7,
+        "dy": 2
+      },
+      {
+        "dx": 4,
+        "dy": 2
+      },
+      {
+        "dx": -7,
+        "dy": -2
+      },
+      {
+        "dx": 11,
+        "dy": -3
+      }
+    ]
+  },
+  "wildcard/jetpack-manager": {
+    "frames": [
+      {
+        "dx": -3,
+        "dy": -1
+      },
+      {
+        "dx": 1,
+        "dy": -2
+      },
+      {
+        "dx": -3,
+        "dy": 2
+      },
+      {
+        "dx": 7,
+        "dy": 4
+      }
+    ]
+  },
+  "teamwork/bruce-wayning-manager-marketing": {
+    "inset_ratio": 0,
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 16,
+        "dy": 0
+      },
+      {
+        "dx": 9,
+        "dy": 0,
+        "scale_y": 0.995
+      },
+      {
+        "dx": 16,
+        "dy": 0,
+        "scale_y": 0.995
+      }
+    ]
+  },
+  "teamwork/bruce-wayning-manager-reports": {
+    "inset_ratio": 0,
+    "frames": [
+      {
+        "dx": 0,
+        "dy": 0
+      },
+      {
+        "dx": 15,
+        "dy": 1,
+        "scale_y": 1.005
+      },
+      {
+        "dx": 27,
+        "dy": -1,
+        "scale_y": 1.019
+      },
+      {
+        "dx": 46,
+        "dy": -2,
+        "scale_y": 1.019
+      }
+    ]
+  },
+  "wildcard/hammer-details-manager": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {
+        "dx": 4
+      },
+      {},
+      {
+        "dx": 5
+      }
+    ]
+  },
+  "wildcard/wood-drill-research": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {
+        "dx": 4
+      },
+      {
+        "dx": -2
+      },
+      {
+        "dx": 4
+      }
+    ]
+  },
+  "wildcard/ground-auger-cma": {
+    "frames": [
+      {},
+      {
+        "dx": 12
+      },
+      {
+        "dy": 2
+      },
+      {
+        "dx": 12,
+        "dy": 2
+      }
+    ]
+  },
+  "wildcard/lead-funnel-plumbing-crm": {
+    "frames": [
+      {},
+      {},
+      {
+        "dy": 1
+      },
+      {
+        "dy": 1
+      }
+    ]
+  },
+  "wildcard/deslop-reports": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/context-window-shopping-listings": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/prompting-a-move-manager": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {
+        "dx": 10
+      },
+      {},
+      {
+        "dx": 10
+      }
+    ]
+  },
+  "wildcard/model-home-training-research": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {
+        "dx": 4
+      },
+      {},
+      {
+        "dx": 4
+      }
+    ]
+  },
+  "wildcard/depolarizing-parka-offers": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {
+        "dx": 31
+      },
+      {
+        "dx": 2,
+        "dy": 7
+      },
+      {
+        "dx": 31,
+        "dy": 7
+      }
+    ]
+  },
+  "wildcard/deed-tecting-research": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/zoning-out-research": {
+    "frames": [
+      {},
+      {
+        "dx": 6,
+        "dy": -3,
+        "scale": 1.01
+      },
+      {
+        "dy": -9
+      },
+      {
+        "dx": 4,
+        "dy": -9,
+        "scale": 1.01
+      }
+    ]
+  },
+  "wildcard/looking-under-asking-research": {
+    "frames": [
+      {},
+      {
+        "dx": 6
+      },
+      {
+        "dx": -9
+      },
+      {}
+    ]
+  },
+  "wildcard/forecasting-market-reports": {
+    "frames": [
+      {},
+      {
+        "dx": 8,
+        "dy": 1,
+        "scale": 1.01
+      },
+      {
+        "dx": 1,
+        "dy": 5
+      },
+      {
+        "dx": 7,
+        "dy": 5
+      }
+    ]
+  },
+  "wildcard/market-temperature-cma": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/ironing-terms-offers": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {
+        "dx": -7
+      },
+      {
+        "dy": -2
+      },
+      {
+        "dx": -7,
+        "dy": -2
+      }
+    ]
+  },
+  "wildcard/fine-tuning-fine-print-offers": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/signature-chase-offers": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {
+        "dx": 2
+      },
+      {},
+      {}
+    ]
+  },
+  "wildcard/red-flag-scan-reports": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {
+        "dx": 5
+      },
+      {
+        "dy": 2
+      },
+      {
+        "dx": 5,
+        "dy": 2
+      }
+    ]
+  },
+  "wildcard/rate-wrangling-cma": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {
+        "dy": 1
+      },
+      {
+        "dy": 1
+      }
+    ]
+  },
+  "wildcard/making-connections-crm": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {
+        "dx": 1
+      },
+      {
+        "dx": 3
+      },
+      {
+        "dx": 3
+      }
+    ]
+  },
+  "wildcard/cleaning-pipeline-crm": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/surveying-situation-cma": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {
+        "dx": -1
+      },
+      {
+        "dx": -8,
+        "dy": 1
+      }
+    ]
+  },
+  "wildcard/sifting-listings-listings": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {
+        "dx": 1
+      },
+      {
+        "dy": -1
+      },
+      {
+        "dx": 1
+      }
+    ]
+  },
+  "wildcard/keying-criteria-listings": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/room-inating-listings": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {
+        "dx": 9
+      },
+      {},
+      {
+        "dx": 9
+      }
+    ]
+  },
+  "wildcard/raising-roof-cma": {
+    "frames": [
+      {},
+      {
+        "dx": 13,
+        "dy": 1
+      },
+      {
+        "dx": 1,
+        "dy": 2,
+        "scale": 0.97
+      },
+      {
+        "dx": 17,
+        "dy": 4,
+        "scale": 0.97
+      }
+    ]
+  },
+  "wildcard/cooking-price-cma": {
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/price-ceiling-offers": {
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/testing-market-cma": {
+    "frames": [
+      {},
+      {
+        "dx": 4,
+        "dy": 1,
+        "scale": 1.01
+      },
+      {
+        "dx": -2,
+        "dy": 3,
+        "scale": 1.01
+      },
+      {
+        "dx": 3,
+        "dy": 4,
+        "scale": 1.03
+      }
+    ]
+  },
+  "wildcard/holding-offers-listings": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {
+        "dx": 10,
+        "dy": -1
+      },
+      {
+        "dx": 1,
+        "dy": 1
+      },
+      {
+        "dx": 12,
+        "dy": 1
+      }
+    ]
+  },
+  "wildcard/breaking-ice-crm": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {
+        "dx": -1
+      },
+      {},
+      {
+        "dx": -1
+      }
+    ]
+  },
+  "wildcard/measuring-appraisal-gap-cma": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {
+        "dx": -1
+      },
+      {
+        "dy": -1
+      },
+      {
+        "dx": -1,
+        "dy": -1
+      }
+    ]
+  },
+  "wildcard/dom-inoing-reports": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {
+        "dx": 5
+      },
+      {
+        "dy": 6
+      },
+      {
+        "dx": 6,
+        "dy": 6
+      }
+    ]
+  },
+  "wildcard/clause-climbing-offers": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {
+        "dx": 1,
+        "dy": -1
+      },
+      {},
+      {
+        "dx": 1,
+        "dy": -1
+      }
+    ]
+  },
+  "wildcard/closing-loop-manager": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/stress-testing-deal-cma": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {
+        "dx": 1
+      },
+      {
+        "dx": 1
+      },
+      {
+        "dx": 3
+      }
+    ]
+  },
+  "wildcard/securitizing-scanner-offers": {
+    "inset_ratio": 0,
+    "frames": [
+      {
+        "dx": -27
+      },
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/checking-title-research": {
+    "frames": [
+      {},
+      {
+        "dx": 19,
+        "dy": -2
+      },
+      {
+        "dx": 5,
+        "dy": 5
+      },
+      {
+        "dx": 19,
+        "dy": 4
+      }
+    ]
+  },
+  "wildcard/escrow-lating-offers": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/down-payment-hike-offers": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/heavy-lifting-squat-manager": {
+    "frames": [
+      {},
+      {
+        "dx": 9
+      },
+      {
+        "dy": 22
+      },
+      {
+        "dx": 9,
+        "dy": 22
+      }
+    ]
+  },
+  "wildcard/wingwalkering-manager": {
+    "frames": [
+      {},
+      {
+        "dx": -2,
+        "dy": -2
+      },
+      {},
+      {
+        "dx": -2,
+        "dy": -2
+      }
+    ]
+  },
+  "wildcard/putting-out-fires-reports": {
+    "frames": [
+      {},
+      {
+        "dx": 4
+      },
+      {
+        "dy": 1
+      },
+      {
+        "dx": 4,
+        "dy": 1
+      }
+    ]
+  },
+  "wildcard/rumbling-research": {
+    "frames": [
+      {},
+      {
+        "dx": 1,
+        "dy": 1
+      },
+      {},
+      {
+        "dx": 2
+      }
+    ]
+  },
+  "wildcard/lay-of-land-research": {
+    "frames": [
+      {},
+      {
+        "dx": 10
+      },
+      {
+        "dx": 1,
+        "dy": 19
+      },
+      {
+        "dx": 10,
+        "dy": 19
+      }
+    ]
+  },
+  "wildcard/tying-loose-ends-manager": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/operating-on-file-reports": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/locking-in-offers": {
+    "inset_ratio": 0,
+    "frames": [
+      {
+        "dx": -22
+      },
+      {
+        "dx": 16
+      },
+      {
+        "dx": -4
+      },
+      {
+        "dx": 9
+      }
+    ]
+  },
+  "wildcard/lockboxing-offers": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/running-comps-cma": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/combing-mls-crm": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {
+        "dx": 3
+      },
+      {
+        "dx": 1
+      },
+      {
+        "dx": 3
+      }
+    ]
+  },
+  "wildcard/counter-offering-offers": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/farming-sphere-crm": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {
+        "dx": 5
+      },
+      {
+        "dx": -2,
+        "dy": 3
+      },
+      {
+        "dx": 3,
+        "dy": 3
+      }
+    ]
+  },
+  "wildcard/panning-for-gold-crm": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/needling-in-haystack-research": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/diamonding-in-rough-crm": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/podcasting-marketing": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/lloyd-doblering-manager": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/ferris-buellering-marketing": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/harry-pottering-research": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/neo-ing-offers": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/indy-jonesing-reports": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/jack-sparrowing-marketing": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/rocky-balboa-ing-cma": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/mavericking-manager": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/sherlocking-research": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/gandalfing-reports": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/elsa-ing-reports": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/sonic-ing-crm": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/deadpooling-marketing": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/grooting-research": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/furiosa-ing-manager": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/m3ganing-listings": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/paul-atreidesing-cma": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/elphaba-ing-offers": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/paddingtoning-manager": {
+    "inset_ratio": 0.012,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/peter-panning-listings": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/tinkerbelling-content": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/baymaxing-manager": {
+    "inset_ratio": 0.012,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/wall-e-ing-research": {
+    "inset_ratio": 0.012,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/marioing-offers": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/marty-mcflying-manager": {
+    "inset_ratio": 0.012,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/doc-browning-research": {
+    "inset_ratio": 0.012,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/ghostbustering-reports": {
+    "inset_ratio": 0.012,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/gizmo-ing-crm": {
+    "inset_ratio": 0.012,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/mrs-doubtfiring-content": {
+    "inset_ratio": 0.012,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/mask-ing-marketing": {
+    "inset_ratio": 0.012,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/cher-horowitzing-marketing": {
+    "inset_ratio": 0.012,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/elle-woodsing-reports": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/edward-scissorhanding-offers": {
+    "inset_ratio": 0.012,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/iron-manning-reports": {
+    "inset_ratio": 0.012,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/sell-phoning-manager": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/shake-it-offing-research": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/single-ladying-offers": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/thrillering-marketing": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/moonwalking-content": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/bad-romancing-reports": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/poker-facing-listings": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/gangnam-styling-cma": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/bye-bye-bye-ing-listings": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/oops-i-did-it-again-ing-offers": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/hit-me-baby-one-more-timing-research": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/voguing-reports": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/espresso-ing-content": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/umbrella-ing-manager": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/macarena-ing-manager": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/ymca-ing-cma": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/cha-cha-sliding-marketing": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/dougie-ing-content": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/rickrolling-manager": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/harlem-shaking-listings": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/wednesday-ing-offers": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/napoleon-dynamiting-content": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/disco-inferno-ing-reports": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/wrecking-ball-riding-research": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/popping-my-collar-manager": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/dirt-off-your-shoulders-marketing": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/reformering-offers": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/jazzing-content": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/jazzercising-reports": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/frodo-bagginsing-crm": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/mario-riding-yoshi-offers": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/james-bonding-manager": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/sky-walkering-manager": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/hyah-ing-listings": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/master-chiefing-reports": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/dumbledoring-research": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/inspector-gadgeting-crm": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/cutting-red-tape-research": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/glengarrying-offers": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/buzz-lightyearing-manager": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/yoda-ing-cma": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/darth-vadering-offers": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/terminatoring-reports": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/batmaning-manager": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/supermanning-marketing": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/spider-manning-crm": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/wolverine-ing-research": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/joker-ing-content": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/beetlejuicing-listings": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/forrest-gumping-crm": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/mary-poppinsing-reports": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/ace-ventura-ing-marketing": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/shreking-manager": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/barbie-ing-listings": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/ken-ing-marketing": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/willy-wonka-ing-offers": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/mr-beaning-research": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/austin-powersing-content": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/zoolandering-reports": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/elf-ing-cma": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/home-alone-ing-crm": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/et-ing-research": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/mission-impossible-ing-manager": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/groundhog-daying-content": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/karate-kidding-offers": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/dirty-dancing-listings": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/pulp-fictioning-manager": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/michael-burrying-manager": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/harvey-spectering-manager": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/waynes-worlding-content": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/bill-and-ted-ing-crm": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/robocopping-offers": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/rambo-ing-manager": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/godfathering-reports": {
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "wildcard/smooth-crimining-marketing": {
+    "grid": [
+      2,
+      2
+    ],
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ],
+    "sequence": [
+      0,
+      1,
+      2,
+      3,
+      2,
+      1
+    ],
+    "durations_ms": [
+      210,
+      140,
+      140,
+      210,
+      140,
+      140
+    ]
+  },
+  "wildcard/checking-the-backstreets-marketing": {
+    "grid": [
+      2,
+      2
+    ],
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ],
+    "sequence": [
+      0,
+      1,
+      2,
+      3,
+      2,
+      1
+    ],
+    "durations_ms": [
+      210,
+      140,
+      140,
+      210,
+      140,
+      140
+    ]
+  },
+  "wildcard/david-blaining-manager": {
+    "grid": [
+      2,
+      2
+    ],
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ],
+    "sequence": [
+      0,
+      1,
+      2,
+      3,
+      2,
+      1
+    ],
+    "durations_ms": [
+      210,
+      140,
+      140,
+      210,
+      140,
+      140
+    ]
+  },
+  "wildcard/cranking-that-marketing": {
+    "grid": [
+      2,
+      2
+    ],
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ],
+    "sequence": [
+      0,
+      1,
+      2,
+      3,
+      2,
+      1
+    ],
+    "durations_ms": [
+      210,
+      140,
+      140,
+      210,
+      140,
+      140
+    ]
+  },
+  "wildcard/cranking-the-step-marketing": {
+    "grid": [
+      2,
+      2
+    ],
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ],
+    "sequence": [
+      0,
+      1,
+      2,
+      3,
+      2,
+      1
+    ],
+    "durations_ms": [
+      210,
+      140,
+      140,
+      210,
+      140,
+      140
+    ]
+  },
+  "wildcard/cranking-the-motorbike-marketing": {
+    "grid": [
+      2,
+      2
+    ],
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ],
+    "sequence": [
+      0,
+      1,
+      2,
+      3,
+      2,
+      1
+    ],
+    "durations_ms": [
+      210,
+      140,
+      140,
+      210,
+      140,
+      140
+    ]
+  },
+  "wildcard/step-brothering-manager-crm": {
+    "grid": [
+      2,
+      2
+    ],
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ],
+    "sequence": [
+      0,
+      1,
+      2,
+      3,
+      2,
+      1
+    ],
+    "durations_ms": [
+      210,
+      140,
+      140,
+      210,
+      140,
+      140
+    ]
+  },
+  "wildcard/ricky-bobbying-manager": {
+    "grid": [
+      2,
+      2
+    ],
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ],
+    "sequence": [
+      0,
+      1,
+      2,
+      3,
+      2,
+      1
+    ],
+    "durations_ms": [
+      210,
+      140,
+      140,
+      210,
+      140,
+      140
+    ]
+  },
+  "wildcard/tarzaning-manager": {
+    "grid": [
+      2,
+      2
+    ],
+    "inset_ratio": 0,
+    "frames": [
+      {},
+      {},
+      {},
+      {}
+    ],
+    "sequence": [
+      0,
+      1,
+      2,
+      3,
+      2,
+      1
+    ],
+    "durations_ms": [
+      210,
+      140,
+      140,
+      210,
+      140,
+      140
+    ]
+  },
+  "wildcard/jon-snowing-marketing": {"grid": [2, 2], "inset_ratio": 0, "frames": [{}, {}, {}, {}], "sequence": [0, 1, 2, 3, 2, 1], "durations_ms": [210, 140, 140, 210, 140, 140]},
+  "wildcard/spoking-content": {"grid": [2, 2], "inset_ratio": 0, "frames": [{}, {}, {}, {}], "sequence": [0, 1, 2, 3, 2, 1], "durations_ms": [210, 140, 140, 210, 140, 140]},
+  "wildcard/gatsbying-manager": {"grid": [2, 2], "inset_ratio": 0, "frames": [{}, {}, {}, {}], "sequence": [0, 1, 2, 3, 2, 1], "durations_ms": [210, 140, 140, 210, 140, 140]},
+  "wildcard/scooby-dooing-manager": {"grid": [2, 2], "inset_ratio": 0, "frames": [{}, {}, {}, {}], "sequence": [0, 1, 2, 3, 2, 1], "durations_ms": [210, 140, 140, 210, 140, 140]},
+  "wildcard/walter-whiting-crm": {"grid": [2, 2], "inset_ratio": 0, "frames": [{}, {}, {}, {}], "sequence": [0, 1, 2, 3, 2, 1], "durations_ms": [210, 140, 140, 210, 140, 140]},
+  "wildcard/buffying-offers": {"grid": [2, 2], "inset_ratio": 0, "frames": [{}, {}, {}, {}], "sequence": [0, 1, 2, 3, 2, 1], "durations_ms": [210, 140, 140, 210, 140, 140]},
+  "wildcard/ron-burgunding-cma": {"grid": [2, 2], "inset_ratio": 0, "frames": [{}, {}, {}, {}], "sequence": [0, 1, 2, 3, 2, 1], "durations_ms": [210, 140, 140, 210, 140, 140]},
+  "wildcard/tony-starking-marketing": {"grid": [2, 2], "inset_ratio": 0, "frames": [{}, {}, {}, {}], "sequence": [0, 1, 2, 3, 2, 1], "durations_ms": [210, 140, 140, 210, 140, 140]},
+  "wildcard/tyler-durdening-listings": {"grid": [2, 2], "inset_ratio": 0, "frames": [{}, {}, {}, {}], "sequence": [0, 1, 2, 3, 2, 1], "durations_ms": [210, 140, 140, 210, 140, 140]},
+  "wildcard/robin-hooding-manager": {"grid": [2, 2], "inset_ratio": 0, "frames": [{}, {}, {}, {}], "sequence": [0, 1, 2, 3, 2, 1], "durations_ms": [210, 140, 140, 210, 140, 140]},
+  "wildcard/gary-veeing-crm": {"grid": [2, 2], "inset_ratio": 0, "frames": [{}, {}, {}, {}], "sequence": [0, 1, 2, 3, 2, 1], "durations_ms": [210, 140, 140, 210, 140, 140]},
+  "wildcard/serhanting-manager": {"grid": [2, 2], "inset_ratio": 0, "frames": [{}, {}, {}, {}], "sequence": [0, 1, 2, 3, 2, 1], "durations_ms": [210, 140, 140, 210, 140, 140]},
+  "wildcard/hormozing-manager": {"grid": [2, 2], "inset_ratio": 0, "frames": [{}, {}, {}, {}], "sequence": [0, 1, 2, 3, 2, 1], "durations_ms": [210, 140, 140, 210, 140, 140]}
+}

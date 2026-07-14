@@ -1,0 +1,378 @@
+{
+  "results": [
+    {
+      "slug": "serhanting-manager",
+      "concept": "Canonical Manager Homie holds one coherent jacket-buttoning pose while two locked hand rigs squeeze and reset around the same button.",
+      "action_expectation": "At full size and 128px, read hands fastening and releasing the centre button; face, torso, lapels, tie, pinstripes, crop, and scale stay fixed.",
+      "source": "assets/homie-loaders/qa/strict-repairs/serhanting-manager/candidates/serhanting-manager.png",
+      "source_sha256": "1ae6833056cc64ebf1025a07ff86144373070d5c12bb23c9ebf7b5ea2b786fe3",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "source_mode": "RGB",
+      "grid": [
+        2,
+        2
+      ],
+      "key_geometry": {
+        "outer_edge_non_key_pixels": 0,
+        "gutter_axis_non_key_pixels": 0
+      },
+      "cells": [
+        {
+          "index": 0,
+          "sha256_rgb": "c0b012ee0fd4827186ca91dcbec62f32a66657f8d6cbdb9fa27120160d40e108",
+          "foreground_pixels": 99644,
+          "foreground_pct": 25.3464,
+          "bbox": [
+            140,
+            76,
+            516,
+            540
+          ],
+          "margins": [
+            140,
+            111,
+            76,
+            87
+          ],
+          "minimum_margin": 76,
+          "centroid": [
+            328.234,
+            347.888
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 199,
+            "areas": [
+              99644
+            ],
+            "largest_area": 99644
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 1,
+          "sha256_rgb": "ef016fe1042998b872185165ee589942075969dc476a87d2e3980c9984ec2720",
+          "foreground_pixels": 99644,
+          "foreground_pct": 25.3464,
+          "bbox": [
+            140,
+            76,
+            516,
+            540
+          ],
+          "margins": [
+            140,
+            111,
+            76,
+            87
+          ],
+          "minimum_margin": 76,
+          "centroid": [
+            328.234,
+            347.888
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 199,
+            "areas": [
+              99644
+            ],
+            "largest_area": 99644
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 2,
+          "sha256_rgb": "a980b4f9532d880841f9e53e1e5662f2c3802037e3e731c67c1ede6061cf5a63",
+          "foreground_pixels": 99644,
+          "foreground_pct": 25.3464,
+          "bbox": [
+            140,
+            76,
+            516,
+            540
+          ],
+          "margins": [
+            140,
+            111,
+            76,
+            87
+          ],
+          "minimum_margin": 76,
+          "centroid": [
+            328.234,
+            347.888
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 199,
+            "areas": [
+              99644
+            ],
+            "largest_area": 99644
+          },
+          "artifact_flags": []
+        },
+        {
+          "index": 3,
+          "sha256_rgb": "01359b627ca3c3934c064a0810014385d0aa7f264da039705badef57de10b7d9",
+          "foreground_pixels": 99644,
+          "foreground_pct": 25.3464,
+          "bbox": [
+            140,
+            76,
+            516,
+            540
+          ],
+          "margins": [
+            140,
+            111,
+            76,
+            87
+          ],
+          "minimum_margin": 76,
+          "centroid": [
+            328.234,
+            347.888
+          ],
+          "components": {
+            "count": 1,
+            "significant_count": 1,
+            "tiny_count": 0,
+            "small_count": 0,
+            "significant_floor": 199,
+            "areas": [
+              99644
+            ],
+            "largest_area": 99644
+          },
+          "artifact_flags": []
+        }
+      ],
+      "pair_metrics": [
+        {
+          "mask_xor_pct": 0.0,
+          "silhouette_motion_p95_px": 0.0,
+          "silhouette_motion_max_px": 0.0,
+          "centroid_shift_px": 0.0,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 1.0,
+          "registered_residual_pct": 5.1192,
+          "upper_anchor_ncc": 1.0
+        },
+        {
+          "mask_xor_pct": 0.0,
+          "silhouette_motion_p95_px": 0.0,
+          "silhouette_motion_max_px": 0.0,
+          "centroid_shift_px": 0.0,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 1.0,
+          "registered_residual_pct": 4.3083,
+          "upper_anchor_ncc": 1.0
+        },
+        {
+          "mask_xor_pct": 0.0,
+          "silhouette_motion_p95_px": 0.0,
+          "silhouette_motion_max_px": 0.0,
+          "centroid_shift_px": 0.0,
+          "registration_shift": [
+            0,
+            0
+          ],
+          "registration_shift_px": 0.0,
+          "registration_iou": 1.0,
+          "registered_residual_pct": 2.7207,
+          "upper_anchor_ncc": 1.0
+        }
+      ],
+      "aggregate": {
+        "max_silhouette_motion_p95_px": 0.0,
+        "max_mask_xor_pct": 0.0,
+        "max_centroid_shift_px": 0.0,
+        "max_registration_shift_px": 0.0,
+        "max_registered_residual_pct": 5.1192,
+        "minimum_upper_anchor_ncc": 1.0,
+        "foreground_area_span_pct": 0.0,
+        "bbox_width_span_pct": 0.0,
+        "bbox_height_span_pct": 0.0,
+        "significant_component_count_span": 0
+      },
+      "stationary_regions": [
+        {
+          "name": "locked-face",
+          "box_pixels": [
+            275,
+            80,
+            380,
+            210
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.1
+        },
+        {
+          "name": "locked-tie-lapels",
+          "box_pixels": [
+            300,
+            225,
+            355,
+            345
+          ],
+          "change_pct_vs_cell0": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_change_pct": 0.0,
+          "max_allowed_change_pct": 0.1
+        }
+      ],
+      "gif": {
+        "path": "assets/homie-loaders/qa/strict-repairs/serhanting-manager/candidates/serhanting-manager.gif",
+        "exists": true,
+        "sha256": "ec406f690b731c8388d3a60783791948069ce85442b83f5d04cc890b9d74ee3f",
+        "bytes": 90300,
+        "size": [
+          256,
+          256
+        ],
+        "frame_count": 6,
+        "unique_phases": 4,
+        "equality_pattern": [
+          0,
+          1,
+          2,
+          3,
+          2,
+          1
+        ],
+        "durations_ms": [
+          210,
+          140,
+          140,
+          210,
+          140,
+          140
+        ],
+        "loop": 0,
+        "has_transparency": true,
+        "corner_alphas": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "alpha_bboxes": [
+          [
+            57,
+            31,
+            211,
+            220
+          ],
+          [
+            57,
+            31,
+            211,
+            220
+          ],
+          [
+            57,
+            31,
+            211,
+            220
+          ],
+          [
+            57,
+            31,
+            211,
+            220
+          ],
+          [
+            57,
+            31,
+            211,
+            220
+          ],
+          [
+            57,
+            31,
+            211,
+            220
+          ]
+        ],
+        "loop_closure_exact": true,
+        "contact": "assets/homie-loaders/qa/strict-repairs/serhanting-manager/candidates/qa-preflight/contacts/serhanting-manager-gif-128.png"
+      },
+      "visual_evidence": {
+        "source_full_contact": "assets/homie-loaders/qa/strict-repairs/serhanting-manager/candidates/qa-preflight/contacts/serhanting-manager-source-full.png",
+        "source_128_contact": "assets/homie-loaders/qa/strict-repairs/serhanting-manager/candidates/qa-preflight/contacts/serhanting-manager-source-128.png"
+      },
+      "manual_review": {
+        "complete": true,
+        "signature_action_readable": true,
+        "stationary_elements_stable": true,
+        "loop_motion_natural": true,
+        "notes": "Inspected refreshed full, 128px, and GIF contacts. The four phases read as hands separated, approach, meet, and press; the restrained click rays appear only at the press. Face, torso, lapels, tie, pinstripe pattern, crop, and scale remain locked."
+      },
+      "failures": [],
+      "warnings": [],
+      "passed": true
+    }
+  ]
+}
