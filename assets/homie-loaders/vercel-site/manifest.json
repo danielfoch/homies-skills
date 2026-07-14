@@ -3095,6 +3095,15 @@
           "source": "sources/wildcard/serhanting-manager.png",
           "asset": "gifs/wildcard/serhanting-manager.gif",
           "homie": "manager"
+        },
+        {
+          "slug": "hormozing-manager",
+          "label": "Stack the value",
+          "loadingText": "Hormozing…",
+          "altText": "A male Manager Homie in a backward blue cap, glasses, thick beard, white nasal strip, and sleeveless shirt holds a $100M book as value bars stack on its cover.",
+          "source": "sources/wildcard/hormozing-manager.png",
+          "asset": "gifs/wildcard/hormozing-manager.gif",
+          "homie": "manager"
         }
       ]
     },

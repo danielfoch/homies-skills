@@ -1,6 +1,6 @@
 # Generation prompt set
 
-The 370 sprite masters were created with the built-in image-generation tool.
+The 371 sprite masters were created with the built-in image-generation tool.
 Each base animation used the matching transparent character in `references/`
 as the identity anchor and substituted the action-specific four-beat storyboard
 represented by the animation label in `manifest.json`. Targeted source-
@@ -45,7 +45,7 @@ use a 3-by-2 grid; snowboard, skateboard, and thread-pull masters use a 2-by-3
 grid. Their output sequence is declared per asset in `scripts/alignment.json`,
 while the six-frame GIF timing contract remains unchanged.
 
-The 28 Teamwork, 89 Wildcard, 93 Movie Night, and 35 Pop & Dance masters use
+The 28 Teamwork, 89 Wildcard, 94 Movie Night, and 35 Pop & Dance masters use
 four authored poses. Teamwork prompts attach the Manager reference plus one
 specialist reference and require exactly two persistent characters in every
 panel. The complete exact prompts for these additions are stored in the

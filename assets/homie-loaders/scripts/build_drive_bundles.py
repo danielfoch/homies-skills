@@ -129,6 +129,7 @@ tyler-durdening-listings
 robin-hooding-manager
 gary-veeing-crm
 serhanting-manager
+hormozing-manager
 """.split()
 )
 
@@ -174,8 +175,8 @@ def main() -> None:
     sources = wildcard_sources()
     all_slugs = set(sources)
 
-    if len(all_slugs) != 217:
-        raise ValueError(f"expected 217 wildcard source masters, got {len(all_slugs)}")
+    if len(all_slugs) != 218:
+        raise ValueError(f"expected 218 wildcard source masters, got {len(all_slugs)}")
     if F_FOLLOW_ON & G_REPAIRED:
         raise ValueError("F and G source cohorts overlap")
     unknown = (F_FOLLOW_ON | G_REPAIRED) - all_slugs
@@ -183,7 +184,7 @@ def main() -> None:
         raise ValueError(f"bundle cohorts contain non-manifest slugs: {sorted(unknown)}")
 
     e_baseline = all_slugs - F_FOLLOW_ON - G_REPAIRED
-    if (len(e_baseline), len(F_FOLLOW_ON), len(G_REPAIRED)) != (111, 6, 100):
+    if (len(e_baseline), len(F_FOLLOW_ON), len(G_REPAIRED)) != (111, 6, 101):
         raise ValueError(
             "unexpected E/F/G partition: "
             f"{len(e_baseline)}/{len(F_FOLLOW_ON)}/{len(G_REPAIRED)}"

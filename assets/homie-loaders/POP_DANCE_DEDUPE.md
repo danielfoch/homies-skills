@@ -80,3 +80,11 @@ the prior 358-animation manifest. All twelve are distinct Movie Night concepts
 and none duplicate an active Pop & Dance loader. Pop & Dance remains at **35
 active loaders** while Movie Night increases to **93** and the complete gallery
 increases to **370 total animations**.
+
+## Hormozing Movie Night follow-up
+
+`hormozing-manager` was checked by normalized slug and loading text against the
+370-animation manifest. It is a distinct, brand-free business-book homage and
+does not duplicate an active Pop & Dance loader. Pop & Dance remains at **35
+active loaders** while Movie Night increases to **94** and the complete gallery
+increases to **371 total animations**.

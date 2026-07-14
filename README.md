@@ -11,7 +11,7 @@ agentic workflows.
 ## Homies Loading Gallery
 
 The complete Homies AI loading-animation project lives in
-`assets/homie-loaders/`. It includes the 370 transparent runtime GIFs, source
+`assets/homie-loaders/`. It includes the 371 transparent runtime GIFs, source
 sprite sheets, character references, animation scripts, manifests, QA evidence,
 gallery site, gamification prototype, and release-bundle tooling.
 

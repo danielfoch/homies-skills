@@ -1,0 +1,43 @@
+{
+  "hormozing-manager": {
+    "cells": [
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      },
+      {
+        "full_size_inspected": true,
+        "thumbnail_128_inspected": true,
+        "crop_clear": true,
+        "anatomy_clear": true,
+        "prop_continuity_clear": true,
+        "no_unintended_redraw_wiggle": true
+      }
+    ],
+    "signature_action_readable": true,
+    "stationary_elements_stable": true,
+    "loop_motion_natural": true,
+    "action_expectation": "At full size and 128px, the fixed pointing pose and exact $100M title remain readable while three value bars visibly stack inside the same book; face, cap, glasses, nasal strip, beard, body, both arms and hands, book geometry, crop, scale, and silhouette remain byte-locked.",
+    "notes": "Root review inspected the full 1254px source contact, every 627px cell, the four-cell 128px contact, and the decoded six-frame 128px GIF contact. Exactly one male Manager appears in every phase with one head, two connected arms, two attached five-finger hands, one stable navy book, one fixed left-hand grip, and one fixed pointing gesture. The backward blue cap, clear glasses, white nasal strip, thick beard, white sleeveless shirt, watch, face, anatomy, book edges, $100M title, crop, scale, and silhouette are locked. The three value bars stack clearly inside the same book and reverse cleanly; only the final phase adds one tiny book-clipped gold glint. No extra hand, duplicate character, changing text, green debris, crop fault, scale pulse, registration drift, palette spill, redraw wiggle, or continuity break is visible."
+  }
+}

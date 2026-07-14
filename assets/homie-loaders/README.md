@@ -5,9 +5,9 @@ Google Drive package: https://drive.google.com/drive/folders/19x9h9uso4AAFRUsz_P
 
 This package contains small looping job animations for the nine individual
 Homies, plus Manager-led Teamwork, all-purpose Wildcard, Movie Night, and Pop &
-Dance collections. The library currently contains 370 GIFs: 125
+Dance collections. The library currently contains 371 GIFs: 125
 individual-Homie loaders, 28 two-Homie workflows, 89 Wildcard finishing moves
-and odd jobs, 93 cinematic Easter eggs, and 35 music-video, fitness, and dance-floor
+and odd jobs, 94 cinematic Easter eggs, and 35 music-video, fitness, and dance-floor
 loops. Every GIF has matching live loading copy in `manifest.json`.
 
 ## Runtime use

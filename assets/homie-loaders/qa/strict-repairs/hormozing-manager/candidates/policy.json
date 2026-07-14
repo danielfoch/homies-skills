@@ -1,0 +1,35 @@
+{
+  "hormozing-manager": {
+    "concept": "A locked male Manager Homie styled as a brand-free Hormozi homage points to one navy $100M business book while three value bars stack and a tiny gold glint lands.",
+    "action_expectation": "At full size and 128px, the fixed pointing pose and exact $100M title remain readable while three value bars visibly stack inside the same book; face, cap, glasses, nasal strip, beard, body, both arms and hands, book geometry, crop, scale, and silhouette remain byte-locked.",
+    "signature_action": false,
+    "allow_global_motion": false,
+    "max_global_drift_px": 0.5,
+    "fixed_character_plate": true,
+    "max_registered_residual_pct": 3.0,
+    "min_upper_anchor_ncc": 0.985,
+    "min_margin_px": 60,
+    "max_foreground_area_span_pct": 0.05,
+    "max_bbox_span_pct": 0.1,
+    "max_tiny_components": 0,
+    "max_significant_components_per_cell": 1,
+    "max_significant_component_span": 0,
+    "stationary_regions": [
+      {
+        "name": "locked-cap-face-glasses-strip-and-beard",
+        "box": [0.24, 0.12, 0.6, 0.38],
+        "max_change_pct": 0.0
+      },
+      {
+        "name": "locked-pointing-hand-and-upper-torso",
+        "box": [0.1, 0.42, 0.44, 0.61],
+        "max_change_pct": 0.0
+      },
+      {
+        "name": "locked-lower-torso-book-grip-and-watch",
+        "box": [0.18, 0.7, 0.78, 0.88],
+        "max_change_pct": 0.0
+      }
+    ]
+  }
+}

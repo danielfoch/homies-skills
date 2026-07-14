@@ -6457,5 +6457,6 @@
   "wildcard/tyler-durdening-listings": {"grid": [2, 2], "inset_ratio": 0, "frames": [{}, {}, {}, {}], "sequence": [0, 1, 2, 3, 2, 1], "durations_ms": [210, 140, 140, 210, 140, 140]},
   "wildcard/robin-hooding-manager": {"grid": [2, 2], "inset_ratio": 0, "frames": [{}, {}, {}, {}], "sequence": [0, 1, 2, 3, 2, 1], "durations_ms": [210, 140, 140, 210, 140, 140]},
   "wildcard/gary-veeing-crm": {"grid": [2, 2], "inset_ratio": 0, "frames": [{}, {}, {}, {}], "sequence": [0, 1, 2, 3, 2, 1], "durations_ms": [210, 140, 140, 210, 140, 140]},
-  "wildcard/serhanting-manager": {"grid": [2, 2], "inset_ratio": 0, "frames": [{}, {}, {}, {}], "sequence": [0, 1, 2, 3, 2, 1], "durations_ms": [210, 140, 140, 210, 140, 140]}
+  "wildcard/serhanting-manager": {"grid": [2, 2], "inset_ratio": 0, "frames": [{}, {}, {}, {}], "sequence": [0, 1, 2, 3, 2, 1], "durations_ms": [210, 140, 140, 210, 140, 140]},
+  "wildcard/hormozing-manager": {"grid": [2, 2], "inset_ratio": 0, "frames": [{}, {}, {}, {}], "sequence": [0, 1, 2, 3, 2, 1], "durations_ms": [210, 140, 140, 210, 140, 140]}
 }
